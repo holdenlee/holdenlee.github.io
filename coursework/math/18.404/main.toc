@@ -1,0 +1,12 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Thu. 9/6/12}{3}{section.1}
+\contentsline {subsection}{\numberline {1}Overview}{3}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1}Computability theory}{3}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.2}Complexity theory}{3}{subsubsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.3}Why theory?}{4}{subsubsection.1.1.3}
+\contentsline {subsection}{\numberline {2}Finite Automata}{4}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {2.1}An example}{4}{subsubsection.1.2.1}
+\contentsline {subsection}{\numberline {3}Formalization}{5}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {3.1}Building automata}{6}{subsubsection.1.3.1}
+\contentsline {subsubsection}{\numberline {3.2}Closure properties of languages}{7}{subsubsection.1.3.2}
+\contentsfinish 

@@ -1,0 +1,125 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\pdfpagewidth 8.5in
+\pdfpageheight 11in
+\setlength{\oddsidemargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{-1in}
+\setlength{\textheight}{9.5in}
+
+\title{More Proofs}
+\author{ERHS Math Club}
+\date{November 2008}
+\begin{document}
+\maketitle{}
+\textbf{Invariance Principle- If there is repetition look for what does not change!}
+\section{Invariance Principle- Easy}
+\begin{enumerate}
+\item I have 27 socks in my drawer. Every time I open the drawer I take out a pair of socks or put a pair back in. Prove that the drawer will never be empty.
+\item There are several + and - signs on a blackboard. You may erase 2 signs and write + if they are equal and - if they are unequal. Prove the last sign on the board does not depend on the order of erasure.
+\item (TT 1987) A machine gives out five pennies for each nickel inserted into it. The machine also gives out five nickels for each penny. Can Peter, who starts out with one penny, use the machine in such a way as to end up with an equal number of nickels and pennies? (1987)
+\item Suppose the positive integer n is odd. First Al writes the numbers 1,2,...4n-1 on the board. Then he picks any 2 numbers a,b erases them, and replaces them by their difference. Prove that an odd number will remain at the end.
+\item There are a white, b black, and c red chips on a table. In each step you may choose 2 chips of different colors and replace them by a chip of the third color. When can you have only 1 chip left at the end? What color will it be?
+\end{enumerate}
+
+\section{Medium}
+\begin{enumerate}
+\item (Leapfrog Square) 4 frogs sit at the corners of a square. In each step, one frog (A) jumps over another frog (B), so that the distance between the frogs is still the same. Is it possible that at some later time, they are at the vertices of a larger square?
+\item (TT 1984) On the island of Camelot live 13 grey, 15 brown and 17 crimson chameleons. If two chameleons of different colours meet they both simultaneously change colour to the third colour (e.g. if a grey and a brown chameleon meet each other they both change to crimson). Is it possible that they will eventually all be the same colour?
+\item A circle is divided into 6 sectors. The numbers 1,0,1,0,0,0 are written into the sectors, counterclockwise in that order. Each step you may increase two neighboring numbers by 1. Is it possible to equalize all numbers by a sequence of such steps?
+\item Start with ${3,4,12}$. In each step you may choose two of the numbers $a, b$ and replace them by $.6a-.8b$ and $.8a+.6b$. Is it possible to reach ${4,6,12}$ after finitely many steps?
+\item In a 8x8 checkerboard you may repaint all squares (a) of a row or column or (b) of a 2x2 square. Can you attain just one black square?
+\item The numbers 1,2,...n are arranged in that order. In one step you may switch any 2 integers. Prove you cannot reach the initial order after an odd number of steps.
+\item Start with a mxn table of integers. In one step you may change the sign of all numbers in any row or column. Show you can achieve a nonnegative sum of any row or column.
+
+\end{enumerate}
+
+\section{Hard}
+\begin{enumerate}
+\item The number $\underbrace{99\ldots99}_{1997 9s}$ is written on a blackboard. Each minute, one number written on the blackboard is factored into 2 numbers and erased, and each factor is independently increased or decreased by 2, and the resulting 2 numbers are written. Is it possible that at some point (after the first minute) all of the integers on the blackboard equal 9?
+\item Start with n pairwise different integers $x_1,\ldots x_n$ and repeat the following step: $T:(x_1,\ldots x_n) \rightarrow (\frac{x_1+x_2}{2}, \frac{x_2+x_3}{2}\ldots \frac{x_n+x_1}{2})$. Show that you eventually get nonintegral components.
+\item (BAMO 2006) We have k switches arranged in a row, and each switch points up, down, left, or right. Whenever three successive switches all point in different directions, all three may be simultaneously turned so as to point
+in the fourth direction. Prove that this operation cannot be repeated infinitely many times.
+\item (USAMO 1994/2) The sides of a 99-gon are initially colored so that consecutive sides are red, blue,
+red, blue, . . . , red, blue, yellow. We make a sequence of modifications in the
+coloring, changing the color of one side at a time to one of the three given colors
+(red, blue, yellow), under the constraint that no two adjacent sides may be the
+same color. By making a sequence of such modifications, is it possible to arrive
+at the coloring in which consecutive sides are red, blue, red, blue, red, blue, . . . ,
+red, yellow, blue?
+\end{enumerate}
+
+See also USAMO 2008/2.
+\textbf{Extremal Principle: Pick an object which maximizes or minimizes some function!}
+
+\section{Extremal Principle- Easy}
+\begin{enumerate}
+\item n numbers are written on a circle so that each is the average of the 2 adjacent numbers. Prove that all the numbers are the same.
+\item Prove that every convex polyhedron has at least 2 faces with the same number of sides.
+\item Prove that $\sqrt{5}$ is irrational.
+\item A finite number of points are in the plane. Any 3 of the points form a triangle with area at most 1. Show that all points lie in a fixed triangle of area 4.
+\item (BAMO 2004) A tiling of the plane with polygons consists of placing the polygons in the plane so that interiors of
+polygons do not overlap, each vertex of one polygon coincides with a vertex of another polygon, and no
+point of the plane is left uncovered. A unit polygon is a polygon with all sides of length one. Prove that it is impossible to find a tiling of the plane with infinitely many unit squares and finitely
+many (and at least one) unit equilateral triangles in the same tiling.
+\end{enumerate}
+
+\section{Medium}
+\begin{enumerate}
+\item $2n+1$ gangsters are placed in the plane so their mutual distances are all distinct. Then everyone shoots his nearest neighbor. Prove that (a) at least one person survives
+(b) nobody is hit by more than 5 bullets
+(c) the set of segments formed by the bullet paths does not contain a closed polygon.
+\item Prove that a cube cannot be divided into pairwise distinct cubes.
+\item A set S of people have the following property: Any 2 with the same number of friends in S have no common friends in S. Prove there is a person with exactly one friend in S.
+\item There are n students in each of 3 schools. Any student has n friends in total from the other 2 schools. Prove that you can select one student from each school, so they are all friends with each other.
+\end{enumerate}
+
+\section{Hard}
+\begin{enumerate}
+\item (Dirac's Theorem) Prove that every graph with $n \geq 3$ vertices with minimum degree at least $\left\lceil \frac{n}{2}\right\rceil$ has a Hamiltonian cycle, that is, a cycle which includes all vertices.
+\item (UM 2004) There is a collection of 2004 circular discs (not necessarily of the same
+radius) in the plane. The total area covered by the discs is 1 square meter. Show that
+there is a subcollection S of discs such that the discs in S are non-overlapping and the
+total area of the discs in S is at least 1/9 square meter.
+\item (MOSP) Consider a complete graph on n vertices, in which each edge is colored
+such that at most n - 2 edges are colored with the same color. Prove
+that there exist 3 vertices such that the edges between them are each
+colored with different colors.
+\end{enumerate}
+
+
+\textbf{Induction- Prove it for the base case(s), then argue if it is true for a case, it is true for the "next" case.}
+\section{Induction- Easy}
+\begin{enumerate}
+\item Prove by induction that $1+2+\ldots n = \frac{n(n+1)}{2}$.
+\item Prove that a square can be dissected into n squares for all $n \geq 6$.
+\item There are n identical cars on a racetrack. Among all of them, they have just enough gas for one car to complete a lap. Show there is a car which can complete a lap by collecting gas from the other cars on its way around.
+\item For which values of n can the numbers $1,2,\ldots n$ be divided into 3 groups so the sum of the numbers in each group is the same?
+\end{enumerate}
+\section{Medium}
+\begin{enumerate}
+\item We are given some unit squares which are translations of each other in the plane such that from any n+1, at least 2 intersect. Prove we may place at most 2n-1 points in the plane such that every square contains one of the points on its boundary or interior.
+\item (USAMO 2003/1) Prove that for every n there exists a n-digit number divisible by $5^n$ all of whose digits are odd.
+\item Prove that a graph with $2n$ points and $n^2+1$ edges contains a triangle. (CHALLENGE! Prove it contains at least n triangles).
+\end{enumerate}
+\section{Hard}
+\begin{enumerate}
+\item Prove that there exists a set S of $3^{1000}$ points in the plane such that for each point P in S, there
+are at least $2000$ points in S whose distance to P is exactly 1 inch.
+\item (USAMO 2002/1) Let S be a set with 2002 elements and let N be an integer with $0 \leq N \leq 2^{2002}$. Prove it is possible to color every subset of S either black or white so that the following conditions hold: (a) the union of any 2 white subsets is white, (b) the union of any 2 black subsets is black and (c) there are exactly N white subsets.
+\item (IMO 2005/2) Let $a_1,a_2\ldots $ be a sequence of integers with infinitely many positive and negative terms. Suppose that for every positive integer n the numbers $a_1,a_2\ldots a_n$ leave n different remainders when divided by n. Prove that every integer occurs once in the sequence.
+\item (TT 1989) We are given N>1 lines in the plane, no 2 parallel, no 3 concurrent. Prove it is possible to assign a nonzero integer of absolute value not exceeding N to each region of the plane determined by these lines, such that the sum of the integers on either side of any of the given lines is equal to 0.
+\end{enumerate}
+See also USAMO 1992/5, 1991/3.
+\end{document}
+
+%\item Each of the numbers $a_i, (1 \leq i \leq n)$ is 1 or -1, and $S = a_1a_2a_3a_4 + a_2a_3a_4a_5 + \cdots + a_na_1a_2a_3 = 0$. Prove that $4|n$.
+%\item There is a positive integer in each square of a rectangular table. In each move, you may double a number in a row or subtract 1 from each number of a column. Prove that you can reach a table of zeros by a sequence of these moves.
+%\item In a 4x4 board all squares contain the number 1, except the one in the 4th row and 2nd column, which contains -1. You may switch the signs of a row, column, or diagonal parallel to the main diagonals (including just a corner square). Prove that a -1 will remain in the table.
+%\author{ERHS Math Club}
+%\date{November 2008}
+%\textbf{Invariance Principle- If there is repetition look for what does not change!}
+
+%THere are n farms and n wells (treat them as points). Show we can build n roads, each between a farm and a well, so that each farm is assigned a unique well.
+%\item A dragon has 100 heads. A knight can cut off 2, 8, 17, or 23 heads with one blow of his sword. In these cases, (if the dragon still has any heads left) he regrows 5, 14, 2, or 8 heads, RESPECTIVELY. Prove the dragon will never be headless.
