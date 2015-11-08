@@ -1,0 +1,75 @@
+pg. 3: if A is closed, bar{A}=A.
+Add note to end of 1-3: in a Hausdorff space, a sequence can only converge to 1 point.
+
+pg. 4: Delete the 2nd "i.e...." statement near the end of 1-5.
+In the definition for completely regular space, f(A)={1}.
+In the definition for normal, "exists" should be "exist."
+
+pg. 5: 2nd line, "converge" should be "converges.
+Add: The following are normal.
+*Regular space with countable basis
+*Metrizable space
+*Compact Hausdorff space
+Add: if Y is compact in Hausdorff X, x_0\nin Y, there are disjoint open sets U,V of X containing x_0,Y.
+Add: A countable product of 1st-countable spaces is 1st-countable.
+
+pg. 6: Delete last sentence of 1-10.
+Add: If H is normal then G/H is a topological group.
+
+pg. 7: Arrowa A->B means B is subset of A.
+Add the following arrows:
+compactly generated -> 1st axiom countability 
+1st axiom countability -> 2nd axiom countability
+Lindelof -> compact
+Baire space -> complete metric space
+Connected -> path connected
+
+Delete the following arrows:
+Locally connected -> connected
+Locally path connected -> path connected
+Baire space -> metric space
+
+Delete "a finite subcover" from countably compact. Centered means the intersection of a finite number of sets in the system is nonempty.
+Delete "countable" from compact.
+For completely regular space, replace "f(A)={0}" with "f(B)=1".
+
+Add to connected: "Equivalently, no separation (open proper subsets A and B such that AUB=X.)
+
+Add "Hausdorff" to hypothesis of Smirnov.
+Add: In a metric space, Lindelof=separable=2nd countable
+
+pg. 8 Delete last statement in 1st paragraph.
+Extreme Value Theorem: change "f is compact" to "f is continuous"
+
+pg. 9
+compact subspace C of x (not X).
+In existence part of proof, 
+*Delete "C" at end of period.
+*add X-C (not add C)
+*Replace "Y is compact" with "Y is Hausdorff"
+Converse is proof that X is locally compact.
+
+For part 2 of Stone-Cech, note: If h:X->Z is an imbedding where Z is compact Hausdorff, there is a compactiication Y of X as h extends to an imbedding H:Y->, unique up to equivalence.
+
+pg.10
+2-5 note  open refinement is defined in 3-6.
+
+pg. 11
+Last statement of 3-1: switch d, d'
+
+3-2 Add the following:
+Lebesgue number lemma: If A is an open cover of (X,d) and X is compact, then there exists delta>0 such that for each subset of X with diameter <delta, there exists an element of A containing it. Delta is the Lebesgue number.
+Product in uniform in box. -> Finer.
+When J is infinite, R^J is not metrizable in product or box topology.
+
+p.12
+In Urysohn, replace regular space with normal space. 
+
+p.13 Let X be a regular space with countably locally finite base B.
+
+p.15 Item 2: both open and closed.
+Delete "Cartesian" in item 5 of basic results.
+IVT: Replace "c is between" with "r is between"
+
+p.16
+Proof of existence: replace \phi_i with \phi_j.

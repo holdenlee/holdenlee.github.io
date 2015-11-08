@@ -1,0 +1,171 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\pdfpagewidth 8.5in
+\pdfpageheight 11in
+\setlength{\oddsidemargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{-1in}
+\setlength{\textheight}{9.5in}
+
+\title{Number Theory: Part 2}
+\author{ERHS Math Club}
+\date{April 14, 2008}
+
+\begin{document}
+\maketitle{}
+
+\section{Important Types of Problems}
+
+\textbf{Last Digit Problems}
+\begin{enumerate}
+\item Find the last digit of $7^{7^{7^{\ldots 7}}}$ (2008 7's). Find the remainder when divided by 13.
+\item What is the remainder when $1+7+7^2+\ldots+7^{2004}$ is divided by 1000?
+\item Find the smallest positive integer whose cube ends in 888.
+\end{enumerate}
+See also AIME 2002 I 7
+\newline
+
+\textbf{Divisibility}
+\begin{enumerate}
+\item Knowing that $2^{29}$ is a nine-digit number all of whose digits are distinct, without computing the actual number determine which of its 10 digits is missing.
+\item What is the largest positive integer $n$ for which $n^3+100$ is divisible by $n+10$?
+\item How many positive integer multiples of 1001 can be expressed in the form $10^i-10^j$ with integer $0 \leq i < j \leq 99$?
+\item What is the largest number that divides $n^5-n$ for all integer $n$?
+\end{enumerate}
+See also AIME 2003 II 2, AIME 2002 II 5,7 I 9, 2000 I 1
+\newline
+
+\textbf{Divisors, GCF and LCM Problems}
+If $m=p_{1}^{\alpha_{1}}\ldots p_{k}^{\alpha_{k}}$ and $n=p_{1}^{\beta_{1}}\ldots p_{k}^{\beta_{k}}$ then
+
+$lcm (a,b)=$
+
+$gcd (a,b)=$
+
+$lcm (a,b) \cdot gcd (a,b) =$
+
+B$\acute{e}$zout's Identity
+
+\begin{enumerate}
+\item NYCIML F83-2 A circular path is 330 meters in circumference. A man makes a mark on the path, then walks around it several times, making a mark every 75 meters. He stops when the mark he is about to make coincides with his very first mark. When he is done, what is the shortest (positive) distance (measured along the circular path) between two of the marks?
+\item Bob is throwing turtles at a dartboard with two regions.  If he hits the smaller region, he gets $15$ points; if he hits the larger region, he gets $7$ points.  What is the largest score that Bob cannot get?
+\item Find the number of positive integers that are divisors of at least one of $10^{10}$, $15^7$, $18^{11}$.
+\item AIME 1998 For how many values of $k$ is $12^{12}$ the least common multiple of the positive integers $6^6$ and $8^8$ , and $k$?
+\item Determine the number of ordered pairs of positive integers $(a,b)$ such that the $lcm (a,b)=2^3 5^7 11^{13}$.
+\end{enumerate}
+
+\textbf{Factorial Problems, Greatest Power Dividing}
+
+\begin{enumerate}
+\item NYCIML F79-3 The largest power of 7 which divides $343!$ is $7^x$. Find the value of $x$. (We say that $7^x$ fully divides $343!$, or $7^x||343!$)
+\item NYCIML F07-4 Compute the prime number $p$ such that $16!$ ends in the same number of zeros when it is written in base 16 as it does when written in base $p$.
+\item AIME 2006II Let P be the product of the first 100 positive odd integers. Find the largest integer $k$ such that P is divisible by $3^k$.
+\item AIME1 2006 How many consecutive zeros are at the end of $1!2!3!4!5!6!...99!100!$ ? 
+\end{enumerate}
+See also 2006 AIME I 13
+\newline
+
+\textbf{Diophantine Equations, take 1}
+\begin{enumerate}
+\item AM 2008 Test A Find all pairs of integers $(m,n)$ such that $3m+4n=5mn$.
+\item NYCIML F79-3 The dimensions of a rectangle are integers $x$ and $y$. Its area is divided into unit squares by lines parallel to the sides of the rectangle. The number of unit squares touching the sides of the rectangle is equal to the number of unit squares not touching the sides. Find all possible values of $xy$.
+\item AM 2008 Test A Find all prime numbers $p$ such that $32p + 1$ is the cube of an integer.
+\end{enumerate}
+
+\textbf{Digits and Crypto-Arithmetic Problems}
+\begin{enumerate}
+\item AHSME 1973 In the following equation, each letter represents uniquely a different digit in base 10: $(GU)+(RU)=SSS$. Find $G+U+R+S$.
+\item AIME 1997 Sarah intended to multiply a two-digit number and a three-digit number, but she left out the multiplication sign and simply placed the two-digit number to the left of the three-digit number, thereby forming a five-digit number. This number is exactly nine times the product Sarah should have obtained. What is the sum of the two-digit number and the three-digit number?
+\item NYCIML F07 A positive integer is called a b-d palindrome if its representation in base b is the same as its representation is base d with its digits reversed (no leading 0s allowed). Compute both two-digit 7-10 palindromes and express your answer in base 10.
+\item AIME 2002 II Given that
+(1) x and y are both integers between 100 and 999, inclusive;
+(2) y is the number formed by reversing the digits of x; and
+(3) z = $|x - y|$.
+How many distinct values of z are possible?
+\end{enumerate}
+(Previous 2 sections) See also 2006 AIME I 3,9; 2004 AIME II 3,6,14; 2003 AIME II 1,10; 2003 AIME I 14; AIME 2002 I 3,8; AIME 2001 I 1,8,11; 2000 II 2,11; 1998 14*; 97 1,3; 96 8
+\newline
+
+\section{Important Functions in Number Theory}
+
+Let the prime factorization of $n$ be $n=p_1^{\alpha_1}p_2^{\alpha_2}\ldots p_n^{\alpha_n}$.
+
+$\mathbf{\tau (n)}$ The number of positive integer divisors of n.
+\newline
+Formula: $\tau (n)=$
+\newline
+\newline
+
+\begin{enumerate}
+\item 2008 students take turns walking down a hall containing a row of closed lockers numbered 1-2008. The $i$th student changes the state of each locker that is a multiple of $i$, opening it if it is closed, closing it if it is open. After all students finish, how many lockers are open?
+\item AM 2008 Test A Find the least positive integer with \textbf{more than} 120 divisors, at least 12 of which are consecutive positive integers.
+\item AIME 2005 I For each positive integer k, let $S_k$ denote the increasing arithmetic sequence of integers whose first term is 1 and whose common difference is $k$. For example,
+$S_3$ is the sequence $1, 4, 7, \ldots$. For how many values of $k$ does $S_k$ contain the
+term 2005?
+\item AIME 2004 II How many positive integer divisors of $2004^{2004}$ are divisible by exactly 2004 positive integers?
+\item AIME 2005 I How many positive integers have exactly three proper divisors, each of which
+is less than 50? (A proper divisor of a positive integer n is a positive integer
+divisor of n other than n itself.)
+\item AIME 2000 II What is the smallest positive integer with six positive odd integer divisors and twelve positive even integer divisors?
+\item Find the least positive integer such that $\frac{\tau (n^2)}{\tau (n)}=3$. 
+\item Define S(n) by
+$S(n) =  \tau (1) + \tau (2) + \ldots + \tau (n)$
+Let a denote the number of positive integers $n \leq 2005$ with S(n) odd, and let b
+denote the number of positive integers $n \leq 2005$ with S(n) even. Find $|a - b|$. 
+\item AIME 2006 II How many integers N less than 1000 can be written as the sum of j consecutive positive odd integers for exactly 5 values of $j \geq 1$?
+\item Find the product of all positive integer divisors of $n$ in terms of $n$ and $\tau (n)$. 
+\end{enumerate}
+See also AIME 1999 7
+\newline
+
+$\sigma (n)$ Sum of positive divisors of $n$.
+\newline
+Formula: $\sigma (n)=$
+\newline
+\newline
+
+\begin{enumerate}
+\item Let S be the sum of all numbers of the form $\frac{a}{b}$ where a and b are relatively prime positive divisors of 1000. What is the greatest integer that does not exceed $\frac{S}{10}$? 
+\item Find S, this time replacing 1000 with 27000.
+\item Find the number with sum of divisors equal to 961.
+\end{enumerate}
+
+
+$\phi (n)$ or $\varphi (n)$ Euler's totient function: Number of positive integers less than $n$ (including 1) relatively prime to $n$.
+\newline
+\newline
+Formula: $\varphi (n)=$
+\newline
+\newline
+$S(n)$ Sum of digits of n
+\begin{enumerate}
+\item NYCIML 83-2 The sequence $a_i$ is defined by: $a_i=3^{1983}$, and for $i>1$, $a_{i}$ is the sum of the digits in the decimal representation of $a_{i-1}$. Find $a_{10}$.
+\item For any positive integer $x$, let $S(x)$ be the sum of the digits of $x$, and let $T(x)$ be $|S(x+2)-S(x)|$. For example, $T(199) = |S(201) - S(199)| = |3 - 19| = 16$. How many values $T(x)$ do not exceed 1999?
+\end{enumerate}
+See also USAMO 1992 1
+%
+%\newpage
+%
+%\section{Advanced Theorems}
+%
+%\textbf{Euler's Theorem: If a and m are relatively prime positive integers, then }\[a^{\varphi (m)}\equiv 1 (\mod m)\]
+%
+%\textbf{Fermat's Little Theorem: If a is a positive integer and p is a prime, then}
+%\[a^{p-1}\equiv 1 (\mod p)\]
+%\[a^p\equiv a (\mod p)\]
+%
+%\begin{enumerate}
+%\item Find all primes such that $2^{p+9} \equiv 1 (\mod p)$
+%\end{enumerate}
+%
+%\textbf{Wilson's Theorem: p is prime iff}
+%\[(p-1)!\equiv -1 (\mod p)\]
+%
+%{\bf Definition: } A {\bf complete set of residue classes}
+%
+%{\bf Definition: } The {\bf inverse of a modulo m}, where a is relatively prime to m, denoted by $a^{-1}$, is a number such that $a \cdot a^{-1}\equiv 1 (\mod m)$.
+%
+%{\bf Definition: } $a$ has {\bf order} d modulo m, denoted by $ord_m a = d$ if d is the smallest positive integer such that $a^d \equiv 1 (\mod m)$.
+
+\end{document}

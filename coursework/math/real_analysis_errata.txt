@@ -1,0 +1,64 @@
+pg. 2 exchange supremum and infimum.
+
+pg. 3 switch the inequalities for Holder and Minkowski (but not the words). In the RHS, multiplication and addition should be switched.
+R_0^n should be a separate bullet point.
+
+pg. 4 The topological definition of closure: containing E, not contained in E.
+
+pg. 5 Compact subsets of *metric spaces* are  closed.
+If K is a *metric space*, K is compact iff sequentially compact.
+
+pg. 6 Nested nonempty *closed* sets F_n
+
+pg. 8 every bounded subsequence of R^k should be every *sequence* of R^k.
+for should be form.
+
+pg. 9 The "n->infty" should be after inf/sup.
+3-3: if the sequence is eventually positive, not not equivalent to the 0 sequence.
+
+pg. 10 Ratio test, 2nd bullet should be >
+
+pg.12 definition of continuity should have d(x,p)<delta, not epsilon. 
+2nd to last statement should have "iff" between "continuous" and "for".
+
+pg.15 1st definition of derivative should have \Delta x->0 not t->x.
+
+pg. 16 Sums should start at k=0.
+f(beta)=P(alpha)+...
+0<=k<n, not 0<=k<n
+
+pg. 17 in item 1, sup should be inf.
+2nd bullet from bottom: x_1 should be x_i, sum should read
+\sum_{i=1}^n |f(s_i)-f(t_i)|\Delta \alpha_i<\epsilon.
+
+pg. 18 Change [u_i,v_i] to (u_i,v_i). Delete "(and endpoints if they are discontinuity points)".
+
+pg. 19 Change h to f. For the 2nd class, change f to |\phi| and epsilon to delta.
+f(\phi(x)) should be f(\phi(y))
+"it" should be "if" in fundamental theorem of calculus.
+
+pg. 20 the 2 parts of the erros are
+|\int_{x_{i-1}}^{x_{i}} \gamma'(x_i)dt|-|\int_{x_{i-1}}^{x_i} \gamma'(t)|
+and
+\int_{x_{i-1}}^{x_i} |\gamma'(t)|-|\gamma'(x_i)|dt.
+
+pg. 21
+3rd proof: A=lim_{n\to \infty}lim_{t\to x} f_n(t).
+Note in item 2, A is well defined by uniform convergence.
+Then |f(t)-A|<\epsilon *for 0<d(t,x)<\delta*
+4th proof: K_n... >=\epsilon, not <\epsilon
+
+pg. 22 Delete 2nd-to-last paragraph of 7-1.
+
+pg. 23 
+Item 2: define g_n=g_{n,n}
+Item 3: Delete "For this N_i". Add to end of sentence, for $k,l>=N$.
+
+Weierstrass approximation. Replace f:[a,b]\to C with f:[a,b]\to R.
+P_n(x)-f(x): The integral after this, f should be \bar{f}.
+In statement of Stone-Weierstraa "function" should be "functions"
+
+pg. 25
+In proof of Taylor, sum b_n should be sum b_nx^n.
+(i.e. has a limit point... should be (i.e. E has a limit point.
+f(x)=0 in a neighborhood of f(x)\in E should be f(x)\not\equiv 0 in a neighborhood of x_0.
