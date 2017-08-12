@@ -41,8 +41,9 @@ makePostTreeAndCategories pat f = do
   --let tags = map (\x -> (joinPath x, getAllChildren x ft)) dirs
   --note this is ORIGINAL not new address!!!
   let tags = map (\(x, _) -> (x, map (fromFilePath . (\x -> "posts" </> x <.> "md")) $ getAllChildren x ft)) tm
-  --return (ft, trace (show (tagsMap categories, tags)) categories)
-  return (ft, categories{tagsMap = tags})       
+  return (ft, categories{tagsMap = tags})
+  --trace (show (tagsMap categories, tags)) 
+  --return (ft, categories{tagsMap = tags})       
 
 (.&):: (a -> b) -> (b -> c) -> (a -> c) 
 (.&) = flip (.)
@@ -62,7 +63,7 @@ compileTree field ctx p@(rt, m) = do
 --(flip loadAllSnapshots) "content"  $ foldl (.||.) "" (map (fromGlob . toFilePath) li)
   postItems <- applyTemplateList postItemTemplate ctx listItemStringSorted
   childrenListStrings <- mapM (compileTree field ctx) (map (,m) ls)
-  let childrenOutline = mconcat $ zipWith (\catPath str -> printf "<li><a href=\"posts/%s.html\">%s</a> %s </li>" (catPath) (catPath) str) ls childrenListStrings
+  let childrenOutline = mconcat $ zipWith (\catPath str -> printf "<li><a href=\"%s.html\">%s</a> %s </li>" (catPath) (catPath) str) ls childrenListStrings
                         --"<li><b>%s</b> %s </li>" (catPath) str) ls childrenListStrings
   -- \catPath str -> "<li><b>"++(last catPath)++"</b>"++postItems++"</li>"
   return ("<ul class=\"collapsibleList\">"++childrenOutline++postItems++"</ul>")

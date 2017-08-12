@@ -70,7 +70,7 @@ main = hakyll $ do
           >>= relativizeUrls
 
     --CATEGORIES
-    (pt, categories) <- makePostTreeAndCategories (postPattern .&&. hasNoVersion) (fromCapture "category/**/index.html") --get rid of index pages?
+    (pt, categories) <- makePostTreeAndCategories (postPattern .&&. hasNoVersion) (fromCapture "category/*/index.html") --get rid of index pages?
     tagsRules categories $ \tag pattern -> do
       let title = "Posts in category \"" ++ tag ++ "\""
       route idRoute
