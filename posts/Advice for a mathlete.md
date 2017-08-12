@@ -2,6 +2,7 @@
 title: Advice for a mathlete
 published: 2017-08-07
 modified: 2017-08-07
+parent: Math
 tags: math, advice
 type: uncategorized
 showTOC: True

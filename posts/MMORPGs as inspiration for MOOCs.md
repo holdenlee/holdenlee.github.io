@@ -2,6 +2,7 @@
 title: MMORPGs as inspiration for MOOCs
 published: 2017-08-07
 modified: 2017-08-07
+parent: Education
 tags: MOOCs, education, technology
 type: uncategorized
 showTOC: True

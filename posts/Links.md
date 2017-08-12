@@ -2,6 +2,7 @@
 title: Links
 published: 2017-08-07
 modified: 2017-08-07
+parent: index
 tags: links
 type: uncategorized
 showTOC: True

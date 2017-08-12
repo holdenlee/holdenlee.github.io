@@ -2,14 +2,12 @@
 title: Writing curriculum
 published: 2017-08-07
 modified: 2017-08-07
+parent: Education
 tags: curriculum
 type: uncategorized
 showTOC: True
 ---
 
-
-
-Back to [Education](Education.html).
 
 See also my presentation for ESP, "Why your math textbook sucks" [https://dl.dropboxusercontent.com/u/27883775/wiki/files/Why%20your%20math%20textbook%20SUCKS.pptx](https://dl.dropboxusercontent.com/u/27883775/wiki/files/Why%20your%20math%20textbook%20SUCKS.pptx)
 

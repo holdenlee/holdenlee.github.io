@@ -2,6 +2,7 @@
 title: Tim Gowers on mathematical collaboration
 published: 2017-08-07
 modified: 2017-08-07
+parent: Math communication
 tags: math, communication
 type: uncategorized
 showTOC: True

@@ -2,6 +2,7 @@
 title: Ideas to implement
 published: 2017-08-07
 modified: 2017-08-07
+parent: Open gestalts
 tags: ideas, open_gestalts, under_construction, good_idea
 type: uncategorized
 showTOC: True

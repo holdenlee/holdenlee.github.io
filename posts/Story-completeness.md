@@ -2,6 +2,7 @@
 title: Story-completeness
 published: 2017-08-07
 modified: 2017-08-07
+parent: Writing
 tags: story, life, writing, unlinked, cs
 type: uncategorized
 showTOC: True

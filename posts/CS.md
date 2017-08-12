@@ -1,15 +1,10 @@
 ---
-title: Lenses for writing
+title: Google books
 published: 2017-08-07
 modified: 2017-08-07
-parent: Writing
-tags: under_construction
+parent: index
+tags: quote, unlinked
 type: uncategorized
 showTOC: True
 ---
-
-
-
-(To be added)
-
 

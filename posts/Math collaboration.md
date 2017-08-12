@@ -2,6 +2,7 @@
 title: Math collaboration
 published: 2017-08-07
 modified: 2017-08-07
+parent: Math communication
 tags: under_construction
 type: uncategorized
 showTOC: True

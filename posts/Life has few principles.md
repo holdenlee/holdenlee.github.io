@@ -2,6 +2,7 @@
 title: Life has few principles
 published: 2017-08-07
 modified: 2017-08-07
+parent: Views on life
 tags: life
 type: uncategorized
 showTOC: True

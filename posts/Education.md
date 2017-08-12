@@ -2,7 +2,7 @@
 title: Education
 published: 2017-08-07
 modified: 2017-08-07
-parent: Home
+parent: index
 tags: education, teaching, learning
 type: uncategorized
 showTOC: True

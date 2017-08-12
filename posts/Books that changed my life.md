@@ -2,14 +2,11 @@
 title: Books that changed my life
 published: 2017-08-07
 modified: 2017-08-07
+parent: Books
 tags: books, life, advice, reading
 type: uncategorized
 showTOC: True
 ---
-
-
-
-(Back to [Books](Books.html), [Likes](Likes.html))
 
 I've thought about what I might tell a younger self to "fast forward" my life, and I think the most important thing I'd do is give a list of books that changed the way I thought. For reference, I include when I read the books (I started college fall '09.)
 

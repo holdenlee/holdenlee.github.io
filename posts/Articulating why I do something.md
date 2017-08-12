@@ -2,6 +2,7 @@
 title: Articulating why I do something
 published: 2017-08-07
 modified: 2017-08-07
+parent: Views on life
 tags: articulation, feeling, reason, flipside, unlinked
 type: uncategorized
 showTOC: True

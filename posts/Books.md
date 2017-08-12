@@ -2,14 +2,11 @@
 title: Books
 published: 2017-08-07
 modified: 2017-08-07
+parent: Likes
 tags: likes, books, reading
 type: uncategorized
 showTOC: True
 ---
-
-
-
-(Back to [Likes](Likes.html))
 
 See also [Books that changed my life](Books that changed my life.html).
 

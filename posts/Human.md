@@ -2,14 +2,12 @@
 title: Human
 published: 2017-08-07
 modified: 2017-08-07
+parent: Music
 tags: song, music, education
 type: uncategorized
 showTOC: True
 ---
 
-
-
-(back to [Music](Music.html))
 
 #What this song means to me
 

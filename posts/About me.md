@@ -2,6 +2,7 @@
 title: About me
 published: 2017-08-07
 modified: 2017-08-07
+parent: index
 tags: about_me
 type: uncategorized
 showTOC: True

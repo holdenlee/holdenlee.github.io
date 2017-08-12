@@ -2,6 +2,7 @@
 title: Advice for learning math in college
 published: 2017-08-07
 modified: 2017-08-07
+parent: Math
 tags: math, advice, under_construction
 type: uncategorized
 showTOC: True

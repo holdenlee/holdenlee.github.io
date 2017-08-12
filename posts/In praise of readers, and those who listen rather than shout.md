@@ -2,6 +2,7 @@
 title: In praise of readers, and those who listen rather than shout
 published: 2017-08-07
 modified: 2017-08-07
+parent: Books
 tags: reading, draft
 type: uncategorized
 showTOC: True

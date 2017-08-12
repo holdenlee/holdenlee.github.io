@@ -2,14 +2,11 @@
 title: index cards
 published: 2017-08-07
 modified: 2017-08-07
+parent: Views on life
 tags: index, cards
 type: uncategorized
 showTOC: True
 ---
-
-
-
-Back to [Views on life](Views on life.html).
 
 Why index cards?
 

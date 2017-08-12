@@ -2,6 +2,7 @@
 title: Why are we still writing linearly?
 published: 2017-08-07
 modified: 2017-08-07
+parent: Views on life
 tags: communication
 type: uncategorized
 showTOC: True

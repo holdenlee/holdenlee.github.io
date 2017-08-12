@@ -2,6 +2,7 @@
 title: Proofs and stories as obstacle avoidance
 published: 2017-08-07
 modified: 2017-08-07
+parent: Math communication
 tags: math, curriculum, communication
 type: uncategorized
 showTOC: True

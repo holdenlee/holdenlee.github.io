@@ -2,6 +2,7 @@
 title: Love
 published: 2017-08-07
 modified: 2017-08-07
+parent: Views on life
 tags: love, feeling, friendship
 type: uncategorized
 showTOC: True

@@ -2,6 +2,7 @@
 title: Links for writers and readers
 published: 2017-08-07
 modified: 2017-08-07
+parent: Links, Writing
 tags: writing, reading
 type: uncategorized
 showTOC: True

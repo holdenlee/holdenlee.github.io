@@ -2,6 +2,7 @@
 title: The diameter of intellectual space
 published: 2017-08-07
 modified: 2017-08-07
+parent: Views on life
 tags: information, compression, communication, unlinked
 type: uncategorized
 showTOC: True

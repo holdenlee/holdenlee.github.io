@@ -2,6 +2,7 @@
 title: Loquat
 published: 2017-08-07
 modified: 2017-08-07
+parent: Music
 tags: song, music
 type: uncategorized
 showTOC: True

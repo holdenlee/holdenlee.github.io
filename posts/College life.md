@@ -2,6 +2,7 @@
 title: College life
 published: 2017-08-07
 modified: 2017-08-07
+parent: About me
 tags: life, college, reflections
 type: uncategorized
 showTOC: True

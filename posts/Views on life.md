@@ -2,6 +2,7 @@
 title: Views on life
 published: 2017-08-07
 modified: 2017-08-07
+parent: index
 tags: life, under_construction
 type: uncategorized
 showTOC: True

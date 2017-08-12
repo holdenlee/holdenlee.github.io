@@ -2,6 +2,7 @@
 title: Activation energy and the unit of discourse
 published: 2017-08-07
 modified: 2017-08-07
+parent: Views on life
 tags: unlinked, interaction, principle
 type: uncategorized
 showTOC: True

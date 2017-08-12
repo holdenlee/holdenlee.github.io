@@ -2,6 +2,7 @@
 title: Math as stories
 published: 2017-08-07
 modified: 2017-08-07
+parent: Math communication
 tags: math, writing, stories
 type: uncategorized
 showTOC: True

@@ -2,6 +2,7 @@
 title: Math communication
 published: 2017-08-07
 modified: 2017-08-07
+parent: Math
 tags: math, communication
 type: uncategorized
 showTOC: True

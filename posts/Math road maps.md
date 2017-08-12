@@ -2,6 +2,7 @@
 title: Math road maps
 published: 2017-08-07
 modified: 2017-08-07
+Parent: Education
 tags: math, idea
 type: uncategorized
 showTOC: True

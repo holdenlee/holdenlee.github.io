@@ -2,7 +2,7 @@
 title: Links for education
 published: 2017-08-07
 modified: 2017-08-07
-parent: Education
+parent: Education, Links
 tags: links, education
 type: uncategorized
 showTOC: True

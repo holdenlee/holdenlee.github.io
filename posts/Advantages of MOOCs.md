@@ -2,14 +2,13 @@
 title: Advantages of MOOCs
 published: 2017-08-07
 modified: 2017-08-07
+parent: Education
 tags: MOOCs, education, technology
 type: uncategorized
 showTOC: True
 ---
 
 
-
-Back: [Education](Education.html)
 Next: Two types of [MOOCs](MOOCs.html)
 See the full post at [http://holdenlee.wordpress.com/2013/03/02/459/](http://holdenlee.wordpress.com/2013/03/02/459/.html). The below is a summary.
 

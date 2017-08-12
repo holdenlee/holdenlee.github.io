@@ -2,14 +2,12 @@
 title: Lenses and theories
 published: 2017-08-07
 modified: 2017-08-07
+parent: Views on life
 tags: lenses
 type: uncategorized
 showTOC: True
 ---
 
-
-
-Back to [Views on life](Views on life.html)
 
 *"Theories are like eyeglasses: they bring certain dimensions of the world into sharper focus, and blur other dimensions. But if you choose the right glasses, the world is - on the whole - a little clearer." - Justin Reich*
 

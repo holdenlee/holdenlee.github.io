@@ -36,7 +36,7 @@ makePostTreeAndCategories pat f = do
   categories <- buildTagsWith (getTagsWith "parent") (pat) f
                 -- (getTagsWith "parent")
   let tm = (tagsMap categories)
-  let ft = for' tm (("Home", M.empty)::FunDAG String) (\(tag, children) ft0 -> insertParentAndChildren tag (map (takeBaseName . toFilePath) children) ft0)
+  let ft = for' tm (("index", M.empty)::FunDAG String) (\(tag, children) ft0 -> insertParentAndChildren tag (map (takeBaseName . toFilePath) children) ft0)
   --let dirs = M.keys (snd ft) :: [[String]]
   --let tags = map (\x -> (joinPath x, getAllChildren x ft)) dirs
   --note this is ORIGINAL not new address!!!

@@ -2,6 +2,7 @@
 title: Math books
 published: 2017-08-07
 modified: 2017-08-07
+parent: Math communication
 tags: math, textbook, communication
 type: uncategorized
 showTOC: True

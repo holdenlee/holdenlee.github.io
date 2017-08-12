@@ -2,6 +2,7 @@
 title: What I learned about writing from my professors
 published: 2017-08-07
 modified: 2017-08-07
+parent: Writing
 tags: writing, MIT
 type: uncategorized
 showTOC: True

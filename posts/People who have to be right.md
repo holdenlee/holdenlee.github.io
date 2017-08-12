@@ -2,6 +2,7 @@
 title: People who have to be right
 published: 2017-08-07
 modified: 2017-08-07
+parent: Views on life
 tags: character, justice, unlinked
 type: uncategorized
 showTOC: True
