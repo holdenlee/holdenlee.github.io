@@ -1,0 +1,47 @@
+machine:
+
+  pre:
+    - sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.6 20
+    - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.6 20
+    - sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 10
+    - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.9 10
+
+  ghc:
+    version: 7.10.2
+
+dependencies:
+
+  pre: 
+    - cabal update
+    - cabal sandbox init
+
+  override:
+    - cabal install --only-dependencies -j --verbose=3
+    - cabal build
+
+  cache_directories:
+    - .cabal-sandbox
+
+test:
+
+  post:
+    - git submodule init
+    - git submodule update
+    - cd _site/ && git checkout gh-pages
+    - cabal run build
+
+deployment:
+
+  production:
+    branch: hakyll
+    commands:
+      - git config --global user.email holdenl@princeton.edu
+      - git config --global user.name holdenlee
+      - cd _site/ && git status
+      - cd _site/ && git add --all
+      - cd _site/ && git commit -m "Update (`date '+%F %T %Z'`) [ci skip]"
+      - cd _site/ && git push origin gh-pages
+      - git status
+      - git add _site/
+      - git commit -m "Update _site (`date '+%F %T %Z'`) [ci skip]"
+      - git push origin hakyll

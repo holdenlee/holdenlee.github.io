@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cp -TRv _site/ ../blog/
+gitup2 "$1" hakyll
+cd ../blog
+gitup2 "$1" gh-pages

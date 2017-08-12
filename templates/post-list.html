@@ -1,0 +1,7 @@
+<ul>
+    $for(posts)$
+        <li>
+            <a href="$url$">$title$</a> ($date$)$if(subtitle)$: <span class="italic">$subtitle$</span> $endif$
+        </li>
+    $endfor$
+</ul>

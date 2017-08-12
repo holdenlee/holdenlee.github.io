@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./hc site
+./site rebuild

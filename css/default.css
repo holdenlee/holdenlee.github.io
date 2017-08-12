@@ -1,0 +1,20 @@
+body {
+    color: black;
+    font-size: 16px;
+/*    margin: 0px auto 0px auto;*/
+    min-width: 200px;
+    padding: 100px 50px 100px 100px
+}
+
+.subtitle {
+    font-size: 20px;
+    font-style: italic
+}
+
+.info {
+    font-size: 16px
+}
+
+.italic {
+    font-style: italic
+}

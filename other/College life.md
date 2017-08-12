@@ -1,0 +1,17 @@
+---
+title: College life
+published: 2017-08-06
+modified: 2017-08-06
+tags: life, college, reflections
+type: uncategorized
+showTOC: True
+---
+
+
+
+(Back to [About me](About me.html))
+
++ Some reflections: http://holdenlee.wordpress.com/2013/09/06/butterflies/
++ [Coursework](Coursework.html)
+
+

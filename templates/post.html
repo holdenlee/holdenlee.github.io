@@ -1,0 +1,46 @@
+
+<div class="container">
+  <div id="content">
+    <div class="page header">
+      <h1>$title$</h1>
+    </div>
+    <div class="info">
+      $if(subtitle)$ <div class="subtitle"><p>$subtitle$</p></div> $endif$
+      $if(date)$ 
+        <p>Posted: $date$ 
+          $if(modified)$, Modified: $modified$ $endif$
+	</p>
+      $endif$
+      $if(tags)$ <p>Tags: $tags$</p> $endif$
+      $if(parent)$ <p>Parent: $parent$</p> $endif$
+	  $if(children)$ <p>Children: $children$</p> $endif$
+    </div>
+    
+  </div>
+  <!--/div-->
+
+  $if(showTOC)$<div class="toc">$toc$</div>$endif$
+
+  <div class="blog-main">
+    $body$
+
+  </div>
+
+    $if(isPost)$
+
+    <!-- Extension : Sharing buttons @ www.sharethis.com -->
+    <span class='st_facebook_large' displayText='Facebook'></span>
+    <span class='st_twitter_large' displayText='Tweet'></span>
+    <span class='st_googleplus_large' displayText='Google +'></span>
+    <span class='st_reddit_large' displayText='Reddit'></span>
+    <span class='st__large' displayText=''></span>
+
+    <div id="disqus_thread"></div>
+    $endif$
+
+
+  $if(isPost)$
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+  $endif$
+</div>
