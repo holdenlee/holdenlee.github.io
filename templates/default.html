@@ -25,6 +25,10 @@
   <!-- Extension : Footnotes -->
   <link href="/footnotes/css/footnotes.css" rel="stylesheet">
 
+  <!-- Sidebar 
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  -->
+
   <!-- Extension : InlineDisqussions @ https://github.com/tsi/inlineDisqussions -->
   $if(inline)$
   <link href="/disqus/css/inlineDisqussions.css" rel="stylesheet">
@@ -43,7 +47,7 @@
 <!-- Navigation bar. navbar-inverse is black, navbar-default is white.-->
 <!-- To make a button active (pressed), use <li class="active"> -->
 <div id="header">
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar navbar-inverse navbar-fixed-top"> <!--navbar-fixed-top-->
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -52,26 +56,38 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/">Holden's Blog</a>
+        <a class="navbar-brand" href="/">Holden's Website</a>
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li><a href="/">Home</a></li>
           <li><a href="/sitemap.html">Sitemap</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/notes.html">Notes</a></li>
-          <li><a href="/creations.html">Creations</a></li>
-          <li><a href="/links.html">Links</a></li>
+          <li><a href="/Math.html">Math</a></li>
+	  <li><a href="/Research.html">[Research]</a></li>
+	  <li><a href="/Math notes.html">[Math notes]</a></li>
+	  <li><a href="/Writing.html">Writing</a></li>
+	  <li><a href="/Creations.html">[Creations]</a></li>
+	  <li><a href="/Education.html">Education</a></li>
+	  <li><a href="/Likes.html">Likes</a></li>
+	  <li><a href="/Views on life.html">Views on life</a></li>
+	  <li><a href="/Links.html">Links</a></li>
 <!-- TODO: make this part a for loop over main pages -->
         </ul>
       </div><!--/.nav-collapse -->
     </div>
   </nav>
 </div>
-<!-- Content -->
-<!--div id="content">
-  <h1>Mental Wilderness</h1>-->
 
+<!--
+<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+  <h3 class="w3-bar-item">Menu</h3>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+</div>
+-->
+
+
+<!-- Content -->
 
 $body$
 

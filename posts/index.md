@@ -2,8 +2,6 @@
 title: index
 published: 2017-08-07
 modified: 2017-08-07
-parent: 
-tags: 
 type: uncategorized
 showTOC: True
 ---

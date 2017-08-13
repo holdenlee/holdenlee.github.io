@@ -1,12 +1,25 @@
 body{
-    font-family:Georgia, "Times New Roman", Times, serif;
+    font-family: Georgia;
+    /*font-family:Georgia, "Times New Roman", Times, serif;*/
      /*color:#555*/}
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight:normal;
     /*color:#333;*/
-    margin-top:0}
+    margin-top:20px;
+    background-color: #e6f2ff;
+}
+
+h1, .h1{
+    background-color: white;
+}
+
+/*
+.container {
+    border: solid 1px gray;
+}*/
+
 
 @media (min-width:1200px){.container{width:970px}}
 
@@ -54,29 +67,33 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
     font-weight:normal}
 
 .blog-description{
-    font-size:20px;
+    font-size:24px;
     /*color:#999*/}
 .blog-date{
-    font-size:18px;
+    font-size:16px;
     /*color:#999*/}
 .blog-tag{
-    font-size:18px;
+    font-size:16px;
     /*color:#999*/}
 .blog-main{
-    font-size:18px;
+    font-size:16px;
     line-height:1.5}
 .blog-main p{
-    font-size:18px}
+    font-size:16px}
 .blog-main h6{
-    font-size:20px}
+    font-size:18px}
 .blog-main h5{
-    font-size:22px}
+    font-size:20px}
 .blog-main h4{
-    font-size:26px}
+    font-size:20px;
+    font-weight:bold}
 .blog-main h3{
-    font-size:28px}
+    font-size:24px;
+    font-weight:bold
+}
 .blog-main h2{
-    font-size:30px}
+    font-size:30px;
+    font-family:"Trebuchet MS", Helvetica, sans-serif}
 .blog-main h1{
     font-size:34px;
     font-family:"Trebuchet MS", Helvetica, sans-serif}
@@ -109,3 +126,4 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
     padding:40px 0;
     /*color:#999;*/
     text-align:center}
+

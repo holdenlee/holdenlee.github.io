@@ -12,9 +12,48 @@ body {
 }
 
 .info {
-    font-size: 16px
+    font-size: 16px;
+    background-color: /*#cce6ff;/*light blue*/
+    #bdf5bd; /* light green */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+
+.toc {
+    /* background-color: 
+    #ffffcc; /* yellow */
+    /*border: 2px solid #73AD21;*/
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    margin-bottom: 15px;
+    border-radius: 10px;
 }
 
 .italic {
     font-style: italic
 }
+
+h2:after
+{
+    content:' ';
+    display:block;
+    border:1px solid gray;
+}
+
+/*
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+.w3-margin-left{margin-left:16px!important}*/
