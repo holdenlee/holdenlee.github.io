@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Holden Lee's Website</title>
+    <link href="http://holdenlee.github.io/atom.xml" rel="self" />
+    <link href="http://holdenlee.github.io" />
+    <id>http://holdenlee.github.io/atom.xml</id>
+    <author>
+        <name>Holden Lee</name>
+        <email>oldheneel@gmail.com</email>
+    </author>
+    <updated>2017-08-13T00:00:00Z</updated>
+    <entry>
+    <title>Math notes</title>
+    <link href="http://holdenlee.github.io/Math%20notes.html" />
+    <id>http://holdenlee.github.io/Math%20notes.html</id>
+    <published>2017-08-13T00:00:00Z</published>
+    <updated>2017-08-13T00:00:00Z</updated>
+    <summary type="html"><![CDATA[
+<div class="container">
+
+  <div id="content">
+    <div class="page header">
+      <h1> Math notes </h1>
+    </div>
+    
+    
+    <div class="info">
+      
+       
+        <p>Posted: 2017-08-13 
+          , Modified: 2017-08-13 
+	</p>
+      
+       <p>Tags: </p> 
+       <p>Parent: </p> 
+	   <p>Children: </p> 
+    </div>
+    
+    
+  </div>
+  <!--/div-->
+
+  <div class="toc"> <ul>
+ <li><a href="#number-theory">Number Theory</a></li>
+ <li><a href="#high-school-math">High school math</a></li>
+ <li><a href="#college-math">College math</a></li>
+ </ul> </div>
+
+  <div class="blog-main">
+    <p>Everything on this page is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative) Commons Attribution-ShareAlike 3.0 Unported License</a>. Notes for seminars and talks are available at my blog <a href="http://holdenlee.github.io/blog/notes.html" class="uri">http://holdenlee.github.io/blog/notes.html</a></p>
+<p>Most of the source code is available either below or on <a href="http://github.com/holdenlee/mathnotes">github</a>. To compile the source you’ll need the <a href="https://github.com/holdenlee/templates">LaTeX template files</a> (see the readme for instructions).</p>
+<p>Please do contact me if you find typos, want to help improve the notes, want source code, etc. I don’t always post/update the source code but I will if you poke me.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a></p>
+<h2 id="number-theory">Number Theory</h2>
+<p>I’ve compiled all my number theory notes in the following open-source <a href="https://www.dropbox.com/s/agebfj7rldc9wl1/number-theory.pdf?dl=0">textbook</a>. Source code is available at the dedicated repository <a href="https://github.com/holdenlee/number-theory." class="uri">https://github.com/holdenlee/number-theory.</a> Note much of this is still pretty sketchy; I’ve extracted the more complete parts into the two documents beolow. Contributions and corrections are welcome; please email me at holdenlee@alum.mit.edu.</p>
+<p>Update: General comments and updates are recorded on this <a href="http://goo.gl/JXBHHS">googledoc</a>.</p>
+<ul>
+<li>Proof of prime number theorem for arithmetic progressions: <a href="https://www.dropbox.com/s/zf0wjpfylpcd4rf/analytic-nt.pdf?dl=0">analytic-nt.pdf</a></li>
+<li>Algebraic number theory, class field theory, and complex multiplication: <a href="https://www.dropbox.com/s/n0hgikez3nlfdui/ant.pdf?dl=0">ant.pdf</a></li>
+</ul>
+<p>For recent updates, please see the googledoc.</p>
+<h2 id="high-school-math">High school math</h2>
+<ul>
+<li>Gliya geometry curriculum:
+<ul>
+<li>I wrote <a href="http://gliyanet.com/#!/nexus/math/Geometry">lessons</a> on introduction to geometry, angles, congruent triangles, similar triangles, constructions, and the angle bisector theorem. (Sorry, the link is currently not available.)</li>
+</ul></li>
+<li>High school math club materials: Materials I used for ERHS math club, 2007-2009.
+<ul>
+<li>Short-answer based
+<ul>
+<li><a href="http://holdenlee.github.io/high_school/Sums%20and%20Products.pdf">Sums and products</a></li>
+<li><a href="http://holdenlee.github.io/high_school/Number%20Theory%20Part%20Two.pdf">Number theory</a></li>
+<li><a href="http://holdenlee.github.io/high_school/Triangles.doc">Triangles</a></li>
+</ul></li>
+<li>Proof-based
+<ul>
+<li><a href="http://holdenlee.github.io/high_school/Box.pdf">Box principle</a></li>
+<li><a href="http://holdenlee.github.io/high_school/Strategies.pdf">Extremal, invariance, and induction</a></li>
+<li><a href="http://holdenlee.github.io/high_school/Algebra%20Proofs.doc">Inequalities</a></li>
+<li><a href="http://holdenlee.github.io/high_school/Combinatorial%20Proofs.doc">Combinatorics</a></li>
+<li><a href="http://holdenlee.github.io/high_school/Geometric%20Proofs.doc">Geometry</a></li>
+</ul></li>
+<li>Contests
+<ul>
+<li>“Pre-test” <a href="http://holdenlee.github.io/high_school/contest001.jpg">part 1</a>, <a href="http://holdenlee.github.io/high_school/contest001.jpg">part 2</a></li>
+<li><a href="http://holdenlee.github.io/high_school/End-of-Year-Contest.pdf">End of year contest</a> (the bunny problem has a simpler solution, see AwesomeMath UTD contest)</li>
+</ul></li>
+</ul></li>
+<li>AwesomeMath materials (<a href="http://holdenlee.github.io/high_school/awesome_math/source.zip">all source files</a>)
+<ul>
+<li>Algebra 3.5, 2010: I taught the second week at Santa Cruz. Notes below.
+<ul>
+<li><a href="http://holdenlee.github.io/high_school/awesome_math/polynomials.pdf">Polynomials</a> (<a href="http://holdenlee.github.io/high_school/awesome_math/polynomials_solutions.pdf">solutions</a>) (Note that part of these notes appear in lectures 8 and ? in OMC.</li>
+<li><a href="http://holdenlee.github.io/high_school/awesome_math/Inequalities.pdf">Inequalities</a>, <a href="http://holdenlee.github.io/high_school/awesome_math/holder-minkowski.pdf">Holder and Minkowski</a>, <a href="http://holdenlee.github.io/high_school/awesome_math/Inequalities%20strategies.pdf">strategies</a></li>
+<li><a href="http://holdenlee.github.io/high_school/awesome_math/functional.pdf">Functional equations</a> (<a href="http://holdenlee.github.io/high_school/awesome_math/functional_solutions.pdf">solutions</a>)</li>
+<li><a href="http://holdenlee.github.io/high_school/awesome_math/exam2-sol.pdf">Week 2 exam</a></li>
+<li><a href="http://holdenlee.github.io/high_school/awesome_math/exam3.pdf">Final exam</a></li>
+</ul></li>
+<li>Team contest
+<ul>
+<li>2010, Dallas, <a href="http://holdenlee.github.io/high_school/awesome_math/2010-dallas-2.pdf">round 2</a> (<a href="http://holdenlee.github.io/high_school/awesome_math/2010-dallas-2-sol.pdf">solutions</a>)</li>
+<li>2010, Santa Cruz, <a href="http://holdenlee.github.io/high_school/awesome_math/2010-sc-1.pdf">round 1</a> (<a href="http://holdenlee.github.io/high_school/awesome_math/2010-sc-1-sol.pdf">solutions</a>)</li>
+<li>2010, Santa Cruz, <a href="http://holdenlee.github.io/high_school/awesome_math/2010-sc-2.pdf">round 2</a> (<a href="http://holdenlee.github.io/high_school/awesome_math/2010-sc-2-sol.pdf">solutions</a>)</li>
+<li>2010, Santa Cruz, <a href="http://holdenlee.github.io/high_school/awesome_math/2010-sc-3.pdf">round 3</a> (<a href="http://holdenlee.github.io/high_school/awesome_math/2010-sc-3-sol.pdf">solutions</a>)</li>
+<li>2011, Santa Cruz, <a href="http://holdenlee.github.io/high_school/awesome_math/2011-sc-2.pdf">round 2</a></li>
+<li>2011, Santa Cruz, <a href="http://holdenlee.github.io/high_school/awesome_math/2011-sc-3.pdf">round 3</a></li>
+</ul></li>
+</ul></li>
+<li>I wrote several lectures for Online Math Circle. <a href="https://github.com/holdenlee/omc">Source for all lectures</a>
+<ul>
+<li>Lecture 1: <a href="high_school/omc/1-beauty.pdf">The Beauty of Mathematics</a></li>
+<li>Lecture 4: <a href="high_school/omc/cnt.pdf">Combinatorial Number Theory</a></li>
+<li>Lecture 8: <a href="high_school/omc/poly1.pdf">Polynomials, Part 1</a></li>
+<li>Lecture 11: <a href="high_school/omc/13-polynum.pdf">Complex Numbers</a></li>
+<li>Lecture 13: <a href="high_school/omc/18-genfunc.pdf">Polynomials, Part 2</a> (Polynomials and number theory)</li>
+<li>Lecture 18: <a href="high_school/omc/18-genfunc.pdf">Generating functions</a></li>
+<li>Lecture 21 (with Yoni Miller): <a href="high_school/omc/21-pie.pdf">Principle of Inclusion and Exclusion</a></li>
+<li>Lecture 23: <a href="high_school/omc/23-rearrange.pdf">Rearrangement inequality</a></li>
+</ul></li>
+</ul>
+<h2 id="college-math">College math</h2>
+<p>Various notes and homeworks I have written up for math subjects. Most of the source is available on <a href="https://github.com/holdenlee/mathnotes">github</a>, or given below. (There are also miscellanous notes there that are not listed below.)</p>
+<p>See also this <a href="https://docs.google.com/document/d/1KZqXRf1xXlqQh_G-yG1DwgpUEmCo0DLVxe9_33eInQc/edit">googledoc</a> for notes on Part III classes by other students.</p>
+<p>Note: the earlier notes are pdfs compiled from Word. I’ve given errata for them since the original word documents are corrupted and uneditable. Now I’ve learned better and use LaTeX instead.</p>
+<ul>
+<li>Algebra
+<ul>
+<li><a href="http://holdenlee.github.io/coursework/math/linear_algebra.pdf">Linear algebra notes</a></li>
+<li><a href="http://holdenlee.github.io/coursework/math/abstract_algebra.pdf">Abstract algebra notes</a> (18.701-2)</li>
+<li><a href="http://holdenlee.github.io/coursework/math/group_theory.pdf">Group theory</a> (18.701-2), some <a href="http://holdenlee.github.io/college_math/Group%20Theory%20Problems%20with%20Solutions.pdf">problems with solutions</a></li>
+</ul></li>
+<li>Analysis
+<ul>
+<li><a href="http://holdenlee.github.io/coursework/math/real_analysis.pdf">Real analysis</a> (18.100C), <a href="http://holdenlee.github.io/coursework/math/real_analysis_errata.txt">errata</a></li>
+<li><a href="http://holdenlee.github.io/coursework/math/18125/notes.pdf">Measure theory</a> (18.125) (Note several sections in the latter half are incomplete.)</li>
+<li><a href="https://www.dropbox.com/s/uo5jgpteak379k9/part_iii_functional.pdf?dl=0">Functional analysis</a> (<a href="https://www.dropbox.com/s/zqmyqe06s9zstrd/functional.zip?dl=0">source</a> (Part III, Fall 2013) (Ask me for a link to the ShareLaTeX.)</li>
+<li><a href="https://www.dropbox.com/s/kn8evd9ucztiek1/part_iii_distributions.pdf?dl=0">Distribution theory</a> (<a href="https://www.dropbox.com/s/jtjgic4xbzj77qn/distributions.zip?dl=0">source</a>)</li>
+</ul></li>
+<li>Geometry
+<ul>
+<li><a href="http://holdenlee.github.io/coursework/math/18.965/main.pdf">Geometry of manifolds</a> (18.965)</li>
+<li><a href="http://holdenlee.github.io/coursework/math/topology.pdf">Topology</a> (18.901), <a href="http://holdenlee.github.io/coursework/math/topology_errata.txt">errata</a></li>
+</ul></li>
+<li>Combinatorics
+<ul>
+<li><a href="http://holdenlee.github.io/coursework/math/18.318/main.pdf">Geometric graph theory</a> (18.318)</li>
+<li><a href="http://holdenlee.github.io/coursework/math/18997/notes.pdf">Probabilistic methods</a> (18.997, spring 2011), <a href="http://holdenlee.github.io/coursework/math/18997/psets.zip">problem sets</a></li>
+<li><a href="https://www.dropbox.com/s/plrdg8oak90o0g2/part_iii_combo.pdf?dl=0">Extremal and probabilistic combinatorics</a> (Part III, Spring 2014)</li>
+<li><a href="https://www.dropbox.com/s/wob1sfwxffwznwm/noise_sensitivity.pdf?dl=0">Noise sensitivity</a> <a href="https://www.dropbox.com/s/6siohdavet0lnkb/ns.zip?dl=0">source</a> (Part III essay)</li>
+<li><a href="https://www.dropbox.com/s/6siohdavet0lnkb/ns.zip?dl=0">Ramsey theory</a> <a href="https://www.dropbox.com/s/10bymuecjvw5wlp/ramsey.zip?dl=0">source</a> (Part III, Fall 2013)</li>
+<li><a href="https://docs.google.com/document/d/177DqNun66BGiLKmOIPdOHeHf8lbcZUM7OHpNlsUY7Ho/edit#">Arithmetic combinatorics</a> (Part III, Fall 2013)</li>
+<li><a href="https://www.dropbox.com/s/tkkgwcrcxxecuhk/part_iii_equidistribution.pdf?dl=0">Additive combinatorics and equidistribution</a> <a href="https://www.dropbox.com/s/foqhbttmqyqu2yo/ed.zip?dl=0">source</a> (Part III, Spring 2014)</li>
+<li><a href="https://www.dropbox.com/s/85csggziyk983sl/AMiIT_review.pdf?dl=0">Algebraic methods in incidence theory</a> <a href="https://www.dropbox.com/s/nmr10deid4wwvno/AMiIT.zip?dl=0">source</a> (Part III, Spring 2014)</li>
+</ul></li>
+<li>Computer science
+<ul>
+<li><a href="http://holdenlee.github.io/coursework/math/18.404/main.pdf">Theory of computation</a> (18.404)</li>
+</ul></li>
+<li>Number theory
+<ul>
+<li>Additive number theory (18.784) <a href="http://holdenlee.github.io/coursework/math/18784/Finite%20field%20Waring.pdf">final paper</a> on finite field Waring’s problem</li>
+<li>Automorphic forms (18.785) <a href="http://holdenlee.github.io/coursework/math/18785/psets.zip">psets</a></li>
+<li><a href="http://holdenlee.github.io/coursework/math/18.787/main.pdf">Abelian varieties and p-divisible groups</a> (18.787) (warning: poorly edited)</li>
+<li><a href="https://www.dropbox.com/s/t1c08591cs5otfb/part_iii_elliptic.pdf?dl=0">Elliptic curves</a> <a href="https://www.dropbox.com/s/pw8wd3oiiti6krs/elliptic.zip?dl=0">source</a> (Part III, Fall 2013)</li>
+</ul></li>
+</ul>
+
+  </div>
+  
+    
+
+    <!-- Extension : Sharing buttons @ www.sharethis.com -->
+    <span class='st_facebook_large' displayText='Facebook'></span>
+    <span class='st_twitter_large' displayText='Tweet'></span>
+    <span class='st_googleplus_large' displayText='Google +'></span>
+    <span class='st_reddit_large' displayText='Reddit'></span>
+    <span class='st__large' displayText=''></span>
+
+    <div id="disqus_thread"></div>
+    
+
+
+  
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+  
+  
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>l-adic properties of partition functions</title>
+    <link href="http://holdenlee.github.io/l-adic%20properties%20of%20partition%20functions.html" />
+    <id>http://holdenlee.github.io/l-adic%20properties%20of%20partition%20functions.html</id>
+    <published>2017-08-07T00:00:00Z</published>
+    <updated>2017-08-07T00:00:00Z</updated>
+    <summary type="html"><![CDATA[
+<div class="container">
+
+  <div id="content">
+    <div class="page header">
+      <h1> l-adic properties of partition functions </h1>
+    </div>
+    
+    
+    <div class="info">
+      
+       
+        <p>Posted: 2017-08-07 
+          , Modified: 2017-08-07 
+	</p>
+      
+       <p>Tags: <a href="/tags/math.html">math</a></p> 
+       <p>Parent: <a href="/Research.html">Research</a></p> 
+	   <p>Children: </p> 
+    </div>
+    
+    
+  </div>
+  <!--/div-->
+
+  <div class="toc"></div>
+
+  <div class="blog-main">
+    <p>Belmont, E., Lee, H., Musat, A., &amp; Trebat-Leder, S. (2014). l-adic properties of partition functions. Monatshefte für Mathematik, 173(1), 1-34.</p>
+<ul>
+<li><a href="http://link.springer.com/article/10.1007/s00605-013-0586-y">Paper</a></li>
+<li><a href="https://dl.dropboxusercontent.com/u/27883775/web/math/papers/MIT%20presentation.pdf">Presentation</a></li>
+</ul>
+<p>Work done at 2011 Number theory REU at Emory University with Ken Ono</p>
+<p>Summary: Partition functions occupy the juncture between number theory and the theory of modular functions, and serve as a testing ground for deep conjectures relating these two areas. Defined as the number of ways to divide n objects into groups, the partition function p(n) satisfies divisibility relations that are most easily explained using modular functions: for instance, p(5n+4) is always divisible by 5.</p>
+<p>Building upon Prof. Ken Ono’s work, in 2011 I used the theory of l-adic modular forms to prove congruences for a whole family of related partition functions, namely, powers of the partition generating function and Andrews’s smallest parts (spt) function. In particular, I developed a suitable modification of Ono’s techniques that work even though the spt function is not directly related to a modular form, but rather to a function with weaker properties called a Maass form. Furthermore, by using l-adic modular forms, I give a conceptual explanation of congruences that were only previous proven on a case-by-case basis (for instance, Andrew’s congruences modulo 5, 7, and 13), and generalize them to other prime powers.</p>
+
+  </div>
+  
+    
+
+    <!-- Extension : Sharing buttons @ www.sharethis.com -->
+    <span class='st_facebook_large' displayText='Facebook'></span>
+    <span class='st_twitter_large' displayText='Tweet'></span>
+    <span class='st_googleplus_large' displayText='Google +'></span>
+    <span class='st_reddit_large' displayText='Reddit'></span>
+    <span class='st__large' displayText=''></span>
+
+    <div id="disqus_thread"></div>
+    
+
+
+  
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+  
+  
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>index</title>
+    <link href="http://holdenlee.github.io/index.html" />
+    <id>http://holdenlee.github.io/index.html</id>
+    <published>2017-08-07T00:00:00Z</published>
+    <updated>2017-08-07T00:00:00Z</updated>
+    <summary type="html"><![CDATA[
+<div class="container">
+
+  <div id="content">
+    <div class="page header">
+      <h1> Holden's Website </h1>
+    </div>
+    
+    
+  </div>
+  <!--/div-->
+
+  <div class="toc"> <ul>
+ <li><a href="#basic-info">Basic Info</a></li>
+ <li><a href="#map">Map</a></li>
+ <li><a href="#about-this-website">About this website</a></li>
+ <li><a href="#why-this-format">Why this format?</a></li>
+ </ul> </div>
+
+  <div class="blog-main">
+    <center>
+<img src="pics/me2.JPG?dl=0" alt="web" width="50%" height="50%">
+</center>
+<p>(ADD CATEGORIES)</p>
+<p><strong>See also my blog at <a href="http://holdenlee.github.io/blog" class="uri">http://holdenlee.github.io/blog</a></strong>.</p>
+<h2 id="basic-info">Basic Info</h2>
+<ul>
+<li>Email: <a href="mailto:holdenl@princeton.edu">holdenl@princeton.edu</a></li>
+<li>Education:
+<ul>
+<li>(Current) <a href="https://www.math.princeton.edu">Princeton University</a>, Ph.D. program in math</li>
+<li><a href="http://www.cam.ac.uk/">University of Cambridge</a>, MAST in Pure Math, 2014</li>
+<li><a href="http://www.mit.edu">Massachusetts Institute of Technology</a>, B. Sc. Math, 2013</li>
+</ul></li>
+</ul>
+<p>I like math and writing, and I care deeply about education. To me, math and writing have a lot in common: they both call on us to be precise, and to ask and answer the “why” questions in the world. Neither of them require much more than pencil and paper, but that’s enough to make beautiful things.</p>
+<p>I’m fascinated by human and artificial intelligence. To me, thee quest for AI is not just a mathematical and technological endeavor, but also a deeply introspective one.</p>
+<h2 id="map">Map</h2>
+<ul>
+<li>If you’d like to find about about my <b>work</b>, look in the <a href="Research.html">Research</a>, <a href="Math%20notes.html">Math notes</a>, and <a href="My%20teaching">My teaching</a> sections. There you can find all the papers and math notes I’ve written up.</li>
+<li>If you’re a <b>math/CS student</b>, check out my <a href="Math%20notes.html">math notes</a> I have available. Contributions are welcome, no matter how little (writing up math takes a lot of time!), especially for the number theory textbook. I’ve also put up some general advice for learning math and putting it in perspective (under construction).</li>
+<li>If you like <b>reading</b>, you can browse my fiction in <a href="Creations.html">Creations</a>. I welcome all comments (and conversations even more). I’m always looking for people to share things with so feel free to drop me a line on anything you’ve written, too.</li>
+<li>If you’re want to <b>find out about me as a person</b> or <b>learn my views on a variety of topics</b> then browse around, and keep reading below.</li>
+<li>If you like to see <b>what’s new</b>, view my blog at <strong><a href="http://holdenlee.github.io/blog" class="uri">http://holdenlee.github.io/blog</a></strong>.</li>
+</ul>
+<p>A tree of all articles is available on the <a href="sitemap.html">sitemap</a>. You can also navigate using the Tags, Parent, and Children links.</p>
+<h2 id="about-this-website">About this website</h2>
+<p>This website is an ongoing project of mine to express my perspectives about a variety of things. In doing so, I hope to</p>
+<ul>
+<li>make a central “about me” page,</li>
+<li>organize and communicate my thoughts,</li>
+<li>start interesting conversations, and</li>
+<li>point out resources (books, websites) that have been useful to me.</li>
+</ul>
+<p>Note that my beliefs are all subject to change, and I’d love to have a conversation about anything here. Simply leave a comment or send me an email at <a href="mailto:holdenl@princeton.edu">holdenl@princeton.edu</a>.<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></p>
+<p>This website is very incomplete. I’ll keep adding to these ramblings, and hopefully they’ll add up to something more and more complete over time.</p>
+<p>Note that I’m adding and updating haphazard fashion. If you’d like me to prioritize a certain part, let me know!</p>
+<h2 id="why-this-format">Why this format?</h2>
+<p>One thing I don’t like about blogging is that it’s linear in time, and anything that fit into something linear is going to feel somewhat disorganized (like the high school math track). Instead, I’m attempting to put all my ramblings in one place and classify them in a tree-like structure, so you can easily traverse to the branch that you want to look at. I will also include links to articles on my blog.</p>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>When deciding whether or not to talk to someone, keep <a href="http://mitadmissions.org/blogs/entry/3-things-we-dont-remember-enough">three things in mind</a>.<a href="#fnref1">↩</a></p></li>
+</ol>
+</section>
+
+  </div>
+  
+  
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>index cards</title>
+    <link href="http://holdenlee.github.io/index%20cards.html" />
+    <id>http://holdenlee.github.io/index%20cards.html</id>
+    <published>2017-08-07T00:00:00Z</published>
+    <updated>2017-08-07T00:00:00Z</updated>
+    <summary type="html"><![CDATA[
+<div class="container">
+
+  <div id="content">
+    <div class="page header">
+      <h1> index cards </h1>
+    </div>
+    
+    
+    <div class="info">
+      
+       
+        <p>Posted: 2017-08-07 
+          , Modified: 2017-08-07 
+	</p>
+      
+       <p>Tags: <a href="/tags/index%20cards.html">index cards</a></p> 
+       <p>Parent: <a href="/Views.html">Views</a></p> 
+	   <p>Children: </p> 
+    </div>
+    
+    
+  </div>
+  <!--/div-->
+
+  <div class="toc"></div>
+
+  <div class="blog-main">
+    <p>Why index cards?</p>
+<ul>
+<li>They’re like little pensieves: thoughts I might mull over for a long time, crystallized to fit on an index card (something I can look over quickly), so I don’t have to retrace my steps.</li>
+<li>An idea is something that fits on an index card but encompasses a lot more when you think about it.</li>
+<li>For things I commonly think about, it’s inefficient to grope for a way to express it every time it comes up - an index card is like an elevator pitch.</li>
+<li>Our ability to conceptify, including building larger concepts out of smaller ones, is a key to our intelligence.</li>
+</ul>
+<p>Other people’s thoughts, organized in a similar way:</p>
+<ul>
+<li>Trefethen’s index cards
+<ul>
+<li>See some online at <a href="http://trefethen.net/" class="uri">http://trefethen.net/</a></li>
+<li>Maxims: <a href="http://people.maths.ox.ac.uk/trefethen/maxims.html" class="uri">http://people.maths.ox.ac.uk/trefethen/maxims.html</a></li>
+</ul></li>
+<li>Zeilberger’s opinions <a href="http://www.math.rutgers.edu/~zeilberg/OPINIONS.html.html">http://www.math.rutgers.edu/~zeilberg/OPINIONS.html</a></li>
+</ul>
+
+  </div>
+  
+    
+
+    <!-- Extension : Sharing buttons @ www.sharethis.com -->
+    <span class='st_facebook_large' displayText='Facebook'></span>
+    <span class='st_twitter_large' displayText='Tweet'></span>
+    <span class='st_googleplus_large' displayText='Google +'></span>
+    <span class='st_reddit_large' displayText='Reddit'></span>
+    <span class='st__large' displayText=''></span>
+
+    <div id="disqus_thread"></div>
+    
+
+
+  
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+  
+  
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Creations</title>
+    <link href="http://holdenlee.github.io/creations.html" />
+    <id>http://holdenlee.github.io/creations.html</id>
+    <published>2017-08-07T00:00:00Z</published>
+    <updated>2017-08-07T00:00:00Z</updated>
+    <summary type="html"><![CDATA[
+<div class="container">
+
+  <div id="content">
+    <div class="page header">
+      <h1> Creations </h1>
+    </div>
+    
+    
+    <div class="info">
+      
+       
+        <p>Posted: 2017-08-07 
+          , Modified: 2017-08-07 
+	</p>
+      
+       <p>Tags: <a href="/tags/writing.html">writing</a></p> 
+       <p>Parent: </p> 
+	   <p>Children: </p> 
+    </div>
+    
+    
+  </div>
+  <!--/div-->
+
+  <div class="toc"> <ul>
+ <li><a href="#completed-stories">Completed stories</a></li>
+ <li><a href="#poetry">Poetry</a></li>
+ <li><a href="#shorts">Shorts</a></li>
+ <li><a href="#unfinished">Unfinished</a></li>
+ </ul> </div>
+
+  <div class="blog-main">
+    <p>(*) <strong>Check out my current writing project, <a href="http://holdenlee.github.io/philosophocle/">Philosophocle</a></strong>!</p>
+<p>Below are stories/poems I have finished and information about ones that I am working on, in chronological order. I’d love to hear comments (including criticisms)! Just comment on the googledocs or send me an email at <a href="mailto:oldheneel@gmail.com">oldheneel@gmail.com</a>. If you would like to preview and give feedback on work-in-progress, please join the <a href="https://groups.google.com/forum/#!forum/holden-readers">Holden’s Readers googlegroup</a>.</p>
+<center>
+<p><img src="pics/wifloflos.jpg"></p>
+<em>Read about <a href="https://docs.google.com/document/d/1sAF1ijUXiyCclrEly-UL9o7leuumVkaXwdeYmrzVv5Q">cloud fairies</a>.</em>
+</center>
+<p>Also check out my <a href="http://holdenlee.deviantart.com/">deviant art</a>.</p>
+<p>(*) Personal pick.</p>
+<h2 id="completed-stories">Completed stories</h2>
+<ul>
+<li>(*) <strong>The Loss of Magic</strong> (<a href="https://holdenlee.wordpress.com/2010/09/01/the-loss-of-magic-short-story/">online</a>, <a href="http://holdenlee.github.io/writing/the_loss_of_magic.doc">Word doc</a>) (9/2010) - <em>She caressed her letters, and they popped out of the page, rustling their newfound wings. Mr. Cavid’s words looked like big fat red caterpillars; as she ran her fingers over them she could feel their spiky bodies rising from the page. They think they’re feeding on a bunch of leaves, she thought, well, guess again. The mass of green letters, each a cross between a fly and a maple key, rose from the page, overturning the bewildered caterpillars, who landed on the blank paper with a satisfying plop.</em></li>
+<li><p><strong>Huntress</strong> (<a href="https://docs.google.com/document/d/1XgqxqMvOpl_AzV_wLOls5a38C4iIhjtJF8ouqeY7RzM/edit?usp=sharing">googledoc</a>, <a href="http://holdenlee.github.io/writing/huntress.docx">Word doc</a>) (5/2011) <em>The girl moved through the long grass. The wind pushed the prairie grasses against her face and wove them into her hair. When she was close enough to see the lion breathing, she hoisted up her iron pike and lunged.</em></p>
+<em>A hand deftly caught the pike around the middle. A boy had suddenly appeared, sitting astride the lion. He looked at her unblinkingly, his gaze telling her he would not hesitate to kill her, and wrenched the pike from her grasp. She reached for her Assassin’s Knife—just one quick slice at the lion’s chest would suffice—but the boy suddenly thrust her pike towards her, and by reflex she somersaulted backwards, barely avoiding it.</em></li>
+<li><strong>Mona</strong> (<a href="https://holdenlee.wordpress.com/2011/06/04/mona/">online</a>, <a href="http://holdenlee.github.io/writing/mona.doc">Word doc</a>) (6/2011)</li>
+<li>(*) <strong>Creature Club</strong> (<a href="https://docs.google.com/document/d/1yPp8A07hiZhR-Q3CbE6jrIpk2KCvc2MgH8-GDRN241M/edit">googledoc</a>, <a href="http://holdenlee.github.io/writing/creature-club.doc">Word doc</a>) (6/2011) - <em>I don’t know whether it was the fuzzy black antennys ending in pom-pom balls or the sniffly pink snout or the round glimmery eyes or the two flubby flipper-wings or the simple luxury of round white balloon-like furriness, but once I laid eyes on her I had to have her. In goes the one-dollar bill; the slightest nudge of my hand sends the gripper off, before it jerks to a stop right above the creature. I press the red button and the hook descends, clutching her cotton skull, bouncing her two antennys together as she rises slowly and royally above the mass of face-down rabbits with oversize ears, scorpions with shells of yucky speckled gray-green plastic, fairies with too-orange skin and tight stiff wings. The flashing light bulbs reflect from her eyes, and as she draws to eye level she seems to be looking directly at me and saying, “I knew that I was destined for higher things.”</em></li>
+<li><strong>Return to Taiwan</strong> (<a href="https://drive.google.com/open?id=1IGDg4XNOCJd3xLftfrouAhJTYisRFaNBJZau0Up9wVc">googledoc</a>, <a href="http://holdenlee.github.io/writing/Return%20to%20Taiwan.docx">Word doc</a>) (4/2013) - <em>“We’re so glad you returned to Taiwan,” they all said, like it was where I belonged, like I had been born there too, not just my parents. They waved tearfully, and Liangliang asked, “When’s the next time you’ll return to Taiwan?” Because “going to Taiwan” didn’t have the same ring to it… I returned to Taiwan again, unexpectedly, during the winter of sixth grade. Permanently.</em></li>
+<li><strong>Two Sides of the River</strong> (<a href="https://drive.google.com/open?id=19ihkgA8G8Mnsz4gFj7nR96-Pf1GJb6ijbxEIXG1zGJQ">googledoc</a>) (4/2013)</li>
+<li>(*) <a href="https://drive.google.com/open?id=18A_6ZOsK3jvo4ILt8zGJZyifIL7g_EBLtpvyGdNwd54"><strong>A Random Collection</strong></a> (3/2014) - A collage of articles about a fictional mathematician.</li>
+<li>(*) <a href="https://docs.google.com/document/d/1Pxs_3NstJrN3YwTQBmLDaLNwBJv6FBGzF23zDpFY0UI/edit"><strong>Goodnight Mel</strong></a> (1/2017) - A couple moves into a house haunted by a girl who plays strange music.</li>
+<li><strong>Three</strong>: coming soon.</li>
+<li><p>(*) <a href="https://docs.google.com/document/d/1sAF1ijUXiyCclrEly-UL9o7leuumVkaXwdeYmrzVv5Q"><strong>Cloud fairies</strong></a> - A myth about cloud fairies.</p></li>
+</ul>
+<h2 id="poetry">Poetry</h2>
+<ul>
+<li><strong>Love {</strong> (<a href="https://docs.google.com/document/d/1N62YvMvUL2u4yS1aAVbpjVkDoXSbbBjVb0vVPHoZUzc/edit?usp=sharing">googledoc</a>, <a href="http://holdenlee.github.io/writing/Love%20%7B.doc">Word doc</a>) (4/2012)</li>
+<li><a href="http://www.oneword.com/word/lemon/comment-page-1/#comment-549410"><strong>Lemon</strong></a> (11/2013)</li>
+<li><a href="https://holdenlee.wordpress.com/2014/10/20/falling-leaves/"><strong>Falling leaves</strong></a> (10/2014)</li>
+<li>(*) <strong>A friendship lost at sea</strong> (<a href="https://holdenlee.wordpress.com/2015/12/30/a-friendship-lost-at-sea/">online</a>, <a href="https://docs.google.com/document/d/1zs3WfQyXXkDucwhVdk_8QZahi2P6H5NRqoPEhl8HNhE/edit">googledoc</a>) (9/2015)</li>
+</ul>
+<h2 id="shorts">Shorts</h2>
+<ul>
+<li><a href="https://holdenlee.wordpress.com/2012/09/10/early-fall/"><strong>Early fall</strong></a> (10/2012)</li>
+<li>(*) <strong>Infinite Love</strong> (<a href="https://drive.google.com/open?id=1J6-zntJcxtQZ-_lh59hnz7Jgp--3p8FsePFXCPEZA74">googledoc</a>, <a href="http://holdenlee.github.io/writing/Infinite%20Love.doc">Word doc</a>) (3/2013)</li>
+<li>(*) <a href="https://docs.google.com/document/d/1_N4ud2qUfq19Vaf0nU6Us7hIZEr62rGey5i02kC-x60/edit"><strong>Balloon</strong></a> (2014)</li>
+<li><a href="https://docs.google.com/document/d/1ZHzAxNyz6ziLAz06C345BCYNBVmVRhCdeDFQDXcHGyY/edit"><strong>Walking</strong></a> (7/2015)</li>
+<li><a href="https://docs.google.com/document/d/1OftJyadVBsXTgPBubrCWKUgBBZEfh5Ntv17Qtc8Yzek/edit"><strong>Parameters of life</strong></a> (7/2015)</li>
+<li><a href="http://www.oneword.com/members/silversheep/">All my onewords</a></li>
+</ul>
+<h2 id="unfinished">Unfinished</h2>
+<ul>
+<li><strong>Pleasant Island 1</strong> - After their houseboat was destroyed by a sea monster, Al, Brody, Tommy, Aly, Betty, and Tinny find themselves stranded on a magical island filled with fantastical creatures. The island seems peaceful at first, but they soon have to confront Crocomons, defend themselves from live snowballs, and finally save the island from volcanic destruction. How will they manage to escape? (Here is a sample chapter on <a href="https://docs.google.com/document/d/1tDXD1nF9M2cK8uascZlKAdFNIRPiNbEcbqePb8SH7_0/edit?usp=sharing">cloud fairies</a>.)</li>
+<li><strong>Pleasant Island 2: The Legend of Magicoly</strong> - (Sequel) A magical storm sends Pleasant Island hurtling into space, and a giant beetle shows up on the family’s doorstep. Before they know it, the family is whisked off to the new Pleasant Island. At first they enjoy their time as tourists but soon they find themselves in the middle of an all-out attack on the archipelago…</li>
+<li><strong>Into the World of Dreams</strong> - <a href="http://holdenlee.github.io/writing/prologue.docx">sample</a></li>
+<li><strong>Context Cities</strong> (NaNoWriMo 2014) - <a href="https://holdenlee.wordpress.com/2014/10/30/i-am-writing-a-novel-in-november/">About</a>, <a href="https://docs.google.com/document/d/14giivbi_sGRjGvQFc45O_SCGsuAIl3_uTZIzPuf7Ai0/edit">one chapter</a></li>
+<li><a href="https://docs.google.com/document/d/1vwAsNirx7HI0GATayO-omJMIIQrKOSHSFO_wnrhKfsU/edit?usp=sharing"><strong>Don’t grow up it’s a conspiracy</strong></a> (1/2015)</li>
+</ul>
+<ol start="3" type="A">
+<li>All rights reserved.</li>
+</ol>
+
+  </div>
+  
+    
+
+    <!-- Extension : Sharing buttons @ www.sharethis.com -->
+    <span class='st_facebook_large' displayText='Facebook'></span>
+    <span class='st_twitter_large' displayText='Tweet'></span>
+    <span class='st_googleplus_large' displayText='Google +'></span>
+    <span class='st_reddit_large' displayText='Reddit'></span>
+    <span class='st__large' displayText=''></span>
+
+    <div id="disqus_thread"></div>
+    
+
+
+  
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+  
+  
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Writing</title>
+    <link href="http://holdenlee.github.io/Writing.html" />
+    <id>http://holdenlee.github.io/Writing.html</id>
+    <published>2017-08-07T00:00:00Z</published>
+    <updated>2017-08-07T00:00:00Z</updated>
+    <summary type="html"><![CDATA[
+<div class="container">
+
+  <div id="content">
+    <div class="page header">
+      <h1> Writing </h1>
+    </div>
+    
+    
+    <div class="info">
+      
+       
+        <p>Posted: 2017-08-07 
+          , Modified: 2017-08-07 
+	</p>
+      
+       <p>Tags: <a href="/tags/writing.html">writing</a></p> 
+       <p>Parent: <a href="/index.html">index</a></p> 
+	   <p>Children: <a href="/Lenses%20for%20writing.html">Lenses for writing</a>, <a href="/Links%20for%20writers%20and%20readers.html">Links for writers and readers</a>, <a href="/Story-completeness.html">Story-completeness</a>, <a href="/What%20I%20learned%20about%20writing%20from%20my%20professors.html">What I learned about writing from my professors</a>, <a href="/creations.html">creations</a></p> 
+    </div>
+    
+    
+  </div>
+  <!--/div-->
+
+  <div class="toc"></div>
+
+  <div class="blog-main">
+    <p>See also <a href="Links%20for%20writers%20and%20readers.html">Links for writers and readers</a>.</p>
+<ul>
+<li><a href="My%20writing.html">My writing</a></li>
+<li>The math-writing divide: <a href="http://holdenlee.wordpress.com/2013/09/15/the-mathwriting-divide/" class="uri">http://holdenlee.wordpress.com/2013/09/15/the-mathwriting-divide/</a></li>
+<li><a href="What%20I%20learned%20about%20writing%20from%20my%20professors.html">What I learned about writing from my professors</a></li>
+<li>Storytelling
+<ul>
+<li>Fifth uncle tells stories: <a href="http://holdenlee.wordpress.com/2013/09/16/fifth-uncle-tells-stories/" class="uri">http://holdenlee.wordpress.com/2013/09/16/fifth-uncle-tells-stories/</a></li>
+</ul></li>
+</ul>
+
+  </div>
+  
+    
+
+    <!-- Extension : Sharing buttons @ www.sharethis.com -->
+    <span class='st_facebook_large' displayText='Facebook'></span>
+    <span class='st_twitter_large' displayText='Tweet'></span>
+    <span class='st_googleplus_large' displayText='Google +'></span>
+    <span class='st_reddit_large' displayText='Reddit'></span>
+    <span class='st__large' displayText=''></span>
+
+    <div id="disqus_thread"></div>
+    
+
+
+  
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+  
+  
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Writing curriculum</title>
+    <link href="http://holdenlee.github.io/Writing%20curriculum.html" />
+    <id>http://holdenlee.github.io/Writing%20curriculum.html</id>
+    <published>2017-08-07T00:00:00Z</published>
+    <updated>2017-08-07T00:00:00Z</updated>
+    <summary type="html"><![CDATA[
+<div class="container">
+
+  <div id="content">
+    <div class="page header">
+      <h1> Writing curriculum </h1>
+    </div>
+    
+    
+    <div class="info">
+      
+       
+        <p>Posted: 2017-08-07 
+          , Modified: 2017-08-07 
+	</p>
+      
+       <p>Tags: <a href="/tags/curriculum.html">curriculum</a></p> 
+       <p>Parent: <a href="/Education.html">Education</a></p> 
+	   <p>Children: </p> 
+    </div>
+    
+    
+  </div>
+  <!--/div-->
+
+  <div class="toc"> <ul>
+ <li><a href="#preliminary-thoughts">Preliminary thoughts</a></li>
+ <li><a href="#on-empowerment">On empowerment</a></li>
+ <li><a href="#chapter-openings">Chapter openings</a></li>
+ <li><a href="#the-5-ss-applied-to-textbook-writing">The 5 S’s, applied to textbook writing</a></li>
+ <li><a href="#narrative">Narrative</a></li>
+ <li><a href="#problems">Problems</a></li>
+ </ul> </div>
+
+  <div class="blog-main">
+    <p>See also my presentation for ESP, “Why your math textbook sucks” <a href="https://dl.dropboxusercontent.com/u/27883775/wiki/files/Why%20your%20math%20textbook%20SUCKS.pptx">https://dl.dropboxusercontent.com/u/27883775/wiki/files/Why%20your%20math%20textbook%20SUCKS.pptx</a></p>
+<p>Here are some thoughts on writing curriculum I’ve had while working at Gliya (an educational startup).</p>
+<h2 id="preliminary-thoughts">Preliminary thoughts</h2>
+<p>First, read Winston’s advice on writing (<a href="What%20I%20learned%20from%20Patrick%20Winston.html">What I learned from Patrick Winston</a>). Excerpt:</p>
+<blockquote>
+<p>Begin each chapter (and begin each lesson in a classroom) with an empowerment promise - what you will be able to do after the lesson - and show that you have delivered upon that promise at the end of the chapter. For an example of a chapter opening, see <a href="http://courses.csail.mit.edu/6.803/chapteropenings.html." class="uri">http://courses.csail.mit.edu/6.803/chapteropenings.html.</a></p>
+</blockquote>
+<p>Break up into large number of sections/subsections for easy reading. (This limits the amount of time you have to read before you get to a place when you can pause, a kind of “local goal” you can keep aiming towards.) Lots of titles together act as a road map, and point out the salient points of each section.</p>
+<p>Making section titles complete sentences helps the reader summarize the main point achieved from reading the section.</p>
+<p>Parallel structure is good organization. (Ex. between congruence and similarity)</p>
+<h2 id="on-empowerment">On empowerment</h2>
+<p>Always, always maintain an encouraging tone. When you give the student instructions, make it seem like the student is ACTIVELY doing something CREATIVE, rather than just following instructions.</p>
+<ul>
+<li>For instance, rather than “In the following problems you will use proportions to find side lengths” say “You’ll <strong>put to use</strong> the proportions you get from similar triangles to compute side lengths.”</li>
+<li>Rather than say “The diagram is as follows” say “We first <strong>draw</strong> the diagram:”</li>
+<li>“Besides just measuring shadows, there are many other ways to find the heights and lengths of objects you can’t measure directly. Below you’ll <strong>discover</strong> several ways to do so, all using AA similarity.”</li>
+<li>Now ‘’you’re ready’’ for some more complex problems. Use a bit more thought to find the correct pair of similar triangles!</li>
+<li>Thales’s theorems remain the earliest attributed theorems in mathematics. In this section you’ll follow in Thales’s footsteps yet again as you <strong>rediscover</strong> an important theorem on similar triangles for yourself.</li>
+<li>Using “let’s” in solutions.</li>
+<li>We can <strong>create new information</strong> by [drawing a parallel line, extending a segment,…]</li>
+</ul>
+<p>If followed consistently this makes a big impact on the tone of the whole lesson.</p>
+<h2 id="chapter-openings">Chapter openings</h2>
+<p>At the beginning of each chapter, have a summary and visual organizer of the material to motivate the reader. The summary should + give an <strong>empowerment promise</strong>: what will the reader have gained from learning these cells? What will (s)he be able to do that (s)he couldn’t before? Aim for <strong>concrete examples</strong> (ex. measure the height of a tree, rather than measure the height of tall objects). + give a quick summary of the different cells, how they relate to each other logically. Give a visual road map (“advance organizer”). + show how the lessons fit into the bigger picture – how they extend what the reader has already learned, and how they will enable the reader to learn future lessons.</p>
+<p>Good organization will make students feel like they’re making concrete progress, and organize in their minds how all the different lessons they learn are related.</p>
+<h2 id="the-5-ss-applied-to-textbook-writing">The 5 S’s, applied to textbook writing</h2>
+<p>Include all the following:</p>
+<ul>
+<li><strong>Slogan</strong>: A repeated phrase that sticks in readers’ minds.</li>
+<li><strong>Symbol</strong>: A repeated picture that sticks in readers’ minds.</li>
+<li><strong>Salient</strong>: Have one idea that sticks out. (If you put “too many” good ideas in, then none of them sticks out and the reader won’t know what to make of the piece.) (Warning: this page does not follow this principle.) Crystallize the core ideas in concept boxes.</li>
+<li><strong>Surprise</strong>: Something unexpected.</li>
+<li><strong>Story</strong>: Have a narrative.</li>
+</ul>
+<p>For instance, here’s how I implemented the 5 S’s in the Similar Triangles.</p>
+<ul>
+<li><strong>Slogan</strong>: “Same shape but not the same size.” “Too big to measure.”</li>
+<li><strong>Symbol</strong>: A picture of measuring the height of a tree using similar triangles. I put this in the intro, in the actual lesson, and in the summary.</li>
+<li><strong>Salient</strong>: In several places. First, the concept boxes. Second, presenting the 3 common similar triangle situations (2 with parallel lines, one with right triangles) over and over again. Using similar triangles to measure the height of things you can’t measure directly. This is in the main narrative, and there are 3 exercises in the AA section (all with the story attached) on this.</li>
+<li><strong>Surprise</strong>: The fact that there are so many different ways to measure lengths you can’t measure directly is rather surprising.</li>
+<li><strong>Story</strong>: Two main storylines. First, Eric (the proportions guy) and Connie (the congruent triangles girl) coming together to find the height of a tree. Second, Thales of Miletos used similar triangles to find the distance of a warship from shore 2600 year ago. (History is a good source of stories!)</li>
+</ul>
+<h2 id="narrative">Narrative</h2>
+<p>The 5 elements of a story are:</p>
+<ul>
+<li>Plot</li>
+<li>Characters: Each character should have a distinct personality. Think through the character’s heritage (parents), dialogue (what makes it unique?), worldview, and daily life.</li>
+<li>Conflict: This can be an outside problem the characters have to use their brains to solve, or just some friendly rivalry (which always works… for instance, Connie and Karen competing to see who can come up with more congruence criteria).</li>
+<li>Theme: What’s the overall message? (Ex. you can use similar triangles to measure things you can’t measure directly)</li>
+<li>Setting</li>
+</ul>
+<p>A good curriculum should contain a narrative, that satisfies the following.</p>
+<ul>
+<li><strong>Relevant/natural</strong>: It seems like a exploration that could actually happen in real life (ex. using fractions in recipes, vs. shooting fractions dropping from alien invaders). The characters should build upon information that they have. Occasionally you can have a corny/far-fetched story IF it is…</li>
+<li><strong>Memorable</strong>: Have a key idea or bit of story (salient) that stands out. Even if students don’t remember much of the chapter, they’ll remember this, and hence a key idea of the chapter.</li>
+<li><strong>Worldbuilding</strong>: Develop the characters and the setting, and keep building upon the same set of characters and settings in future lessons.</li>
+<li><strong>Identification</strong>: Readers need to identify with the characters. Make them think, “Oh, that sounds like a problem I could encounter!” or “Oh, I could have come up with that too!”</li>
+</ul>
+<p>Details matter! Try to be as specific as possible. Rather than “model airplane” for instance, write “model Wright Flyer (the Wright brothers’ plane).”</p>
+<h2 id="problems">Problems</h2>
+<p>Try to include a few problems with stories attached (stories that use characters in the “world” you developed, in situations they would encounter – NOT random characters taken off the street like John Doe). Start with these problems if possible.</p>
+<p>Organize similar problems together, with guiding text! (For instance, in problem solving with similar triangles: Multi-step problems, computation problems, How does it all fit together?)</p>
+<p>Don’t just put a random progression. Each problem should have some important key idea, that makes a student remember the problem.</p>
+<p>Reason before fact!</p>
+<p>Use concept boxes as salients. Keep the text in the boxes short, punchy, and memorable.</p>
+<p>Encourage students to ask questions, so put questions in the solutions at difficult points where an intellectual leap is necessary.</p>
+<p>Diagrams, diagrams, diagrams! Using different colors, bold lines, and hatching helps to emphasize different parts.</p>
+
+  </div>
+  
+    
+
+    <!-- Extension : Sharing buttons @ www.sharethis.com -->
+    <span class='st_facebook_large' displayText='Facebook'></span>
+    <span class='st_twitter_large' displayText='Tweet'></span>
+    <span class='st_googleplus_large' displayText='Google +'></span>
+    <span class='st_reddit_large' displayText='Reddit'></span>
+    <span class='st__large' displayText=''></span>
+
+    <div id="disqus_thread"></div>
+    
+
+
+  
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+  
+  
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Why do people do what they do?</title>
+    <link href="http://holdenlee.github.io/Why%20do%20people%20do%20what%20they%20do.html" />
+    <id>http://holdenlee.github.io/Why%20do%20people%20do%20what%20they%20do.html</id>
+    <published>2017-08-07T00:00:00Z</published>
+    <updated>2017-08-07T00:00:00Z</updated>
+    <summary type="html"><![CDATA[
+<div class="container">
+
+  <div id="content">
+    <div class="page header">
+      <h1> Why do people do what they do? </h1>
+    </div>
+    
+    
+    <div class="info">
+      
+       
+        <p>Posted: 2017-08-07 
+          , Modified: 2017-08-07 
+	</p>
+      
+       <p>Tags: <a href="/tags/life.html">life</a></p> 
+       <p>Parent: </p> 
+	   <p>Children: </p> 
+    </div>
+    
+    
+  </div>
+  <!--/div-->
+
+  <div class="toc"></div>
+
+  <div class="blog-main">
+    <p>Why do people do what they do? It comes down to three things: feeling, necessity, and habit. You do things because you want to, you do things because you need to, and you do things because you’ve always done it that way.</p>
+<p>When you realize this, you can first <em>observe</em>: categorize the things that you do. You can then <em>reengineer</em>: think about your goals and try to make these reasons happen in the steps towards those goals. Make it fun. Trick yourself with necessity: make yourself responsible for various tasks, imagine consequences. Develop the right habits.</p>
+<p><em>UNDER CONSTRUCTION</em></p>
+
+  </div>
+  
+    
+
+    <!-- Extension : Sharing buttons @ www.sharethis.com -->
+    <span class='st_facebook_large' displayText='Facebook'></span>
+    <span class='st_twitter_large' displayText='Tweet'></span>
+    <span class='st_googleplus_large' displayText='Google +'></span>
+    <span class='st_reddit_large' displayText='Reddit'></span>
+    <span class='st__large' displayText=''></span>
+
+    <div id="disqus_thread"></div>
+    
+
+
+  
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+  
+  
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Why are we still writing linearly?</title>
+    <link href="http://holdenlee.github.io/Why%20are%20we%20still%20writing%20linearly.html" />
+    <id>http://holdenlee.github.io/Why%20are%20we%20still%20writing%20linearly.html</id>
+    <published>2017-08-07T00:00:00Z</published>
+    <updated>2017-08-07T00:00:00Z</updated>
+    <summary type="html"><![CDATA[
+<div class="container">
+
+  <div id="content">
+    <div class="page header">
+      <h1> Why are we still writing linearly? </h1>
+    </div>
+    
+    
+    <div class="info">
+      
+       
+        <p>Posted: 2017-08-07 
+          , Modified: 2017-08-07 
+	</p>
+      
+       <p>Tags: <a href="/tags/communication.html">communication</a></p> 
+       <p>Parent: </p> 
+	   <p>Children: </p> 
+    </div>
+    
+    
+  </div>
+  <!--/div-->
+
+  <div class="toc"> <ul>
+ <li><a href="#why-are-we-still-writing-linearly">1 Why are we still writing linearly?</a></li>
+ <li><a href="#what-makes-knowledge-alive">2 What makes knowledge alive?</a></li>
+ <li><a href="#mimetics">3 Mimetics</a></li>
+ </ul> </div>
+
+  <div class="blog-main">
+    <p>Back to <a href="Views%20on%20life.html">Views on life</a>.</p>
+<h2 id="why-are-we-still-writing-linearly">1 Why are we still writing linearly?</h2>
+<p>I don’t learn and remember knowledge linearly.</p>
+<ol type="1">
+<li><p>When I have to write an essay, I make an outline first, and then delete the bullet points to make it text.</p></li>
+<li><p>When I read something, I find myself making an outline of it to better understand, retain, and talk about the information.</p></li>
+</ol>
+<p>Knowledge exists in a more “alive” form in outlines (hierarchical structures) or diagrams (graphs) or index cards. So why do we insist on translating it to linear text to communicate with other people, and then translating it out of linear text in our minds? Wouldn’t it be better to develop and use a style of communication closer to what’s in our minds?</p>
+<p>The answer is (1) that linear has been the way it’s always been done, and (2) that as human beings we are limited to moving forward in time with one point of consciousness. (2) is the reason why stories are traditionally told linearly, and why they will mostly stay that way (of course, there are also creative alternatives) – see <a href="Webs%20and%20threads.html">Webs and threads</a>. But while threads feed our feelings, they are poor at capturing the structure in our minds. They are poor at feeding our reason. (On the dichotomy between feeling and reason: <a href="There%20are%20two%20types%20of%20truths%20in%20the%20world.html">There are two types of truths in the world</a>)</p>
+<h2 id="what-makes-knowledge-alive">2 What makes knowledge alive?</h2>
+<p>See quote: <a href="Google%20books.html">Google books</a>.</p>
+<p>I’m using the word “alive” to refer to knowledge that has self-awareness. At a basic level, it’s just: how much of the structure of that knowledge can you see from the outside without actually knowing all of it. A dense tome with no index and no sectioning is not alive. Add an index and chapters and sections and exercises, and even someone who can’t read the language sees more structure to the text. Now add hyperlinks, add summaries/takeaways, make sections of it collapsible, add code snippets that you can execute, a program to generate a dependency graph of sections, various routes through the text based on what you want to get out of it, suggested lists of exercises, the ability to comment on the text and discuss in a forum with other readers, etc., and the text almost seems to develop a life of its own. (There are 2 issues here: first is the intrinsic “aliveness” of the knowledge, and second how easily the knowledge avails itself to connect up with the knowledge that you bring - ex. is it in a format that’s easy for you to annotate?) You may not need all of these, but they help.</p>
+<p>(Making knowledge “alive” is something we have to think about when we’re writing. For example, if we have a tool to automatically draw theorem dependencies from a LaTeX document, then in order to use this tool, whenever we write a proof, we have to make sure we explicitly reference exactly the theorems that are needed for the proof.)</p>
+<p>Interestingly, we didn’t need computers to understand that knowledge is more alive in outlines and interconnected webs. You can always make diagrams and outlines, without computers. But the study of data structures only came to be with computers, and it’s made us realize that these structures aren’t just good for computers, they’re good for us too. (More about this in the future <a href="How%20computers%20change%20the%20way%20we%20think.html">How computers change the way we think</a>). Technology isn’t just about concrete devices like computers, it’s about changing the way we think. We now have the technology to make the knowledge we store in our computers (or even on paper) resemble more and more the way that knowledge is stored in our minds.</p>
+<h2 id="mimetics">3 Mimetics</h2>
+<p>It’s not just about long texts, but little bits of information, like blog posts. A good blog post offers a way for the reader to “grok” the post so that the reader can explain to someone else why it matters, like a good selfish gene. (Because that’s what they are. Our happiness is connected to the spreading of ideas that matter to us. We slave for our ideas; we are their riders.) We should write in a way that makes it easy for a reader to grok and remix what we write. There are lots of tools to this: tiddlywiki, workflow, smart hyperlinking. Open source. We have too much information. We need to pause in producing more and think about how we can produce information that is more alive.</p>
+<p>(see also: The AI Symposium that reawakened AI, under section 8 of <a href="What%20I%20learned%20from%20Patrick%20Winston.html">What I learned from Patrick Winston</a>)</p>
+
+  </div>
+  
+    
+
+    <!-- Extension : Sharing buttons @ www.sharethis.com -->
+    <span class='st_facebook_large' displayText='Facebook'></span>
+    <span class='st_twitter_large' displayText='Tweet'></span>
+    <span class='st_googleplus_large' displayText='Google +'></span>
+    <span class='st_reddit_large' displayText='Reddit'></span>
+    <span class='st__large' displayText=''></span>
+
+    <div id="disqus_thread"></div>
+    
+
+
+  
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+  
+  
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Where are you looking?</title>
+    <link href="http://holdenlee.github.io/Where%20are%20you%20looking.html" />
+    <id>http://holdenlee.github.io/Where%20are%20you%20looking.html</id>
+    <published>2017-08-07T00:00:00Z</published>
+    <updated>2017-08-07T00:00:00Z</updated>
+    <summary type="html"><![CDATA[
+<div class="container">
+
+  <div id="content">
+    <div class="page header">
+      <h1> Where are you looking? </h1>
+    </div>
+    
+    
+    <div class="info">
+      
+       
+        <p>Posted: 2017-08-07 
+          , Modified: 2017-08-07 
+	</p>
+      
+       <p>Tags: <a href="/tags/life.html">life</a></p> 
+       <p>Parent: </p> 
+	   <p>Children: </p> 
+    </div>
+    
+    
+  </div>
+  <!--/div-->
+
+  <div class="toc"></div>
+
+  <div class="blog-main">
+    <p>Back to <a href="Views%20on%20life.html">Views on life</a>.</p>
+<p>From <a href="What%20I%20learned%20from%20Patrick%20Winston.html">What I learned from Patrick Winston</a>:</p>
+<blockquote>
+<p>Whenever you are meeting someone, look them in the eye. When a committee considers candidates for a position (for instance, the president of MIT), a candidate will have to shake hands with a long row of people. The biggest mistake is to turn your head toward the next person while you are still shaking hands with the previous person. This creates a kind of subconscious bias in the committee member’s heads. These candidates do not get the position.</p>
+</blockquote>
+<p>This principle applies much more broadly, and is usually referred to as <strong>focus on the present.</strong> + If you’re always looking to the future, you’re letting the present slip by without making the most of it, and you probably won’t enjoy it. You’ll look back on those days and ask yourself: what did I <em>do</em> in those days? Why can’t I remember? Why do I have nothing to talk about? + If you think that the person you’re talking to now is boring and it’s just something you tolerate because maybe you’ll talk to more interesting people later, then you’re not putting enough faith in the conversation to let it be interesting. It’s no fun to talk to someone who you can tell is “looking ahead” to more interesting things like in the Winston’s parable.</p>
+
+  </div>
+  
+    
+
+    <!-- Extension : Sharing buttons @ www.sharethis.com -->
+    <span class='st_facebook_large' displayText='Facebook'></span>
+    <span class='st_twitter_large' displayText='Tweet'></span>
+    <span class='st_googleplus_large' displayText='Google +'></span>
+    <span class='st_reddit_large' displayText='Reddit'></span>
+    <span class='st__large' displayText=''></span>
+
+    <div id="disqus_thread"></div>
+    
+
+
+  
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+  
+  
+</div>
+]]></summary>
+</entry>
+
+</feed>
