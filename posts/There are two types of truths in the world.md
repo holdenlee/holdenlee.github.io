@@ -2,7 +2,7 @@
 title: There are two types of truths in the world
 published: 2017-08-07
 modified: 2017-08-07
-parent: Views on life
+parent: Views
 tags: under_construction, life, religion
 type: uncategorized
 showTOC: True

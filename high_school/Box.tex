@@ -1,0 +1,70 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\pdfpagewidth 8.5in
+\pdfpageheight 11in
+\setlength{\oddsidemargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{-1in}
+\setlength{\textheight}{9.5in}
+
+\title{Box (a.k.a Pigeonhole) Principle, Coloring, and Related Ideas}
+\author{ERHS Math Club}
+\date{November 2008}
+
+\begin{document}
+\maketitle{}
+
+\textbf{The Box/ Pigeonhole Principle: If $kn+1$ objects are put in $n$ groups, then one group will contain at least $k+1$ objects.}
+
+\section{Easy}
+\begin{enumerate}
+\item In a drawer are 3 pairs of socks in each of the seven colors of the rainbow. How many socks do I need to take to be sure there is a triplet of matching socks for my three-legged pet alien?
+\item Prove that in any set of n+1 integers there exist 2 whose difference is divisible by n.
+\item (AHSME 1993) Label n disks "n" for $1 \leq n \leq 50$. Find the least number of disks that must be drawn to guarantee drawing at least ten disks with the same label.
+\item (AHSME 1991) A circular table has 60 chairs around it. There are $N$ people seated at the table in such a way that the next person to be seated must sit next to someone. Find the least possible $N$.
+\item A computer has been used for 99 hours over a period of 12 days, A whole number of hours every day. Prove that on some pair of consecutive days, the computer was used at least 17 hours.
+\item Five lattice points (points with integer coordinates) are chosen in the plane. Prove you can choose 2 points such that the line segment joining them passes through another lattice point.
+\item n people meet in a room. Some shake hands. Prove that 2 people will have shaken the same number of hands.
+\item Prove that for any n, there is a Fibonacci number that has n as a factor.
+\item Prove that of any 10 points chosen within an equilateral triangle of side 1 there are 2 whose distance apart is at most 1/3.
+\end{enumerate}
+
+\section{Medium}
+\begin{enumerate}
+\item (Dirichlet and Kronecker) Let $a$ be irrational and $p$ be a positive integer. a) There exist positive integers $m, n$ such that $\left|ma-p\right|\leq \frac{1}{p}$. b) A man with step length $a$ walks around a planet with circumference 1. The circle has a ditch of width $\epsilon>0$. Prove that sooner or later he will step into the ditch.
+\item Let S be a set of n integers. Prove that S contains a subset such that the sum of its elements is divisible by n. (Hint: Partial sums)
+\item (1973 NYSML) A set S of distinct integers each of which is greater than or equal to 1 and less than or equal to 100 is given. (1- easy) If S consists of 51 elements, is it possible that no element of S is the sum of two distinct elements of S? (2- medium) If S consists of 52 elements, prove that the largest element of S is the sum of 2 distinct elements of S and the smallest element is the difference of two distinct elements of S. (3- hard) If S consists of 69 elements prove that at least 1 element of S is the sum of 3 distinct elements of S.
+\item (APMO) Does the set {1,2,...3000} contain a subset $A$ of 2000 elements such that $x$ is in $A$ implies $2x$ is not in $A$?
+\item Each point of the plane is colored white, black, or red. Prove that it is possible to find 2 points which are painted in the same color and the distance between them is 1.
+\item 8 points are inside or on a circle of radius 1. Prove that 2 of them are less than 1 unit apart.
+\item Each of 10 segments is longer than 1 but shorter than 55. Prove you can select 3 segments that form a triangle.
+\item Inside the unit square lie several circles with sum of circumferences equal to 10. Prove there exist infinitely many lines each of which intersects at least 4 circles.
+\item Let S be a set of 25 points such that in any 3-element subset of S there exist two points with distance less than 1. Prove that there exists a 13-subset of S which can be covered by a circle of radius 1. (Hint: take the pair of points with MAXIMUM distance apart)
+\item (BAMO 2006) The points of the plane are colored in black and white so that whenever three vertices of a
+parallelogram are the same color, the fourth vertex is that color, too. Prove that all the points
+of the plane are the same color. (Note this isn't a box principle problem)
+\end{enumerate}
+
+\section{Hard}
+\begin{enumerate}
+\item The politicians in Congress were divided into 12 factions. After their first meeting they regrouped into 16 factions. (Each politician can only be in one faction at a time.) Prove that now at least 5 politicians are in smaller factions than before the meeting.
+\item A sloppy tailor uses a machine to cut 120 square patches of area 1 from a 25x20 rectangle sheet. Prove that he can still cut a circular patch of diameter 1 from the remaining fabric. (Hint: where can the center of the circle NOT be, relative to the cut-out patches?)
+\item Given a square grid S containing 49 points in 7 rows and 7 columns, a subset consisting of k points is selected. Find the maximum k such that no 4 points of T determine a rectangle having sides parallel to those of S.
+\item Let S be a convex set in the plane that contains three noncollinear points. The points of S are colored by $p>1$ colors. Prove that for any $n \geq 3$ there exist infinitely many congruent n-gons whose vertices are colored by the same color.
+\item Let n be a given positive integer. Consider a set S of n points, with no 3 collinear, such that
+the distance between any pair of points in the set is least 1. We define the radius of the set,
+denoted by $r_S$, as the largest circumradius of the triangles with their vertices in S. Determine
+the minimum value of $r_S$. (Hint: extended law of sines: $2R=\frac{a}{\sin{A}}$)
+\item There are 650 points inside a circle of radius 16. Prove there exists a ring with inner radius 2 and outer radius 3 covering 10 of these points.
+\item (ISL 1999) Prove that the positive integers cannot be partitioned into 3 nonempty sets such that if x is in one set and y is in another, then $x^2+xy+y^2$ is in the third.
+\item (Romania 1996) Let $n$ be an integer greater than 2 and let $S$ be a $3n^2$ - element subset of the set $\left\{1,2,\ldots,n^3\right\}$. Prove that one can find nine distinct numbers $a_{1},a_{2},\ldots,a_{9}$ in $S$ such that the system
+\begin{eqnarray*}
+a_{1}x+a_{2}y+a_{3}z=0\\
+a_{4}x+a_{5}y+a_{6}z=0\\
+a_{7}x+a_{8}y+a_{9}z=0
+\end{eqnarray*}
+has a solution $(x_{0},y_{0},z_{0})$ in nonzero integers.
+\end{enumerate}
+
+\end{document}

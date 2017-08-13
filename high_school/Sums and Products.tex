@@ -1,0 +1,103 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\pdfpagewidth 8.5in
+\pdfpageheight 11in
+\setlength{\oddsidemargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{-1in}
+\setlength{\textheight}{9.5in}
+
+\title{Algebra: Sums and Products}
+\author{ERHS Math Club}
+\date{September 9, 2008}
+
+\begin{document}
+\maketitle{}
+
+\section{Arithmetic and Geometric Sequences and Series}
+
+\begin{enumerate}
+\item The triangular numbers are 1,3,6,10,15,...; the square numbers are the numbers 1,4,9,16,25...; the pentagonal numbers are 1,5,12,22,35; and so on. Give a formula for the nth r-gonal number.
+\item NYSML 2007/F4 The sequence $a_1, a_2, a_3, \ldots $ is a non-constant arithmetic progression and its terms $a_1, a_2, a_4$ form a geometric progression. Compute $\frac{a_6}{a_5}$.
+\item The sum of the first six terms of an arithmetic progression whose first term is 1 is equal to the sum of the first six terms of the geometric progression beginning 1, 2, 4... Find the sixth term of the arithmetic progression.
+\item NYSML 2007/F1 A non-constant geometric progression of real numbers has the property that its 1st, 3rd, and 5th terms form an arithmetic progression. Compute the common ratio of the geometric progression.
+\item NYSML 2000/F1 In an increasing geometric progression, the difference between the second and third terms is 12 and the difference between the fourth and fifth is 27. Compute the first term.
+\item AIME 2006/2 Let set A be a 90-element subset of $\left\{1,2,3,\ldots 100\right\}$, and let S be the sum of elements of A. Find the number of possible values of S.
+\item NYSML 2007/F2 If $f(0) = 3$ and for each integer $n \geq 0$, $f(n+1) = 3 \cdot f(0) \cdot f(1) \cdot f(2) \ldots f(n)$, then $f(10) = p^a$, for some prime p and integer a, compute $(p,a)$.
+\item AHSME 1966/39 In base b the expanded fraction $F_1$ becomes $.3737 \ldots = .\overline{37}$, and the expanded fraction $F_2$ becomes $.7373 \ldots = .\overline{73}$. In base a the expanded fraction $F_1$ becomes $.2525 \ldots = .\overline{25}$, and the expanded fraction $F_2$ becomes $.5252 \ldots = .\overline{52}$. Find the sum of a and b, each written in base ten.
+\item AIME2 2002/4 Patio blocks that are regular hexagons 1 unit on a side are used to outline a garden by placing them edge to edge with n on a side. If $n=202$, then the area enclosed by the path, not including the path, is $m \frac{\sqrt{3}}{2}$. Find the remainder when m is divided by 1000.
+\item AIME2 2003/8 Find the eigth term of the sequence 1440, 1716, 1848... formed by multiplying corresponding terms of 2 arithmetic sequences.
+\item ARML 2001/T8 Compute the number of sets of three distinct elements which can be chosen from the set $\left\{2^1, 2^2, 2^3, \ldots, 2^{1999}, 2^{2000}\right\}$ such that the three elements form an increasing geometric progression.
+\item ARML 2008/T10 The positive integers $a_1, a_2, \ldots a_{72}$ form an increasing arithmetic sequence with $a_5 = 300$. If we remove 67 of these numbers, including $a_3$ through $a_7$, the resulting 5 integers form a geometric sequence. Compute the value of the largest of those five integers.
+\end{enumerate}
+For Fun: Using your calculator find $\frac{1}{99}, \frac{1}{98}, \frac{1}{97}, \frac{1}{999}, \frac{1}{998}, \frac{1}{997}$. Do you see a pattern? Can you prove it?
+
+\section{Telescoping Sums and Products}
+
+\begin{enumerate}
+
+\item MATHCOUNTS 1988 Evaluate $(1+\frac{1}{2})(1+\frac{1}{3})(1+\frac{1}{4})(1+\frac{1}{5})(1+\frac{1}{6})(1+\frac{1}{7})$
+\item Evaluate $\prod_{k=2}^{n} (1-\frac{1}{k^2})$.
+\item Let $x=\frac{1}{2!}+\frac{2}{3!}+ \ldots +\frac{999}{1000!}$. Which is true? a. $x<.999$ b. $.999 \leq x < 10^{12345}$ c. $10^{12345} \leq x < 1$ d. $1 \leq x < 1+10^{12345}$ e. $1+10^{12345} \leq x$
+\item Sum: $\sum_{k=1}^{n} 3k^2 +3k +1$.
+\item AMC 12P/11 Let $t_n=\frac{n(n+1)}{2}$. Find $\sum_{n=1}^{2002} \frac{1}{t_n}$
+\item AHSME 1974/20 Let $T=\frac{1}{3-\sqrt{8}} - \frac{1}{\sqrt{8}-\sqrt{7}} + \frac{1}{\sqrt{7}-\sqrt{6}} - \frac{1}{\sqrt{6}- \sqrt{5}} + \frac{1}{\sqrt{5}-2}$. Then A) $T<1$ B) $T=1$ C) $1<T<2$ D) $T=2$ E) $T>2$
+\item Evaluate $\sum_{k=1}^{n} k!(k^2+k+1)$.
+\item AIME2 2005/7 Let $x=\frac{2}{(\sqrt{5}+1)(\sqrt[4]{5}+1)(\sqrt[8]{5}+1)(\sqrt[16]{5} +1)}$. Find $(x+1)^{48}$.
+\item UM 2007/2.3 Show that $\sum_{n=1}^{2007} \frac{1}{n^3+3n^2+2n} < \frac{1}{4}$.
+\item AMY 2007 Find in closed form $\sqrt{1+\frac{1}{1^2}+\frac{1}{2^2}}+\sqrt{1+\frac{1}{2^2}+\frac{1}{3^2}}+ \ldots + \sqrt{1+\frac{1}{1999^2}+\frac{1}{2000^2}}$.
+\item TT 1985 The sequence $\left\{x_n\right\}_{n \geq 1}$ is defined by $x_1=\frac{1}{2}, x_{k+1}=x_k^2+x_k$. Find the greatest integer less than $\frac{1}{x_1+1} + \frac{1}{x_2+1} + \ldots + \frac{1}{x_{100}+1}$.
+\item AIME2 2000/14 Every positive integer k has an unique factorial base expansion $(f_1,f_2,\ldots ,f_m)$, meaning $k=1!f_1+2!f_2+3!f_3+\ldots m!f_m$, where each $f_i$ is an integer, $0\ \leq f_i \leq i$, and $0 < f_m$. Given that $(f_1,f_2,\ldots ,f_j)$ is the factorial base expansion of $16!-32!+48!-64!\ldots 1968!-1984!+2000!$, find the value of $f_1 -f_2+ f_3-f_4 \ldots (-1)^{j+1}f_j$.
+\end{enumerate}
+
+\section{Logarithms}
+\begin{enumerate}
+\item AMC 1998/22 Find $\frac{1}{\log_2 100!} + \frac{1}{\log_3 100!} \ldots \frac{1}{\log_{100} 100!}$
+\item Find $\log(\frac{1}{2}) + \log(\frac{2}{3}) + \log(\frac{3}{4}) + \ldots \log(\frac{99}{100})$.
+\item NYSML 2007/F1 Compute $x = \log_{2} (3^2) \cdot \log_{3} (4^3) \cdot \log_{4} (5^4) \cdot \log_{5} (6^5) \cdot \log_{6} (7^6) \cdot \log_{7} (8^7)$.
+\item AIME 2007/7 Let $N= \sum_{k=1}^{1000} k(\left\lceil \log_{\sqrt{2}} k \right\rceil - \left\lfloor \log_{\sqrt{2}} k \right\rfloor)$. Find the remainder when N is divided by 1000.
+\end{enumerate}
+
+
+\section{Using Trigonometry}
+\begin{enumerate}
+
+\item AIME2/8 2008 Let $a=\pi/2008$. Find the smallest positive integer n such that $2[\cos(a)\sin(a)+\cos(4a)\sin(2a)+\cos(9a)\sin(3a)+\ldots+\cos(n^2a)\sin(na)]$ is an integer.
+\item AIME 1998/5 Given that $A_k = \frac{k(k-1)}{2} \cos \frac{k(k-1)\pi }{2}$, find $\left| A_{19} + A_{20} + \ldots + A_{98}\right|$.
+\item AIME 1997/11 Find $\left\lfloor 100 \frac{\sum_{n=1}^{44} \cos n}{\sum_{n=1}^{44} \sin n} \right\rfloor$.
+\item AIME2 2000/15 Find the smallest positive integer n such that $\frac{1}{\sin 45 \sin 46} + \frac{1}{\sin 46 \sin 47} + \ldots \frac{1}{\sin 133 \sin 134} = \sin n$.
+\item AIME 1999/11 Given that $\sum_{k=1}^{35} \sin 5k = \tan \theta$ and $0 < \theta < 90$ find $\theta$ (as a fraction).
+\item Evaluate $(1-\cot 1)(1-\cot 2) \ldots (1-\cot 44)$
+\item USAMO 1996 Prove that the average of $2 \sin 2, 4\sin 4, 6\sin 6, \ldots 180 \sin 180$ is $\cot 1$.
+\item IMO 1966/4 Prove that $\frac{1}{\sin 2x} + \frac{1}{\sin 4x} + \frac{1}{\sin 8x} + \ldots + \frac{1}{\sin 2^n x}=\cot x -\cot 2^n x$
+\end{enumerate}
+
+
+\section{More Techniques}
+\begin{enumerate}
+\item Find $1-2+3-4... (-1)^{n+1}n$ when n is a) even b) odd.
+\item AMC 12P/14 Find $i + 2i^2+ 3i^3 + \ldots + 2002i^{2002}$
+\item AIME2 2008/1 Let $N= 100^2 +99^2-98^2-97^2+96^2+ \ldots +4^2+3^2-2^2-1^2$, where the additions and subtractions alternate in pairs. Find the remainder when N is divided by 1000.
+\item a) Sum: $\sum_{n=1}^{\infty} \frac{2n}{3^{n+1}}$. b) Find in closed form: $\sum_{k=1}^{n} kq^{k-1}$
+\item UM 1999/21 Given a list of one million different numbers, a computer puts them in
+increasing order as follows: 
+ \\(i) assign $n=0$; 
+ \\(ii) increase n by one; 
+ \\(iii) if the nth number is less than the next one, go to (iv); otherwise modify the list
+       by interchanging the $n$-th and $(n+1)$st numbers and go to (i);
+ \\(iv) if $n<10^6-1$, go to (ii); otherwise stop.
+\\The number $M$ of times the computer performs operation (ii) depends on the initial list. 
+In which interval does the maximal value of $M$ (among all lists) lie?
+$M<10^7, 10^7<M<10^{10}, 10^{10}<M<10^{15}, 10^{15}<M<10^{20}, 10^{20}<M<10^{25}$
+\item AIME 1995/13 Let $f(n)$ be the integer closest to $\sqrt[4]{n}$. Find $\sum_{k=1}^{1995} \frac{1}{f(k)}$.
+\item AMY 2007 Let $f_n=2^{2^n}$. Prove that $\frac{1}{f_1} + \frac{2}{f_2} + \ldots + \frac{2^{n-1}}{f_n} <\frac{1}{3}$
+\item AMY 2007 Let $a_0=1$ and $a_{n+1}=a_0 \cdots a_n +1, n \geq 0$. Prove that $\frac{1}{a_1}+\ldots +\frac{1}{a_n}+\frac{1}{a_{n+1}-1}=1$
+\item ISL 1968/11 Find all solutions ${x_1, x_2, \ldots x_n}$ of $1+\frac{1}{x_1}+\frac{x_1+1}{x_1 x_2}+\frac{(x_1+1)(x_2+2)}{x_1 x_2 x_3} + \ldots + \frac{(x_1+1) \ldots (x_{n-1}+1)}{x_1 x_2 \ldots x_n}=0$
+\item UM 2007/1.24 Each of the numbers $x_1, \ldots x_{2007}$ can be 0, -1, or 1. Let $S= x_1x_2+x_1x_3+\ldots +x_1x_{2007}+x_2x_3+\ldots+x_{2005}x_{2006}+ x_{2006}x_{2007}$, which is the sum of all products $x_ix_j$ with $i<j$. What is the smallest value of S?
+\item PROMYS Problem The tail of a giant kangaroo is attached by a giant rubber band to a stake in the ground. A flea is sitting on top of the stake eyeing the kangaroo (hungrily). The kangaroo sees the flea, leaps into the air, and lands one mile from the stake (with its tail still attached to the stake by the rubber band). The flea does not give up the chase but leaps into the air and lands on the stretched rubber band one inch from the stake. The giant kangaroo, seeing this, again leaps into the air and lands another mile from the stake (i.e., a total of two miles from the stake). The flea is undaunted and leaps into the air again, landing on the rubber band one inch further along. Once again the giant kangaroo jumps another mile. The flea again leaps bravely into the air and lands another inch along the rubber band. If this continues indefinitely, will the flea ever catch the kangaroo? (Assume the earth is flat and continues indefinitely in all directions.)
+\item IMO 1968/6 Prove that for every positive integer n, $\left\lfloor \frac{n+2^0}{2^1} \right\rfloor + \left\lfloor \frac{n+2^1}{2^2} \right\rfloor + \left\lfloor \frac{n+2^2}{2^3} \right\rfloor + \ldots = n$
+\end{enumerate}
+
+
+\end{document}

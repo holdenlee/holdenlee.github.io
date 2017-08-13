@@ -54,7 +54,7 @@ main = hakyll $ do
 
     --TAGS @ http://javran.github.io/posts/2014-03-01-add-tags-to-your-hakyll-blog.html
     tags <- buildTags (postPattern .&&. hasNoVersion) (fromCapture "tags/*.html")
-
+    
     tagsRules tags $ \tag pattern -> do
       let title = "Posts tagged \"" ++ tag ++ "\""
       route idRoute
@@ -146,8 +146,9 @@ postRules tags = do
 
 postWithParentRules :: FunDAG String -> Tags -> Rules ()
 postWithParentRules fd tags = do
+  let cloud = tagCloudField "cloud" 50 250 tags
   route $ takeFileNameRoute "html" --setExtension "html"
-  defaultRules (tocCtx <> parentLinks "parent" fd <> childrenLinks "children" fd <> postCtxWithTags tags <> constField "isPost" "true")
+  defaultRules (cloud <> tocCtx <> parentLinks "parent" fd <> childrenLinks "children" fd <> postCtxWithTags tags <> constField "isPost" "true")
 
 --not used
 postRules' :: [(String,Tags)] -> Rules ()

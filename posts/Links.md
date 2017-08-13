@@ -8,9 +8,12 @@ type: uncategorized
 showTOC: True
 ---
 
+I keep track of the blogs, podcasts, etc. I follow at workflowy. ([Websites](https://workflowy.com/s/VOwtHYFTYr), [Day-by-day reading](https://workflowy.com/s/wL3CyEXpHY#/d1a52d188a8f)) I recommend a program such as [feedly](https://feedly.com/) to collect all the blogs you want to follow in one place.
+
+My feedly OPML (which you can import to a feed reader) is [here](https://dl.dropboxusercontent.com/u/27883775/feedly.opml).
 
 
-Subcategories:
+# Subcategories
 
 + [Links for math](Links for math.html)
 + [Links for education](Links for education.html)
@@ -19,13 +22,3 @@ Subcategories:
 + [Links for fun](Links for fun.html)
 + [Links for life](Links for life.html)
 + [Apps, extensions, and shortcuts](Apps, extensions, and shortcuts.html)
-
-Other links
-
-+ Dreams
-    + [http://www.dreamjournal.net](http://www.dreamjournal.net)
-    + [http://www.dreamboard.com](http://www.dreamboard.com)
-+ Chinese dictionary [http://www.us.mdbg.net/chindict/chindict.php](http://www.us.mdbg.net/chindict/chindict.php)
-+ Hackathon projects [http://www.hackathonprojects.tk](http://www.hackathonprojects.tk)
-
-

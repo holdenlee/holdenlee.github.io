@@ -19,9 +19,18 @@ h1, .h1{
 .container {
     border: solid 1px gray;
 }*/
+/*https://stackoverflow.com/questions/11540268/prevent-wrapping-of-menu-items*/
+.navbar > ul {min-width:1000px}
+.navbar ul { margin: 0; padding: 0; white-space:nowrap;}
+.navbar > ul > li {
 
+    display:inline-block;
+    margin-left: 30px;
+    position: relative;
 
-@media (min-width:1200px){.container{width:970px}}
+}
+
+@media (min-width:1200px){.container{max-width:1200px}}
 
 .blog-masthead{
 /*    background-color:#428bca;*/

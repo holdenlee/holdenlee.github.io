@@ -2,7 +2,7 @@
 title: Answer in a different medium
 published: 2017-08-07
 modified: 2017-08-07
-parent: Views on life
+parent: Views
 tags: teaching, communication, interaction, story, unlinked
 type: uncategorized
 showTOC: True

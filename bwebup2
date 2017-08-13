@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cp -TRv _site/ ../blog/
+cp -TRv _site/ ../holdenlee.github.io/
 gitup2 "$1" hakyll
-cd ../blog
-gitup2 "$1" gh-pages
+cd ../holdenlee.github.io
+gitup "$1"

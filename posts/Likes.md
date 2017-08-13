@@ -2,7 +2,7 @@
 title: Likes
 published: 2017-08-07
 modified: 2017-08-07
-parent: index
+parent: About
 tags: likes
 type: uncategorized
 showTOC: True

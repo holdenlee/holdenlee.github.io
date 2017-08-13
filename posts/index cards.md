@@ -2,8 +2,8 @@
 title: index cards
 published: 2017-08-07
 modified: 2017-08-07
-parent: Views on life
-tags: index, cards
+parent: Views
+tags: index cards
 type: uncategorized
 showTOC: True
 ---

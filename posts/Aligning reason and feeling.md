@@ -2,7 +2,7 @@
 title: Aligning reason and feeling
 published: 2017-08-07
 modified: 2017-08-07
-parent: Views on life
+parent: Views
 tags: reason, feeling
 type: uncategorized
 showTOC: True

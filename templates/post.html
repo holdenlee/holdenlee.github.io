@@ -3,8 +3,10 @@
 
   <div id="content">
     <div class="page header">
-      <h1>$title$</h1>
+      <h1>$if(alttitle)$ $alttitle$ $else$ $title$ $endif$</h1>
     </div>
+    $if(isMainPage)$
+    $else$
     $if(isPost)$
     <div class="info">
       $if(subtitle)$ <div class="subtitle"><p>$subtitle$</p></div> $endif$
@@ -18,6 +20,7 @@
 	  $if(children)$ <p>Children: $children$</p> $endif$
     </div>
     $endif$
+    $endif$
   </div>
   <!--/div-->
 
@@ -27,7 +30,8 @@
     $body$
 
   </div>
-
+  $if(isMainPage)$
+  $else$
     $if(isPost)$
 
     <!-- Extension : Sharing buttons @ www.sharethis.com -->
@@ -44,5 +48,6 @@
   $if(isPost)$
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   </div>
+  $endif$
   $endif$
 </div>

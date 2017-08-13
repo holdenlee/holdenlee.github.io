@@ -2,7 +2,7 @@
 title: Art and questions
 published: 2017-08-07
 modified: 2017-08-07
-parent: Views on life
+parent: Views
 tags: art, unlinked
 type: uncategorized
 showTOC: True

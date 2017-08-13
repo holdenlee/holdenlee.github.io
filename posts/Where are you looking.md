@@ -2,7 +2,7 @@
 title: Where are you looking?
 published: 2017-08-07
 modified: 2017-08-07
-parent: Views on life
+parent: Views
 tags: life
 type: uncategorized
 showTOC: True
