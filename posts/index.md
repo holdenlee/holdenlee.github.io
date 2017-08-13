@@ -10,8 +10,6 @@ isMainPage: True
 
 <center><img src="pics/me2.JPG?dl=0" alt="web" width="50%" height="50%"></center>
 
-(ADD CATEGORIES)
-
 **See also my blog at [http://holdenlee.github.io/blog](http://holdenlee.github.io/blog)**.
 
 # Basic Info
