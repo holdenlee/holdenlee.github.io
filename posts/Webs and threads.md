@@ -8,10 +8,6 @@ type: uncategorized
 showTOC: True
 ---
 
-
-
-Back to [Views on life](Views on life.html).
-
 When you are in a **web**, you have access to a lot of different information at once, and the ability to switch between tasks.
 
 

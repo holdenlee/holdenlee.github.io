@@ -8,16 +8,20 @@ type: uncategorized
 showTOC: True
 ---
 
-See also [Quotes](Quotes.html).
+<!--See also [Quotes](Quotes.html).-->
 
 See [Personal bible](Personal bible.html) for a collection of quotes and parables which are meaningful for me.
 
-*Page under construction*
 
 #Life organization
 
 + On [index cards](index cards.html) as pensieves for thought.
 + [Lenses and theories](Lenses and theories.html)
+
+# Essays on life
+
+* [Butterflies](https://holdenlee.wordpress.com/2013/09/06/butterflies/)
+* [Some college advice (39 things)](https://holdenlee.wordpress.com/2013/09/03/some-college-advice-39-things/)
 
 #Philosophy
 
@@ -29,10 +33,22 @@ Tidbits of philosophy that's good to keep in mind.
 + On Godel's Incompleteness Theorem and Time Bending ([Loquat](Loquat.html)): don't see the fact that we can't know everything as discouraging, but as beautiful.
 + [Webs and threads](Webs and threads.html)
 + [Why do people do what they do?](Why do people do what they do?.html) (3 reasons)
-+ [There are two types of truths in the world](There are two types of truths in the world.html) (*under construction*), views on science, religion, and stories.
++ [There are two types of truths in the world](There are two types of truths in the world.html)
     + [Aligning reason and feeling](Aligning reason and feeling.html)
-+ [Where are you looking?](Where are you looking?.html) Focus on the present!
-+ [Conversation on curiosity](Conversation on curiosity.html)
+	+ [Nation by Terry Pratchett](https://holdenlee.wordpress.com/2014/06/16/nation-by-terry-pratchett-the-role-of-stories-and-belief/), views on science, religion, and stories.
+	
+# Religion
+
++ [Personalized spirituality](Personalized spirituality.html)
+
+# Advice and techniques
+
++ [Where are you looking?](Where are you looking.html) Focus on the present!
++ [Being yourself](Being yourself.html)
++ [What is the root of your feeling?](What is the root of your feeling.html)
++ [The right movement vs the material story](The right movement vs the material story.html)
++ [Signs](Signs.html)
++ [Think like a child](https://holdenlee.wordpress.com/2014/06/15/think-like-a-child/)
 
 # Communication
 
@@ -40,12 +56,16 @@ Tidbits of philosophy that's good to keep in mind.
 + [On framing the question](On framing the question.html)
 + [The beauty of ideas vs. the beauty of writing](The beauty of ideas vs. the beauty of writing.html)
 + [Why are we still writing linearly?](Why are we still writing linearly?.html)
-+ [On journaling](On journaling.html)
++ [Can we raise the temperature?](Can we raise the temperature.html)
++ [TED on collaboration](https://holdenlee.wordpress.com/2014/06/15/ted-on-collaboration/)
 
 # Values and character
 
++ [Conversation on curiosity](Conversation on curiosity.html)
 + [Love](Love.html)
++ [Love is friendship, just deeper](Love is friendship, just deeper.html)
 + [Understanding between sexual cultures](Understanding between sexual cultures.html)
++ [Fear of power](Fear of power.html)
 
 <!--
 #On different ways of seeing
@@ -56,14 +76,18 @@ Tidbits of philosophy that's good to keep in mind.
 + [Listening to music](Listening to music.html)
 -->
 
-# Religion
+# Mindsets
 
-+ [Personalized spirituality](Personalized spirituality.html)
++ [Open arms](Open arms.html)
++ [Nice guy](Nice guy.html)
 
 #Dichotomies
 
 + [Two types of happiness](Two types of happiness.html)
-+ [Ideal vs. institutionalized](Ideal vs institutionalized.html)
 + [Two kinds of laughter](Two kinds of laughter.html)
++ [Basking vs savoring](Basking vs savoring.html)
++ [Ideal vs. institutionalized](Ideal vs institutionalized.html)
 + [X vs Myopic X](X vs Myopic X.html)
-
++ [Introvert-Extravert exchange](Introvert-Extravert exchange.html)
++ [Individualism vs mechanism](Individualism vs mechanism.html)
++ [Cyclicity vs the straight line](Cyclicity vs the straight line.html)

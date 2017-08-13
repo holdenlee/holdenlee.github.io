@@ -2,7 +2,7 @@
 title: Is A-Fu Stupid
 published: 2017-08-13
 modified: 2017-08-13
-parent: Views
+parent: Personal bible
 tags: pbible, parable
 type: uncategorized
 showTOC: True

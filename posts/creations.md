@@ -21,7 +21,9 @@ Also check out my [deviant art](http://holdenlee.deviantart.com/).
 
 (\*) Personal pick.
 
-# Completed stories
+# Writing
+
+## Completed stories
 
 * (\*) **The Loss of Magic** ([online](https://holdenlee.wordpress.com/2010/09/01/the-loss-of-magic-short-story/), [Word doc](http://holdenlee.github.io/writing/the_loss_of_magic.doc)) (9/2010) - *She caressed her letters, and they popped out of the page, rustling their newfound wings. Mr. Cavid's words looked like big fat red caterpillars; as she ran her fingers over them she could feel their spiky bodies rising from the page. They think they're feeding on a bunch of leaves, she thought, well, guess again. The mass of green letters, each a cross between a fly and a maple key, rose from the page, overturning the bewildered caterpillars, who landed on the blank paper with a satisfying plop.*
 *   **Huntress** ([googledoc](https://docs.google.com/document/d/1XgqxqMvOpl_AzV_wLOls5a38C4iIhjtJF8ouqeY7RzM/edit?usp=sharing), [Word doc](http://holdenlee.github.io/writing/huntress.docx)) (5/2011) *The girl moved through the long grass. The wind pushed the prairie grasses against her face and wove them into her hair. When she was close enough to see the lion breathing, she hoisted up her iron pike and lunged.*
@@ -34,16 +36,20 @@ Also check out my [deviant art](http://holdenlee.deviantart.com/).
 * (\*) [**A Random Collection**](https://drive.google.com/open?id=18A_6ZOsK3jvo4ILt8zGJZyifIL7g_EBLtpvyGdNwd54) (3/2014) - A collage of articles about a fictional mathematician.
 * (\*) [**Goodnight Mel**](https://docs.google.com/document/d/1Pxs_3NstJrN3YwTQBmLDaLNwBJv6FBGzF23zDpFY0UI/edit) (1/2017) - A couple moves into a house haunted by a girl who plays strange music.
 * **Three**: coming soon.
-* (\*) [**Cloud fairies**](https://docs.google.com/document/d/1sAF1ijUXiyCclrEly-UL9o7leuumVkaXwdeYmrzVv5Q) - A myth about cloud fairies.
+* (\*) [**Cloud fairies**](https://docs.google.com/document/d/1sAF1ijUXiyCclrEly-UL9o7leuumVkaXwdeYmrzVv5Q) - A myth about cloud fairies. [Recording](https://soundcloud.com/holden-lee-36529191/cloud-fairies) from Open Mic night.
 
-# Poetry
+## Poetry
 
 * **Love {** ([googledoc](https://docs.google.com/document/d/1N62YvMvUL2u4yS1aAVbpjVkDoXSbbBjVb0vVPHoZUzc/edit?usp=sharing), [Word doc](http://holdenlee.github.io/writing/Love%20{.doc)) (4/2012)
 * [**Lemon**](http://www.oneword.com/word/lemon/comment-page-1/#comment-549410) (11/2013)
 * [**Falling leaves**](https://holdenlee.wordpress.com/2014/10/20/falling-leaves/) (10/2014)
 * (\*) **A friendship lost at sea** ([online](https://holdenlee.wordpress.com/2015/12/30/a-friendship-lost-at-sea/), [googledoc](https://docs.google.com/document/d/1zs3WfQyXXkDucwhVdk_8QZahi2P6H5NRqoPEhl8HNhE/edit)) (9/2015)
 
-# Shorts
+## Songs
+
+* [Shining eyes (with Erica Cao)](https://docs.google.com/document/d/1HqI6eqqZWpt8LqEwF3JdR6nf6DouCuIFkQ8aR7wNUHc/edit)
+
+## Shorts
 
 * [**Early fall**](https://holdenlee.wordpress.com/2012/09/10/early-fall/) (10/2012)
 * (\*) **Infinite Love** ([googledoc](https://drive.google.com/open?id=1J6-zntJcxtQZ-_lh59hnz7Jgp--3p8FsePFXCPEZA74), [Word doc](http://holdenlee.github.io/writing/Infinite%20Love.doc)) (3/2013)
@@ -53,12 +59,16 @@ Also check out my [deviant art](http://holdenlee.deviantart.com/).
 * [All my onewords](http://www.oneword.com/members/silversheep/)
 
 
-# Unfinished
+## Unfinished
 
 * **Pleasant Island 1** - After their houseboat was destroyed by a sea monster, Al, Brody, Tommy, Aly, Betty, and Tinny find themselves stranded on a magical island filled with fantastical creatures. The island seems peaceful at first, but they soon have to confront Crocomons, defend themselves from live snowballs, and finally save the island from volcanic destruction. How will they manage to escape? (Here is a sample chapter on [cloud fairies](https://docs.google.com/document/d/1tDXD1nF9M2cK8uascZlKAdFNIRPiNbEcbqePb8SH7_0/edit?usp=sharing).)
 * **Pleasant Island 2: The Legend of Magicoly** - (Sequel) A magical storm sends Pleasant Island hurtling into space, and a giant beetle shows up on the family's doorstep. Before they know it, the family is whisked off to the new Pleasant Island. At first they enjoy their time as tourists but soon they find themselves in the middle of an all-out attack on the archipelago...
 * **Into the World of Dreams** - [sample](http://holdenlee.github.io/writing/prologue.docx)
 * **Context Cities** (NaNoWriMo 2014) - [About](https://holdenlee.wordpress.com/2014/10/30/i-am-writing-a-novel-in-november/), [one chapter](https://docs.google.com/document/d/14giivbi_sGRjGvQFc45O_SCGsuAIl3_uTZIzPuf7Ai0/edit)
 * [**Don't grow up it's a conspiracy**](https://docs.google.com/document/d/1vwAsNirx7HI0GATayO-omJMIIQrKOSHSFO_wnrhKfsU/edit?usp=sharing) (1/2015)
+
+# Videos
+
++ [Time bending](https://holdenlee.wordpress.com/2014/02/08/time-bending/)
 
 (C) All rights reserved.

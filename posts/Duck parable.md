@@ -2,7 +2,7 @@
 title: Duck parable
 published: 2017-08-13
 modified: 2017-08-13
-parent: Views
+parent: Personal bible
 tags: pbible, parable, Buddhism
 type: uncategorized
 showTOC: True

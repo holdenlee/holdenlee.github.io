@@ -8,6 +8,13 @@ type: uncategorized
 showTOC: True
 ---
 
+[Summary notes](bit.ly/hlbooks)
+
+[Notes on writing about books](https://holdenlee.wordpress.com/2015/03/22/notes-on-writing-about-books/)
+
+**Note: Most of this page is from 2014, needs updating.**
+
+
 See also [Books that changed my life](Books that changed my life.html).
 
 #Favorites
@@ -19,7 +26,8 @@ In general, I like...
 + Stories that show a way of thinking (Stories of Your Life and Others, Ted Chiang)
 
 A specific list (see a complete list at my goodreads at [http://www.goodreads.com/user/show/6860542-holden-lee](http://www.goodreads.com/user/show/6860542-holden-lee))
-General fiction:
+
+# General fiction
 
 + Books by Haruki Murakami, for the way he portrays unassuming characters trying to reason things out (he really gets inside their thought processes, one thought to the next), his wisdom, and for his deep conversations. He puts down so many everyday details but makes them interesting, and he seems to makes it clear to the reader what he's doing. He thinks through the history of all his characters, and shows how they have an indelible effect on who they are.
     + Kafka on the Shore is my favorite.
@@ -30,7 +38,7 @@ General fiction:
 + Mark Haddon, The curious incident of the dog in the night-time -- this book and the previous one feel very "true."
 + Lemony Snicket, A Series of Unfortunate Events (see [In praise of readers, and those who listen rather than shout](In praise of readers, and those who listen rather than shout.html))
 
-Science fiction
+# Science fiction
 
 + Ted Chiang, Stories of Your Life and Others
 + Kim Stanley Robinson, Mars series (review: [http://holdenlee.wordpress.com/2013/04/17/red-mars/](http://holdenlee.wordpress.com/2013/04/17/red-mars/))
@@ -38,7 +46,7 @@ Science fiction
     + Anathem (draws a nice parallel between mathematics and religion, takes a mathematician/scientist's life and makes it adventurable, nice philosophy)
     + The Diamond Age (very relevant speculation on technology and education)
 
-Fantasy
+# Fantasy
 
 + Paul Stewart and Chris Riddell, The Edge Chronicles -- love the world. Gritty and complete.
 + Brian Jacques, Redwall series 
@@ -47,20 +55,24 @@ Fantasy
 + [Terry Pratchett](Terry Pratchett.html), Discworld series
 + Patrick Rothfuss, Kingkiller Chronicles -- (1) system of magic is very reasoned out (2) exemplifies a person who wants to learn everything
 
-Nonfiction
+# Nonfiction
 
-+ Hofstadter, G
-&
-1.246;del Escher Bach
++ Hofstadter, Godel Escher Bach
 + Laszlo Mero, Moral Calculations
 + Trefethen's Index Cards
 + James Gleick, The Information
 + Alexandra Horowitz, On Looking
 
-#Other books (that I have reflected on)
+# Other books (that I have reflected on)
 
-+ Edith Wharton, The Age of Innocence [http://holdenlee.wordpress.com/2013/04/02/morals-of-the-age-of-innocence/](http://holdenlee.wordpress.com/2013/04/02/morals-of-the-age-of-innocence/)
-+ Swamplandia! [http://holdenlee.wordpress.com/2013/09/12/thoughts-on-swamplandia-by-karen-russell/](http://holdenlee.wordpress.com/2013/09/12/thoughts-on-swamplandia-by-karen-russell/)
++ [Swamplandia!, Karen Russell](http://holdenlee.wordpress.com/2013/09/12/thoughts-on-swamplandia-by-karen-russell/)
++ [Predictably Irrational, Dan Ariely](https://holdenlee.wordpress.com/2014/02/22/predictably-irrational/)
++ [Justine, Lawrence Durrell](https://holdenlee.wordpress.com/2015/03/21/justine-lawrence-durrell/)
++ [The Grasshopper King, Jordan Ellenberg](https://holdenlee.wordpress.com/2015/03/23/the-grasshopper-king-jordan-ellenberg/)
++ [The Saskiad, Brian Hall](https://holdenlee.wordpress.com/2015/12/29/the-saskiad-brian-hall/)
++ [Byzantium, Stephen Lawhead](https://holdenlee.wordpress.com/2015/03/08/byzantium/)
++ [The Heart is a Lonely Hunter, Carson McCullers](The heart is a lonely hunter.html)
++ [Nation, Terry Pratchett](https://holdenlee.wordpress.com/2014/06/16/nation-by-terry-pratchett-the-role-of-stories-and-belief/), The role of stories and belief
++ [The Age of Innocence, Edith Wharton](https://holdenlee.wordpress.com/2013/04/02/morals-of-the-age-of-innocence/)
 
-
-
++ [The Litany of Earth, Ruthanna Emrys (short story)](https://holdenlee.wordpress.com/2014/05/21/the-litany-of-earth/)

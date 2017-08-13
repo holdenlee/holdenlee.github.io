@@ -9,9 +9,6 @@ showTOC: True
 ---
 
 
-
-(Back to [Music](Music.html), [Views on life](Views on life.html))
-
 See also the music video I made: [https://holdenlee.wordpress.com/2014/02/08/time-bending/](https://holdenlee.wordpress.com/2014/02/08/time-bending/)
 
 Godel Incompleteness Theorem (informal version): There are true statements in mathematics that cannot be proved.

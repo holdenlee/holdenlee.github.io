@@ -9,9 +9,9 @@ showTOC: True
 ---
 
 
-*"Theories are like eyeglasses: they bring certain dimensions of the world into sharper focus, and blur other dimensions. But if you choose the right glasses, the world is - on the whole - a little clearer." - Justin Reich*
+> "Theories are like eyeglasses: they bring certain dimensions of the world into sharper focus, and blur other dimensions. But if you choose the right glasses, the world is - on the whole - a little clearer." - Justin Reich
 
-*"Every theoretical physicist who is any good knows six or seven different theoretical representations for exactly the same physics. He knows that they are all equivalent, and that nobody is ever going to be able to decide which one is right at that level, but he keeps them in his head, hoping that they will give him different ideas for guessing." - Albert Einstein*
+> "Every theoretical physicist who is any good knows six or seven different theoretical representations for exactly the same physics. He knows that they are all equivalent, and that nobody is ever going to be able to decide which one is right at that level, but he keeps them in his head, hoping that they will give him different ideas for guessing." - Albert Einstein
 
 In many fields (especially design), good work happens "when you view your work from as many perspectives as possible." - Jesse Schell, The Art of Game Design
 

@@ -8,10 +8,6 @@ type: uncategorized
 showTOC: True
 ---
 
-
-
-Back to [Views on life](Views on life.html).
-
 There are two types of happiness:
 
 + The happiness of idyll, of being happy when everything around you is familiar, when you're around people you love, when you do things you're done before but they're no less enjoyable to you. 
@@ -24,5 +20,5 @@ Every kind of happiness I can think of fits into one of these categories. Differ
 
 一門深入vs. 廣學多文. A lot of people are comfortable talking to people in their own subject; during lunchtime at IAS (I've read) most people sit with those in their own field, but a few people would keep switching tables, talk to everyone... there are people like that. Maybe most people just haven't figured out how to talk to people in a different subject.
 
-
+<!-- https://750words.com/day/2013-09-15 -->
 
