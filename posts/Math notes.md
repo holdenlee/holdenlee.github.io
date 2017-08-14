@@ -20,17 +20,15 @@ Please do contact me if you find typos, want to help improve the notes, want sou
 
 #Number Theory
 
-I've compiled all my number theory notes in the following open-source [textbook](https://www.dropbox.com/s/agebfj7rldc9wl1/number-theory.pdf?dl=0).
-Source code is available at the dedicated repository [https://github.com/holdenlee/number-theory.](https://github.com/holdenlee/number-theory.) Note much of this is still pretty sketchy; I've extracted the more complete parts into the two documents beolow.
-Contributions and corrections are welcome; please email me at holdenlee@alum.mit.edu.
+I've compiled all my number theory notes in the following open-source [textbook](tiny.cc/ntbook) (shortlink: tiny.cc/hlbook). This version does not contain drafts in progress; for that see the github page.
 
-Update: General comments and updates are recorded on this [googledoc](http://goo.gl/JXBHHS).
+Source code is available at the dedicated repository [https://github.com/holdenlee/number-theory](https://github.com/holdenlee/number-theory).
+Contributions and corrections are welcome; send me a pull request or email me at holdenlee@alum.mit.edu.
 
-+ Proof of prime number theorem for arithmetic progressions: [analytic-nt.pdf](https://www.dropbox.com/s/zf0wjpfylpcd4rf/analytic-nt.pdf?dl=0)
-+ Algebraic number theory, class field theory, and complex multiplication: [ant.pdf](https://www.dropbox.com/s/n0hgikez3nlfdui/ant.pdf?dl=0)
+The number theory notes are made of the following two parts:
 
-For recent updates, please see the googledoc.
-
++ Proof of prime number theorem for arithmetic progressions: [tiny.cc/annt](tiny.cc/annt)
++ Algebraic number theory, class field theory, and complex multiplication: [tiny.cc/algnt](tiny.cc/algnt)
 
 #High school math
 
