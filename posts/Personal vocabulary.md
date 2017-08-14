@@ -29,6 +29,7 @@ I like making up words. Mostly I use them in talking  to or writing for myself. 
 + -eto = suffix used referring to a baby step for something. Often used with the Esperanto word, ex. skribeto. Aims to replace apologetic thoughts like "I tried to write a poem, but instead just wrote a lot of disconnected words" with "I wrote poemetoj (poemetos)."
 + eyetracted = when you want to be distracted, and for no reason read random words or posters around you
 + frocon = Conversations that are low in temperature. "We froconned." How about, inversation?
++ **gardening** = organizing and following thoughts. Done by journaling, outlining (e.g. in workflowy), or writing posts.
 + gigotos (syndrome) = grass is greener on the other side
 + **generative** = "I wish I'm more generative."
 + improversation = Can every conversation be walking off a ledge? Parachutes are free in dream-land. (See [Can we raise the temperature?](Can we raise the temperature.html)

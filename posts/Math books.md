@@ -4,13 +4,10 @@ published: 2017-08-07
 modified: 2017-08-07
 parent: Math communication
 tags: math, textbook, communication
-type: uncategorized
 showTOC: True
 ---
 
-
-
-Back to [Math communication](Math communication.html)
+See also my Quora answer on creating [summary notes](https://www.quora.com/What-should-one-who-is-creating-a-summary-note-scribe-note-lecture-note-etc-for-an-advanced-mathematics-course-care-about/answer/Holden-Lee).
 
 *Note 1: This page is geared more towards advanced math books (college and beyond). For a more discussion of writing curriculum (that applies more at the grade school level), see [Writing curriculum](Writing curriculum.html). Obviously, there are differences between how you would write for someone who doesn't care for math vs. someone who is already motivated to learn math. However, a lot of the principles there still apply. *
 
@@ -19,6 +16,7 @@ Back to [Math communication](Math communication.html)
 *Note 3: Note that not all criteria are applicable for all books. My focus is on books that are good to learn from, i.e., books that aspire to *teach* a subject rather than be a reference work for the subject.*
 
 #1 What makes a math book good? A list of criteria
+
 1.Technical content
     1. Mathematically correct and rigorous 
     1. Proves results in sufficient generality, rather than ad hoc or just the shortest route to a theorem (i.e., gives the reader flexible knowledge)
@@ -39,6 +37,7 @@ Back to [Math communication](Math communication.html)
     1. Enjoyable to read, shows the beauty of the subject
 1. Meta
     1. Community around the book (ex. website, forum, errata)
+	
 If we just consider (1) technical content, then a lot of math books can be considered good. However, a small proportion of math books are good in the sense of also satisfying (2) useful to learn from and (3) aesthetics. (In particular, a lot of standard textbooks are good on (1) but weak on (2).) I've put some rather specific criteria in (2) above, which I'll explain more in Section 3. (I'll won't talk much about (1) because I think most people have a good idea what the criteria there entails.)
 
 There is a tendency among mathematicians to discount mathematical writing as a skill that exists and is worth developing -- we often say "the math should speak for itself." As a result, many books are rated based on the *mathematics* they contain, rather than their *exposition* (or *teaching*). This is a reasonable tendency, as it takes a large amount of time to write a book that teaches well rather than just presents the material, but we should nevertheless establish standards for what makes a math book good in the teaching sense, rather just the information-capturing sense. I think a lot of people are content with hard-to-read math books, simply because they haven't seen examples of books that really try to teach.
@@ -48,11 +47,15 @@ There is a tendency among mathematicians to discount mathematical writing as a s
 *Possible objection: Good mathematicians don't have the time to write lengthy explanations for their work! It's silly to hold them to that standard, when it's the math that really matters. *
 
 *Answer: I'm not going to say that "the [math] classics are bad because they don't teach the material well." There are multiple sides of what "good math" is (cf. Tao). The community will always respect prolific researchers who can't teach, and that's fine. What I'm saying is that mathematicians should also be respected for good writing and teaching. The people who come up with a result may be different from the people who end up explaining it the most lucidly, and we should respect those people in different ways.
+
 People say "read the classics." This is true in the sense that when people rewrite the classics (a) they may tend to omit things they might not fully understand, or that aren't pertinent to the course, and (b) while it's hard to capture the problem-solving method in text, the original often does it more faithfully than later texts. But this does not have to be the case.*
 
 #2 Examples: My favorite math books and why they're good
+
 (As [Professor Winston](What I learned from Patrick Winston) said, you shouldn't just like things, you should think about why you like them.)
+
 My favorite math books are the following. (I'm sure there are many other good math books I haven't read. I would be glad to add your recommendations to the list. Just send me an email and give a reason why. The reason should involve the exposition and not the technical content.)
+
 + Algebra, Artin: Simply for its clarity and wealth of examples. It's a big book but easy to read through with a solid high school background. 
 + Algebraic Geometry, Ravi Vakil (from his Stanford course, [http://math.stanford.edu/~vakil/216blog/](http://math.stanford.edu/~vakil/216blog/)): gives intuition for a very difficult subject and especially why the definitions are the way they are, and asks the reader to perform a lot of exercises that are not mathematically hard but conceptually enlightening. (I'm still working my way through this one.)
 + Art of Problem Solving series: The books ask readers to solve problems to discover the main concepts for themselves. They crystallize key concepts, point out warnings, and give techniques at the end of every chapter.
@@ -64,6 +67,7 @@ My favorite math books are the following. (I'm sure there are many other good ma
 + Theory of Computation, Sipser: Presents the ideas/motivations in the proofs. Often he does a "baby case/example" first that shows a new idea in a transparent way, before giving the full proof (which may involve some other confounding elements).
 
 #3 What makes a book useful to learn from?
+
 I'll explain some of the criteria I gave above which may not seem standard. I think a lot of these points are not that hard to implement, but should be done more widely.
 
 + Gives motivations for material before presenting it.

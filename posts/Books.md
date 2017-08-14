@@ -65,14 +65,15 @@ A specific list (see a complete list at my goodreads at [http://www.goodreads.co
 
 # Other books (that I have reflected on)
 
-+ [Swamplandia!, Karen Russell](http://holdenlee.wordpress.com/2013/09/12/thoughts-on-swamplandia-by-karen-russell/)
 + [Predictably Irrational, Dan Ariely](https://holdenlee.wordpress.com/2014/02/22/predictably-irrational/)
 + [Justine, Lawrence Durrell](https://holdenlee.wordpress.com/2015/03/21/justine-lawrence-durrell/)
 + [The Grasshopper King, Jordan Ellenberg](https://holdenlee.wordpress.com/2015/03/23/the-grasshopper-king-jordan-ellenberg/)
++ [Blink, Malcolm Gladwell](https://docs.google.com/document/d/1ni0slCzoZn4Aff2kP8biMM2hmNas9R7C-yz_ZwFCnXg/edit)
 + [The Saskiad, Brian Hall](https://holdenlee.wordpress.com/2015/12/29/the-saskiad-brian-hall/)
 + [Byzantium, Stephen Lawhead](https://holdenlee.wordpress.com/2015/03/08/byzantium/)
 + [The Heart is a Lonely Hunter, Carson McCullers](The heart is a lonely hunter.html)
 + [Nation, Terry Pratchett](https://holdenlee.wordpress.com/2014/06/16/nation-by-terry-pratchett-the-role-of-stories-and-belief/), The role of stories and belief
++ [Swamplandia!, Karen Russell](http://holdenlee.wordpress.com/2013/09/12/thoughts-on-swamplandia-by-karen-russell/)
 + [The Age of Innocence, Edith Wharton](https://holdenlee.wordpress.com/2013/04/02/morals-of-the-age-of-innocence/)
 
 + [The Litany of Earth, Ruthanna Emrys (short story)](https://holdenlee.wordpress.com/2014/05/21/the-litany-of-earth/)
