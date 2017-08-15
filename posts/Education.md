@@ -8,8 +8,6 @@ type: uncategorized
 showTOC: True
 ---
 
-
-
 See [Links for education](Links for education.html) for a collection of blogs, articles, and videos about good learning, teaching, and educational policy. For my own teaching, see [My teaching](My teaching.html).
 
 It is good to think about teaching from the student's point of view. Rather than "as a teacher, how can I impart knowledge to a student?" we should ask, "as a student, how would I like a teacher to facilitate my learning process?"
@@ -19,6 +17,7 @@ See my presentation on **lifelong learning** for general advice, with lots of re
 [A vision for the future of education](A vision for the future of education.html) *under construction*
 
 #On learning
+
 1. Knowledge exists more in connections than in nodes. Knowledge is inherently a network, not linear, not just a hierarchy. It's easier to teach two related concepts than a single unrelated one.
     + Organizing and connecting knowledge [http://holdenlee.wordpress.com/2013/02/20/organizing-and-connecting-knowledge/](http://holdenlee.wordpress.com/2013/02/20/organizing-and-connecting-knowledge/)
 1. You learn from talking to people, because it allows multiple back-and-forth transfer of information.
@@ -38,6 +37,7 @@ See my presentation on **lifelong learning** for general advice, with lots of re
 1. Learn how to learn. You aren't anywhere near optimizing the way you learn. Discussions on how people "do math" are helpful, even when you think you know how to do math.
 
 #On teaching
+
 1. Most people remember stories more easily than facts.
 1. Knowledge is different from pedagogical content knowledge.
     + That world-class researcher at MIT may not be a good teacher.
@@ -47,10 +47,12 @@ See my presentation on **lifelong learning** for general advice, with lots of re
 1. [Writing curriculum](Writing curriculum.html)
 
 #On policy
+
 1. Campbell's law ([http://en.wikipedia.org/wiki/Campbell's_law](http://en.wikipedia.org/wiki/Campbell's_law)) is the problem with standardized tests.
 1. We should respect the teaching profession: [http://holdenlee.wordpress.com/2012/09/19/expectations-work-on-teachers-like-they-work-on-students/](http://holdenlee.wordpress.com/2012/09/19/expectations-work-on-teachers-like-they-work-on-students/)
 
 #On education and technology
+
 1. MOOCs (Massive Open Online Courses)
     + [Advantages of MOOCs](Advantages of MOOCs.html): The sheer amount of time savings and leverage justifies MOOCs.
     + Two types of [MOOCs](MOOCs.html): MOOCs are not a single model of education. xMOOCs and cMOOCs have very different pedagogy.
@@ -59,6 +61,7 @@ See my presentation on **lifelong learning** for general advice, with lots of re
     + [MMORPGs as inspiration for MOOCs](MMORPGs as inspiration for MOOCs.html) 
 
 #Other
+
 + Some classroom observations [http://holdenlee.wordpress.com/2013/04/08/classroom-observations/](http://holdenlee.wordpress.com/2013/04/08/classroom-observations/)
 
 
