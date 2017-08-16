@@ -2,7 +2,7 @@
 title: Understanding between sexual cultures
 published: 2017-08-13
 modified: 2017-08-13
-parent: index
+parent: Views
 tags: culture, LGBT, sexuality, understanding
 type: uncategorized
 showTOC: True

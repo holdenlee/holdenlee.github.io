@@ -8,10 +8,6 @@ type: uncategorized
 showTOC: True
 ---
 
-
-
-Back to [Views on life](Views on life.html).
-
 See also
 
 + Winston's communication advice: [http://holdenlee.wordpress.com/2012/09/09/patrick-winstons-communication-advice/](http://holdenlee.wordpress.com/2012/09/09/patrick-winstons-communication-advice/)

@@ -54,7 +54,7 @@ Tidbits of philosophy that's good to keep in mind.
 
 + [What I learned from Patrick Winston](What I learned from Patrick Winston.html)
 + [On framing the question](On framing the question.html)
-+ [The beauty of ideas vs. the beauty of writing](The beauty of ideas vs. the beauty of writing.html)
++ [The beauty of ideas vs the beauty of writing](The beauty of ideas vs the beauty of writing.html)
 + [Why are we still writing linearly?](Why are we still writing linearly?.html)
 + [Can we raise the temperature?](Can we raise the temperature.html)
 + [TED on collaboration](https://holdenlee.wordpress.com/2014/06/15/ted-on-collaboration/)
@@ -91,3 +91,4 @@ Tidbits of philosophy that's good to keep in mind.
 + [Introvert-Extravert exchange](Introvert-Extravert exchange.html)
 + [Individualism vs mechanism](Individualism vs mechanism.html)
 + [Cyclicity vs the straight line](Cyclicity vs the straight line.html)
++ [The beauty of ideas vs the beauty of writing](The beauty of ideas vs the beauty of writing.html)

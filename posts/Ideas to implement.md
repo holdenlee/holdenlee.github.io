@@ -2,15 +2,12 @@
 title: Ideas to implement
 published: 2017-08-07
 modified: 2017-08-07
-parent: Open gestalts
+parent: Projects
 tags: ideas, open_gestalts, under_construction, good_idea
 type: uncategorized
 showTOC: True
 ---
 
-
-
-Back to [Open gestalts](Open gestalts.html)
 
 Some good ideas that I'd love to see implemented. (I would do them, if I were more of a hacker and had time to spare. Let me know if you're interested in helping make any of these work!)
 
@@ -42,42 +39,33 @@ And another one:
 
 + Create a (natural) language based on functional programming that "type-checks" and actually implement it in a programming language. (How can we build a parser if the sentences aren't perfect grammar? Check nearby possibilities?)
 
-+ Build a Penultima server which allows users to submit their own rules for pieces by writing functions (e.g. Actor ->
- Location ->
- Maybe Board, i.e., given an actor and a location for it to move to, return Nothing if it is invalid and return the resulting board otherwise). For a game, the site chooses a random submitted rule for each of the pieces. Rules can be upvoted and downvoted (so they will appear more/less common). The site keeps track of which users have played with which rules to prevent repeats. (At the minimum allow standard fairy chess piece moves [http://en.wikipedia.org/wiki/Fairy_chess_piece.](http://en.wikipedia.org/wiki/Fairy_chess_piece.) For an implementation of a game in Haskell that also allows rule changes, see Nomyx [http://www.nomyx.net/.](http://www.nomyx.net/.)
++ Build a Penultima server which allows users to submit their own rules for pieces by writing functions (e.g. Actor -> Location -> Maybe Board, i.e., given an actor and a location for it to move to, return Nothing if it is invalid and return the resulting board otherwise). For a game, the site chooses a random submitted rule for each of the pieces. Rules can be upvoted and downvoted (so they will appear more/less common). The site keeps track of which users have played with which rules to prevent repeats. (At the minimum allow standard fairy chess piece moves [http://en.wikipedia.org/wiki/Fairy_chess_piece.](http://en.wikipedia.org/wiki/Fairy_chess_piece.) For an implementation of a game in Haskell that also allows rule changes, see Nomyx [http://www.nomyx.net/.](http://www.nomyx.net/.)
 
-+EveryDayOfYourLife: A site which asks you a number of questions every day, such as
-    +Did you write today? (for writers!)
-    +Did you ask a question today?
-    +Did you get out of your comfort zone?
-    +Were you open-minded?
-    +What did you do wrong today, and how will you improve?
-    +Summarize how you moved forward in your life today, in one line.
-    +Etc., and records your answers. You choose the questions that it asks you, or they can come from a standard set. **Perhaps they can appear with probabilities too, because a way to surprise someone and get candid reflection is to ask a unexpected question the user has no canned answer to. This site accomplishes several things:
-    +It motivates you to be on track towards your goals, by recording the number of yes’s in a row (COMBO!) and forcing you to say “No, I haven’t” when you failed to do something.
-    +It forces you to reflect every day, and reflection results in self-improvement.
-    +If you so desire, you can share your answers, and thus feel more connected to humanity. It’s especially interesting to see other answers to the same question. [You can “follow” people, etc.]
-    +It gives you hope that you are making progress (or hints that you’re not), when you look over your answers over the past months and years.
-        1.
-<->
-750words.com (see the Metadata feature)
-        1.
-<->
- The Illumination (book): every day one of the characters writes one statement about why he loves his wife, and they accumulate thousands of these sentences.
++ EveryDayOfYourLife: A site which asks you a number of questions every day, such as
+    + Did you write today? (for writers!)
+    + Did you ask a question today?
+    + Did you get out of your comfort zone?
+    + Were you open-minded?
+    + What did you do wrong today, and how will you improve?
+    + Summarize how you moved forward in your life today, in one line.
+    + Etc., and records your answers. You choose the questions that it asks you, or they can come from a standard set. **Perhaps they can appear with probabilities too, because a way to surprise someone and get candid reflection is to ask a unexpected question the user has no canned answer to. This site accomplishes several things:
+    + It motivates you to be on track towards your goals, by recording the number of yes’s in a row (COMBO!) and forcing you to say “No, I haven’t” when you failed to do something.
+    + It forces you to reflect every day, and reflection results in self-improvement.
+    + If you so desire, you can share your answers, and thus feel more connected to humanity. It’s especially interesting to see other answers to the same question. [You can “follow” people, etc.]
+    + It gives you hope that you are making progress (or hints that you’re not), when you look over your answers over the past months and years.
+        1. <-> 750words.com (see the Metadata feature)
+        1. <-> The Illumination (book): every day one of the characters writes one statement about why he loves his wife, and they accumulate thousands of these sentences.
 
 
 + Backchannel for online lectures -- A simple customizable interface that has a video (possibly from YouTube) on one side and a list of questions and comments that people have about the video on the other side. At any time, a watcher can pause the video and type a question or comment, and it will be arranged chronologically in the document, with the video’s time stamp. People can upvote and downvote questions and comments. --This is a vast improvement over online lectures with no interactivity, and addresses several concerns over the “online lecture”-ification of classes as well as flipped classrooms: specifically, students cannot ask questions in real-time, and hence there is no personalization of the lecture, and no ability to go on interesting tangents. However, neither does in-person lecture accomplish this completely because there are too many people and one instructor. Now students get to ask ALL their questions, in a time-specific manner, and a teacher can address them during class (or by commenting on the questions). This also provides the instructor with very specific feedback to improve the online lecture. --Maybe some online courses already have this feature. (Does EdX do this? If this is an immediate improvement.) I imagine that someone could turn a YouTube video into a commentable video in this sense just by dropping a YouTube link at the website, possibly setting a password for students. This immediately makes the existing wealth of educational videos available vastly more powerful.
-I imagine this extending to other media besides videos. What if we did the same for every major textbook, ordered by page number? Reading a textbook no longer has to be a very independent activity; you could be connected to the corpus of all questions and ideas that other people have had while reading the textbook. A reading group’s best friend!
-(And what if we could make the comments/questions not linear, but graph-like?)
-1.education #
-<->
-Piazza #
-<->
-TodaysMeet #
-<->
-Concrete Mathematics, Graham, Patashnik, Knuth (one of my favorite math books; they incorporated class comments into the margins of their textbook) ~holden1@mit.edu  
+	
+	I imagine this extending to other media besides videos. What if we did the same for every major textbook, ordered by page number? Reading a textbook no longer has to be a very independent activity; you could be connected to the corpus of all questions and ideas that other people have had while reading the textbook. A reading group’s best friend!
+	
+	(And what if we could make the comments/questions not linear, but graph-like?)
+	1.education <-> Piazza <-> TodaysMeet <-> Concrete Mathematics, Graham, Patashnik, Knuth (one of my favorite math books; they incorporated class comments into the margins of their textbook) 
 
-#Great ideas that exist that could use more support
+# Great ideas that exist that could use more support
+
 + Mathbookwiki
 + flooved
 + teachme (iPhone app by Alex Iriza to trade knowledge with other people)

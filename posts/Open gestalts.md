@@ -2,7 +2,7 @@
 title: Open gestalts
 published: 2017-08-07
 modified: 2017-08-07
-parent: index
+parent: Projects
 tags: open_gestalts
 type: uncategorized
 showTOC: True

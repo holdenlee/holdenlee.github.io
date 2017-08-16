@@ -10,6 +10,7 @@ showTOC: True
 
 
 Next: Two types of [MOOCs](MOOCs.html)
+
 See the full post at [http://holdenlee.wordpress.com/2013/03/02/459/](http://holdenlee.wordpress.com/2013/03/02/459/.html). The below is a summary.
 
 #Advantages of MOOCs
