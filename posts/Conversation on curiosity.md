@@ -54,7 +54,7 @@ It really bothers me that no one teaches curiosity.
 		>
 		> I thought, "I know what it is: They're going to talk about mechanics, how the springs work inside the toy; about chemistry, how the engine of the automobile works; and biology, about how the muscles work."
 		>
-		> It was the kind of thing my father would have talked abou**T:** "What makes it go? Everything goes because the sun is shining." And then we would have fun discussing i**T:**
+		> It was the kind of thing my father would have talked about: "What makes it go? Everything goes because the sun is shining." And then we would have fun discussing it:
 		>
 		> "No, the toy goes because the spring is wound up," I would say. "How did the spring get wound up?" he would ask.
 		>
@@ -133,7 +133,7 @@ When I'm a parent, I'll make sure that my house's shelves (whether physical or v
 
 **T:** I think you've barely scratched the surface here! You get book-smarts that way. You're biased coming from a mathematical perspective, where you can learn lots of stuff from books.
 
-1. You're completely ignoring the [HANDS-ON IMPERATIVE](https://en.wikipedia.org/wiki/Hacker_ethic#Hands-On_Imperative). Saying you learn curiosity from books is like, well, saying you gain muscles by watching exercise videos. Plus, for other subjects, the analogue of reading books might be something differen**T:** watching the Olympics. Going to art museums (maybe not the best example, because I think I need a book to *understand* the significance of art!). And so forth.
+1. You're completely ignoring the [HANDS-ON IMPERATIVE](https://en.wikipedia.org/wiki/Hacker_ethic#Hands-On_Imperative). Saying you learn curiosity from books is like, well, saying you gain muscles by watching exercise videos. Plus, for other subjects, the analogue of reading books might be something different: watching the Olympics. Going to art museums (maybe not the best example, because I think I need a book to *understand* the significance of art!). And so forth.
 2. You said that curiosity has to come from within. But now you're saying it's coming from without?
 
 **I:**

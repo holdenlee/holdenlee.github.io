@@ -3,7 +3,7 @@ title: Staring at the ceiling
 published: 2017-08-13
 modified: 2017-08-13
 parent: Personal bible
-tags: spirituality, Buddhism, words
+tags: anecdote, social
 showTOC: True
 ---
 
