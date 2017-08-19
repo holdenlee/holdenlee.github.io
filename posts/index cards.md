@@ -22,4 +22,6 @@ Other people's thoughts, organized in a similar way:
     + Maxims: [http://people.maths.ox.ac.uk/trefethen/maxims.html](http://people.maths.ox.ac.uk/trefethen/maxims.html)
 + Zeilberger's opinions [http://www.math.rutgers.edu/~zeilberg/OPINIONS.html](http://www.math.rutgers.edu/~zeilberg/OPINIONS.html.html)
 
+See also [Forget your index cards](Forget your index cards.html).
+
 
