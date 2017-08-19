@@ -209,6 +209,8 @@ There's a table in the googledoc. I encourage you to post your "index cards" the
 
 * [Nonfiction writing advice (Slatestarcodex)](http://slatestarcodex.com/2016/02/20/writing-advice/): highly recommended
 * [Writing for thinking (Evan Chen)](https://usamo.wordpress.com/2015/03/14/writing/).
+* My (very abbreviated notes) on a CFAR alumni reunion class, [Notetaking 101: Growing an exobrain (Joel Solymosi)](https://workflowy.com/s/BeBJ.lb28OIC55u).
+	* [The extended mind](http://www.abc.net.au/radionational/programs/philosopherszone/the-extended-mind/2986780).
 * [What I learned from Patrick Winston](What I learned from Patrick Winston.html).
 
 <!--
