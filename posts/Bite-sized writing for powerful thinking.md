@@ -113,7 +113,7 @@ The two criteria for such a system are:
 1. It has low activation energy.
 2. It is easily searchable. 
 
-You can use any notetaking framework. I recommend using [workflowy](http://workflowy.com/) or [dynalist](https://dynalist.io/). You can use a wiki, blog, or journal for writing up longer posts. When you’re out and around and you have a good idea, you can write them down on your phone or pocket notebook. 
+You can use any notetaking framework. I recommend using [workflowy](https://workflowy.com/invite/fdc650b.lnx) or [dynalist](https://dynalist.io/). You can use a wiki, blog, or journal for writing up longer posts. When you’re out and around and you have a good idea, you can write them down on your phone or pocket notebook. 
 
 ## Exercise
 
