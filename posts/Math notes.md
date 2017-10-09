@@ -98,7 +98,7 @@ Note: the earlier notes are pdfs compiled from Word. I've given errata for them 
     + [Extremal and probabilistic combinatorics ](https://www.dropbox.com/s/plrdg8oak90o0g2/part_iii_combo.pdf?dl=0) (Part III, Spring 2014)
     + [Noise sensitivity](https://www.dropbox.com/s/wob1sfwxffwznwm/noise_sensitivity.pdf?dl=0) [source](https://www.dropbox.com/s/6siohdavet0lnkb/ns.zip?dl=0) (Part III essay)
     + [Ramsey theory](https://www.dropbox.com/s/6siohdavet0lnkb/ns.zip?dl=0) [source](https://www.dropbox.com/s/10bymuecjvw5wlp/ramsey.zip?dl=0) (Part III, Fall 2013)
-    + [Arithmetic combinatorics](https://docs.google.com/document/d/177DqNun66BGiLKmOIPdOHeHf8lbcZUM7OHpNlsUY7Ho/edit#) (Part III, Fall 2013)
+    + [Arithmetic combinatorics](https://www.dropbox.com/s/1mhp069hvf8r1c4/part_iii_ac.pdf?dl=0) [googledoc about notes](https://docs.google.com/document/d/177DqNun66BGiLKmOIPdOHeHf8lbcZUM7OHpNlsUY7Ho/edit#) (Part III, Fall 2013)
     + [Additive combinatorics and equidistribution ](https://www.dropbox.com/s/tkkgwcrcxxecuhk/part_iii_equidistribution.pdf?dl=0) [source](https://www.dropbox.com/s/foqhbttmqyqu2yo/ed.zip?dl=0) (Part III, Spring 2014)
     + [Algebraic methods in incidence theory ](https://www.dropbox.com/s/85csggziyk983sl/AMiIT_review.pdf?dl=0) [source](https://www.dropbox.com/s/nmr10deid4wwvno/AMiIT.zip?dl=0) (Part III, Spring 2014)
 + Computer science
