@@ -2,6 +2,7 @@
 title: Math notes
 published: 2017-08-13
 modified: 2017-08-13
+parent: Math
 tags: 
 type: uncategorized
 showTOC: True
