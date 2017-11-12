@@ -9,18 +9,16 @@ isMainPage: True
 ---
 
 <center><img src="pics/me2.JPG?dl=0" alt="web" width="50%" height="50%"></center>
-
+<br/>
 <center>
-Holden Lee
+Holden Lee<br/>
+[Mathematics Department](https://www.math.princeton.edu/)<br/>
+[Princeton University](http://www.princeton.edu)<br/>
+holdenl@princeton.edu<br/>
 
-[Mathematics Department](https://www.math.princeton.edu/)
-
-[Princeton University](http://www.princeton.edu)
-
-[holdenl@princeton.edu](mailto:holdenl@princeton.edu)
 </center>
 
-I am a Ph.D. student advised by Sanjeev Arora, focusing on machine learning from a theoretical perspective. Check out my [research](Research.html) and [blog](http://holdenlee.github.io/blog).
+I am a Ph.D. student advised by Sanjeev Arora, focusing on machine learning from a theoretical perspective. Check out my **[research](Research.html)** and **[blog](http://holdenlee.github.io/blog)**.
 
 # Basic Info
 
