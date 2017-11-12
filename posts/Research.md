@@ -8,7 +8,7 @@ type: uncategorized
 showTOC: True
 ---
 
-I am a Ph.D. student at Princeton working with [Sanjeev Arora](https://www.cs.princeton.edu/~arora/) ([research group page](http://unsupervised.cs.princeton.edu/)).
+I am a Ph.D. student at Princeton working with [Sanjeev Arora](https://www.cs.princeton.edu/~arora/) ([research group page](http://unsupervised.cs.princeton.edu/), [ML theory at Princeton](http://mltheory.cs.princeton.edu/)).
 
 I focus on machine learning theory, and also have broad interests in theoretical computer science and related math.
 

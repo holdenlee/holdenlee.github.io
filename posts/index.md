@@ -20,6 +20,10 @@ holdenl@princeton.edu<br/>
 
 I am a Ph.D. student advised by Sanjeev Arora, focusing on machine learning from a theoretical perspective. Check out my **[research](Research.html)** and **[blog](http://holdenlee.github.io/blog)**.
 
+Here are links to [ML theory at Princeton](http://mltheory.cs.princeton.edu/) and
+[Sanjeev Arora's research group](http://unsupervised.cs.princeton.edu/).
+
+
 # Basic Info
 
 * Education:
