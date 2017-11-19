@@ -16,12 +16,14 @@ See [Personal bible](Personal bible.html) for a collection of quotes and parable
 #Life organization
 
 + On [index cards](index cards.html) as pensieves for thought.
++ [Bite-sized writing for powerful thinking](Bite-sized writing for powerful thinking.html)
 + [Lenses and theories](Lenses and theories.html)
 
 # Essays on life
 
 * [Butterflies](https://holdenlee.wordpress.com/2013/09/06/butterflies/)
 * [Some college advice (39 things)](https://holdenlee.wordpress.com/2013/09/03/some-college-advice-39-things/)
+* [General advice](General advice.html)
 
 #Philosophy
 

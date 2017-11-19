@@ -8,13 +8,11 @@ type: uncategorized
 showTOC: True
 ---
 
-
-
 Back to [Math](Math.html). (Note: I'd be happy to talk if you still have questions; just shoot me an email.)
 
 #1 Advice for high-schoolers (including, but not limited to, mathletes)
 
-First, you should read [Links for life](Links for life.html): some general advice for high school and college. **DO IT.** (NEW: [General advice](General advice.html))
+First, check out [General advice](General advice.html).
 
 **Q: Why should I care about other stuff besides math competitions? I just want to focus on math.**
 
