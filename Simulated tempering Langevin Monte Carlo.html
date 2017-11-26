@@ -10,7 +10,7 @@
   <meta name="description" content="Holden Lee's Blog">
   <meta name="author" content="Holden Lee">
     
-  <title>Research</title>
+  <title>Simulated tempering Langevin Monte Carlo</title>
 
   <!-- Bootstrap core CSS -->
   <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -94,20 +94,20 @@
 
   <div id="content">
     <div class="page header">
-      <h1> Research </h1>
+      <h1> Simulated tempering Langevin Monte Carlo </h1>
     </div>
     
     
     <div class="info">
-      
+       <div class="subtitle"><p>Rong Ge, Holden Lee, Andrej Risteski</p></div> 
        
-        <p>Posted: 2017-08-07 
-          , Modified: 2017-08-07 
+        <p>Posted: 2017-11-26 
+          , Modified: 2017-11-26 
 	</p>
       
        <p>Tags: <a href="./tags/math.html">math</a></p> 
-       <p>Parent: <a href="./Math.html">Math</a></p> 
-	   <p>Children: <a href="./Simulated%20tempering%20Langevin%20Monte%20Carlo.html">Simulated tempering Langevin Monte Carlo</a>, <a href="./l-adic%20properties%20of%20partition%20functions.html">l-adic properties of partition functions</a></p> 
+       <p>Parent: <a href="./Research.html">Research</a></p> 
+	   <p>Children: </p> 
     </div>
     
     
@@ -115,45 +115,85 @@
   <!--/div-->
 
   <div class="toc"> <ul>
- <li><a href="#research-interests">Research interests</a></li>
- <li><a href="#papers">Papers</a><ul>
- <li><a href="#machine-learning">Machine learning</a></li>
- <li><a href="#complexity-theory">Complexity theory</a></li>
- <li><a href="#number-theory">Number theory</a></li>
+ <li><a href="#cartoon">Cartoon</a></li>
+ <li><a href="#abstract">Abstract</a></li>
+ <li><a href="#introduction">Introduction</a><ul>
+ <li><a href="#optimization-vs.sampling">Optimization vs. sampling</a></li>
  </ul></li>
+ <li><a href="#faq">FAQ</a></li>
  </ul> </div>
 
   <div class="blog-main">
-    <p>I am a Ph.D. student at Princeton working with <a href="https://www.cs.princeton.edu/~arora/">Sanjeev Arora</a> (<a href="http://unsupervised.cs.princeton.edu/">research group page</a>, <a href="http://mltheory.cs.princeton.edu/">ML theory at Princeton</a>).</p>
-<p>I focus on machine learning theory, and also have broad interests in theoretical computer science and related math.</p>
-<h2 id="research-interests">Research interests</h2>
-<p>Although machine learning (and deep learning in particular) has made great advances in recent years, our mathematical understanding of it is shallow. Learning problems can be highly nonconvex, yet tractable in practice. What hidden structure do these problems have, and how can we design algorithms to take advantage of it?</p>
-<p>Current interests include:</p>
+    <p>This page is about the following paper:</p>
+<blockquote>
+<p>Ge, R., Lee, H., &amp; Risteski, A. (2017). <strong>Beyond Log-concavity: Provable Guarantees for Sampling Multi-modal Distributions using Simulated Tempering Langevin Monte Carlo.</strong> arXiv preprint arXiv:1710.02736.</p>
+</blockquote>
+<p>Shortlink: To be filled in.</p>
 <ul>
-<li><strong>Probabilistic modeling</strong>: How to design provable algorithms for learning probability distributions and sampling from them? How can we improve classical algorithms like Markov Chain Monte Carlo, or test the quality of the samples?</li>
-<li><strong>Control theory and reinforcement learning</strong>: It is a well-studied problem how to find the optimal control for known linear dynamical system. However, reinforcement learning deals with learning how to act unknown, combinatorially complex systems; algorithms are heuristic and slow. How to bridge this gap?</li>
-<li><strong>Neural networks</strong>: Neural networks tackle highly nonconvex problems but do very well in practice. Why? What kind of algorithmic improvements can we come up with by understanding their theoretical foundations more deeply?</li>
-<li><strong>Natural language processing</strong>: Language is a fundamental part of human intelligence and a big frontier for machine learning. How do we create machines that can understand “grammar” and “semantics”?</li>
+<li><a href="https://arxiv.org/abs/1710.02736">arXiv</a>, <a href="https://arxiv.org/pdf/1710.02736.pdf">pdf</a>.</li>
+<li>Slides: To be added.</li>
+<li>Poster: To be added.</li>
 </ul>
-<h2 id="papers">Papers</h2>
-<h3 id="machine-learning">Machine learning</h3>
+<h2 id="cartoon">Cartoon</h2>
+<center>
+<img src="pics/not_mixing.png">
+</center>
+<p>A Markov chain with local moves such as Langevin diffusion gets stuck in a local mode.</p>
+<center>
+<img src="pics/mixing.png">
+</center>
+<p>Creating a meta-Markov chain which <em>changes the temperature</em> can exponentially speed up mixing.</p>
+<h2 id="abstract">Abstract</h2>
+<p>A key task in Bayesian statistics is sampling from distributions that are only specified up to a partition function (i.e., constant of proportionality). However, without any assumptions, sampling (even approximately) can be #P-hard, and few works have provided “beyond worst-case” guarantees for such settings.</p>
+<p>For log-concave distributions, classical results going back to Bakry and Emery (1985) show that natural continuous-time Markov chains called Langevin diffusions mix in polynomial time. The most salient feature of log-concavity violated in practice is uni-modality: commonly, the distributions we wish to sample from are multi-modal. In the presence of multiple deep and well-separated modes, Langevin diffusion suffers from torpid mixing.</p>
+<p>We address this problem by combining Langevin diffusion with simulated tempering. The result is a Markov chain that mixes more rapidly by transitioning between different temperatures of the distribution. We analyze this Markov chain for the canonical multi-modal distribution: a mixture of gaussians (of equal variance). The algorithm based on our Markov chain provably samples from distributions that are close to mixtures of gaussians, given access to the gradient of the log-pdf.</p>
+<h2 id="introduction">Introduction</h2>
+<p>Summary:</p>
 <ul>
-<li><p><strong>Beyond Log-concavity: Provable Guarantees for Sampling Multi-modal Distributions using Simulated Tempering Langevin Monte Carlo.</strong></p>
-<p>with Rong Ge and Andrej Risteski. NIPS AABI Workshop 2017. [<a href="https://arxiv.org/abs/1710.02736">arXiv</a>, <a href="https://arxiv.org/pdf/1710.02736.pdf">pdf</a>, <a href="Simulated%20tempering%20Langevin%20Monte%20Carlo.html">webpage</a>].</p></li>
-<li><p><strong>On the Ability of Neural Nets to Express Distributions.</strong></p>
-<p>with Rong Ge, Tengyu Ma, Andrej Risteski, and Sanjeev Arora. COLT 2017. [<a href="https://arxiv.org/pdf/1702.07028.pdf">arXiv</a>, <a href="http://proceedings.mlr.press/v65/lee17a/lee17a.pdf">PMLR 65:1271-1296</a>, <a href="http://tiny.cc/hlcolt17">webpage</a>]</p></li>
+<li>I compare sampling to <em>optimization</em>. “Beyond log-concavity” is the analogue of “beyond convexity” in the Bayesian world. Moreover, there are close connections between optimization and sampling, so there’s reason to study sampling even if you only care about optimization.</li>
+<li>Sampling is a fundamental task in Bayesian statistics.</li>
+<li>To help with sampling, temperature-based methods are widely used, but lack theoretical analysis.</li>
 </ul>
-<h3 id="complexity-theory">Complexity theory</h3>
-<ul>
-<li><p><strong>Quadratic polynomials of small modulus cannot represent OR.</strong></p>
-<p>Unpublished, 2015. <a href="http://arxiv.org/abs/1509.08896">arXiv</a></p></li>
-</ul>
-<h3 id="number-theory">Number theory</h3>
-<ul>
-<li><p><strong>l-adic properties of partition functions.</strong></p>
-<p>with Eva Belmont, Alexandra Musat, and Sarah Trebat-Leder.</p>
-<p><a href="http://link.springer.com/article/10.1007/s00605-013-0586-y">Monatshefte für Mathematik, 173(1), 1-34</a>, 2014. [<a href="https://arxiv.org/abs/1510.01202">arXiv</a>, <a href="l-adic%20properties%20of%20partition%20functions.html">webpage</a>]</p></li>
-</ul>
+<h3 id="optimization-vs.sampling">Optimization vs. sampling</h3>
+<p>The goal in optimization is to find the minimum of a function <span class="math inline">\(f\)</span>.</p>
+<p>When <span class="math inline">\(f\)</span> is convex, this is well-understood and can be solved using local search algorithms such as gradient descent.</p>
+<p>When <span class="math inline">\(f\)</span> is non-convex, the problem is NP-hard in the worst-case, but algorithms often work well in practice.</p>
+<p>Here is a comparison of convex and non-convex optimization, the “great divide” of optimization.</p>
+<table style="width:10%;">
+<colgroup>
+<col style="width: 5%" />
+<col style="width: 5%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Convex optimization</th>
+<th>Non-convex optimization</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Local minimum = global minima</td>
+<td>Possibly bad local minima</td>
+</tr>
+<tr class="even">
+<td>Gradient descent finds global minimum</td>
+<td>Gradient descent can be bad</td>
+</tr>
+<tr class="odd">
+<td>Provable algorithms with beautiful mathematics</td>
+<td>NP-hard in the worst-case (messy), but often works in practice</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Modern optimization problems (e.g. machine learning) are often non-convex.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="faq">FAQ</h2>
+<p>Q: Why not simulated annealing?</p>
+<p>Q: What about gaussians of unequal variance?</p>
+<p>Q: If the sample at time <span class="math inline">\(t\)</span> isn’t from the <span class="math inline">\(L\)</span>th level, can’t you just take the first sample after that that is in the <span class="math inline">\(L\)</span>th level?</p>
+<p>Thoughts, questions, typos? Leave a comment below.</p>
 
   </div>
   
