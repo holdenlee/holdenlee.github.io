@@ -41,6 +41,16 @@ h2:after
     border:1px solid gray;
 }
 
+table {
+    width: 100%;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+
 /*
 .wrapper {
     display: flex;
