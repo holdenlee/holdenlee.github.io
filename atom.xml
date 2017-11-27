@@ -43,10 +43,6 @@
   <div class="toc"> <ul>
  <li><a href="#cartoon">Cartoon</a></li>
  <li><a href="#abstract">Abstract</a></li>
- <li><a href="#introduction">Introduction</a><ul>
- <li><a href="#optimization-vs.sampling">Optimization vs. sampling</a></li>
- </ul></li>
- <li><a href="#faq">FAQ</a></li>
  </ul> </div>
 
   <div class="blog-main">
@@ -54,10 +50,11 @@
 <blockquote>
 <p>Ge, R., Lee, H., &amp; Risteski, A. (2017). <strong>Beyond Log-concavity: Provable Guarantees for Sampling Multi-modal Distributions using Simulated Tempering Langevin Monte Carlo.</strong> arXiv preprint arXiv:1710.02736.</p>
 </blockquote>
-<p>Shortlink: To be filled in.</p>
+<p>Shortlink: <a href="http://tiny.cc/glr17">tiny.cc/glr17</a></p>
 <ul>
 <li><a href="https://arxiv.org/abs/1710.02736">arXiv</a>, <a href="https://arxiv.org/pdf/1710.02736.pdf">pdf</a>.</li>
-<li>Slides: To be added.</li>
+<li><a href="https://www.dropbox.com/s/v2pijnsk9c6t11s/soft_partition2.pdf?dl=0">Supplement</a>: Contains a simpler proof of the main theorem in the paper. I recommend reading this instead of the proof in the paper. Note this is a work in progress.</li>
+<li><a href="https://www.dropbox.com/s/44udkqyd2r95qzk/slides_IAS.pdf?dl=0">Slides</a>, <a href="https://dynalist.io/d/wW7edPHuU41y1qxWAI0fL__c#z=c2y7iGMb-rjqoGupMLQ1DAWe">transcript</a></li>
 <li>Poster: To be added.</li>
 </ul>
 <h2 id="cartoon">Cartoon</h2>
@@ -73,52 +70,42 @@
 <p>A key task in Bayesian statistics is sampling from distributions that are only specified up to a partition function (i.e., constant of proportionality). However, without any assumptions, sampling (even approximately) can be #P-hard, and few works have provided “beyond worst-case” guarantees for such settings.</p>
 <p>For log-concave distributions, classical results going back to Bakry and Emery (1985) show that natural continuous-time Markov chains called Langevin diffusions mix in polynomial time. The most salient feature of log-concavity violated in practice is uni-modality: commonly, the distributions we wish to sample from are multi-modal. In the presence of multiple deep and well-separated modes, Langevin diffusion suffers from torpid mixing.</p>
 <p>We address this problem by combining Langevin diffusion with simulated tempering. The result is a Markov chain that mixes more rapidly by transitioning between different temperatures of the distribution. We analyze this Markov chain for the canonical multi-modal distribution: a mixture of gaussians (of equal variance). The algorithm based on our Markov chain provably samples from distributions that are close to mixtures of gaussians, given access to the gradient of the log-pdf.</p>
-<h2 id="introduction">Introduction</h2>
-<p>Summary:</p>
-<ul>
-<li>I compare sampling to <em>optimization</em>. “Beyond log-concavity” is the analogue of “beyond convexity” in the Bayesian world. Moreover, there are close connections between optimization and sampling, so there’s reason to study sampling even if you only care about optimization.</li>
-<li>Sampling is a fundamental task in Bayesian statistics.</li>
-<li>To help with sampling, temperature-based methods are widely used, but lack theoretical analysis.</li>
-</ul>
-<h3 id="optimization-vs.sampling">Optimization vs. sampling</h3>
-<p>The goal in optimization is to find the minimum of a function <span class="math inline">\(f\)</span>.</p>
-<p>When <span class="math inline">\(f\)</span> is convex, this is well-understood and can be solved using local search algorithms such as gradient descent.</p>
-<p>When <span class="math inline">\(f\)</span> is non-convex, the problem is NP-hard in the worst-case, but algorithms often work well in practice.</p>
-<p>Here is a comparison of convex and non-convex optimization, the “great divide” of optimization.</p>
-<table style="width:10%;">
-<colgroup>
-<col style="width: 5%" />
-<col style="width: 5%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Convex optimization</th>
-<th>Non-convex optimization</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Local minimum = global minima</td>
-<td>Possibly bad local minima</td>
-</tr>
-<tr class="even">
-<td>Gradient descent finds global minimum</td>
-<td>Gradient descent can be bad</td>
-</tr>
-<tr class="odd">
-<td>Provable algorithms with beautiful mathematics</td>
-<td>NP-hard in the worst-case (messy), but often works in practice</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Modern optimization problems (e.g. machine learning) are often non-convex.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="faq">FAQ</h2>
-<p>Q: Why not simulated annealing?</p>
-<p>Q: What about gaussians of unequal variance?</p>
-<p>Q: If the sample at time <span class="math inline">\(t\)</span> isn’t from the <span class="math inline">\(L\)</span>th level, can’t you just take the first sample after that that is in the <span class="math inline">\(L\)</span>th level?</p>
+<!--
+# Introduction
+
+Summary:
+
+* I compare sampling to *optimization*. "Beyond log-concavity" is the analogue of "beyond convexity" in the Bayesian world. Moreover, there are close connections between optimization and sampling, so there's reason to study sampling even if you only care about optimization.
+* Sampling is a fundamental task in Bayesian statistics.
+* To help with sampling, temperature-based methods are widely used, but lack theoretical analysis.
+
+## Optimization vs. sampling
+
+The goal in optimization is to find the minimum of a function $f$. 
+
+When $f$ is convex, this is well-understood and can be solved using local search algorithms such as gradient descent.
+
+When $f$ is non-convex, the problem is NP-hard in the worst-case, but algorithms often work well in practice.
+
+Here is a comparison of convex and non-convex optimization, the "great divide" of optimization.
+
+| Convex optimization | Non-convex optimization |
+| --- | --- |
+| Local minimum = global minima | Possibly bad local minima |
+| Gradient descent finds global minimum | Gradient descent can be bad |
+| Provable algorithms with beautiful mathematics | NP-hard in the worst-case (messy), but often works in practice |
+| | Modern optimization problems (e.g. machine learning) are often non-convex.|
+
+
+
+# FAQ
+
+Q: Why not simulated annealing?
+
+Q: What about gaussians of unequal variance?
+
+Q: If the sample at time $t$ isn't from the $L$th level, can't you just take the first sample after that that is in the $L$th level?
+-->
 <p>Thoughts, questions, typos? Leave a comment below.</p>
 
   </div>
