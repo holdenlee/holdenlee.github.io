@@ -13,10 +13,11 @@ This page is about the following paper:
 
 > Ge, R., Lee, H., & Risteski, A. (2017). **Beyond Log-concavity: Provable Guarantees for Sampling Multi-modal Distributions using Simulated Tempering Langevin Monte Carlo.** arXiv preprint arXiv:1710.02736.
 
-Shortlink: To be filled in.
+Shortlink: [tiny.cc/glr17](http://tiny.cc/glr17)
 
 * [arXiv](https://arxiv.org/abs/1710.02736), [pdf](https://arxiv.org/pdf/1710.02736.pdf).
-* Slides: To be added.
+* [Supplement](https://www.dropbox.com/s/v2pijnsk9c6t11s/soft_partition2.pdf?dl=0): Contains a simpler proof of the main theorem in the paper. I recommend reading this instead of the proof in the paper. Note this is a work in progress.
+* [Slides](https://www.dropbox.com/s/44udkqyd2r95qzk/slides_IAS.pdf?dl=0), [transcript](https://dynalist.io/d/wW7edPHuU41y1qxWAI0fL__c#z=c2y7iGMb-rjqoGupMLQ1DAWe)
 * Poster: To be added.
 
 # Cartoon
@@ -41,6 +42,7 @@ For log-concave distributions, classical results going back to Bakry and Emery (
 
 We address this problem by combining Langevin diffusion with simulated tempering. The result is a Markov chain that mixes more rapidly by transitioning between different temperatures of the distribution. We analyze this Markov chain for the canonical multi-modal distribution: a mixture of gaussians (of equal variance). The algorithm based on our Markov chain provably samples from distributions that are close to mixtures of gaussians, given access to the gradient of the log-pdf.
 
+<!--
 # Introduction
 
 Summary:
@@ -75,6 +77,6 @@ Q: Why not simulated annealing?
 Q: What about gaussians of unequal variance?
 
 Q: If the sample at time $t$ isn't from the $L$th level, can't you just take the first sample after that that is in the $L$th level?
-
+-->
 
 Thoughts, questions, typos? Leave a comment below.

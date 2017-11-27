@@ -47,4 +47,4 @@ Current interests include:
 	
 	with Eva Belmont, Alexandra Musat, and Sarah Trebat-Leder.
 
-	[Monatshefte für Mathematik, 173(1), 1-34](http://link.springer.com/article/10.1007/s00605-013-0586-y), 2014. [[arXiv](https://arxiv.org/abs/1510.01202), [webpage](l-adic properties of partition functions.html)]
+	[Monatshefte für Mathematik, 173(1), 1-34](http://link.springer.com/article/10.1007/s00605-013-0586-y), 2014. [[arXiv](https://arxiv.org/abs/1510.01202), [presentation](https://www.dropbox.com/s/81413cszqabcwcx/MIT%20presentation.pdf?dl=0), [webpage](l-adic properties of partition functions.html)]

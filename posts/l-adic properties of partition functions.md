@@ -11,7 +11,7 @@ showTOC: True
 Belmont, E., Lee, H., Musat, A., & Trebat-Leder, S. (2014). l-adic properties of partition functions. Monatshefte für Mathematik, 173(1), 1-34. 
 
 * [Paper](http://link.springer.com/article/10.1007/s00605-013-0586-y)
-* [Presentation](https://dl.dropboxusercontent.com/u/27883775/web/math/papers/MIT presentation.pdf)
+* [Presentation](https://www.dropbox.com/s/81413cszqabcwcx/MIT%20presentation.pdf?dl=0)
 
 Work done at 2011 Number theory REU at Emory University with Ken Ono
 
