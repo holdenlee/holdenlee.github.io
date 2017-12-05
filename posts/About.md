@@ -10,7 +10,7 @@ showTOC: True
 
 # About me
 
-I'm Holden Lee, a graduate student in math at Princeton. I started in Fall 2014.
+I'm Holden Lee, a graduate student in math at Princeton. I started in Fall 2014. 
 
 My main interest is in machine learning and theoretical computer science. Other academic interests/hobbies include:
 
