@@ -41,14 +41,43 @@
   <!--/div-->
 
   <div class="toc"> <ul>
- <li><a href="#cartoon">Cartoon</a></li>
+ <li><a href="#basic-information">Basic information</a><ul>
  <li><a href="#abstract">Abstract</a></li>
+ </ul></li>
+ <li><a href="#blog-post">Blog post</a></li>
+ <li><a href="#cartoon">Cartoon</a></li>
+ <li><a href="#problem">Problem</a></li>
+ <li><a href="#introduction">Introduction</a><ul>
+ <li><a href="#optimization-vs.sampling">Optimization vs. sampling</a><ul>
+ <li><a href="#the-great-divide-of-optimization">The great divide of optimization</a></li>
+ <li><a href="#the-great-divide-of-sampling">The great divide of sampling</a></li>
+ </ul></li>
+ <li><a href="#why-optimizers-care-about-sampling">Why optimizers care about sampling</a></li>
+ </ul></li>
+ <li><a href="#main-result">Main result</a><ul>
+ <li><a href="#algorithm">Algorithm</a><ul>
+ <li><a href="#langevin-diffusion">Langevin diffusion</a></li>
+ <li><a href="#simulated-tempering-turns-the-heat-on">Simulated tempering turns the heat on</a></li>
+ <li><a href="#combining-langevin-diffusion-and-simulated-tempering">Combining Langevin diffusion and simulated tempering</a></li>
+ </ul></li>
+ </ul></li>
+ <li><a href="#proof-sketch">Proof sketch</a><ul>
+ <li><a href="#markov-chain-decomposition-theorem">Markov chain decomposition theorem</a><ul>
+ <li><a href="#previous-decomposition-theorems">Previous decomposition theorems</a></li>
+ <li><a href="#decomposition-theorem-with-sets">Decomposition theorem with sets</a></li>
+ <li><a href="#applying-the-decomposition-theorem">Applying the decomposition theorem</a></li>
+ <li><a href="#simulated-tempering-mixes-for-p">Simulated tempering mixes for <span class="math inline"><em>p</em></span></a></li>
+ </ul></li>
+ </ul></li>
+ <li><a href="#takeaways">Takeaways</a></li>
+ <li><a href="#further-directions">Further directions</a></li>
  </ul> </div>
 
   <div class="blog-main">
-    <p>This page is about the following paper:</p>
+    <h2 id="basic-information">Basic information</h2>
+<p>This page is about the following paper:</p>
 <blockquote>
-<p>Ge, R., Lee, H., &amp; Risteski, A. (2017). <strong>Beyond Log-concavity: Provable Guarantees for Sampling Multi-modal Distributions using Simulated Tempering Langevin Monte Carlo.</strong> arXiv preprint arXiv:1710.02736.</p>
+<p>Ge, R., Lee, H., &amp; Risteski, A. (2017). <strong>Beyond Log-concavity: Provable Guarantees for Sampling Multi-modal Distributions using Simulated Tempering Langevin Monte Carlo.</strong> NIPS AABI workshop 2017. arXiv preprint arXiv:1710.02736.</p>
 </blockquote>
 <p>Shortlink: <a href="http://tiny.cc/glr17">tiny.cc/glr17</a></p>
 <ul>
@@ -57,19 +86,233 @@
 <li><a href="https://www.dropbox.com/s/44udkqyd2r95qzk/slides_IAS.pdf?dl=0">Slides</a>, <a href="https://dynalist.io/d/wW7edPHuU41y1qxWAI0fL__c#z=c2y7iGMb-rjqoGupMLQ1DAWe">transcript</a></li>
 <li>Poster: To be added.</li>
 </ul>
-<h2 id="cartoon">Cartoon</h2>
-<center>
-<img src="pics/not_mixing.png">
-</center>
-<p>A Markov chain with local moves such as Langevin diffusion gets stuck in a local mode.</p>
-<center>
-<img src="pics/mixing.png">
-</center>
-<p>Creating a meta-Markov chain which <em>changes the temperature</em> can exponentially speed up mixing.</p>
-<h2 id="abstract">Abstract</h2>
+<h3 id="abstract">Abstract</h3>
 <p>A key task in Bayesian statistics is sampling from distributions that are only specified up to a partition function (i.e., constant of proportionality). However, without any assumptions, sampling (even approximately) can be #P-hard, and few works have provided “beyond worst-case” guarantees for such settings.</p>
 <p>For log-concave distributions, classical results going back to Bakry and Emery (1985) show that natural continuous-time Markov chains called Langevin diffusions mix in polynomial time. The most salient feature of log-concavity violated in practice is uni-modality: commonly, the distributions we wish to sample from are multi-modal. In the presence of multiple deep and well-separated modes, Langevin diffusion suffers from torpid mixing.</p>
 <p>We address this problem by combining Langevin diffusion with simulated tempering. The result is a Markov chain that mixes more rapidly by transitioning between different temperatures of the distribution. We analyze this Markov chain for the canonical multi-modal distribution: a mixture of gaussians (of equal variance). The algorithm based on our Markov chain provably samples from distributions that are close to mixtures of gaussians, given access to the gradient of the log-pdf.</p>
+<!-- 
+TITLE: Sampling from multimodal distributions by changing the temperature
+
+In this post I describe recent work with Rong Ge and Andrej Risteski on an algorithm that provably samples from certain multimodal distributions. 
+
+Sampling is a fundamental task in Bayesian statistics, and dealing with multimodal distributions is a core challenge. 
+One common technique to sample from a probability distribution is to define a Markov chain with that distribution as its stationary distribution. This general approach is called **Markov chain Monte Carlo**. However, in many practical problems, the Markov chain does not mix rapidly, and we obtain samples from only one part of the distribution.
+
+Practitioners have dealt with this problem through heuristics involving temperature. However, there has been little theoretical analysis of such methods. In our paper, we give provable guarantees for a temperature-based method called simulated tempering when it is set up correctly with the base Markov chain, called Langevin diffusion.
+-->
+<h2 id="blog-post">Blog post</h2>
+<p>In this post I describe recent work with Rong Ge and Andrej Risteski on an algorithm that provably samples from certain multimodal distributions.</p>
+<p>Sampling is a fundamental task in Bayesian statistics, and dealing with multimodal distributions is a core challenge. One common technique to sample from a probability distribution is to define a Markov chain with that distribution as its stationary distribution. This general approach is called <strong>Markov chain Monte Carlo</strong>. However, in many practical problems, the Markov chain does not mix rapidly, and we obtain samples from only one part of the distribution.</p>
+<p>Practitioners have dealt with this problem through heuristics involving temperature. However, there has been little theoretical analysis of such methods. In our paper, we give provable guarantees for a temperature-based method called simulated tempering when it is set up correctly with the base Markov chain, called Langevin diffusion.</p>
+<p>Here is a cartoon of our results:</p>
+<h2 id="cartoon">Cartoon</h2>
+<center>
+<img src="pics/not_mixing.png" width="50%" height="50%">
+</center>
+<p>A Markov chain with local moves such as Langevin diffusion gets stuck in a local mode.</p>
+<center>
+<img src="pics/mixing.png" width="50%" height="50%">
+</center>
+<p>Creating a meta-Markov chain which <em>changes the temperature</em> can exponentially speed up mixing.</p>
+<h2 id="problem">Problem</h2>
+<p>The concrete problem we address is the following.</p>
+<blockquote>
+<p>Sample from a probability distribution <span class="math inline">\(p(x) \propto e^{-f(x)}\)</span>, <span class="math inline">\(x\in \R^d\)</span> given access to <span class="math inline">\(f(x)\)</span> and <span class="math inline">\(\nabla f(x)\)</span>.</p>
+</blockquote>
+<p>We can’t hope to solve this problem in full generality<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>, but we can hope to find methods that work for a wider class of distributions, including some multimodal distributions.</p>
+<h2 id="introduction">Introduction</h2>
+<p>First I give some background for the problem.</p>
+<!--
+* I'll introduce the problem of sampling, a fundamental task of Bayesian statistics. -->
+<ul>
+<li>I’ll explain the analogy between sampling and optimization, in particular how going beyond <em>convexity</em> in optimization is like going beyond <em>log-concavity</em> in sampling.</li>
+<li>I’ll describe some connections between sampling and optimization, hopefully motivating people who work in optimization to care about sampling.</li>
+</ul>
+<!-- ## The problem of sampling-->
+<h3 id="optimization-vs.sampling">Optimization vs. sampling</h3>
+<h4 id="the-great-divide-of-optimization">The great divide of optimization</h4>
+<p>The goal in optimization is to find the minimum of a function <span class="math inline">\(f\)</span>.</p>
+<p>When <span class="math inline">\(f\)</span> is <strong>convex</strong>, this is well-understood:</p>
+<ul>
+<li>There is a unique local minimum, which is a global minimum.</li>
+<li>This allows local search algorithms such as <strong>gradient descent</strong> (as well as a whole extended family of zero, first, and second order algorithms) to work.</li>
+<li>Well-established mathematics characterizes how fast we can optimize convex functions based on various properties.</li>
+</ul>
+<p>On the other hand, when <span class="math inline">\(f\)</span> is non-convex,</p>
+<ul>
+<li>There can be many bad local minima.</li>
+<li>Gradient descent can get trapped in those local minima.</li>
+<li>The problem is NP-hard in the worst-case. This is a barrier for theoreticians as it means we won’t have clean, beautiful, assumption-free results, and we’ll have to get our hands dirty.</li>
+<li>Still, gradient descent-like algorithms often still well in practice.</li>
+</ul>
+<p>This is the “great divide” in optimization. On one side we have the well-understood area of convex optimization, and on the other we lump everything under the label “non-convex”. We care about non-convex optimization because many practical optimization problems (such as those arising in machine learning, and deep learning in particular) are very non-convex. In light of the worst-case results we’ll have to get our hands dirty and see what is the structure of real-world problems that allow us to do nonconvex optimization, to close the gap between theory and practice.</p>
+<h4 id="the-great-divide-of-sampling">The great divide of sampling</h4>
+<p>Analogously we have a “great divide” in sampling.</p>
+<p>Recall that we want to sample from <span class="math inline">\(p(x)\propto e^{-f(x)}\)</span> where <span class="math inline">\(x\in \R^d\)</span>. When <span class="math inline">\(f\)</span> is convex, i.e. <span class="math inline">\(p\)</span> is <strong>log-concave</strong>, this is well-understood.</p>
+<ul>
+<li><span class="math inline">\(f\)</span> has a unique local minimum, which means the distribution <span class="math inline">\(p\)</span> is unimodal.</li>
+<li>There is a natural algorithm (a Markov chain) called <strong>Langevin diffusion</strong> - which is basically gradient descent plus gaussian noise - that works, and a lot of beautiful math that goes into the analysis.</li>
+</ul>
+<p>On the other hand, when <span class="math inline">\(f\)</span> is non-convex,</p>
+<ul>
+<li><span class="math inline">\(p\)</span> can be multimodal</li>
+<li>Langevin diffusion can take exponentially long to mix, because it gets trapped in one of the modes.</li>
+<li>The problem is #P-hard in the worst case.</li>
+<li>Sampling algorithms can still do well in practice, sometimes with the aid of heuristics such as temperature-based methods.</li>
+</ul>
+<p>We care about this difficult case because modern sampling problems (such as those arising in Bayesian machine learning) are often non-log-concave. Like in nonconvex optimization, we must go beyond worst case analysis, and find what kind of structure in non-log-concave distributions allows us to sample efficiently.</p>
+<p>Note that log-concavity makes sense for sampling problems on <span class="math inline">\(\R^d\)</span>, but there are other conditions that similarly give guarantees for mixing, such as <strong>correlation decay</strong> for problems in <span class="math inline">\(\{0,1\}^d\)</span>. As is the case for log-concavity, we have provable guarantees for problems satisfying correlation decay, and beyond it, the field is murkier.</p>
+<h3 id="why-optimizers-care-about-sampling">Why optimizers care about sampling</h3>
+<p>The primary connection between optimization and sampling is the following: if we sample from <span class="math inline">\(e^{-f}\)</span>, we’re more likely to get points where <span class="math inline">\(f\)</span> is small. We can take this to the extreme: In the limit as <span class="math inline">\(\beta \to \infty\)</span>, the distribution <span class="math inline">\(e^{-\beta f}\)</span> is peaked at exactly the global minima. <span class="math inline">\(\beta\)</span> is called the inverse temperature (<span class="math inline">\(\beta=\frac 1T\)</span>) in statistical physics.</p>
+<p>So in a sense, optimization is “just” a sampling problem. In reality, however, we can’t usually take <span class="math inline">\(\beta\to \infty\)</span>, so there is tradeoff between ability to sample and quality of the solution.</p>
+<p>Here is a list of past work connecting optimization and sampling, or more generally, using randomness:</p>
+<ul>
+<li>To escape local minima, we can add noise to gradient descent (which is exactly Langevin diffusion), at the cost of not exactly getting a minimum. This has been analyzed in, for example, <a href="https://arxiv.org/abs/1702.05575">A hitting time analysis of stochastic gradient langevin dynamics</a>. <a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a> <!--[ZLC17]--></li>
+<li>Several works have heuristically explained the success of stochastic gradient descent using Langevin dynamics: if we pretend the noise from the stochasticity is gaussian, then we get exactly Langevin dynamics and the ability to escape local minima. <!--[WT11], [MHB16]--> The noise can also be thought of as imposing a prior, helping generalization.<br />
+</li>
+<li>Langevin dynamics has also inspired temperature-based methods such as <a href="https://arxiv.org/abs/1611.01838">entropy-SGD for optimizing neural networks</a>. <!-- [YZM17], [CCSLBBCSZ17]--></li>
+<li>Other works on non-convex optimization also use the idea of randomness, for example, adding perturbations to help escape saddle points. <!--[AG16, GJNKJ17]--> See <a href="http://www.offconvex.org/2017/07/19/saddle-efficiency/">post</a>.</li>
+<li>Another connection to note is a work by Jake Abernathy and Elad Hazan connecting the interior point methods (following the central path) to simulated annealing for convex optimization. <!--[AH15]--> See <a href="http://www.minimizingregret.com/2016/03/the-two-cultures-of-optimization.html">post</a>.</li>
+</ul>
+<h2 id="main-result">Main result</h2>
+<p>We analyze a natural algorithm for sampling beyond log-concavity, combining Langevin diffusion with simulated tempering. We show efficient sampling given a structural assumption on the distribution, that it is close to a mixture of gaussians with polynomially many components.</p>
+<p>Our main theorem is the following.</p>
+<blockquote>
+<p><strong>Theorem</strong>: Let <span class="math inline">\(p(x)\propto e^{-f(x)}\)</span> be a mixture of gaussians, i.e., <span class="math display">\[f(x)=-\ln\pa{\sumo in w_i e^{-\fc{\ve{x-\mu_j}^2}{2\si^2}}}\]</span>. Suppose we can query <span class="math inline">\(f(x)\)</span>, <span class="math inline">\(\nb f(x)\)</span>, and <span class="math inline">\(\si, \ve{\mu_j}\le D\)</span>. There is an algorithm (based on Langevin diffusion and simulated tempering), which runs in time <span class="math inline">\(\poly(1/w_{\min},1/\si^2,1/\ep,d,D)\)</span> that samples from a distribution <span class="math inline">\(\wt p\)</span> with <span class="math inline">\(\ve{p-\wt p}_1\le \ep\)</span>.</p>
+</blockquote>
+<p>Moreover, this theorem is robust in the following sense: if <span class="math inline">\(f\)</span> is only <span class="math inline">\(\De\)</span>-close in <span class="math inline">\(L^{\iy}\)</span> distance to a mixture of gaussians, then we incur an additional factor of <span class="math inline">\(\poly(e^{\De})\)</span> in complexity.</p>
+<h3 id="algorithm">Algorithm</h3>
+<p>The two algorithmic tools are</p>
+<ol type="1">
+<li><strong>Langevin diffusion</strong>, which is a generic chain for sampling given gradient access to log-pdf of distribution, and</li>
+<li><strong>Simulated tempering</strong>, a heuristic for speeding up Markov Chains on multimodal distributions.</li>
+</ol>
+<h4 id="langevin-diffusion">Langevin diffusion</h4>
+<p>Langevin is a continuous time random-walk for sampling from <span class="math inline">\(p\propto e^{-f}\)</span>, given access to the gradient of the log-pdf, <span class="math inline">\(f\)</span>. It is gradient flow plus Brownian motion, and described by a stochastic differential equation <span class="math display">\[dx_t = -\be_t \nb f(x_t)dt + \sqrt 2 d W_t.\]</span> It’s not necessary to understand the stochastic calculus: you can think of this as the limit of a discrete process, just as gradient flow is the continuous limit of gradient descent. The <span class="math inline">\(\eta\)</span>-discretized version is where we take a gradient step, with step size <span class="math inline">\(\eta\)</span>, and add gaussian noise scaled by <span class="math inline">\(\sqrt{2\eta}\)</span>:<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a> <span class="math display">\[x_{t+\eta}=x_t-\eta \nb f(x_t) + \sqrt{2\eta}\xi_t.\]</span></p>
+<p>Langevin diffusion has been well-studied, both in the math and CS communities. It is a classical result that the stationary distribution is proportional to <span class="math inline">\(e^{-f(x)}\)</span>. Bakry and Emery showed in the 80’s that if <span class="math inline">\(p\)</span> is <span class="math inline">\(\alpha\)</span>-log-concave, then the mixing time is on the order of <span class="math inline">\(\frac 1{\alpha}\)</span>.</p>
+<p>With the recent algorithmic interest in Langevin diffusion, we want similar guarantees for discretized chain - that it converges to a measure close to <span class="math inline">\(p\)</span>. This was done by Dalalyan and Durmus and Moulines, and by Bubeck, Eldan, and Lehec, who also considered restriction to a convex set. For general distributions <span class="math inline">\(p\)</span> with some regularity conditions, Raginsky, Rakhlin, and Telgarsky showed that there is convergence to <span class="math inline">\(p\)</span> in time comparable to continuous dynamics.</p>
+<p><em>So why can’t we just run Langevin dynamics?</em></p>
+<p>Consider the example of well-separated gaussians. Bovier showed, via the theory of metastable processes, that transitioning from one peak to another takes exponential time. Roughly speaking, to estimate the expected time to travel from one mode to the other, consider paths between those modes. The time will be inversely proportional to the largest possible minimum probability on one of those paths.</p>
+<p>If two gaussians with unit variance have means separated by <span class="math inline">\(2r\)</span>, then any path between them will pass through a point with probability less than <span class="math inline">\(e^{-r^2}\)</span>, so it will take on the order of <span class="math inline">\(e^{r^2}\)</span> time to move between the gaussians. Think of this as a “energy barrier” Langevin diffusion has to cross. Even if <span class="math inline">\(r\)</span> is as small as <span class="math inline">\(\log d\)</span>, the time will be superpolynomial in <span class="math inline">\(d\)</span>.</p>
+<center>
+<img src="pics/separated2.png">
+</center>
+<h4 id="simulated-tempering-turns-the-heat-on">Simulated tempering turns the heat on</h4>
+<p>A key observation is that Langevin corresponding to a higher temperature distribution (with <span class="math inline">\(\beta f\)</span> rather than <span class="math inline">\(f\)</span>, where <span class="math inline">\(\beta&lt;1\)</span>) mixes faster. A high temperature flattens out the distribution.<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a></p>
+<p>However, we can’t simply run Langevin at a higher temperature because the stationary distribution is wrong. The idea behind simulated tempering is to combine Markov chains at different temperatures, sometimes swapping to another temperature to help lower-temperature chains explore.</p>
+<p>We can define simulated tempering with respect to any sequence of Markov chains <span class="math inline">\(M_i\)</span> on the same space. Think of <span class="math inline">\(M_i\)</span> as the Markov chain corresponding to temperature <span class="math inline">\(i\)</span>, with stationary distribution.</p>
+<p>Then we define the simulated tempering Markov chain as follows.</p>
+<ul>
+<li>The <em>state space</em> is <span class="math inline">\(L\)</span> copies of the state space (in our case <span class="math inline">\(\mathbb R^d\)</span>), one copy for each temperature.</li>
+<li>The evolution is defined as follows.
+<ul>
+<li>If the current point is <span class="math inline">\((i,x)\)</span>, then evolve according to the <span class="math inline">\(i\)</span>th chain <span class="math inline">\(M_i\)</span>.</li>
+<li>Propose swaps with some rate <span class="math inline">\(\lambda\)</span>.<a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a> When a swap is proposed, attempt to move to a neighboring chain, <span class="math inline">\(i'=i\pm 1\)</span>. With probability <span class="math inline">\(\min\{p_{i'}(x)/p_i(x), 1\}\)</span>, the transition is successful. Otherwise, stay at the same point. This is a <strong>Metropolis-Hastings step</strong>; its purpose is to preserves the stationary distribution.</li>
+</ul></li>
+</ul>
+<p>It’s not too hard to see that the stationary distribution is the mixture distribution, i.e., <span class="math inline">\(p(i,x) = \rc L p_i(x)\)</span>. Simulated tempering is popular in practice along with other temperature-based methods such as simulated annealing, parallel tempering, (reverse) annealed importance sampling, and particle filters. Zheng and Woodard, Schmidler, and Huber gave decomposition results; however in our setting their bound on mixing is exponential in the number of gaussians.<a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a></p>
+<h4 id="combining-langevin-diffusion-and-simulated-tempering">Combining Langevin diffusion and simulated tempering</h4>
+<p>Our algorithm is the following. Assume <span class="math inline">\(\sigma=1\)</span> for simplicity.</p>
+<p>Take a sequence of betas starting from <span class="math inline">\(1/D^2\)</span>, going up by factors of <span class="math inline">\(1+1/d\)</span> (where <span class="math inline">\(d\)</span> is the ambient dimension) up to 1 and run simulated tempering for Langevin on these temperatures, suitably discretized. Take the samples that are at the <span class="math inline">\(L\)</span>th temperature.</p>
+<center>
+<img src="pics/stl.png" width="50%" height="50%">
+</center>
+<h2 id="proof-sketch">Proof sketch</h2>
+<p>There are four main steps in the proof.</p>
+<ol type="1">
+<li>Prove a Markov chain decomposition theorem for distributions, that upper-bounds the mixing time. For discrete/continuous-time Markov chains, this is equivalent to showing a spectral gap/Poincare inequality.</li>
+<li>Show that the conditions of the theorem are satisfied: mixing on component chains, and mixing on a certain projected chain. This shows that the simulated tempering chain mixes, if we move the <span class="math inline">\(\beta_i\)</span>’s “inside” the mixture of gaussians. This makes the stationary distribution <span class="math inline">\(\wt p_i\)</span> at each temperature a mixture of gaussians, so is easier to analyze.</li>
+<li>Show that <span class="math inline">\(\wt p_i\)</span> are close to the acutal distributions <span class="math inline">\(p_i\)</span>, so that we also have rapid mixing for the original chain.</li>
+<li>Some technical details remain that we won’t cover: bounding the error from discretizing the chain, and estimating the partition functions to within a constant factor.</li>
+</ol>
+<h3 id="markov-chain-decomposition-theorem">Markov chain decomposition theorem</h3>
+<h4 id="previous-decomposition-theorems">Previous decomposition theorems</h4>
+<p>Madras and Randall’s theorem says that if a Markov chain M mixes rapidly when restricted to each set of the partition, and the “projected” Markov chain mixes rapidly, then M mixes rapidly. The formal statement is the following.</p>
+<blockquote>
+<p><strong>Theorem (Madras, Randall 02):</strong> For a (discrete-time) Markov chain <span class="math inline">\(M\)</span> with stationary distribution <span class="math inline">\(p\)</span> and a partition <span class="math inline">\(\Om = \bigsqcup_{j=1}^m A_j\)</span> of its state space, <span class="math display">\[\text{Gap}(M) \ge \rc 2 \text{Gap}(\ol M) \min_{1\le j\le m} (\text{Gap}(M|_{A_j})).\]</span></p>
+</blockquote>
+<p>The projected chain is defined on <span class="math inline">\(\{1,\ldots, m\}\)</span>, and transition probabilities are given by average probability flows between the corresponding sets. More precisely, the probability of transitioning from <span class="math inline">\(j\)</span> to <span class="math inline">\(k\)</span> is as follows: pick a random point in <span class="math inline">\(A_j\)</span>, run the Markov chain for one step, and see what’s the probability of landing in <span class="math inline">\(A_k\)</span>.</p>
+<p>This gives a potential plan for the proof. We’re given a mixture of <span class="math inline">\(m\)</span> gaussians. Suppose we can partition <span class="math inline">\(\mathbb R^d\)</span> into <span class="math inline">\(m\)</span> parts - maybe one centered around each gaussian - such that Langevin mixes well inside each set. Choose the highest temperature so that Langvein mixes well on the entire space <span class="math inline">\(\R^d\)</span> there.</p>
+<center>
+<!--img src="pics/sigma_0.5.png"-->
+<img src="pics/partition.jpeg" width="50%" height="50%">
+</center>
+<p>Then if we also have mixing for the projected chain, this will prove the main theorem. Intuitively, the projected chain would mix rapidly because the highest temperature acts like a bridge. There is a reasonable path from any component to any other component passing through the highest temperature.</p>
+<p>There are a lot of issues with this approach. The primary problem is defining the partition. Our first proof followed this plan; later we found a simpler proof with better bounds, which I’ll now describe.</p>
+<h4 id="decomposition-theorem-with-sets">Decomposition theorem with sets</h4>
+<p>The insight is to work with distributions rather than sets.</p>
+<p>There’s an idea in math that a theorem is true for sets, then it’s a special case of a theorem for functions - because sets just correspond to indicator functions.</p>
+<p>For simulated tempering Langevin on a mixture of Gaussians, we don’t naturally have a decomposition of the state space, we do have a natural decomposition of the stationary distribution - namely the components of the mixture! Think of this as a “soft partition”.</p>
+<p>So instead of partitioning <span class="math inline">\(\Omega\)</span>, we decompose the Markov chain and stationary distribution. We prove a new Markov chain decomposition theorem that allows us to do this.</p>
+<blockquote>
+<p><strong>Theorem:</strong> Let <span class="math inline">\(M_{\text{st}}\)</span> be a simulated tempering Markov chain (with stationary distribution <span class="math inline">\(p\)</span>) made up of Markov chains <span class="math inline">\(M_i,i\in [L]\)</span>. Suppose there is a decomposition <span class="math display">\[M_i(x,y)=\sum_{j=1}^mw_{ij}M_{ij}(x,y)\]</span> where <span class="math inline">\(M_{ij}\)</span> has stationary distribution <span class="math inline">\(p_{ij}\)</span>. If each <span class="math inline">\(M_{ij}\)</span> mixes in time <span class="math inline">\(C\)</span> and the projected chain mixes in time <span class="math inline">\(\ol C\)</span>, then the simulated tempering chain mixes in time <span class="math inline">\(C\ol C\)</span>.</p>
+The projected chain is defined by
+<span class="math display">\[\begin{align} L((i,j),(i,j')) &amp;=
+\begin{cases}
+\fc{w_{i,j'}}{\chi^2_{\text{sym}}(p_{i,j}||p_{i,j'})},&amp;i=i'\\
+\fc{1}{\chi^2_{\text{sym}}(p_{i,j}||p_{i',j'}))}
+,&amp;i'=i\pm 1\\
+0,&amp;\text{else.}
+\end{cases}
+\end{align}\]</span>
+<p>where <span class="math inline">\(\chi^2_{\text{sym}}(p||q)=\max\{\chi^2(p||q),\chi^2(q||p)\}\)</span> is the “symmetrized” <span class="math inline">\(\chi^2\)</span> divergence.</p>
+</blockquote>
+<p>This theorem is where most of the magic lies, but it is also somewhat technical; see the paper supplement for details. <!--so you can skip it on a first read.--></p>
+<h4 id="applying-the-decomposition-theorem">Applying the decomposition theorem</h4>
+<p>We consider simulated tempering Langevin diffusion for <span class="math display">\[
+\wt p_i \propto \sumo jm w_j \ub{\exp\pa{-\fc{\be_i \ve{x-\mu_j}^2}2}}{\wt p_{ij}}.
+\]</span></p>
+<p>The Langevin chain decomposes into Langevin on the mixture components. By the decomposition theorem, if the Markov chain with respect to these components mixes well, and the Markov chain on the “projected” chain mixes well, then the simulated tempering chain mixes well.</p>
+<ol type="1">
+<li>Langevin mixes rapidly for each <span class="math inline">\(\wt p_{ij}\)</span>, in time <span class="math inline">\(O(D^2)\)</span>, by Bakry-Emery.</li>
+<li>The projected chain mixes rapidly, in time <span class="math inline">\(O(L^2)\)</span>. To see this, note that by choosing the temperatures close enough, the <span class="math inline">\(\chi^2\)</span> distance between the gaussians in adjacent temperatures is at most a constant, and by choosing the highest temperature high enough, all the gaussians there are also close. Thus, the projected chain looks like <span class="math inline">\(L\)</span> stacks of <span class="math inline">\(m\)</span> nodes, where the nodes in the same stack at adjacent temperatures have probability flow <span class="math inline">\(\Omega(1)\)</span> between them, and the subgraph consisting of nodes at the highest temperature mixes almost immediately.</li>
+</ol>
+<center>
+<img src="pics/proj_chain.png" width="50%" height="50%">
+</center>
+<p>Thus the simulated tempering chain mixes in time <span class="math inline">\(O(L^2D^2)\)</span>.</p>
+<h4 id="simulated-tempering-mixes-for-p">Simulated tempering mixes for <span class="math inline">\(p\)</span></h4>
+<p>But we need mixing for simulated tempering where the temperature is outside the sum, <span class="math display">\[
+p_i \propto \sumo jm w_j \exp\pa{-\fc{\be_i \ve{x-\mu_j}^2}2}.
+\]</span> This follows from mixing for <span class="math inline">\(\wt p_i\)</span>, plus the fact that the ratio $ p_i/p_i$ is bounded: <span class="math inline">\(\fc{p_i}{\wt p_i}\in [w_{\min}, \rc{w_{\min}}]\)</span>. We lose a factor of <span class="math inline">\(\rc{w_{\min}^2}\)</span>.</p>
+<h2 id="takeaways">Takeaways</h2>
+<ul>
+<li>“Beyond log-concavity” for sampling is the analogue of “beyond convexity” for optimization</li>
+<li>There is a spectral decomposition lemma for Markov chains based on decomposing the <em>Markov chain</em> rather than just the <em>state space</em>, and that helps prove mixing for simulated tempering.</li>
+<li>Provable sampling holds for a prototypical multimodal distribution: mixture of Gaussians.</li>
+</ul>
+<h2 id="further-directions">Further directions</h2>
+<p>Here are further directions and open questions we would like to explore. Feel free to get in touch if you have ideas!</p>
+<ol type="1">
+<li>How do we deal with gaussians with different variance?
+<ul>
+<li>You might have wondered why we needed the gaussians to have the same covariance, and how robust the results are to different covariances. We can allow the variances to be at most a factor of <span class="math inline">\(1+\fc Cd\)</span> apart in each direction. In general different variances have the problem that they change the mixture coefficients at the different levels - for a skinny gaussian, it could be exponentially small at the highest temperature, and large at the lowest temperature. Thus it’s hard to even get into the “attractor region” for that gaussian at the highest temperature - like finding a needle in a haystack. One assumption we can use to get around this is to assume we’re given points near each of the modes. Then we can hope to have an unbiased sample by combining the samples starting from each of those modes, with the right coefficients.</li>
+</ul></li>
+<li>Find practical algorithms for testing whether a Markov chain has mixed.</li>
+<li>Carry out average-case analysis for distributions of interest.
+<ul>
+<li><p>In real-life, the distributions we want to sample from are not as simple as a polynomial mixture of gaussians. For example, consider clustering. Suppose a simple model, that there are m clusters, each has some mean <span class="math inline">\(\mu_j\)</span>, and each point is equally likely to be drawn from each cluster. Then the posterior distribution looks like a product of sums <span class="math inline">\(\prod_{n=1}^N \pa{\sumo jm \rc m \exp\pa{-\fc{\ve{x_n-\mu_j}^2}2}}\)</span>, which when expanded out, has exponentially many terms, so our results don’t immediately apply.</p>
+<p>Also, in many distributions of interest, we don’t have a mixture of the probability distribution but rather, <span class="math inline">\(f\)</span> is a combination of simpler functions. In other words, <span class="math inline">\(p\propto e^{-\sum_j w_jf_j}\)</span> rather than <span class="math inline">\(p\propto \sum_j w_j e^{-f_j}\)</span>. When this combination happens in the exponent, the decomposition approach doesn’t work so well.<a href="#fn7" class="footnoteRef" id="fnref7"><sup>7</sup></a></p>
+<p>Can we come up with provable results for Ising models, stochastic/censored block models, or RBM’s?</p>
+It would be great to find other uses for our simulated tempering decomposition theorem - in principle the theorem could even apply when there are exponentially many modes, as long as we create a refining partition such that there is no “bottleneck” at any point.<a href="#fn8" class="footnoteRef" id="fnref8"><sup>8</sup></a></li>
+</ul></li>
+<li>What are the guarantees for other temperature heuristics used in practice, such as annealed importance sampling or parallel tempering?</li>
+</ol>
+<!--
+### Interlude: discrete vs. continuous time Markov chains
+
+### Proof of decomposition theorem
+
+(follow ppt)
+
+# FAQ's
+
+talk about different decomposition theorems - one-step vs. zero-step.
+
+# Captain's log
+
+In this section I detail the journey towards the result following the philosophy [here](Proofs and stories as obstacle avoidance).
+-->
 <!--
 # Introduction
 
@@ -107,6 +350,19 @@ Q: What about gaussians of unequal variance?
 Q: If the sample at time $t$ isn't from the $L$th level, can't you just take the first sample after that that is in the $L$th level?
 -->
 <p>Thoughts, questions, typos? Leave a comment below.</p>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>For example, consider when <span class="math inline">\(p(x)\)</span> has peaks around the points of the boolean cube that satisfy a SAT formula; this is #P-hard to sample from.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>The difference between their work and our work is that we care about about actual mixing time, rather than just hitting time for certain sets. By itself Langevin diffusion does not work well with deep, separated local minima.<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>The reason for the square-root scaling is that noise from Brownian motion scales as the square root of the time elapsed (the standard deviation of a sum of <span class="math inline">\(n\)</span> iid random variables scales as <span class="math inline">\(\sqrt{n}\)</span>).<a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p>Changing the temperature is just changing the scaling of the gradient step with respect to the noise.<a href="#fnref4">↩</a></p></li>
+<li id="fn5"><p>This definition is stated for continuous Markov chains. By rate <span class="math inline">\(\lambda\)</span> I mean that the time between swaps is an exponential distribution with decay <span class="math inline">\(\lambda\)</span> (in other words, the times of the swaps forms a Poisson process). A version for discrete Markov chains is to swap with probability <span class="math inline">\(\lambda\)</span> and to follow the current chain with probability <span class="math inline">\(1-\lambda\)</span>. Note that simulated tempering is traditionally defined for discrete Markov chains, but we will need the continuous version for our proof.<a href="#fnref5">↩</a></p></li>
+<li id="fn6"><p>They proceed by first bounding the spectral gap for parallel tempering, and then showing the gap for simulated tempering is lower-bounded in terms of that. However, in our experience, bounding the spectral gap for simulated tempering directly is easier!<a href="#fnref6">↩</a></p></li>
+<li id="fn7"><p>Think of the downstairs combination as an OR combination, the upstairs one as a AND.<a href="#fnref7">↩</a></p></li>
+<li id="fn8"><p>We stated it in the case where we had the same partition at every level. The more general form of the theorem works even if the partitions on different. The bound could be polynomial even if there are exponentially many components.<a href="#fnref8">↩</a></p></li>
+</ol>
+</section>
 
   </div>
   
