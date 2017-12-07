@@ -20,7 +20,7 @@ Shortlink: [tiny.cc/glr17](http://tiny.cc/glr17)
 * [arXiv](https://arxiv.org/abs/1710.02736), [pdf](https://arxiv.org/pdf/1710.02736.pdf).
 * [Supplement](https://www.dropbox.com/s/v2pijnsk9c6t11s/soft_partition2.pdf?dl=0): Contains a simpler proof of the main theorem in the paper. I recommend reading this instead of the proof in the paper. Note this is a work in progress.
 * [Slides](https://www.dropbox.com/s/44udkqyd2r95qzk/slides_IAS.pdf?dl=0), [transcript](https://dynalist.io/d/wW7edPHuU41y1qxWAI0fL__c#z=c2y7iGMb-rjqoGupMLQ1DAWe)
-* Poster: To be added.
+* [Poster](https://www.dropbox.com/s/nvh4g055lyx9yth/poster_bayesian.pdf?dl=0)
 
 
 ## Abstract
