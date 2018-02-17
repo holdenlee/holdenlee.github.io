@@ -31,9 +31,9 @@ Current interests include:
 	
 	with Elad Hazan, Karan Singh, Cyril Zhang, and Yi Zhang. [[arxiv](https://arxiv.org/abs/1802.03981), [pdf](https://arxiv.org/pdf/1802.03981)]
 
-*	**Towards Provable Control for Unknown Linear Dynamical Systems**
+*   **Towards Provable Control for Unknown Linear Dynamical Systems.**
 	
-	with Sanjeev Arora, Elad Hazan, Karan Singh, Cyril Zhang, and Yi Zhang. 2018 ICLR workshop.
+	with Sanjeev Arora, Elad Hazan, Karan Singh, Cyril Zhang, and Yi Zhang. ICLR workshop 2018.
 
 *   **Beyond Log-concavity: Provable Guarantees for Sampling Multi-modal Distributions using Simulated Tempering Langevin Monte Carlo.**
 	
