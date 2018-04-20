@@ -8,8 +8,139 @@
         <name>Holden Lee</name>
         <email>oldheneel@gmail.com</email>
     </author>
-    <updated>2017-11-26T00:00:00Z</updated>
+    <updated>2018-04-20T00:00:00Z</updated>
     <entry>
+    <title>toki pona</title>
+    <link href="http://holdenlee.github.io/toki%20pona.html" />
+    <id>http://holdenlee.github.io/toki%20pona.html</id>
+    <published>2018-04-20T00:00:00Z</published>
+    <updated>2018-04-20T00:00:00Z</updated>
+    <summary type="html"><![CDATA[
+<div class="container">
+
+  <div id="content">
+    <div class="page header">
+      <h1> toki pona </h1>
+    </div>
+    
+    
+    <div class="info">
+      
+       
+        <p>Posted: 2018-04-20 
+          , Modified: 2018-04-20 
+	</p>
+      
+       <p>Tags: <a href="/tags/language.html">language</a>, <a href="/tags/conlang.html">conlang</a>, <a href="/tags/Splash.html">Splash</a></p> 
+       <p>Parent: <a href="/Topics.html">Topics</a></p> 
+	   <p>Children: </p> 
+    </div>
+    
+    
+  </div>
+  <!--/div-->
+
+  <div class="toc"></div>
+
+  <div class="blog-main">
+    <p>Shortlink to this page: http://tiny.cc/hltp</p>
+<p>Resources for Splash class:</p>
+<ul>
+<li><a href="http://tokipona.net/tp/default.aspx">tokipona.net</a></li>
+<li><a href="http://tokipona.net/tp/janpije/okamasona.php">jan Pije’s lessons</a></li>
+<li>Presentation in <a href="https://www.dropbox.com/s/nic1hqcmzbi60uy/tokipona.pptx?dl=0">pptx</a>.</li>
+<li><a href="http://tokipona.net/tp/ClassicWordList.aspx">word list</a>, <a href="https://www.dropbox.com/s/lq0rbdjlb1ck0sn/tokipona.xlsx?dl=0">xlsx</a></li>
+</ul>
+
+  </div>
+  
+    
+
+    <!-- Extension : Sharing buttons @ www.sharethis.com -->
+    <span class='st_facebook_large' displayText='Facebook'></span>
+    <span class='st_twitter_large' displayText='Tweet'></span>
+    <span class='st_googleplus_large' displayText='Google +'></span>
+    <span class='st_reddit_large' displayText='Reddit'></span>
+    <span class='st__large' displayText=''></span>
+
+    <div id="disqus_thread"></div>
+    
+
+
+  
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+  
+  
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Esperanto</title>
+    <link href="http://holdenlee.github.io/Esperanto.html" />
+    <id>http://holdenlee.github.io/Esperanto.html</id>
+    <published>2018-04-20T00:00:00Z</published>
+    <updated>2018-04-20T00:00:00Z</updated>
+    <summary type="html"><![CDATA[
+<div class="container">
+
+  <div id="content">
+    <div class="page header">
+      <h1> Esperanto </h1>
+    </div>
+    
+    
+    <div class="info">
+      
+       
+        <p>Posted: 2018-04-20 
+          , Modified: 2018-04-20 
+	</p>
+      
+       <p>Tags: <a href="/tags/Esperanto.html">Esperanto</a>, <a href="/tags/language.html">language</a>, <a href="/tags/conlang.html">conlang</a>, <a href="/tags/Splash.html">Splash</a></p> 
+       <p>Parent: <a href="/Topics.html">Topics</a></p> 
+	   <p>Children: </p> 
+    </div>
+    
+    
+  </div>
+  <!--/div-->
+
+  <div class="toc"></div>
+
+  <div class="blog-main">
+    <p>Shortlink to this page: http://tiny.cc/hlesp</p>
+<p>Resources for Splash class:</p>
+<ul>
+<li>Presentation in <a href="https://www.dropbox.com/s/8aeqct22vldl8uv/Esperanto_Splash_2018.pptx?dl=0">pptx</a>. Contains links to resources.</li>
+<li><a href="https://docs.google.com/document/d/1Q2CtDmoEteti4ZhXosaZy19gqnMB-Ce_3yWpTw5qHm4/edit?usp=sharing">Transcript</a></li>
+<li><a href="https://docs.google.com/document/d/1PGMGvlyAsRKfpRoTSvH-a_KHz1d6sY5GLxs9RALqWJg/edit?usp=sharing">Cheat sheet</a></li>
+</ul>
+
+  </div>
+  
+    
+
+    <!-- Extension : Sharing buttons @ www.sharethis.com -->
+    <span class='st_facebook_large' displayText='Facebook'></span>
+    <span class='st_twitter_large' displayText='Tweet'></span>
+    <span class='st_googleplus_large' displayText='Google +'></span>
+    <span class='st_reddit_large' displayText='Reddit'></span>
+    <span class='st__large' displayText=''></span>
+
+    <div id="disqus_thread"></div>
+    
+
+
+  
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+  
+  
+</div>
+]]></summary>
+</entry>
+<entry>
     <title>Simulated tempering Langevin Monte Carlo</title>
     <link href="http://holdenlee.github.io/Simulated%20tempering%20Langevin%20Monte%20Carlo.html" />
     <id>http://holdenlee.github.io/Simulated%20tempering%20Langevin%20Monte%20Carlo.html</id>
@@ -994,132 +1125,6 @@ Q: If the sample at time $t$ isn't from the $L$th level, can't you just take the
 <p>One place where this is especially true is in sexuality. On the one side are conservative people (sex after marriage, man and woman, etc.). On another are LGBTP people (P=poly), or people who promote a more open sexual culture (a la Stranger in a Strange Land). And there are people who participate in the “casual hookup culture.” Of course, there are many shades of gray in between.</p>
 <p>So let’s look at the web of threats. LGBTP people are threatened by the conservative people—it’s hard to talk with someone who thinks it’s a moral sin (go to hell) for you to have the sexual identity that you have! Conservative people are threatened by the increasing number of people who participate in the “casual hookup culture.” It’s been flipped from 100 years ago, that believing in sex after marriage can actually make you part of the minority, and disparagingly called a “prude.” They feel threatened by sexual jokes that people make to them, and lewd behavior in public. (Brave New World shows this by taking it to the extreme: what if you are the ONLY person who believes in committed monogamy?) (And it’s complicated: people will claim they have the freedom to do what they want, which is true, but with freedom comes the responsibility to use the freedom wisely. Just because you <em>can</em> eat steak in front of a vegetarian, doesn’t mean you should.) The people who participate in casual hookup culture feel threatened by the conservatives: this is the kind of prudishness that they’re trying to escape. The conservatives feel threatened by the LGBTP people because they go against religious teachings. This last link is flawed though—if these conservative people remove their “tribal” motivation and allow their opinion to be changed, then it’s pretty clear that what they are rebelling against is the loss of family values—where freed from the Bible’s word, family should have a more abstract interpretation as a cohesive, symbiotic community unit—and then they should <strong>look for evidence</strong> for or against LGBTP relationships meeting that criteria (and the evidence is overwhelming for the fact that they can meet that criteria).</p>
 <p>I think we need to draw the line between what a person believes in, and what’s universal. What’s universal here is wanting to be happy, have some kind of stability in life, having good relationships with other people, protecting from disease (which is actually very important here—and a fact that has been disguised. rather than standing on its own as a goal, it’s been cited as evidence of immorality of sex. The causality is screwed up here: immorality does not cause disease!). Trying to tack more than this starts to skew this universal picture towards one’s own view. There’s the kind of person who wants to follow the traditional path of marriage, and the kind who will have flings with a lot of people. (The problem with SiaSL is that it seemed to suggest that the second option is strictly better for every person, which is untrue.) Each person has their own personal truths, but some truths are better than others. The best that these different groups can do is not to impose their worldview on each other, but to explain to people what is it that their way of life offers, to try and talk to people about the link between the universal things that they want (see above) and the sexual life that they choose. Imagine them next to each other in an activities fair. The conservative group talks about how abstinence helps one develop a strong moral fiber in the sense of “delayed gratification” being a general helpful quality to nurture in one’s life, attach more weight and meaning to one’s actions, etc. (I personally believe in sex after marriage <em>for myself</em>, and these are the terms I think in, not religious commandments.) The liberal group talks about how sexuality can be an important part of your identity as a human being, how it can be a pleasurable and healthy part of your life, etc. And what I mean by “some truths are better than others,” is that anyone can declare that they’re doing is “right, you got a problem with that?” but if you haven’t thought through these issues, and you leave behind a trail of broken hearts and find your life empty, then chances are that you should have thought things over more. I find that often the most mature views on sexuality come from the LGBTP community, just because they have had to grapple with these issues while most other people just shove them under the rug (ex. poly people talk about things like jealousy and commitment because they have to, while mono people can often have trouble even starting the conversation on these topics).</p>
-
-  </div>
-  
-    
-
-    <!-- Extension : Sharing buttons @ www.sharethis.com -->
-    <span class='st_facebook_large' displayText='Facebook'></span>
-    <span class='st_twitter_large' displayText='Tweet'></span>
-    <span class='st_googleplus_large' displayText='Google +'></span>
-    <span class='st_reddit_large' displayText='Reddit'></span>
-    <span class='st__large' displayText=''></span>
-
-    <div id="disqus_thread"></div>
-    
-
-
-  
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-  </div>
-  
-  
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Two kinds of laughter</title>
-    <link href="http://holdenlee.github.io/Two%20kinds%20of%20laughter.html" />
-    <id>http://holdenlee.github.io/Two%20kinds%20of%20laughter.html</id>
-    <published>2017-08-13T00:00:00Z</published>
-    <updated>2017-08-13T00:00:00Z</updated>
-    <summary type="html"><![CDATA[
-<div class="container">
-
-  <div id="content">
-    <div class="page header">
-      <h1> Two kinds of laughter </h1>
-    </div>
-    
-    
-    <div class="info">
-      
-       
-        <p>Posted: 2017-08-13 
-          , Modified: 2017-08-13 
-	</p>
-      
-       <p>Tags: <a href="/tags/psychology.html">psychology</a>, <a href="/tags/society.html">society</a>, <a href="/tags/censorship.html">censorship</a>, <a href="/tags/dichotomy.html">dichotomy</a>, <a href="/tags/humor.html">humor</a>, <a href="/tags/mindfulness.html">mindfulness</a>, <a href="/tags/social.html">social</a>, <a href="/tags/socialprogramming.html">socialprogramming</a></p> 
-       <p>Parent: <a href="/Views.html">Views</a></p> 
-	   <p>Children: </p> 
-    </div>
-    
-    
-  </div>
-  <!--/div-->
-
-  
-
-  <div class="blog-main">
-    <p>There are two kinds of humor and laughter. It’s similar to how feedback can be positive or negative.</p>
-<ul>
-<li>Positive laughter opens people up to new possibilities. Good stand-up comedians make jokes that expose stereotypes about race, sex, religion, etc. and in so doing make people think, “isn’t it stupid the way things are?” and “it doesn’t have to be this way.” It’s also the laughter between friends, building positive <a href="http://ncase.me/neurons/">Hebbian connections</a> in your neurons, “I want to do this again.”</li>
-<li>Negative laughter closes off possibilities. People laugh at someone who fails - and each such laugh is a censor that will prevent themselves from trying new things. Laughter in the face of an idea that someone proposes is a veto without an explanation. (And if a person introduces an idea with a laugh, it’s social insurance against the possible drop in reputation if others find it stupid, at the cost of the idea actually being considered seriously.) The quips that people in different fields make with each other are not so innocuous if they’re saying, “Your values are different from us, and I don’t think they’re as valuable as ours.”</li>
-</ul>
-<p>I want to make sure that every time I laugh, it’s positive laughter.</p>
-
-  </div>
-  
-    
-
-    <!-- Extension : Sharing buttons @ www.sharethis.com -->
-    <span class='st_facebook_large' displayText='Facebook'></span>
-    <span class='st_twitter_large' displayText='Tweet'></span>
-    <span class='st_googleplus_large' displayText='Google +'></span>
-    <span class='st_reddit_large' displayText='Reddit'></span>
-    <span class='st__large' displayText=''></span>
-
-    <div id="disqus_thread"></div>
-    
-
-
-  
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-  </div>
-  
-  
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>The right movement vs the material story</title>
-    <link href="http://holdenlee.github.io/The%20right%20movement%20vs%20the%20material%20story.html" />
-    <id>http://holdenlee.github.io/The%20right%20movement%20vs%20the%20material%20story.html</id>
-    <published>2017-08-13T00:00:00Z</published>
-    <updated>2017-08-13T00:00:00Z</updated>
-    <summary type="html"><![CDATA[
-<div class="container">
-
-  <div id="content">
-    <div class="page header">
-      <h1> The right movement vs the material story </h1>
-    </div>
-    
-    
-    <div class="info">
-      
-       
-        <p>Posted: 2017-08-13 
-          
-	</p>
-      
-       <p>Tags: <a href="/tags/dichotomy.html">dichotomy</a>, <a href="/tags/advice.html">advice</a></p> 
-       <p>Parent: <a href="/Views.html">Views</a></p> 
-	   <p>Children: </p> 
-    </div>
-    
-    
-  </div>
-  <!--/div-->
-
-  
-
-  <div class="blog-main">
-    <p>There is a tendency, after success, to exaggerate it, to focus on the quantifiables, to express it as the natural end-result or goal of optimization.</p>
-<p>“You should go out, participate in lots of activities, and meet lots of people!”</p>
-<p>Translation:</p>
-<p>“Go out to an activity you’d like, and meet one person. Did you like that? Then repeat.”</p>
 
   </div>
   
