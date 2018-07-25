@@ -1,7 +1,7 @@
 ---
 title: Creations
 published: 2017-08-07
-modified: 2017-08-07
+modified: 2017-07-25
 parent: Writing
 tags: writing
 showTOC: True
@@ -35,8 +35,9 @@ Also check out my [deviant art](http://holdenlee.deviantart.com/).
 * **Two Sides of the River** ([googledoc](https://drive.google.com/open?id=19ihkgA8G8Mnsz4gFj7nR96-Pf1GJb6ijbxEIXG1zGJQ)) (4/2013)
 * (\*) [**A Random Collection**](https://drive.google.com/open?id=18A_6ZOsK3jvo4ILt8zGJZyifIL7g_EBLtpvyGdNwd54) (3/2014) - A collage of articles about a fictional mathematician.
 * (\*) [**Goodnight Mel**](https://docs.google.com/document/d/1Pxs_3NstJrN3YwTQBmLDaLNwBJv6FBGzF23zDpFY0UI/edit) (1/2017) - A couple moves into a house haunted by a girl who plays strange music.
-* **Three**: coming soon.
-* (\*) [**Cloud fairies**](https://docs.google.com/document/d/1sAF1ijUXiyCclrEly-UL9o7leuumVkaXwdeYmrzVv5Q) - A myth about cloud fairies. [Recording](https://soundcloud.com/holden-lee-36529191/cloud-fairies) from Open Mic night.
+* (\*) [**Three**](https://docs.google.com/document/d/1nwi9UP50ZKmY5X9WlpeN7yiVMwpsCm_-wxwFi0_s7eU/edit) - A math olympiad coming-of-age story
+* (\*) [**Cloud fairies**](https://docs.google.com/document/d/1sAF1ijUXiyCclrEly-UL9o7leuumVkaXwdeYmrzVv5Q) (5/2017) - A myth about cloud fairies. [Recording](https://soundcloud.com/holden-lee-36529191/cloud-fairies) from Open Mic night.
+	* I would like to turn this into a picture book, and am looking for an illustrator. Email me if interested!
 
 ## Poetry
 
@@ -44,10 +45,12 @@ Also check out my [deviant art](http://holdenlee.deviantart.com/).
 * [**Lemon**](http://www.oneword.com/word/lemon/comment-page-1/#comment-549410) (11/2013)
 * [**Falling leaves**](https://holdenlee.wordpress.com/2014/10/20/falling-leaves/) (10/2014)
 * (\*) **A friendship lost at sea** ([online](https://holdenlee.wordpress.com/2015/12/30/a-friendship-lost-at-sea/), [googledoc](https://docs.google.com/document/d/1zs3WfQyXXkDucwhVdk_8QZahi2P6H5NRqoPEhl8HNhE/edit)) (9/2015)
+* (\*) [**the day you fell off the world**](https://docs.google.com/document/d/1qd6SVrkIdMWJqbkqiDAGS6fWZVODgXqnZ82X5ogJOUk/edit) (4/2018)
+* [Some collected poems](https://docs.google.com/document/d/1m2leRmrzOUHUjTx0Vl-L_HFV_biuw6f--TTtX5z2rkc/edit?usp=sharing)
 
 ## Songs
 
-* [Shining eyes (with Erica Cao)](https://docs.google.com/document/d/1HqI6eqqZWpt8LqEwF3JdR6nf6DouCuIFkQ8aR7wNUHc/edit)
+* [Shining eyes](https://docs.google.com/document/d/1HqI6eqqZWpt8LqEwF3JdR6nf6DouCuIFkQ8aR7wNUHc/edit) (with [Erica Cao](https://humansinharmony.org/))
 
 ## Shorts
 
