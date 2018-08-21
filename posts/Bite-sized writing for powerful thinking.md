@@ -178,7 +178,9 @@ In the modern age, memorization can seem obsolete, because the Internet gives in
 
 Joshua Foer presents the following dilemma: In this age, we read a lot of books and articles - but how much of it do we actually remember? If we didn't remember it, what was the point of reading it?
 
-One answer to this dilemma is as follows. We don't need to memorize everything, because we have information at our fingertips - but neither are we intelligent by having Internet access alone. We are overwhelmed by that raw information. Instead, we maintain a kind of superstructure of "notes" between us and all the information out there. 
+One answer to this dilemma is as follows. We don't need to memorize everything, because we have information at our fingertips - but neither are we intelligent by having Internet access alone. We are overwhelmed by that raw information. Instead, we maintain a kind of superstructure of "notes" between us and all the information out there.[^me]
+
+[^me]: See Vannevar Bush's conception of the memex in [As we may think](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/).  
 
 I want to end with my conception of what being "well-read" is. It's not sufficient to just read a bunch of books if you forget what you read. Read widely, and reflect, record, and summarize things that you read.[^b] Remember that they can be bite-sized. Index into books and articles. 
 
@@ -197,7 +199,7 @@ Here are some examples:
 * Write down concise articulation of what makes something good. I recommend the following exercise for creative writing: take some books you really like. Think about and write down what makes them *interesting* and *different*. (For example, for Lord of the Rings: It's not a story about an ambitious person setting out to find treasure, but a story about a non-ambitious person (Hobbit) setting out to destroy treasure (the ring).)
 * Creative writing: go back and forth between exploratory writing (unstructured) and outlining (structured). See [here]( http://www.writingexcuses.com/2017/05/28/12-22-hybrid-outlining-and-discovery-writing/). Kazuo Ishiguro talks about "bottling up" in his [interview](https://holdenlee.wordpress.com/2014/02/18/kazuo-ishiguro-on-writing/). 
 * It's useful to write down summaries/notes of many things, like conversations and people (Farley file). 
-* How do you remember a story for storytelling (or other oral presentation)a Imagine it as a scene (like a visual index card).
+* How do you remember a story for storytelling (or other oral presentation)? Imagine it as a scene (like a visual index card).
 
 One thing to consider doing is to start a blog! I'm happy to help you set it up.
 
