@@ -28,7 +28,9 @@ You might have a model of writing that looks something like this. You get an ass
 
 Finally you finish and turn it in and don't think about it until you get back your paper.
 
-PICTURE
+<html>
+<img src="pics/write_model1_small.png" alt="model 1" height="246" width="245">
+</html>
 
 In summary, the model is 
 
@@ -51,7 +53,9 @@ Here’s an alternate model of writing.
 * You go back and forth between more accurate or beautiful thoughts, and clearer and more compelling writing.
 * At the end, you have these clusters of ideas, and you want to tell other people about them. You arrange these ideas, adds some section headers and some connecting bits, and you've finished an essay, or maybe a book.
 
-PICTURE
+<html>
+<img src="pics/write_model2_2.png" alt="model 2" width="225" height="275">
+</html>
 
 ## Comparison
 
@@ -92,7 +96,7 @@ I think this is awesome - when there’s something that you keep thinking about,
 
 We don’t have pensieves, but we do have writing. When you write a thought down, you can rethink it anytime without fear of forgetting it, and build on it.
 
-PICTURE
+<!--PICTURE-->
 
 I like to think of index cards as pensieves. They don’t have to be *literally* index cards.
 
