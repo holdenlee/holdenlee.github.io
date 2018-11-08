@@ -2,7 +2,7 @@
 title: Simulated tempering Langevin Monte Carlo
 subtitle: Rong Ge, Holden Lee, Andrej Risteski
 published: 2017-11-26
-modified: 2017-11-26
+modified: 2018-11-08
 parent: Research
 tags: math
 type: uncategorized
@@ -26,29 +26,18 @@ Shortlink: [tiny.cc/glr17](http://tiny.cc/glr17)
 ## Abstract
 
 A key task in Bayesian statistics is sampling from distributions that are only specified up to a partition function (i.e., constant of proportionality). However, without any assumptions, sampling (even approximately) can be #P-hard, and few works have provided "beyond worst-case" guarantees for such settings.
+A key task in Bayesian statistics is sampling from distributions that are only specified up to a partition function (i.e., constant of proportionality). However, without any assumptions, sampling (even approximately) can be #P-hard, and few works have provided "beyond worst-case" guarantees for such settings.
  
 For log-concave distributions, classical results going back to Bakry and Emery (1985) show that natural continuous-time Markov chains called Langevin diffusions mix in polynomial time. The most salient feature of log-concavity violated in practice is uni-modality: commonly, the distributions we wish to sample from are multi-modal. In the presence of multiple deep and well-separated modes, Langevin diffusion suffers from torpid mixing.
 
 We address this problem by combining Langevin diffusion with simulated tempering. The result is a Markov chain that mixes more rapidly by transitioning between different temperatures of the distribution. We analyze this Markov chain for the canonical multi-modal distribution: a mixture of gaussians (of equal variance). The algorithm based on our Markov chain provably samples from distributions that are close to mixtures of gaussians, given access to the gradient of the log-pdf.
 
-<!-- 
-TITLE: Sampling from multimodal distributions by changing the temperature
-
-In this post I describe recent work with Rong Ge and Andrej Risteski on an algorithm that provably samples from certain multimodal distributions. 
-
-Sampling is a fundamental task in Bayesian statistics, and dealing with multimodal distributions is a core challenge. 
-One common technique to sample from a probability distribution is to define a Markov chain with that distribution as its stationary distribution. This general approach is called **Markov chain Monte Carlo**. However, in many practical problems, the Markov chain does not mix rapidly, and we obtain samples from only one part of the distribution.
-
-Practitioners have dealt with this problem through heuristics involving temperature. However, there has been little theoretical analysis of such methods. In our paper, we give provable guarantees for a temperature-based method called simulated tempering when it is set up correctly with the base Markov chain, called Langevin diffusion.
--->
-
 # Blog post
 
-
 In this post I describe recent work with Rong Ge and Andrej Risteski on an algorithm that provably samples from certain multimodal distributions. 
 
 Sampling is a fundamental task in Bayesian statistics, and dealing with multimodal distributions is a core challenge. 
-One common technique to sample from a probability distribution is to define a Markov chain with that distribution as its stationary distribution. This general approach is called **Markov chain Monte Carlo**. However, in many practical problems, the Markov chain does not mix rapidly, and we obtain samples from only one part of the distribution.
+One general approach to sample from a probability distribution is to define a Markov chain with the desired distribution as its stationary distribution. This approach is called **Markov chain Monte Carlo**. However, in many practical problems, the Markov chain does not mix rapidly, and we obtain samples from only one part of the distribution.
 
 Practitioners have dealt with this problem through heuristics involving temperature. However, there has been little theoretical analysis of such methods. In our paper, we give provable guarantees for a temperature-based method called simulated tempering when it is set up correctly with the base Markov chain, called Langevin diffusion.
 
@@ -174,7 +163,7 @@ $$x_{t+\eta}=x_t-\eta \nb f(x_t) + \sqrt{2\eta}\xi_t.$$
 [^f3]: The reason for the square-root scaling is that noise from Brownian motion scales as the square root of the time elapsed (the standard deviation of a sum of $n$ iid random variables scales as $\sqrt{n}$). 
 
 Langevin diffusion has been well-studied, both in the math and CS communities.
-It is a classical result that the stationary distribution is proportional to $e^{-f(x)}$. Bakry and Emery showed in the 80's that if $p$ is $\alpha$-log-concave, then the mixing time is on the order of $\frac 1{\alpha}$.
+It is a classical result that the stationary distribution is proportional to $e^{-f(x)}$. Bakry and Emery showed in the 80's that if $p$ is $\alpha$-log-concave, then the mixing time is on the order of $\frac 1{\alpha}$ (see Terence Tao's [blog post](https://terrytao.wordpress.com/2013/02/05/some-notes-on-bakry-emery-theory/)).
 
 With the recent algorithmic interest in Langevin diffusion, we want similar guarantees for discretized chain - that it converges to a measure close to $p$. This was done by Dalalyan and Durmus and Moulines, and by Bubeck, Eldan, and Lehec, who also considered restriction to a convex set. For general distributions $p$ with some regularity conditions, Raginsky, Rakhlin, and Telgarsky showed that there is convergence to $p$ in time comparable to continuous dynamics.
 
@@ -182,7 +171,7 @@ With the recent algorithmic interest in Langevin diffusion, we want similar guar
 
 Consider the example of well-separated gaussians. Bovier showed, via the theory of metastable processes, that transitioning from one peak to another takes exponential time. Roughly speaking, to estimate the expected time to travel from one mode to the other, consider paths between those modes. The time will be inversely proportional to the largest possible minimum probability on one of those paths.
 
-If two gaussians with unit variance have means separated by $2r$, then any path between them will pass through a point with probability less than $e^{-r^2}$, so it will take on the order of $e^{r^2}$ time to move between the gaussians. Think of this as a "energy barrier" Langevin diffusion has to cross. Even if $r$ is as small as $\log d$, the time will be superpolynomial in $d$.
+If two gaussians with unit variance have means separated by $2r$, then any path between them will pass through a point with probability less than $e^{-r^2/2}$, so it will take on the order of $e^{r^2/2}$ time to move between the gaussians. Think of this as a "energy barrier" Langevin diffusion has to cross. Even if $r$ is as small as $\log d$, the time will be superpolynomial in $d$.
 
 <center>
 <img src="pics/separated2.png">
@@ -197,18 +186,18 @@ A key observation is that Langevin corresponding to a higher temperature distrib
 However, we can't simply run Langevin at a higher temperature because the stationary distribution is wrong. 
 The idea behind simulated tempering is to combine Markov chains at different temperatures, sometimes swapping to another temperature to help lower-temperature chains explore.
 
-We can define simulated tempering with respect to any sequence of Markov chains $M_i$ on the same space. Think of $M_i$ as the Markov chain corresponding to temperature $i$, with stationary distribution.
+We can define simulated tempering with respect to any sequence of Markov chains $M_i$ on the same space. Think of $M_i$ as the Markov chain corresponding to temperature $i$, with stationary distribution $\propto e^{-\beta_i f}$.
 
 Then we define the simulated tempering Markov chain as follows.
 
 * The *state space* is $L$ copies of the state space (in our case $\mathbb R^d$), one copy for each temperature.
 * The evolution is defined as follows.
 	* If the current point is $(i,x)$, then evolve according to the $i$th chain $M_i$.
-    * Propose swaps with some rate $\lambda$.[^f5] When a swap is proposed, attempt to move to a neighboring chain, $i'=i\pm 1$. With probability $\min\{p_{i'}(x)/p_i(x), 1\}$, the transition is successful. Otherwise, stay at the same point. This is a **Metropolis-Hastings step**; its purpose is to preserves the stationary distribution.
+    * Propose swaps with some rate $\lambda$.[^f5] When a swap is proposed, attempt to move to a neighboring chain, $i'=i\pm 1$. With probability $\min\{p_{i'}(x)/p_i(x), 1\}$, the transition is successful. Otherwise, stay at the same point. This is a **Metropolis-Hastings step**; its purpose is to preserve the stationary distribution.
 
 [^f5]: This definition is stated for continuous Markov chains. By rate $\lambda$ I mean that the time between swaps is an exponential distribution with decay $\lambda$ (in other words, the times of the swaps forms a Poisson process). A version for discrete Markov chains is to swap with probability $\lambda$ and to follow the current chain with probability $1-\lambda$. Note that simulated tempering is traditionally defined for discrete Markov chains, but we will need the continuous version for our proof.
 
-It's not too hard to see that the stationary distribution is the mixture distribution, i.e., $p(i,x) = \rc L p_i(x)$. Simulated tempering is popular in practice along with other temperature-based methods such as simulated annealing, parallel tempering, (reverse) annealed importance sampling, and particle filters. Zheng and Woodard, Schmidler, and Huber gave decomposition results; however in our setting their bound on mixing is exponential in the number of gaussians.[^f6]
+It's not too hard to see that the stationary distribution is the mixture distribution, i.e., $p(i,x) = \rc L p_i(x)$. Simulated tempering is popular in practice along with other temperature-based methods such as simulated annealing, parallel tempering, (reverse) annealed importance sampling, and particle filters. Zheng and Woodard, Schmidler, and Huber gave decomposition results that can be used to bound mixing time; however in our setting their bound on mixing time is exponential in the number of gaussians.[^f6]
 
 [^f6]: They proceed by first bounding the spectral gap for parallel tempering, and then showing the gap for simulated tempering is lower-bounded in terms of that. However, in our experience, bounding the spectral gap for simulated tempering directly is easier!
 
@@ -216,8 +205,8 @@ It's not too hard to see that the stationary distribution is the mixture distrib
 
 Our algorithm is the following. Assume $\sigma=1$ for simplicity.
 
-Take a sequence of betas starting from $1/D^2$, going up by factors of $1+1/d$ (where $d$ is the ambient dimension) up to 1 and run simulated tempering for Langevin on these temperatures, suitably discretized.
-Take the samples that are at the $L$th temperature.
+Take a sequence of $\beta$'s starting from $1/D^2$, going up by factors of $1+1/d$ (where $d$ is the ambient dimension) up to 1 and run simulated tempering for Langevin on these temperatures, suitably discretized.
+Finally, take the samples that are at the $L$th temperature.
 
 <center>
 <img src="pics/stl.png" width="50%" height="50%">
@@ -227,33 +216,33 @@ Take the samples that are at the $L$th temperature.
 
 There are four main steps in the proof.
 
-1. Prove a Markov chain decomposition theorem for distributions, that upper-bounds the mixing time. For discrete/continuous-time Markov chains, this is equivalent to showing a spectral gap/Poincare inequality.
+1. Prove a Markov chain decomposition theorem for distributions, that upper-bounds the mixing time. For discrete/continuous-time Markov chains, this is equivalent to showing a spectral gap/Poincaré inequality.
 2. Show that the conditions of the theorem are satisfied: mixing on component chains, and mixing on a certain projected chain. This shows that the simulated tempering chain mixes, if we move the $\beta_i$'s "inside" the mixture of gaussians. This makes the stationary distribution $\wt p_i$ at each temperature a mixture of gaussians, so is easier to analyze.
 4. Show that $\wt p_i$ are close to the acutal distributions $p_i$, so that we also have rapid mixing for the original chain.
 5. Some technical details remain that we won't cover: bounding the error from discretizing the chain, and estimating the partition functions to within a constant factor.
 
-## Markov chain decomposition theorem
+# Markov chain decomposition theorem
 
-### Previous decomposition theorems
+## Previous decomposition theorems
 
-Madras and Randall's theorem says that if a Markov chain M mixes rapidly when restricted to each set of the partition, and the "projected" Markov chain mixes rapidly, then M mixes rapidly. The formal statement is the following.
+[Madras and Randall's theorem](https://www.jstor.org/stable/2699896) says that if a Markov chain M mixes rapidly when restricted to each set of the partition, and the "projected" Markov chain mixes rapidly, then M mixes rapidly. The formal statement is the following.
 
 > **Theorem (Madras, Randall 02):** For a (discrete-time) Markov chain $M$ with stationary distribution $p$ and a partition $\Om = \bigsqcup_{j=1}^m A_j$ of its state space, $$\text{Gap}(M) \ge \rc 2 \text{Gap}(\ol M) \min_{1\le j\le m} (\text{Gap}(M|_{A_j})).$$
 
-The projected chain is defined on $\{1,\ldots, m\}$, and transition probabilities are given by average probability flows between the corresponding sets. More precisely, the probability of transitioning from $j$ to $k$ is as follows: pick a random point in $A_j$, run the Markov chain for one step, and see what's the probability of landing in $A_k$.
+The projected chain $\overline M$ is defined on $\{1,\ldots, m\}$, and transition probabilities are given by average probability flows between the corresponding sets. More precisely, the probability of transitioning from $j$ to $k$ is as follows: pick a random point in $A_j$, run the Markov chain for one step, and see what's the probability of landing in $A_k$.
 
-This gives a potential plan for the proof. We're given a mixture of $m$ gaussians. Suppose we can partition $\mathbb R^d$ into $m$ parts - maybe one centered around each gaussian - such that Langevin mixes well inside each set. Choose the highest temperature so that Langvein mixes well on the entire space $\R^d$ there. 
+This gives a potential plan for the proof. Given a mixture of $m$ gaussians, suppose we can partition $\mathbb R^d$ into $m$ parts - maybe one centered around each gaussian - such that Langevin mixes rapidly inside each set. Choose the highest temperature so that Langvein mixes well on the entire space $\R^d$ at that temperature. 
 
 <center>
 <!--img src="pics/sigma_0.5.png"-->
 <img src="pics/partition.jpeg" width="50%" height="50%">
 </center>
 
-Then if we also have mixing for the projected chain, this will prove the main theorem. Intuitively, the projected chain would mix rapidly because the highest temperature acts like a bridge. There is a reasonable path from any component to any other component passing through the highest temperature.
+Then if the projected chain also mixes rapidly, this proves the main theorem. Intuitively, the projected chain mixes rapidly because the highest temperature acts like a bridge. There is a reasonable path from any component to any other component passing through the highest temperature.
 
-There are a lot of issues with this approach. The primary problem is defining the partition. Our first proof followed this plan; later we found a simpler proof with better bounds, which I'll now describe.
+There are many issues with this approach. The primary problem is defining the partition. While there is a way to make this work, we found a simpler proof with better bounds, which I'll now describe.
 
-### Decomposition theorem with sets
+## Decomposition theorem with sets
 
 The insight is to work with distributions rather than sets.
 
@@ -264,12 +253,12 @@ For simulated tempering Langevin on a mixture of Gaussians, we don't naturally h
 So instead of partitioning $\Omega$, we decompose the Markov chain and stationary distribution. We prove a new Markov chain decomposition theorem that allows us to do this.
 
 > **Theorem:** Let $M_{\text{st}}$ be a simulated tempering Markov chain (with stationary distribution $p$) made up of Markov chains $M_i,i\in [L]$. Suppose there is a decomposition $$M_i(x,y)=\sum_{j=1}^mw_{ij}M_{ij}(x,y)$$ where $M_{ij}$ has stationary distribution $p_{ij}$.
-> If each $M_{ij}$ mixes in time $C$ and the projected chain mixes in time $\ol C$, then the simulated tempering chain mixes in time $C\ol C$.
+> If each $M_{ij}$ mixes in time $C$ and the projected chain mixes in time $\ol C$, then the simulated tempering chain mixes in time $O(C(\ol C +1))$.
 > 
 > The projected chain is defined by \begin{align} L((i,j),(i,j')) &=
 	\begin{cases}
 	\fc{w_{i,j'}}{\chi^2_{\text{sym}}(p_{i,j}||p_{i,j'})},&i=i'\\
-	\fc{1}{\chi^2_{\text{sym}}(p_{i,j}||p_{i',j'}))}
+	\fc{\min\bc{\frac{w_{i',j}}{w_{i,j}},1}}{\chi^2_{\text{sym}}(p_{i,j}||p_{i',j'}))}
 	,&i'=i\pm 1\\
 	0,&\text{else.}
 	\end{cases}
@@ -279,35 +268,36 @@ So instead of partitioning $\Omega$, we decompose the Markov chain and stationar
 This theorem is where most of the magic lies, but it is also somewhat technical; see the paper supplement for details.
 <!--so you can skip it on a first read.-->
 
-### Applying the decomposition theorem
+## Applying the decomposition theorem
 
 We consider simulated tempering Langevin diffusion for
 $$
 \wt p_i \propto \sumo jm w_j \ub{\exp\pa{-\fc{\be_i \ve{x-\mu_j}^2}2}}{\wt p_{ij}}.
 $$ 
 
-The Langevin chain decomposes into Langevin on the mixture components. By the decomposition theorem, if the Markov chain with respect to these components mixes well, and the Markov chain on the "projected" chain mixes well, then the simulated tempering chain mixes well.
+The Langevin chain decomposes into Langevin on the mixture components. By the decomposition theorem, if the Markov chain with respect to these components mixes rapidly, and the Markov chain on the "projected" chain mixes rapidly, then the simulated tempering chain mixes rapidly. We verify each of the two conditions.
 
-1. Langevin mixes rapidly for each $\wt p_{ij}$, in time $O(D^2)$, by Bakry-Emery.
+1. Langevin mixes rapidly for each $\wt p_{ij}$, in time $O(D^2)$, by Bakry-Emery, because the highest temperature is $D^2$.
 2. The projected chain mixes rapidly, in time $O(L^2)$. To see this, note that by choosing the temperatures close enough, the $\chi^2$ distance between the gaussians in adjacent temperatures is at most a constant, and by choosing the highest temperature high enough, all the gaussians there are also close. Thus, the projected chain looks like $L$ stacks of $m$ nodes, where the nodes in the same stack at adjacent temperatures have probability flow $\Omega(1)$ between them, and the subgraph consisting of nodes at the highest temperature mixes almost immediately.
 
 <center>
 <img src="pics/proj_chain.png" width="50%" height="50%">
 </center>
 
-Thus the simulated tempering chain mixes in time $O(L^2D^2)$.
+Thus the simulated tempering chain for $\wt p_i$ mixes in time $O(L^2D^2)$.
 
-### Simulated tempering mixes for $p$
+## Simulated tempering mixes for $p$
 
 But we need mixing for simulated tempering where the temperature is outside the sum,
 $$
-p_i \propto \sumo jm w_j \exp\pa{-\fc{\be_i \ve{x-\mu_j}^2}2}.
+p_i \propto \pa{\sumo jm w_j \exp\pa{-\fc{\ve{x-\mu_j}^2}2}}^{\be_i}.
 $$
 This follows from mixing for $\wt p_i$, plus the fact that the ratio $ p_i/\wt p_i$ is bounded: $\fc{p_i}{\wt p_i}\in [w_{\min}, \rc{w_{\min}}]$. We lose a factor of $\rc{w_{\min}^2}$.
+This finishes the proof of the main result.
 
 # Takeaways
 
-* "Beyond log-concavity" for sampling is the analogue of "beyond convexity" for optimization
+* "Beyond log-concavity" for sampling is the analogue of "beyond convexity" for optimization.
 * There is a spectral decomposition lemma for Markov chains based on decomposing the *Markov chain* rather than just the *state space*, and that helps prove mixing for simulated tempering.
 * Provable sampling holds for a prototypical multimodal distribution: mixture of Gaussians.
 
@@ -326,12 +316,12 @@ Here are further directions and open questions we would like to explore. Feel fr
 		For example, consider clustering. Suppose a simple model, that there are m clusters, each has some mean $\mu_j$, and each point is equally likely to be drawn from each cluster.
 		Then the posterior distribution looks like a product of sums $\prod_{n=1}^N \pa{\sumo jm \rc m \exp\pa{-\fc{\ve{x_n-\mu_j}^2}2}}$, which when expanded out, has exponentially many terms, so our results don't immediately apply.
 		
-		Also, in many distributions of interest, we don't have a mixture of the probability distribution but rather, $f$ is a combination of simpler functions. In other words, $p\propto e^{-\sum_j w_jf_j}$ rather than $p\propto \sum_j w_j e^{-f_j}$. When this combination happens in the exponent, the decomposition approach doesn't work so well.[^fao] 
+		One obstacle is that in many distributions $p$ of interest, $p\propto e^{-f}$ is not mixture of the probability distribution, but rather, $f$ is a combination of simpler functions. In other words, $p\propto e^{-\sum_j w_jf_j}$ rather than $p\propto \sum_j w_j e^{-f_j}$. When this combination happens in the exponent, the decomposition approach doesn't work so well.[^fao] 
 
 		Can we come up with provable results for Ising models, stochastic/censored block models, or RBM's?
 		
 		It would be great to find other uses for our simulated tempering decomposition theorem - in principle the theorem could even apply when there are exponentially many modes, as long as we create a refining partition such that there is no "bottleneck" at any point.[^ftree]
-1. What are the guarantees for other temperature heuristics used in practice, such as annealed importance sampling or parallel tempering?
+1. What are the guarantees for other temperature heuristics used in practice, such as particle filters, annealed importance sampling, and parallel tempering? One undesirable  property of simulated tempering is that it incurs a factor of $O(L^2)$ in the running time, where $L$ is the number of levels. Particle filters and annealed importance sampling move only from higher to lower temperature, and so only incur a factor of $O(L)$. The analysis would be different because they are no longer Markov chains on $[L]\times \Om$, but similar decomposition theorems may hold.
 
 [^fao]: Think of the downstairs combination as an OR combination, the upstairs one as a AND.
 [^ftree]: We stated it in the case where we had the same partition at every level. The more general form of the theorem works even if the partitions on different. The bound could be polynomial even if there are exponentially many components.
