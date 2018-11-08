@@ -10,7 +10,7 @@
   <meta name="description" content="Holden Lee's Blog">
   <meta name="author" content="Holden Lee">
     
-  <title>Sampling from multimodal distributions by turning up the temperature</title>
+  <title>Simulated tempering Langevin Monte Carlo v2</title>
 
   <!-- Bootstrap core CSS -->
   <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -94,19 +94,19 @@
 
   <div id="content">
     <div class="page header">
-      <h1> Sampling from multimodal distributions by turning up the temperature </h1>
+      <h1> Simulated tempering Langevin Monte Carlo v2 </h1>
     </div>
     
     
     <div class="info">
        <div class="subtitle"><p>Rong Ge, Holden Lee, Andrej Risteski</p></div> 
        
-        <p>Posted: 2018-11-07 
-          , Modified: 2018-11-07 
+        <p>Posted: 2018-11-08 
+          , Modified: 2018-11-08 
 	</p>
       
        <p>Tags: <a href="./tags/math.html">math</a></p> 
-       <p>Parent: </p> 
+       <p>Parent: <a href="./Research.html">Research</a></p> 
 	   <p>Children: </p> 
     </div>
     
@@ -136,7 +136,8 @@
  </ul> </div>
 
   <div class="blog-main">
-    <p>Many probability distributions that arise in practice are multimodal and hence challenging to sample from. One popular way to overcome this problem is to use <em>temperature-based</em> methods. In this post I describe work with Rong Ge and Andrej Risteski (in NIPS 2018) which gives rigorous guarantees for a temperature-based method called <strong>simulated tempering</strong> when applied to simple multimodal distributions. <!-- I address this problem by proving that a *temperature-based* algorithm efficiently samples from simple multimodal distributions.
+    <p>Title: Sampling from multimodal distributions by raising the temperature</p>
+<p>Many probability distributions that arise in practice are multimodal and hence challenging to sample from. One popular way to overcome this problem is to use <em>temperature-based</em> methods. In this post I describe work with Rong Ge and Andrej Risteski (in NIPS 2018) which gives rigorous guarantees for a temperature-based method called <strong>simulated tempering</strong> when applied to simple multimodal distributions. <!-- I address this problem by proving that a *temperature-based* algorithm efficiently samples from simple multimodal distributions.
 In this post I describe work with Rong Ge and Andrej Risteski on an algorithm that provably samples from certain multimodal distributions. --> For more information, check out the <a href="https://arxiv.org/abs/1710.02736">paper</a>, <a href="https://www.dropbox.com/s/44udkqyd2r95qzk/slides_IAS.pdf?dl=0">slides</a>, <a href="https://dynalist.io/d/wW7edPHuU41y1qxWAI0fL__c#z=c2y7iGMb-rjqoGupMLQ1DAWe">talk transcript</a>, and <a href="https://www.dropbox.com/s/nvh4g055lyx9yth/poster_bayesian.pdf?dl=0">poster</a>.</p>
 <p>We address the following fundamental problem in theoretical computer science and Bayesian machine learning:</p>
 <blockquote>
