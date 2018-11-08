@@ -1,5 +1,5 @@
 ---
-title: Simulated tempering Langevin Monte Carlo v2
+title: Sampling from multimodal distributions by raising the temperature
 subtitle: Rong Ge, Holden Lee, Andrej Risteski
 published: 2018-11-08
 modified: 2018-11-08
@@ -8,8 +8,6 @@ tags: math
 type: uncategorized
 showTOC: True
 ---
-
-Title: Sampling from multimodal distributions by raising the temperature
 
 Many probability distributions that arise in practice are multimodal and hence challenging to sample from. One popular way to overcome this problem is to use *temperature-based* methods. In this post I describe work with Rong Ge and Andrej Risteski (in NIPS 2018) which gives rigorous guarantees for a temperature-based method called **simulated tempering** when applied to simple multimodal distributions.
 <!-- I address this problem by proving that a *temperature-based* algorithm efficiently samples from simple multimodal distributions.
