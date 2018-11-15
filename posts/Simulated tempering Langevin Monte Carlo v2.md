@@ -104,7 +104,7 @@ We can take this to the extreme: In the limit as $\beta \to \infty$, the distrib
 Some connections between optimization and sampling are:
 -->
 Langevin dynamics has been used heuristically to explain the success of SGD, as an optimization algorithm to [escape local minima](https://arxiv.org/abs/1702.05575), and has inspired [entropy-SGD for optimizing neural networks](https://arxiv.org/abs/1611.01838). The idea of using randomness has also been used to [escape from saddle points](http://www.offconvex.org/2017/07/19/saddle-efficiency/).
-One generic algorithm for online optimization is to the multiplicative weights algorithm, which reduces to a sampling problem in the continuous case ([Narayanan et al. 2010](http://papers.nips.cc/paper/3972-random-walk-approach-to-regret-minimization)). Moreover, there are settings such as online logistic regression in which the only known way to achieve optimal regret is through a [Bayesian sampling approach](https://arxiv.org/abs/1803.09349).
+One generic algorithm for online optimization is the multiplicative weights algorithm, which reduces to a sampling problem in the continuous case ([Narayanan et al. 2010](http://papers.nips.cc/paper/3972-random-walk-approach-to-regret-minimization)). Moreover, there are settings such as online logistic regression in which the only known way to achieve optimal regret is through a [Bayesian sampling approach](https://arxiv.org/abs/1803.09349).
 <!--and the multiplicative weights algorithm for online optimization in the continuous case [reduces to a sampling problem](...). LINK-->
 
 **Break here if splitting into two posts.

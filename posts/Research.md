@@ -8,7 +8,7 @@ type: uncategorized
 showTOC: True
 ---
 
-I am a Ph.D. student at Princeton working with [Sanjeev Arora](https://www.cs.princeton.edu/~arora/) ([research group page](http://unsupervised.cs.princeton.edu/), [ML theory at Princeton](http://mltheory.cs.princeton.edu/)).
+I am a Ph.D. student at Princeton advised by [Sanjeev Arora](https://www.cs.princeton.edu/~arora/) ([research group page](http://unsupervised.cs.princeton.edu/), [ML theory at Princeton](http://mltheory.cs.princeton.edu/)).
 
 I focus on machine learning theory, and also have broad interests in theoretical computer science and related math.
 
@@ -18,14 +18,18 @@ Although machine learning (and deep learning in particular) has made great advan
 
 Current interests include: 
 
-+ **Probabilistic modeling**: How to design provable algorithms for learning probability distributions and sampling from them? How can we improve classical algorithms like Markov Chain Monte Carlo, or test the quality of the samples?
++ **Probabilistic modeling (Bayesian inference)**: How to design provable algorithms for learning probability distributions and sampling from them? How can we improve classical algorithms like Markov Chain Monte Carlo, or test the quality of the samples?
 + **Control theory and reinforcement learning**: It is a well-studied problem how to find the optimal control for known linear dynamical system. However, reinforcement learning deals with learning how to act  unknown, combinatorially complex systems; algorithms are heuristic and slow. How to bridge this gap?
 + **Neural networks**: Neural networks tackle highly nonconvex problems but do very well in practice. Why? What kind of algorithmic improvements can we come up with by understanding their theoretical foundations more deeply?
-+ **Natural language processing**: Language is a fundamental part of human intelligence and a big frontier for machine learning. How do we create machines that can understand "grammar" and "semantics"?
++ **Natural language understanding**: Language is a fundamental part of human intelligence and a big frontier for machine learning. How do we create machines that can understand "grammar" and "semantics"?
 
 # Papers
 
 ## Machine learning
+
+*   **Online Sampling from Log-Concave Distributions**
+	
+	with Oren Mangoubi and Nisheeth Vishnoi. In submission. [pdf](https://drive.google.com/file/d/1qKv-vGBDMDzWxTvi4znEm5iuMQ2sjCP_/view)
 
 *   **Spectral Filtering for General Linear Dynamical Systems**
 	
@@ -33,11 +37,11 @@ Current interests include:
 
 *   **Towards Provable Control for Unknown Linear Dynamical Systems.**
 	
-	with Sanjeev Arora, Elad Hazan, Karan Singh, Cyril Zhang, and Yi Zhang. ICLR workshop 2018.
+	with Sanjeev Arora, Elad Hazan, Karan Singh, Cyril Zhang, and Yi Zhang. ICLR workshop 2018. [[ICLR page](https://openreview.net/forum?id=HJGuXK1vM), [pdf](https://openreview.net/pdf?id=HJGuXK1vM)]
 
 *   **Beyond Log-concavity: Provable Guarantees for Sampling Multi-modal Distributions using Simulated Tempering Langevin Monte Carlo.**
 	
-	with Rong Ge and Andrej Risteski. NIPS AABI Workshop 2017. [[arXiv](https://arxiv.org/abs/1710.02736), [pdf](https://arxiv.org/pdf/1710.02736.pdf), [webpage](Simulated tempering Langevin Monte Carlo.html)].
+	with Rong Ge and Andrej Risteski. NIPS AABI Workshop 2017 and NIPS 2018. [[arXiv](https://arxiv.org/abs/1710.02736), [pdf](https://arxiv.org/pdf/1710.02736.pdf), [webpage](Simulated tempering Langevin Monte Carlo.html)].
 	
 *   **On the Ability of Neural Nets to Express Distributions.** 
 	
