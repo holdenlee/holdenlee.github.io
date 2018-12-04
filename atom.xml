@@ -465,14 +465,17 @@ It would be great to find other uses for our simulated tempering decomposition t
     <h2 id="basic-information">Basic information</h2>
 <p>This page is about the following paper:</p>
 <blockquote>
-<p>Ge, R., Lee, H., &amp; Risteski, A. (2017). <strong>Beyond Log-concavity: Provable Guarantees for Sampling Multi-modal Distributions using Simulated Tempering Langevin Monte Carlo.</strong> NIPS AABI workshop 2017. arXiv preprint arXiv:1710.02736.</p>
+<p>Ge, R., Lee, H., &amp; Risteski, A. (2018). <strong>Beyond Log-concavity: Provable Guarantees for Sampling Multi-modal Distributions using Simulated Tempering Langevin Monte Carlo.</strong> NIPS AABI workshop 2017 and NIPS 2018. arXiv preprint arXiv:1812.00793.</p>
 </blockquote>
 <p>Shortlink: <a href="http://tiny.cc/glr17">tiny.cc/glr17</a></p>
 <ul>
-<li><a href="https://arxiv.org/abs/1710.02736">arXiv</a>, <a href="https://arxiv.org/pdf/1710.02736.pdf">pdf</a>.</li>
-<li><a href="https://www.dropbox.com/s/pv2cryq4d0gxswj/soft_partition2_holden.pdf?dl=0">Supplement</a>: Contains a simpler proof of the main theorem in the paper. I recommend reading this instead of the proof in the paper. Note this is a work in progress.</li>
+<li><a href="https://arxiv.org/abs/1812.00793">arXiv</a>, <a href="https://arxiv.org/abs/1812.00793.pdf">pdf</a>.
+<ul>
+<li>A previous version of the paper, with a more complicated proof and weaker result, appeared in NIPS AABI workshop 2017, and is on arxiv <a href="https://arxiv.org/abs/1710.02736">here</a>.</li>
+</ul></li>
 <li><a href="https://www.dropbox.com/s/44udkqyd2r95qzk/slides_IAS.pdf?dl=0">Slides</a>, <a href="https://dynalist.io/d/wW7edPHuU41y1qxWAI0fL__c#z=c2y7iGMb-rjqoGupMLQ1DAWe">transcript</a></li>
 <li><a href="https://www.dropbox.com/s/nvh4g055lyx9yth/poster_bayesian.pdf?dl=0">Poster</a></li>
+<li><a href="https://www.youtube.com/watch?v=ZOYAadGL50E&amp;feature=youtu.be">3 minute video</a></li>
 </ul>
 <h3 id="abstract">Abstract</h3>
 <p>A key task in Bayesian statistics is sampling from distributions that are only specified up to a partition function (i.e., constant of proportionality). However, without any assumptions, sampling (even approximately) can be #P-hard, and few works have provided “beyond worst-case” guarantees for such settings. A key task in Bayesian statistics is sampling from distributions that are only specified up to a partition function (i.e., constant of proportionality). However, without any assumptions, sampling (even approximately) can be #P-hard, and few works have provided “beyond worst-case” guarantees for such settings.</p>
@@ -635,7 +638,7 @@ The projected chain is defined by
 \end{align}\]</span>
 <p>where <span class="math inline">\(\chi^2_{\text{sym}}(p||q)=\max\{\chi^2(p||q),\chi^2(q||p)\}\)</span> is the “symmetrized” <span class="math inline">\(\chi^2\)</span> divergence.</p>
 </blockquote>
-<p>This theorem is where most of the magic lies, but it is also somewhat technical; see the paper supplement for details. <!--so you can skip it on a first read.--></p>
+<p>This theorem is where most of the magic lies, but it is also somewhat technical; see the paper for details. <!--so you can skip it on a first read.--></p>
 <h3 id="applying-the-decomposition-theorem">Applying the decomposition theorem</h3>
 <p>We consider simulated tempering Langevin diffusion for <span class="math display">\[
 \wt p_i \propto \sumo jm w_j \ub{\exp\pa{-\fc{\be_i \ve{x-\mu_j}^2}2}}{\wt p_{ij}}.
