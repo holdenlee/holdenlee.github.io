@@ -13,14 +13,15 @@ showTOC: True
 
 This page is about the following paper:
 
-> Ge, R., Lee, H., & Risteski, A. (2017). **Beyond Log-concavity: Provable Guarantees for Sampling Multi-modal Distributions using Simulated Tempering Langevin Monte Carlo.** NIPS AABI workshop 2017. arXiv preprint arXiv:1710.02736.
+> Ge, R., Lee, H., & Risteski, A. (2018). **Beyond Log-concavity: Provable Guarantees for Sampling Multi-modal Distributions using Simulated Tempering Langevin Monte Carlo.** NIPS AABI workshop 2017 and NIPS 2018. arXiv preprint arXiv:1812.00793.
 
 Shortlink: [tiny.cc/glr17](http://tiny.cc/glr17)
 
-* [arXiv](https://arxiv.org/abs/1710.02736), [pdf](https://arxiv.org/pdf/1710.02736.pdf).
-* [Supplement](https://www.dropbox.com/s/pv2cryq4d0gxswj/soft_partition2_holden.pdf?dl=0): Contains a simpler proof of the main theorem in the paper. I recommend reading this instead of the proof in the paper. Note this is a work in progress.
+* [arXiv](https://arxiv.org/abs/1812.00793), [pdf](https://arxiv.org/abs/1812.00793.pdf).
+	* A previous version of the paper, with a more complicated proof and weaker result, appeared in NIPS AABI workshop 2017, and is on arxiv [here](https://arxiv.org/abs/1710.02736).
 * [Slides](https://www.dropbox.com/s/44udkqyd2r95qzk/slides_IAS.pdf?dl=0), [transcript](https://dynalist.io/d/wW7edPHuU41y1qxWAI0fL__c#z=c2y7iGMb-rjqoGupMLQ1DAWe)
 * [Poster](https://www.dropbox.com/s/nvh4g055lyx9yth/poster_bayesian.pdf?dl=0)
+* [3 minute video](https://www.youtube.com/watch?v=ZOYAadGL50E&feature=youtu.be)
 
 
 ## Abstract
@@ -265,7 +266,7 @@ So instead of partitioning $\Omega$, we decompose the Markov chain and stationar
 	\end{align}
 > where $\chi^2_{\text{sym}}(p||q)=\max\{\chi^2(p||q),\chi^2(q||p)\}$ is the "symmetrized" $\chi^2$ divergence.
 
-This theorem is where most of the magic lies, but it is also somewhat technical; see the paper supplement for details.
+This theorem is where most of the magic lies, but it is also somewhat technical; see the paper for details.
 <!--so you can skip it on a first read.-->
 
 ## Applying the decomposition theorem
