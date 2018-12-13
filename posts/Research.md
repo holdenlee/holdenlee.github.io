@@ -39,9 +39,12 @@ Current interests include:
 	
 	with Sanjeev Arora, Elad Hazan, Karan Singh, Cyril Zhang, and Yi Zhang. ICLR workshop 2018. [[ICLR page](https://openreview.net/forum?id=HJGuXK1vM), [pdf](https://openreview.net/pdf?id=HJGuXK1vM)]
 
-*   **Beyond Log-concavity: Provable Guarantees for Sampling Multi-modal Distributions using Simulated Tempering Langevin Monte Carlo.**
+*   **Beyond Log-concavity: Provable Guarantees for Sampling Multi-modal Distributions using Simulated Tempering Langevin Monte Carlo.** [webpage](Simulated tempering Langevin Monte Carlo.html)
 	
-	with Rong Ge and Andrej Risteski. NIPS AABI Workshop 2017 and NIPS 2018. [[arXiv](https://arxiv.org/abs/1710.02736), [pdf](https://arxiv.org/pdf/1710.02736.pdf), [webpage](Simulated tempering Langevin Monte Carlo.html)].
+	with Rong Ge and Andrej Risteski.
+	
+	* NeurIPS 2018. [[arXiv](https://arxiv.org/abs/1812.00793), [pdf](https://arxiv.org/abs/1812.00793.pdf)]
+	* NIPS AABI Workshop 2017. [[arXiv](https://arxiv.org/abs/1710.02736), [pdf](https://arxiv.org/pdf/1710.02736.pdf)]
 	
 *   **On the Ability of Neural Nets to Express Distributions.** 
 	
