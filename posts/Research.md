@@ -25,6 +25,8 @@ Current interests include:
 
 # Papers
 
+The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99sqx0/publication_list.pdf?dl=0).
+
 ## Machine learning
 
 *   **Online Sampling from Log-Concave Distributions**

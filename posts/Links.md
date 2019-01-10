@@ -15,6 +15,7 @@ My feedly OPML (which you can import to a feed reader) is [here](https://dl.drop
 
 # Subcategories
 
++ [Podcasts](Podcasts.html)
 + [Links for math](Links for math.html)
 + [Links for education](Links for education.html)
 + [Links for writers and readers](Links for writers and readers.html)
