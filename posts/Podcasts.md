@@ -8,6 +8,8 @@ type: uncategorized
 showTOC: True
 ---
 
+I keep track of episodes I listen to [here](https://dynalist.io/d/wW7edPHuU41y1qxWAI0fL__c#z=mHOTpRB-wGtWKoBr6_SQfDlq), including my favorite episodes.
+
 My podcast recommendations:
 
 # General interest
