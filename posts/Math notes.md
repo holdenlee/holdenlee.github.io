@@ -34,7 +34,17 @@ The number theory notes are made of the following two parts:
 #High school math
 
 + Gliya geometry curriculum:
-    + I wrote [lessons](http://gliyanet.com/#!/nexus/math/Geometry) on introduction to geometry, angles, congruent triangles, similar triangles, constructions, and the angle bisector theorem. (Sorry, the link is currently not available.)
+    + I wrote lessons on introduction to geometry, angles, congruent triangles, similar triangles, constructions, and the angle bisector theorem. Some sample sections (called "cells") follow; please contact me for more. <!-- [lessons](http://gliyanet.com/#!/nexus/math/Geometry) (Sorry, the link is currently not available.) -->
+		+ Introduction: [The Foundations of Geometry](high_school/gliya/1_1_intro_foundations.pdf)
+		+ Angles:  [roadmap](high_school/gliya/2_0_angles_roadmap.pdf)
+		+ Congruent triangles 
+			+ [roadmap](high_school/gliya/3_0_congruent_triangles_Road_Map.pdf)
+			+ [1 What is Congruence?](high_school/gliya/3_1_What_is_Congruence.pdf)
+		+ Similar triangles
+			+ [roadmap](high_school/gliya/4_0.pdf)
+			+ [1 What is similarity?](high_school/gliya/4_1_similar_intro.pdf)
+			+ [3 Parallel lines cut similar triangles](high_school/gliya/4_3_similar_thales.pdf)
+			+ [10 Summary](high_school/gliya/4_10_similar_summary.pdf)
 + High school math club materials: Materials I used for ERHS math club, 2007-2009.
     + Short-answer based
         + [Sums and products](http://holdenlee.github.io/high_school/Sums%20and%20Products.pdf)
@@ -66,7 +76,7 @@ The number theory notes are made of the following two parts:
 + I wrote several lectures for Online Math Circle. [Source for all lectures](https://github.com/holdenlee/omc)
     + Lecture 1: [The Beauty of Mathematics](high_school/omc/1-beauty.pdf)
     + Lecture 4: [Combinatorial Number Theory](high_school/omc/cnt.pdf)
-    + Lecture 8: [Polynomials, Part 1](high_school/omc/8-poly1.pdf)
+    + Lecture 8: [Polynomials, Part 1](high_school/omc/8-poly1.pdf), [solutions](high_school/omc/poly1-soln.pdf)
     + Lecture 11: [Complex Numbers](high_school/omc/11-complex.pdf)
     + Lecture 13: [Polynomials, Part 2](high_school/omc/13-polynum.pdf) (Polynomials and number theory)
     + Lecture 18: [Generating functions](high_school/omc/18-genfunc.pdf)
