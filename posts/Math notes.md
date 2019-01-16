@@ -21,15 +21,15 @@ Please do contact me if you find typos, want to help improve the notes, want sou
 
 #Number Theory
 
-I've compiled all my number theory notes in the following open-source [textbook](tiny.cc/ntbook) (shortlink: tiny.cc/hlbook). This version does not contain drafts in progress; for that see the github page.
+I've compiled all my number theory notes in the following open-source [textbook](http://tiny.cc/ntbook) (shortlink: tiny.cc/ntbook). This version does not contain drafts in progress; for that see the github page.
 
 Source code is available at the dedicated repository [https://github.com/holdenlee/number-theory](https://github.com/holdenlee/number-theory).
 Contributions and corrections are welcome; send me a pull request or email me at holdenlee@alum.mit.edu.
 
 The number theory notes are made of the following two parts:
 
-+ Proof of prime number theorem for arithmetic progressions: [tiny.cc/annt](tiny.cc/annt)
-+ Algebraic number theory, class field theory, and complex multiplication: [tiny.cc/algnt](tiny.cc/algnt)
++ Proof of prime number theorem for arithmetic progressions: [tiny.cc/annt](http://tiny.cc/annt)
++ Algebraic number theory, class field theory, and complex multiplication: [tiny.cc/algnt](http://tiny.cc/algnt)
 
 #High school math
 
@@ -51,7 +51,7 @@ The number theory notes are made of the following two parts:
         + [End of year contest](http://holdenlee.github.io/high_school/End-of-Year-Contest.pdf) (the bunny problem has a simpler solution, see AwesomeMath UTD contest)
 + AwesomeMath materials ([all source files](http://holdenlee.github.io/high_school/awesome_math/source.zip))
     + Algebra 3.5, 2010: I taught the second week at Santa Cruz. Notes below.
-        + [Polynomials](http://holdenlee.github.io/high_school/awesome_math/polynomials.pdf) ([solutions](http://holdenlee.github.io/high_school/awesome_math/polynomials_solutions.pdf)) (Note that part of these notes appear in lectures 8 and ? in OMC.
+        + [Polynomials](http://holdenlee.github.io/high_school/awesome_math/polynomials.pdf) ([solutions](http://holdenlee.github.io/high_school/awesome_math/polynomials_solutions.pdf)) (Note that part of these notes appear in lectures 8 and 13 in OMC.)
         + [Inequalities](http://holdenlee.github.io/high_school/awesome_math/Inequalities.pdf), [Holder and Minkowski](http://holdenlee.github.io/high_school/awesome_math/holder-minkowski.pdf), [strategies](http://holdenlee.github.io/high_school/awesome_math/Inequalities%20strategies.pdf)
         + [Functional equations](http://holdenlee.github.io/high_school/awesome_math/functional.pdf) ([solutions](http://holdenlee.github.io/high_school/awesome_math/functional_solutions.pdf))
         + [Week 2 exam](http://holdenlee.github.io/high_school/awesome_math/exam2-sol.pdf)
@@ -66,9 +66,9 @@ The number theory notes are made of the following two parts:
 + I wrote several lectures for Online Math Circle. [Source for all lectures](https://github.com/holdenlee/omc)
     + Lecture 1: [The Beauty of Mathematics](high_school/omc/1-beauty.pdf)
     + Lecture 4: [Combinatorial Number Theory](high_school/omc/cnt.pdf)
-    + Lecture 8: [Polynomials, Part 1](high_school/omc/poly1.pdf)
-    + Lecture 11: [Complex Numbers](high_school/omc/13-polynum.pdf)
-    + Lecture 13: [Polynomials, Part 2](high_school/omc/18-genfunc.pdf) (Polynomials and number theory)
+    + Lecture 8: [Polynomials, Part 1](high_school/omc/8-poly1.pdf)
+    + Lecture 11: [Complex Numbers](high_school/omc/11-complex.pdf)
+    + Lecture 13: [Polynomials, Part 2](high_school/omc/13-polynum.pdf) (Polynomials and number theory)
     + Lecture 18: [Generating functions](high_school/omc/18-genfunc.pdf)
     + Lecture 21 (with Yoni Miller): [Principle of Inclusion and Exclusion](high_school/omc/21-pie.pdf)
     + Lecture 23: [Rearrangement inequality](high_school/omc/23-rearrange.pdf)
