@@ -44,7 +44,7 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 
 ### Reinforcement learning and control theory
 
-*	**Statistical Guarantees for Learning an Autoregressive Filter**
+*   **Statistical Guarantees for Learning an Autoregressive Filter**
 
 	with Cyril Zhang. In submission.
 	
