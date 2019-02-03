@@ -29,28 +29,44 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 
 ## Machine learning
 
+### Bayesian inference
+
 *   **Online Sampling from Log-Concave Distributions**
 	
 	with Oren Mangoubi and Nisheeth Vishnoi. In submission. [pdf](https://drive.google.com/file/d/1qKv-vGBDMDzWxTvi4znEm5iuMQ2sjCP_/view)
-
-*   **Spectral Filtering for General Linear Dynamical Systems**
 	
-	with Elad Hazan, Karan Singh, Cyril Zhang, and Yi Zhang. [[arxiv](https://arxiv.org/abs/1802.03981), [pdf](https://arxiv.org/pdf/1802.03981)]
-
-*   **Towards Provable Control for Unknown Linear Dynamical Systems.**
-	
-	with Sanjeev Arora, Elad Hazan, Karan Singh, Cyril Zhang, and Yi Zhang. ICLR workshop 2018. [[ICLR page](https://openreview.net/forum?id=HJGuXK1vM), [pdf](https://openreview.net/pdf?id=HJGuXK1vM)]
-
 *   **Beyond Log-concavity: Provable Guarantees for Sampling Multi-modal Distributions using Simulated Tempering Langevin Monte Carlo.** [webpage](Simulated tempering Langevin Monte Carlo.html)
 	
 	with Rong Ge and Andrej Risteski.
 	
 	* NeurIPS 2018. [[arXiv](https://arxiv.org/abs/1812.00793), [pdf](https://arxiv.org/abs/1812.00793.pdf)]
 	* NIPS AABI Workshop 2017. [[arXiv](https://arxiv.org/abs/1710.02736), [pdf](https://arxiv.org/pdf/1710.02736.pdf)]
+
+### Reinforcement learning and control theory
+
+*	**Statistical Guarantees for Learning an Autoregressive Filter**
+
+	with Cyril Zhang. In submission.
+	
+*   **Spectral Filtering for General Linear Dynamical Systems**
+	
+	with Elad Hazan, Karan Singh, Cyril Zhang, and Yi Zhang. [[arxiv](https://arxiv.org/abs/1802.03981), [pdf](https://arxiv.org/pdf/1802.03981)]
+	
+	NeurIPS 2018 (oral).
+
+*   **Towards Provable Control for Unknown Linear Dynamical Systems.**
+	
+	with Sanjeev Arora, Elad Hazan, Karan Singh, Cyril Zhang, and Yi Zhang. [[ICLR page](https://openreview.net/forum?id=HJGuXK1vM), [pdf](https://openreview.net/pdf?id=HJGuXK1vM)]
+	
+	ICLR workshop 2018.
+	
+### Neural networks
 	
 *   **On the Ability of Neural Nets to Express Distributions.** 
 	
-	with Rong Ge, Tengyu Ma, Andrej Risteski, and Sanjeev Arora. COLT 2017. [[arXiv](https://arxiv.org/pdf/1702.07028.pdf), [PMLR 65:1271-1296](http://proceedings.mlr.press/v65/lee17a/lee17a.pdf), [webpage](http://tiny.cc/hlcolt17)]
+	with Rong Ge, Tengyu Ma, Andrej Risteski, and Sanjeev Arora. [[arXiv](https://arxiv.org/pdf/1702.07028.pdf), [PMLR 65:1271-1296](http://proceedings.mlr.press/v65/lee17a/lee17a.pdf), [webpage](http://tiny.cc/hlcolt17)]
+	
+	COLT 2017. 
 
 ## Complexity theory
 
