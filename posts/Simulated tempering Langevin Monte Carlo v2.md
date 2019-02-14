@@ -3,7 +3,7 @@ title: Sampling from multimodal distributions by raising the temperature
 subtitle: Rong Ge, Holden Lee, Andrej Risteski
 published: 2018-11-08
 modified: 2018-11-08
-parent: Research
+parent: 
 tags: math
 type: uncategorized
 showTOC: True
