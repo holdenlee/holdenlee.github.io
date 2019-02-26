@@ -33,7 +33,7 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 
 *   **Online Sampling from Log-Concave Distributions**
 	
-	with Oren Mangoubi and Nisheeth Vishnoi. In submission. [pdf](https://drive.google.com/file/d/1qKv-vGBDMDzWxTvi4znEm5iuMQ2sjCP_/view)
+	with Oren Mangoubi and Nisheeth Vishnoi. In submission. [[arXiv](https://arxiv.org/abs/1902.08179), [pdf](https://arxiv.org/pdf/1902.08179)]
 	
 *   **Beyond Log-concavity: Provable Guarantees for Sampling Multi-modal Distributions using Simulated Tempering Langevin Monte Carlo.** [webpage](Simulated tempering Langevin Monte Carlo.html)
 	
