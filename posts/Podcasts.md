@@ -8,7 +8,7 @@ type: uncategorized
 showTOC: True
 ---
 
-I keep track of episodes I listen to [here](https://dynalist.io/d/wW7edPHuU41y1qxWAI0fL__c#z=mHOTpRB-wGtWKoBr6_SQfDlq), including my favorite episodes.
+I keep track of episodes I listen to [here](https://dynalist.io/d/wW7edPHuU41y1qxWAI0fL__c#z=mHOTpRB-wGtWKoBr6_SQfDlq), including my [favorite episodes](https://dynalist.io/d/wW7edPHuU41y1qxWAI0fL__c#z=mHOTpRB-wGtWKoBr6_SQfDlq&q=(%5C*)).
 
 My podcast recommendations:
 
@@ -16,7 +16,8 @@ My podcast recommendations:
 
 * [This American Life](http://www.thisamericanlife.org/)
 * [Radiolab](http://www.radiolab.org/)
-* [Invisibilia](http://www.npr.org/podcasts/510307/invisibilia): I love how they explore all sides of an issue.
+* [Invisibilia](http://www.npr.org/podcasts/510307/invisibilia): I love how they explore all sides of an issue and take a very empathetic approach to reporting.
+* [On the Media](https://www.wnycstudios.org/shows/otm)
 * [Undiscovered](http://www.undiscoveredpodcast.org)
 
 # Spirituality
@@ -35,6 +36,7 @@ My podcast recommendations:
 * [The memory palace](http://thememorypalace.us/): moments  in history, lushly narrated as stories
 * [Storycorps](https://storycorps.org/)
 * [Radio diaries](http://www.radiodiaries.org/)
+* [Mortified](http://getmortified.com/podcast/): reading from childhood diaries.
 
 ## Fictional
 
@@ -85,6 +87,8 @@ My podcast recommendations:
 * [Freakonomics Radio](http://freakonomics.com/)
 * [TED Radio hour](http://www.npr.org/programs/ted-radio-hour/)
 * [Reveal](https://www.revealnews.org/episodes/): Investigative reporting.
+* [The Weeds](https://www.vox.com/the-weeds)
+* [80,000 hours](https://80000hours.org/podcast/): effective altruism
 
 # 中文
 
