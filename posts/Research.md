@@ -62,7 +62,7 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 	
 ### Neural networks
 	
-*	**Explaining Landscape Connectivity of Low-cost Solutions for Multilayer Nets.**
+*   **Explaining Landscape Connectivity of Low-cost Solutions for Multilayer Nets.**
 	
 	with Rohith Kuditipudi, Xiang Wang, Yi Zhang, Zhiyuan Li, Wei Hu, Rong Ge, and Sanjeev Arora. In submission.
 *   **On the Ability of Neural Nets to Express Distributions.** 
