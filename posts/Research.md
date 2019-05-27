@@ -65,6 +65,7 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 *   **Explaining Landscape Connectivity of Low-cost Solutions for Multilayer Nets.**
 	
 	with Rohith Kuditipudi, Xiang Wang, Yi Zhang, Zhiyuan Li, Wei Hu, Rong Ge, and Sanjeev Arora. In submission.
+	
 *   **On the Ability of Neural Nets to Express Distributions.** 
 	
 	with Rong Ge, Tengyu Ma, Andrej Risteski, and Sanjeev Arora. [[arXiv](https://arxiv.org/abs/1702.07028), [pdf](https://arxiv.org/pdf/1702.07028.pdf), [PMLR 65:1271-1296](http://proceedings.mlr.press/v65/lee17a/lee17a.pdf), [webpage](http://tiny.cc/hlcolt17)]
