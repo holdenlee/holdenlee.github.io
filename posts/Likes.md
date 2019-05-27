@@ -8,8 +8,6 @@ type: uncategorized
 showTOC: True
 ---
 
-
-
 The real information that you can glean from the things someone like is their own rationale for liking it. (See [On favorites](On favorites.html).)
 
 + [Books](Books.html)

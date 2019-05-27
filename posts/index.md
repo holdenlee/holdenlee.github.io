@@ -2,7 +2,7 @@
 title: index
 alttitle: Holden's Website
 published: 2017-08-07
-modified: 2017-11-12
+modified: 2019-05-26
 type: uncategorized
 showTOC: True
 isMainPage: True
@@ -14,20 +14,19 @@ isMainPage: True
 Holden Lee<br/>
 [Mathematics Department](https://www.math.princeton.edu/)<br/>
 [Princeton University](http://www.princeton.edu)<br/>
-holdenl@princeton.edu<br/>
+holdenl@math.princeton.edu<br/>
 
 </center>
 
-I am a Ph.D. student advised by Sanjeev Arora, focusing on machine learning from a theoretical perspective. Check out my **[research](Research.html)** and **[blog](http://holdenlee.github.io/blog)**. My CV is [here](https://www.dropbox.com/s/jndub09i2d5txst/holden_lee.pdf?dl=0).
-
-Here are links to [ML theory at Princeton](http://mltheory.cs.princeton.edu/) and
+I received my Ph.D. from Princeton, where I was advised by Sanjeev Arora. I focus on machine learning from a theoretical perspective. Check out my **[research](Research.html)** and **[blog](http://holdenlee.github.io/blog)**. My CV is [here](https://www.dropbox.com/s/jndub09i2d5txst/holden_lee.pdf?dl=0). Here are links to [ML theory at Princeton](http://mltheory.cs.princeton.edu/) and
 [Sanjeev Arora's research group](http://unsupervised.cs.princeton.edu/).
 
+I will be at the [IAS](http://math.ias.edu) in Fall 2019 to participate in the special year on Theoretical Machine Learning. In Spring 2020, I will be starting as a Phillip Griffiths Research Assistant Professor in [Mathematics at Duke University](https://math.duke.edu/).
 
 # Basic Info
 
 * Education:
-    * (Current) <a href="https://www.math.princeton.edu">Princeton University</a>, Ph.D. program in math 
+    * <a href="https://www.math.princeton.edu">Princeton University</a>, Ph.D. in Math, 2019
 	* <a href="http://www.cam.ac.uk/">University of Cambridge</a>, MAST in Pure Math, 2014
     * <a href="http://www.mit.edu">Massachusetts Institute of Technology</a>, B. Sc. Math, 2013
 

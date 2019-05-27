@@ -1,16 +1,16 @@
 ---
 title: Research
 published: 2017-08-07
-modified: 2017-08-07
+modified: 2019-05-26
 parent: Math
 tags: math
 type: uncategorized
 showTOC: True
 ---
 
-I am a Ph.D. student at Princeton advised by [Sanjeev Arora](https://www.cs.princeton.edu/~arora/) ([research group page](http://unsupervised.cs.princeton.edu/), [ML theory at Princeton](http://mltheory.cs.princeton.edu/)).
+I received my Ph.D. from Princeton, where I was advised by [Sanjeev Arora](https://www.cs.princeton.edu/~arora/) ([research group page](http://unsupervised.cs.princeton.edu/), [ML theory at Princeton](http://mltheory.cs.princeton.edu/)).
 
-I focus on machine learning theory, and also have broad interests in theoretical computer science and related math.
+I focus on machine learning theory and applied probability, and also have broad interests in theoretical computer science and related math.
 
 # Research interests
 
@@ -39,18 +39,18 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 	
 	with Rong Ge and Andrej Risteski.
 	
-	* NeurIPS 2018. [[arXiv](https://arxiv.org/abs/1812.00793), [pdf](https://arxiv.org/abs/1812.00793.pdf)]
+	* NeurIPS 2018. [[arXiv](https://arxiv.org/abs/1812.00793), [pdf](https://arxiv.org/pdf/1812.00793.pdf)]
 	* NIPS AABI Workshop 2017. [[arXiv](https://arxiv.org/abs/1710.02736), [pdf](https://arxiv.org/pdf/1710.02736.pdf)]
 
 ### Reinforcement learning and control theory
 
 *   **Statistical Guarantees for Learning an Autoregressive Filter**
 
-	with Cyril Zhang. In submission.
+	with Cyril Zhang. In submission. [[arxiv](https://arxiv.org/abs/1905.09897), [pdf](https://arxiv.org/pdf/1905.09897.pdf)]
 	
 *   **Spectral Filtering for General Linear Dynamical Systems**
 	
-	with Elad Hazan, Karan Singh, Cyril Zhang, and Yi Zhang. [[arxiv](https://arxiv.org/abs/1802.03981), [pdf](https://arxiv.org/pdf/1802.03981)]
+	with Elad Hazan, Karan Singh, Cyril Zhang, and Yi Zhang. [[arxiv](https://arxiv.org/abs/1802.03981), [pdf](https://arxiv.org/pdf/1802.03981.pdf)]
 	
 	NeurIPS 2018 (oral).
 
@@ -62,9 +62,12 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 	
 ### Neural networks
 	
+*	**Explaining Landscape Connectivity of Low-cost Solutions for Multilayer Nets.**
+	
+	with Rohith Kuditipudi, Xiang Wang, Yi Zhang, Zhiyuan Li, Wei Hu, Rong Ge, and Sanjeev Arora. In submission.
 *   **On the Ability of Neural Nets to Express Distributions.** 
 	
-	with Rong Ge, Tengyu Ma, Andrej Risteski, and Sanjeev Arora. [[arXiv](https://arxiv.org/pdf/1702.07028.pdf), [PMLR 65:1271-1296](http://proceedings.mlr.press/v65/lee17a/lee17a.pdf), [webpage](http://tiny.cc/hlcolt17)]
+	with Rong Ge, Tengyu Ma, Andrej Risteski, and Sanjeev Arora. [[arXiv](https://arxiv.org/abs/1702.07028), [pdf](https://arxiv.org/pdf/1702.07028.pdf), [PMLR 65:1271-1296](http://proceedings.mlr.press/v65/lee17a/lee17a.pdf), [webpage](http://tiny.cc/hlcolt17)]
 	
 	COLT 2017. 
 
@@ -72,7 +75,7 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 
 *   **Quadratic polynomials of small modulus cannot represent OR.** 
 	
-	Unpublished, 2015. [arXiv](http://arxiv.org/abs/1509.08896)
+	Unpublished, 2015. [[arXiv](http://arxiv.org/abs/1509.08896), [pdf](http://arxiv.org/pdf/1509.08896.pdf)]
 
 ## Number theory
 
@@ -80,4 +83,4 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 	
 	with Eva Belmont, Alexandra Musat, and Sarah Trebat-Leder.
 
-	[Monatshefte für Mathematik, 173(1), 1-34](http://link.springer.com/article/10.1007/s00605-013-0586-y), 2014. [[arXiv](https://arxiv.org/abs/1510.01202), [presentation](https://www.dropbox.com/s/81413cszqabcwcx/MIT%20presentation.pdf?dl=0), [webpage](l-adic properties of partition functions.html)]
+	[Monatshefte für Mathematik, 173(1), 1-34](http://link.springer.com/article/10.1007/s00605-013-0586-y), 2014. [[arXiv](https://arxiv.org/abs/1510.01202), [pdf](https://arxiv.org/pdf/1510.01202.pdf), [presentation](https://www.dropbox.com/s/81413cszqabcwcx/MIT%20presentation.pdf?dl=0), [webpage](l-adic properties of partition functions.html)]
