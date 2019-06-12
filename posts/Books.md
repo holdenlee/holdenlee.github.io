@@ -174,7 +174,7 @@ In general, I like...
 + Malcolm Gladwell, [Blink](https://docs.google.com/document/d/1ni0slCzoZn4Aff2kP8biMM2hmNas9R7C-yz_ZwFCnXg/edit)
 + James Gleick, The Information: A History, a Theory, a Flood
 + Robin Hanson, The Age of Em: detailed predictions of a future dominated by emulated minds
-+ Helen Keller, The Story of My Life
++ Helen Keller, [The Story of My Life](The story of my life.html)
 + Douglas Hofstadter, 
 	+ Gödel Escher Bach
 	+ I am a strange loop
