@@ -2,7 +2,8 @@
 title: The story of my life
 published: 2019-06-11
 parent: Books
-tags: none
+tags: autobiography, book, learning, education, play, seeing
+showTOC: True
 ---
 
 The Story of My Life, Helen Keller's autobiography, is a book which makes me re-appreciate things that I take for granted. It's amazing how much she can appreciate and accomplish despite being blind and deaf. Her love for learning, and the way that she turns it into play, is inspiring.

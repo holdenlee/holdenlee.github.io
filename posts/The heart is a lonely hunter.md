@@ -2,7 +2,7 @@
 title: The heart is a lonely hunter
 published: 2017-08-13
 parent: Books
-tags: none
+tags: book, love, loss, loneliness, music, work, tiredness
 ---
 
 # Connections
