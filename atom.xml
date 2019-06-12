@@ -8,8 +8,89 @@
         <name>Holden Lee</name>
         <email>oldheneel@gmail.com</email>
     </author>
-    <updated>2019-01-09T00:00:00Z</updated>
+    <updated>2019-06-11T00:00:00Z</updated>
     <entry>
+    <title>The story of my life</title>
+    <link href="http://holdenlee.github.io/The%20story%20of%20my%20life.html" />
+    <id>http://holdenlee.github.io/The%20story%20of%20my%20life.html</id>
+    <published>2019-06-11T00:00:00Z</published>
+    <updated>2019-06-11T00:00:00Z</updated>
+    <summary type="html"><![CDATA[
+<div class="container">
+
+  <div id="content">
+    <div class="page header">
+      <h1> The story of my life </h1>
+    </div>
+    
+    
+    <div class="info">
+      
+       
+        <p>Posted: 2019-06-11 
+          
+	</p>
+      
+       <p>Tags: <a href="/tags/none.html">none</a></p> 
+       <p>Parent: <a href="/Books.html">Books</a></p> 
+	   <p>Children: </p> 
+    </div>
+    
+    
+  </div>
+  <!--/div-->
+
+  
+
+  <div class="blog-main">
+    <p>The Story of My Life, Helen Keller’s autobiography, is a book which makes me re-appreciate things that I take for granted. It’s amazing how much she can appreciate and accomplish despite being blind and deaf. Her love for learning, and the way that she turns it into play, is inspiring.</p>
+<p><a href="https://dynalist.io/d/wW7edPHuU41y1qxWAI0fL__c#z=nHvrND02NZpfWtNO1d23P8mO">Book notes</a></p>
+<h2 id="on-learning">On learning</h2>
+<blockquote>
+<p>Gradually I began to find that there were disadvantages in going to college.</p>
+<p>The one I felt and still feel most is lack of time. I used to have time to think, to reflect, my mind and I. We would sit together of an evening and listen to the inner melodies of the spirit, which one hears only in leisure moments when the words of some loved poet touch a deep, sweet chord in the soul that until then had been silent. But in college there is no time to commune with one’s thoughts. One goes to college to learn, it seems, not to think. When one enters the portals of learning, one leaves the dearest pleasures–solitude, books and imagination–outside with the whispering pines. I suppose I ought to find some comfort in the thought that I am laying up treasures for future enjoyment, but I am improvident enough to prefer present joy to hoarding riches against a rainy day.</p>
+</blockquote>
+<blockquote>
+<p>Many scholars forget, it seems to me, that our enjoyment of the great works of literature depends more upon the depth of our sympathy than upon our understanding. The trouble is that very few of their laborious explanations stick in the memory. The mind drops them as a branch drops its overripe fruit.</p>
+</blockquote>
+<blockquote>
+<p>the precious science of patience, which teaches us that we should take our education as we would take a walk in the country, leisurely, our minds hospitably open to impressions of every sort. Such knowledge floods the soul unseen with a soundless tidal wave of deepening thought. “Knowledge is power.” Rather, knowledge is happiness, because to have knowledge–broad, deep knowledge–is to know true ends from false, and lofty things from low. To know the thoughts and deeds that have marked man’s progress is to feel the great heart-throbs of humanity through the centuries; and if one does not feel in these pulsations a heavenward striving, one must indeed be deaf to the harmonies of life.</p>
+</blockquote>
+<h2 id="on-seeing">On seeing</h2>
+<blockquote>
+<p>People who think that all sensations reach us through the eye and the ear have expressed surprise that I should notice any difference, except possibly the absence of pavements, between walking in city streets and in country roads. They forget that my whole body is alive to the conditions about me. The rumble and roar of the city smite the nerves of my face, and I feel the ceaseless tramp of an unseen multitude, and the dissonant tumult frets my spirit. The grinding of heavy wagons on hard pavements and the monotonous clangour of machinery are all the more torturing to the nerves if one’s attention is not diverted by the panorama that is always present in the noisy streets to people who can see.</p>
+</blockquote>
+<blockquote>
+<p>As my finger tips trace line and curve, they discover the thought and emotion which the artist has portrayed. I can feel in the faces of gods and heroes hate, courage and love, just as I can detect them in living faces I am permitted to touch. I feel in Diana’s posture the grace and freedom of the forest and the spirit that tames the mountain lion and subdues the fiercest passions. My soul delights in the repose and gracious curves of the Venus; and in Barré’s bronzes the secrets of the jungle are revealed to me.</p>
+</blockquote>
+<blockquote>
+<p>The hands of those I meet are dumbly eloquent to me. The touch of some hands is an impertinence. I have met people so empty of joy, that when I clasped their frosty finger tips, it seemed as if I were shaking hands with a northeast storm. Others there are whose hands have sunbeams in them, so that their grasp warms my heart. It may be only the clinging touch of a child’s hand; but there is as much potential sunshine in it for me as there is in a loving glance for others. A hearty handshake or a friendly letter gives me genuine pleasure.</p>
+</blockquote>
+
+  </div>
+  
+    
+
+    <!-- Extension : Sharing buttons @ www.sharethis.com -->
+    <span class='st_facebook_large' displayText='Facebook'></span>
+    <span class='st_twitter_large' displayText='Tweet'></span>
+    <span class='st_googleplus_large' displayText='Google +'></span>
+    <span class='st_reddit_large' displayText='Reddit'></span>
+    <span class='st__large' displayText=''></span>
+
+    <div id="disqus_thread"></div>
+    
+
+
+  
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+  
+  
+</div>
+]]></summary>
+</entry>
+<entry>
     <title>Podcasts</title>
     <link href="http://holdenlee.github.io/Podcasts.html" />
     <id>http://holdenlee.github.io/Podcasts.html</id>
@@ -131,6 +212,7 @@
 <ul>
 <li><a href="http://rationallyspeakingpodcast.org/">Rationally speaking</a></li>
 <li><a href="http://freakonomics.com/">Freakonomics Radio</a></li>
+<li><a href="https://www.vox.com/future-perfect-podcast">Future perfect</a></li>
 <li><a href="http://www.npr.org/programs/ted-radio-hour/">TED Radio hour</a></li>
 <li><a href="https://www.revealnews.org/episodes/">Reveal</a>: Investigative reporting.</li>
 <li><a href="https://www.vox.com/the-weeds">The Weeds</a></li>
@@ -138,6 +220,9 @@
 </ul>
 <h2 id="中文">中文</h2>
 <ul>
+<li><a href="http://storyfm.cn/">故事FM</a></li>
+<li><a href="https://podcasts.apple.com/us/podcast/%E6%AF%8F%E6%99%9A%E4%B8%80%E4%B8%AA%E7%9D%A1%E5%89%8D%E6%95%85%E4%BA%8B/id681657834">每晚一個睡前故事</a></li>
+<li><a href="https://www.podbean.com/podcast-detail/jnhew-3a281/%E9%99%8C%E5%A3%B0%E4%BA%BA">陌聲人</a></li>
 <li><a href="http://youngloveplay.blogspot.com/">青春愛消遣</a></li>
 </ul>
 <p>如果你有中文podcast推薦、請留言！</p>
@@ -1356,73 +1441,6 @@ Q: If the sample at time $t$ isn't from the $L$th level, can't you just take the
 <li id="fn4"><p>One warning: when you’ve written too much, it can be easy to get sucked into reviewing your writing. <a href="Forget%20your%20index%20cards.html">Forget your index cards</a><a href="#fnref4">↩</a></p></li>
 </ol>
 </section>
-
-  </div>
-  
-    
-
-    <!-- Extension : Sharing buttons @ www.sharethis.com -->
-    <span class='st_facebook_large' displayText='Facebook'></span>
-    <span class='st_twitter_large' displayText='Tweet'></span>
-    <span class='st_googleplus_large' displayText='Google +'></span>
-    <span class='st_reddit_large' displayText='Reddit'></span>
-    <span class='st__large' displayText=''></span>
-
-    <div id="disqus_thread"></div>
-    
-
-
-  
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-  </div>
-  
-  
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>X vs Myopic X</title>
-    <link href="http://holdenlee.github.io/X%20vs%20Myopic%20X.html" />
-    <id>http://holdenlee.github.io/X%20vs%20Myopic%20X.html</id>
-    <published>2017-08-13T00:00:00Z</published>
-    <updated>2017-08-13T00:00:00Z</updated>
-    <summary type="html"><![CDATA[
-<div class="container">
-
-  <div id="content">
-    <div class="page header">
-      <h1> X vs Myopic X </h1>
-    </div>
-    
-    
-    <div class="info">
-      
-       
-        <p>Posted: 2017-08-13 
-          , Modified: 2017-08-13 
-	</p>
-      
-       <p>Tags: <a href="/tags/Ayn%20Rand.html">Ayn Rand</a>, <a href="/tags/creativity.html">creativity</a>, <a href="/tags/egotism.html">egotism</a>, <a href="/tags/flaws.html">flaws</a>, <a href="/tags/goals.html">goals</a>, <a href="/tags/love.html">love</a>, <a href="/tags/myopia.html">myopia</a>, <a href="/tags/remix.html">remix</a></p> 
-       <p>Parent: <a href="/Views.html">Views</a></p> 
-	   <p>Children: </p> 
-    </div>
-    
-    
-  </div>
-  <!--/div-->
-
-  <div class="toc"></div>
-
-  <div class="blog-main">
-    <p>The myopic x problem is the problem where I’m motivated by x, but I <em>cling</em> to x, and won’t do things that help me achieve x if they involve stepping outside of x for a moment. So being myopically x hinders my accomplishing x. I have the myopic egotism problem: when becoming a better person (ultimate goal is egotistic) means forgetting myself and being open and listening to other people (which involves temporarily suspending egotism), I have trouble. The myopic creativity problem is when I put myself in front of an empty screen and try to write, when coming up with something to write involves reading, watching, and studying books/movies/etc., talking to and doing things with people, and learning more about the world. Myopic egotism and myopic creativity together make me think everything I do should come from myself, and prevent me from “standing on the shoulders of giants.”</p>
-<p>(On friendship and love I think I have the opposite problem: I’m farsighted, looking in the distance, wanting these connections because of the benefits they will bring, rather than wanting them in themselves. I.e. learning:creating::friendship:(everything friendship leads to), where I’m myopic in the second component, so I overlook the first. As a contrast, <a href="https://www.goodreads.com/book/show/13037.Justine">Justine</a> is about myopic love.</p>
-<p>The thing with ulterior motives (do A in order to B) is that although I can’t deny their existence, I have to get myself to <em>not think about</em> B and get myself to <em>truly love</em> A. The only way to truly be knowledgeable is to love learning; the only way to truly enrich myself is to cultivate love and friendship, without thinking of these as for the ulterior purpose of cultivating myself.)</p>
-<p>It’s the same with research: I spend too much time trying to get an idea to work, so I can publish it and Have Done Something New! when instead I should ask myself things like, is this likely to work? what’s the best use of time? what things should I understand better before I try to come up with something new? what foundational things should I be learning?</p>
-<p><a href="http://lesswrong.com/lw/oh/righting_a_wrong_question/">Why do I think</a> this is circular? Because I think, “once I create something truly new, then I’ll have the confidence that I’m not just a rehash, and then I can go out and learn stuff without worrying whether I can be original.” This means that I shouldn’t change my current course—I should keep spending a lot of my effort on creating, rather than putting the creating aside. The circularity comes from (1) creating requires me to learn/absorb stuff, (2) I don’t want to learn/absorb a lot of stuff until I’ve proved that I can create something.</p>
-<p>The myopic creativity that I’m talking about, I think, is a bastardized version of what an artist would call “creativity.” <a href="http://www.brainpickings.org/index.php/2011/08/01/networked-knowledge-combinatorial-creativity/">A lot of creativity is remix</a>. It’s being “my brain is open”: not a flow of information <em>out</em>, but a flow of information <em>in</em>. I try to tell myself that life is remix. But I have a hard time having faith in it.</p>
-<p>The catch-22 is illusory though. (1) is true regardless of whether I want to believe it or not. (2) is in my head: it’s a “want” not a “need.” (Like men saying they have to “satisfy their needs,” ugh.)</p>
-<p>How is this related to Ayn Rand style egoism? I like her teachings. But I think one has to be very careful because the idea of egoism is easy to misinterpret. It’s easy to <a href="http://english.stackexchange.com/questions/7482/whats-the-difference-between-egotism-and-egoism">confuse egoism and egotism</a>; I use “egotism” to refer to “myopic egoism.” Egoism, done right, includes a (sometimes difficult) realization that even when the end goal is benefiting yourself, you’ll have to step outside yourself to accomplish it—you’ll need your friends’ help, you’ll need to be humble and learn from the masters. Egotism is refusing to step outside yourself for even a moment, and it remains egotism even if you try to label it “egoism.”</p>
-<p>The essay <a href="http://lesswrong.com/lw/os/joy_in_discovery/">Joy in Discovery</a>: that’s exactly the attitude I need to have. This reminds me of another Ayn Rand bit: she always says that when you enjoy something, that pleasure is <em>yours</em>. She affirms that [the way you relate to something making you happy] cannot be taken away from you. So even if you’re not a good painter at all, and you don’t own any works of art, you can walk in the museum and get a <em>uniquely personal experience</em>.</p>
 
   </div>
   
