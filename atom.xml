@@ -31,7 +31,7 @@
           
 	</p>
       
-       <p>Tags: <a href="/tags/none.html">none</a></p> 
+       <p>Tags: <a href="/tags/autobiography.html">autobiography</a>, <a href="/tags/book.html">book</a>, <a href="/tags/learning.html">learning</a>, <a href="/tags/education.html">education</a>, <a href="/tags/play.html">play</a>, <a href="/tags/seeing.html">seeing</a></p> 
        <p>Parent: <a href="/Books.html">Books</a></p> 
 	   <p>Children: </p> 
     </div>
@@ -40,7 +40,10 @@
   </div>
   <!--/div-->
 
-  
+  <div class="toc"> <ul>
+ <li><a href="#on-learning">On learning</a></li>
+ <li><a href="#on-seeing">On seeing</a></li>
+ </ul> </div>
 
   <div class="blog-main">
     <p>The Story of My Life, Helen Keller’s autobiography, is a book which makes me re-appreciate things that I take for granted. It’s amazing how much she can appreciate and accomplish despite being blind and deaf. Her love for learning, and the way that she turns it into play, is inspiring.</p>
