@@ -73,6 +73,6 @@ Also check out my [deviant art](http://holdenlee.deviantart.com/).
 
 # Videos
 
-+ [Time bending](https://holdenlee.wordpress.com/2014/02/08/time-bending/)
++ [Time bending](https://holdenlee.wordpress.com/2014/02/08/time-bending/) - A music video for a song about time and space.
 
 (C) All rights reserved.

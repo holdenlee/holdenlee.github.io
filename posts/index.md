@@ -23,6 +23,8 @@ I received my Ph.D. from Princeton, where I was advised by Sanjeev Arora. I focu
 
 I will be at the [IAS](http://math.ias.edu) in Fall 2019 to participate in the special year on Theoretical Machine Learning. In Spring 2020, I will be starting as a Phillip Griffiths Research Assistant Professor in [Mathematics at Duke University](https://math.duke.edu/).
 
+*Please do not contact me about jobs in finance.*
+
 # Basic Info
 
 * Education:
