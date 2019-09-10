@@ -10,9 +10,9 @@ showTOC: True
 
 # About me
 
-I'm Holden Lee, a graduate student in math at Princeton. I started in Fall 2014 and plan to graduate in 2019.
+I'm Holden Lee, a postdoc visiting the Instutite of Advanced Study for Fall 2019, and starting at Duke in Spring 2020.
 
-My main interest is in machine learning and theoretical computer science. Other academic interests/hobbies include:
+My main interest is theoretical computer science, in particular machine learning. Other academic interests/hobbies include:
 
 * Number theory
 * Functional programming

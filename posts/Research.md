@@ -33,7 +33,9 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 
 *   **Online Sampling from Log-Concave Distributions**
 	
-	with Oren Mangoubi and Nisheeth Vishnoi. In submission. [[arXiv](https://arxiv.org/abs/1902.08179), [pdf](https://arxiv.org/pdf/1902.08179)]
+	with Oren Mangoubi and Nisheeth Vishnoi. 
+	
+	NeurIPS 2019. [[arXiv](https://arxiv.org/abs/1902.08179), [pdf](https://arxiv.org/pdf/1902.08179)]
 	
 *   **Beyond Log-concavity: Provable Guarantees for Sampling Multi-modal Distributions using Simulated Tempering Langevin Monte Carlo.** [webpage](Simulated tempering Langevin Monte Carlo.html)
 	
@@ -46,7 +48,7 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 
 *   **Statistical Guarantees for Learning an Autoregressive Filter**
 
-	with Cyril Zhang. In submission. [[arxiv](https://arxiv.org/abs/1905.09897), [pdf](https://arxiv.org/pdf/1905.09897.pdf)]
+	with Cyril Zhang. Preprint. [[arxiv](https://arxiv.org/abs/1905.09897), [pdf](https://arxiv.org/pdf/1905.09897.pdf)]
 	
 *   **Spectral Filtering for General Linear Dynamical Systems**
 	
@@ -64,7 +66,9 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 	
 *   **Explaining Landscape Connectivity of Low-cost Solutions for Multilayer Nets.**
 	
-	with Rohith Kuditipudi, Xiang Wang, Yi Zhang, Zhiyuan Li, Wei Hu, Rong Ge, and Sanjeev Arora. In submission.
+	with Rohith Kuditipudi, Xiang Wang, Yi Zhang, Zhiyuan Li, Wei Hu, Rong Ge, and Sanjeev Arora.
+	
+	NeurIPS 2019. [[arXiv](https://arxiv.org/abs/1906.06247), [pdf](https://arxiv.org/pdf/1906.06247)]
 	
 *   **On the Ability of Neural Nets to Express Distributions.** 
 	
