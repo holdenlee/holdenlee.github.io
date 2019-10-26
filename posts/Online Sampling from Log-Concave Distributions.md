@@ -1,6 +1,6 @@
 ---
 title: Online Sampling from Log-Concave Distributions
-subtitle: Rong Ge, Holden Lee, Andrej Risteski
+subtitle: Holden Lee, Oren Mangoubi, Nisheeth Vishnoi
 published: 2019-10-26
 modified: 2019-10-26
 parent: Research
