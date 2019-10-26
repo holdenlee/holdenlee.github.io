@@ -8,8 +8,83 @@
         <name>Holden Lee</name>
         <email>oldheneel@gmail.com</email>
     </author>
-    <updated>2019-06-11T00:00:00Z</updated>
+    <updated>2019-10-26T00:00:00Z</updated>
     <entry>
+    <title>Online Sampling from Log-Concave Distributions</title>
+    <link href="http://holdenlee.github.io/Online%20Sampling%20from%20Log-Concave%20Distributions.html" />
+    <id>http://holdenlee.github.io/Online%20Sampling%20from%20Log-Concave%20Distributions.html</id>
+    <published>2019-10-26T00:00:00Z</published>
+    <updated>2019-10-26T00:00:00Z</updated>
+    <summary type="html"><![CDATA[
+<div class="container">
+
+  <div id="content">
+    <div class="page header">
+      <h1> Online Sampling from Log-Concave Distributions </h1>
+    </div>
+    
+    
+    <div class="info">
+       <div class="subtitle"><p>Rong Ge, Holden Lee, Andrej Risteski</p></div> 
+       
+        <p>Posted: 2019-10-26 
+          , Modified: 2019-10-26 
+	</p>
+      
+       <p>Tags: <a href="/tags/math.html">math</a></p> 
+       <p>Parent: <a href="/Research.html">Research</a></p> 
+	   <p>Children: </p> 
+    </div>
+    
+    
+  </div>
+  <!--/div-->
+
+  <div class="toc"> <ul>
+ <li><a href="#basic-information">Basic information</a><ul>
+ <li><a href="#abstract">Abstract</a></li>
+ </ul></li>
+ </ul> </div>
+
+  <div class="blog-main">
+    <h2 id="basic-information">Basic information</h2>
+<p>This page is about the following paper:</p>
+<blockquote>
+<p>H. Lee, O. Mangoubi, &amp; N. Vishnoi. (2019). <strong>Online Sampling from Log-Concave Distributions.</strong> NeurIPS 2019. arXiv preprint arXiv:1812.00793.</p>
+</blockquote>
+<p>Shortlink: <a href="http://tiny.cc/lmv19">tiny.cc/lmv19</a></p>
+<ul>
+<li><a href="https://arxiv.org/abs/1902.08179">arXiv</a>, <a href="https://arxiv.org/pdf/1902.08179">pdf</a>.</li>
+<li><a href="https://www.dropbox.com/s/eh8xhyezjgld3zm/Online_Sampling_slides.pptx?dl=0">Slides</a></li>
+</ul>
+<p>Check back later for the poster!</p>
+<h3 id="abstract">Abstract</h3>
+<p>Given a sequence of convex functions <span class="math inline">\(f_0, f_1, \ldots, f_T\)</span>, we study the problem of sampling from the Gibbs distribution <span class="math inline">\(\pi_t \propto e^{-\sum_{k=0}^t f_k}\)</span> for each epoch <span class="math inline">\(t\)</span> in an <em>online</em> manner. Interest in this problem derives from applications in machine learning, Bayesian statistics, and optimization where, rather than obtaining all the observations at once, one constantly acquires new data, and must continuously update the distribution. Our main result is an algorithm that generates roughly independent samples from <span class="math inline">\(\pi_t\)</span> for every epoch <span class="math inline">\(t\)</span> and, under mild assumptions, makes <span class="math inline">\(\mathrm{polylog}(T)\)</span> gradient evaluations per epoch. All previous results imply a bound on the number of gradient or function evaluations which is at least linear in <span class="math inline">\(T\)</span>. Motivated by real-world applications, we assume that functions are smooth, their associated distributions have a bounded second moment, and their minimizer drifts in a bounded manner, but do not assume they are strongly convex. In particular, our assumptions hold for online Bayesian logistic regression, when the data satisfy natural regularity properties, giving a sampling algorithm with updates that are poly-logarithmic in <span class="math inline">\(T\)</span>. In simulations, our algorithm achieves accuracy comparable to an algorithm specialized to logistic regression. Key to our algorithm is a novel stochastic gradient Langevin dynamics Markov chain with a carefully designed variance reduction step and constant batch size. Technically, lack of strong convexity is a significant barrier to analysis and, here, our main contribution is a martingale exit time argument that shows our Markov chain remains in a ball of radius roughly poly-logarithmic in <span class="math inline">\(T\)</span> for enough time to reach within <span class="math inline">\(\epsilon\)</span> of <span class="math inline">\(\pi_t\)</span>.</p>
+
+  </div>
+  
+    
+
+    <!-- Extension : Sharing buttons @ www.sharethis.com -->
+    <span class='st_facebook_large' displayText='Facebook'></span>
+    <span class='st_twitter_large' displayText='Tweet'></span>
+    <span class='st_googleplus_large' displayText='Google +'></span>
+    <span class='st_reddit_large' displayText='Reddit'></span>
+    <span class='st__large' displayText=''></span>
+
+    <div id="disqus_thread"></div>
+    
+
+
+  
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+  
+  
+</div>
+]]></summary>
+</entry>
+<entry>
     <title>The story of my life</title>
     <link href="http://holdenlee.github.io/The%20story%20of%20my%20life.html" />
     <id>http://holdenlee.github.io/The%20story%20of%20my%20life.html</id>
@@ -729,7 +804,6 @@ It would be great to find other uses for our simulated tempering decomposition t
 <li><a href="https://arxiv.org/abs/1812.00793">arXiv</a>, <a href="https://arxiv.org/abs/1812.00793.pdf">pdf</a>.
 <ul>
 <li>A previous version of the paper, with a more complicated proof and weaker result, appeared in NIPS AABI workshop 2017, and is on arxiv <a href="https://arxiv.org/abs/1710.02736">here</a>.</li>
-<li>There are some errors in the current version which we we will fix in the revision. For now, see the corrections <a href="https://www.dropbox.com/s/hdkwieajtum5dvn/corrections-public.pdf?dl=0">here</a>.</li>
 </ul></li>
 <li><a href="https://www.dropbox.com/s/44udkqyd2r95qzk/slides_IAS.pdf?dl=0">Slides</a>, <a href="https://dynalist.io/d/wW7edPHuU41y1qxWAI0fL__c#z=c2y7iGMb-rjqoGupMLQ1DAWe">transcript</a></li>
 <li><a href="https://www.dropbox.com/s/jt4jol7hs1lbcoq/poster_nips.pdf?dl=0">Poster</a></li>
@@ -1202,249 +1276,6 @@ Q: If the sample at time $t$ isn't from the $L$th level, can't you just take the
 <p>Index cards are pensieves. They will remember for you, even when you forget.</p>
 <p>If you keep them in mind at all times, you’re holding many little stones, and don’t have the space to come up with new things.</p>
 <p>A musician learns music theory in order to compose and play well, but doesn’t think about it consciously in the actual act of playing.</p>
-
-  </div>
-  
-    
-
-    <!-- Extension : Sharing buttons @ www.sharethis.com -->
-    <span class='st_facebook_large' displayText='Facebook'></span>
-    <span class='st_twitter_large' displayText='Tweet'></span>
-    <span class='st_googleplus_large' displayText='Google +'></span>
-    <span class='st_reddit_large' displayText='Reddit'></span>
-    <span class='st__large' displayText=''></span>
-
-    <div id="disqus_thread"></div>
-    
-
-
-  
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-  </div>
-  
-  
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Bite-sized writing for powerful thinking</title>
-    <link href="http://holdenlee.github.io/Bite-sized%20writing%20for%20powerful%20thinking.html" />
-    <id>http://holdenlee.github.io/Bite-sized%20writing%20for%20powerful%20thinking.html</id>
-    <published>2017-08-18T00:00:00Z</published>
-    <updated>2017-08-18T00:00:00Z</updated>
-    <summary type="html"><![CDATA[
-<div class="container">
-
-  <div id="content">
-    <div class="page header">
-      <h1> Bite-sized writing for powerful thinking </h1>
-    </div>
-    
-    
-    <div class="info">
-      
-       
-        <p>Posted: 2017-08-18 
-          , Modified: 2017-08-18 
-	</p>
-      
-       <p>Tags: <a href="/tags/index%20cards.html">index cards</a></p> 
-       <p>Parent: <a href="/Views.html">Views</a></p> 
-	   <p>Children: </p> 
-    </div>
-    
-    
-  </div>
-  <!--/div-->
-
-  <div class="toc"> <ul>
- <li><a href="#warm-up">Warm-up</a></li>
- <li><a href="#models-of-writing">Models of writing</a><ul>
- <li><a href="#model-1">Model 1</a></li>
- <li><a href="#model-2">Model 2</a></li>
- <li><a href="#comparison">Comparison</a></li>
- <li><a href="#aside-english-class">Aside: English class</a></li>
- </ul></li>
- <li><a href="#how-to-have-ideas">How to have ideas</a><ul>
- <li><a href="#but-i-dont-have-anything-worth-writing-down">But I don’t have anything worth writing down!</a></li>
- <li><a href="#index-cards-as-pensieves">Index cards as pensieves</a></li>
- <li><a href="#system">System</a></li>
- <li><a href="#exercise">Exercise</a></li>
- </ul></li>
- <li><a href="#how-to-write-well">How to write well</a><ul>
- <li><a href="#the-inversion-heuristic">The inversion heuristic</a></li>
- <li><a href="#exercise-1">Exercise</a></li>
- </ul></li>
- <li><a href="#conclusion">Conclusion</a><ul>
- <li><a href="#moonwalking-with-einstein">Moonwalking with Einstein</a></li>
- <li><a href="#writing-for-all-aspects-of-life">Writing for all aspects of life</a></li>
- </ul></li>
- <li><a href="#other-references-and-links">Other references and links</a></li>
- </ul> </div>
-
-  <div class="blog-main">
-    <p>Note: This is a loose transcript of a course for <a href="https://espr-camp.org/">ESPR 2017</a>, hence the colloquial/oral style.</p>
-<h2 id="warm-up">Warm-up</h2>
-<ol type="1">
-<li>Look at several pieces of writing from this <a href="http://tiny.cc/espric">list</a>.</li>
-<li>Answer these questions:
-<ol type="1">
-<li>What are features of “this kind of writing”?</li>
-<li>How would you go about writing “this kind of writing”?</li>
-</ol></li>
-</ol>
-<h2 id="models-of-writing">Models of writing</h2>
-<h3 id="model-1">Model 1</h3>
-<p>You might have a model of writing that looks something like this. You get an assignment from language class: write an essay about a certain topic. Then you sit down,</p>
-<ol type="1">
-<li>think very hard to come up with some thoughts, and</li>
-<li>work really hard to write it all down, and</li>
-<li>it doesn’t look so good, so you dress it and make the sentences more eloquent.</li>
-</ol>
-<p>Finally you finish and turn it in and don’t think about it until you get back your paper.</p>
-<html>
-<img src="pics/write_model1_small.png" alt="model 1" height="246" width="245">
-</html>
-<p>In summary, the model is</p>
-<ol type="1">
-<li>You have an idea or purpose in your head.</li>
-<li>You write down the idea and dress it up.</li>
-</ol>
-<p>This isn’t how most writing works (in the real world)!</p>
-<!--You might think that writing is a long difficult thing, and you wouldn't want to do it outside of English class.-->
-<h3 id="model-2">Model 2</h3>
-<p>Here’s an alternate model of writing.</p>
-<ul>
-<li>You have a bit of an idea in your head.</li>
-<li>You write it down - it’s a small idea, so it’s just a sentence or two.</li>
-<li>Later, you have another idea.</li>
-<li>You write the idea down.</li>
-<li>After a while, you look at your writing, and because paper has more memory than your head, you see connections between ideas and they “glom” together into a larger idea. You see that some ideas are wrong, and replace them with correct ones. You have improved ideas in your head.</li>
-<li>You go back and forth between more accurate or beautiful thoughts, and clearer and more compelling writing.</li>
-<li>At the end, you have these clusters of ideas, and you want to tell other people about them. You arrange these ideas, adds some section headers and some connecting bits, and you’ve finished an essay, or maybe a book.</li>
-</ul>
-<html>
-<img src="pics/write_model2_2.png" alt="model 2" width="225" height="275">
-</html>
-<h3 id="comparison">Comparison</h3>
-<p>Let’s compare the two models.</p>
-<ul>
-<li>In the previous model, you get an idea (no matter whether it’s good or bad), write it all out, and <em>then</em> try to make the writing good. Here, the process of building ideas and writing are tightly linked.</li>
-<li>In either model, writing takes work. But instead of being this big difficult thing, you can view writing as an incremental thing where work feels more spread out, where every step feels more natural and yummy.</li>
-</ul>
-<h3 id="aside-english-class">Aside: English class</h3>
-<p>I want to put this in the perspective of English (or language arts) class. English class made me confused about writing. See <a href="The%20beauty%20of%20ideas%20vs%20the%20beauty%20of%20writing.html">The beauty of ideas vs the beauty of writing</a>.</p>
-<p>Writing isn’t just for academics. You can write the ideas that come to you in daily life.</p>
-<h2 id="how-to-have-ideas">How to have ideas</h2>
-<h3 id="but-i-dont-have-anything-worth-writing-down">But I don’t have anything worth writing down!</h3>
-<p>Who writes posts on facebook? Or any words on social media?</p>
-<p>You are writers (maybe not good, or long-form writers, but writers nonetheless). You have things that you want to tell your friends, stories or activities you want to share - you just don’t associate your thoughts with things that are written down, or the things that are written down with “writing” which may seem reserved for something serious and academic. And if you don’t think of your thoughts as worth recording, they can slip by and you can forget them.</p>
-<p>I’ve had people tell me they’re not good at writing, but when I talk to them, I have a fascinating conversation about something they’re interested in - and if I just transcribed the interview, it might need some editing, but it would be a good piece of writing.</p>
-<p>People often ask writers where they get their ideas from…</p>
-<p><a href="http://www.neilgaiman.com/Cool_Stuff/Essays/Essays_By_Neil/Where_do_you_get_your_ideas%3F">Neil Gaiman said</a></p>
-<blockquote>
-<p>You get ideas from daydreaming. You get ideas from being bored. You get ideas all the time. The only difference between writers and other people is we notice when we’re doing it.</p>
-<p>You get ideas when you ask yourself simple questions. The most important of the questions is just, What if…? …If only…</p>
-</blockquote>
-<h3 id="index-cards-as-pensieves">Index cards as pensieves</h3>
-<p>In the Harry Potter world, “pensieves” are these basins you can put your memories into, so that you can review them anytime later.</p>
-<p>I think this is awesome - when there’s something that you keep thinking about, or want to reference later, wouldn’t it be great if you could just capture it and put it somewhere?</p>
-<p>We don’t have pensieves, but we do have writing. When you write a thought down, you can rethink it anytime without fear of forgetting it, and build on it.</p>
-<!--PICTURE-->
-<p>I like to think of index cards as pensieves. They don’t have to be <em>literally</em> index cards.</p>
-<p>An index card is a natural size for writing. Imagine something you would write on an index card - like Trefethen’s index cards. An index card has the feature of not being too large - there’s not much space - and the feature of being a coherent idea (or cluster of ideas).</p>
-<p>Some of the examples are from Lloyd Trefethen, who wrote a lot of his thoughts on 4x6 index cards and then published around 200 into a book.</p>
-<p>When you have an idea “index-carded”, you can then hold a concept clearly in your mind and easily transmit it to others with good fidelity (and they can transmit it to yet more people). Something with the size and coherence of an index card is <em>mimetic</em>.</p>
-<p>Here’s an <a href="index%20cards.html">index card on index cards</a>.</p>
-<h3 id="system">System</h3>
-<p>In order for this model of writing to work, you need a notetaking system. I don’t mean a notetaking system in the restricted sense of taking down an hour-long lecture; I mean a system where you can easily write down your thoughts at any time.</p>
-<p>The two criteria for such a system are:</p>
-<ol type="1">
-<li>It has low activation energy.</li>
-<li>It is easily searchable.</li>
-</ol>
-<p>You can use any notetaking framework. I recommend using <a href="https://workflowy.com/invite/fdc650b.lnx">workflowy</a> or <a href="https://dynalist.io/invite/6Chr2g">dynalist</a>. You can use a wiki, blog, or journal for writing up longer posts. When you’re out and around and you have a good idea, you can write them down on your phone or pocket notebook.</p>
-<h3 id="exercise">Exercise</h3>
-<p>Come up with a list of things that you want to write about. Nothing is too small. Good search terms:</p>
-<ol type="1">
-<li>Hobby, interest, topic, or activity you like, especially something that is less common.</li>
-<li>Things that you keep coming back to - things you want to pensieve.</li>
-<li>Personal philosophy - what’s a way you look at the world that’s unique to you?</li>
-<li>Thing that happened to you, that tickled you in some way.</li>
-<li>What do you want to communicate to people? If you could give everyone in the world (or your community) an index card, what would be on it?</li>
-<li>A book/movie/etc. you like. A person you admire. What are the key ideas or qualities?</li>
-<li>Things you like to tell other people in conversation</li>
-</ol>
-<p>Note that Trefethen’s index cards are often about a thing that happens in daily life, plus a reflection on it. Also note how he can use an experience to define a whole category of experiences.</p>
-<p>Now that we have ideas, how do we write them well?</p>
-<h2 id="how-to-write-well">How to write well</h2>
-<h3 id="the-inversion-heuristic">The inversion heuristic</h3>
-<p>There’s a lot of specific advice out there (see for example <a href="What%20I%20learned%20from%20Patrick%20Winston.html">What I learned from Patrick Winston</a>); I’ll just give one general principle, the <strong>inversion heuristic</strong>.</p>
-<p>The inversion heuristic is: Put yourself in the reader’s shoes. What do they want? How can you make the writing compelling and useful to them?</p>
-<p>Taking a coarse view, there are two things (nonfiction) writing needs to do.</p>
-<ol type="1">
-<li>Say why the topic is interesting.</li>
-<li>Deliver the information so that the structure in your head becomes the structure in the reader’s head. For example, if you’re teaching someone an activity, give the the steps clearly. (Try to communicate the structure - if it’s a list, give a list. If it’s a dialogue in your head, give it as a dialogue - you aren’t constrained to a certain format, like you learn in English class. If a picture helps, draw it in.)<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></li>
-</ol>
-<p>This is very similar to teaching: imagine you were learning the material for the first time - what would you want?</p>
-<ol type="1">
-<li>You want to know why you’d even care about the topic - why is it interesting?</li>
-<li>You want clear instructions on how to do the thing.</li>
-</ol>
-<p>Note that many of the things that work to get better for writing or more generally communication for other people, also help even if you’re only making notes to yourself. For example, in order for your notes to help you remember your thoughts, you must write clearly; on the other hand, being concise means writing and reading doesn’t take up a lot of your time, or fill your head with irrelevant details.</p>
-<p>One thing that you <em>do</em> have to do more of when writing to other people is to make a bridge - for example make them interested if they’re not already as interested as you are, and give them background they need to understand. <!--However, this can often clarify your own thinking, as often you don't truly understand something until you can explain it from scratch. --></p>
-<h3 id="exercise-1">Exercise</h3>
-<ol type="1">
-<li>Choose one thing from your list, that you wanted to write about.</li>
-<li>Pair up.</li>
-<li>Interview your neighbor about their topic. Try to ask the questions so that YOU can write about it. Then write an outline. Don’t stop your line of questioning until you feel you see why their thing is interesting, and break it down into its parts.</li>
-</ol>
-<p>The point of the exercise is: When you’re writing by yourself, you will be your own critic, imagining yourself as a reader who needs to be convinced and taught. That’s a skill to be developed, so here, you have someone else to be a critic.</p>
-<p>You want your writing to be compelling, and the arguments to follow naturally. Writing your own ideas, you may miss something that you think is “obvious”, or assume the reader already thinks the material is interesting or conceptualizes it in a similar way as you. Or you may have cached an argument that you’ve heard and are just repeating it without thinking it through. Eventually, you want to be your own critic in terms of exposing these gaps. Finding these gaps is useful not just for communicating to others, it can help you realize there were gaps in your knowledge and improve your conception of the idea!</p>
-<h2 id="conclusion">Conclusion</h2>
-<h3 id="moonwalking-with-einstein">Moonwalking with Einstein</h3>
-<p>In <a href="https://www.goodreads.com/book/show/6346975-moonwalking-with-einstein?ac=1&amp;from_search=true">Moonwalking with Einstein</a>, the author talks about his journey of training for the International Memory Olympiad, and on the way, gives the history of writing and the history of memorization.</p>
-<p>Before the printing press, having copies of manuscripts was costly. Learned people memorized entire books in their heads, so they could conjure up the knowledge they needed anytime.</p>
-<p>In the modern age, memorization can seem obsolete, because the Internet gives instant information at our fingertips. Some people worry that this has dumbed us down.</p>
-<p>Joshua Foer presents the following dilemma: In this age, we read a lot of books and articles - but how much of it do we actually remember? If we didn’t remember it, what was the point of reading it?</p>
-<p>One answer to this dilemma is as follows. We don’t need to memorize everything, because we have information at our fingertips - but neither are we intelligent by having Internet access alone. We are overwhelmed by that raw information. Instead, we maintain a kind of superstructure of “notes” between us and all the information out there.<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a></p>
-<p>I want to end with my conception of what being “well-read” is. It’s not sufficient to just read a bunch of books if you forget what you read. Read widely, and reflect, record, and summarize things that you read.<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a> Remember that they can be bite-sized. Index into books and articles.</p>
-<h3 id="writing-for-all-aspects-of-life">Writing for all aspects of life</h3>
-<p>Writing notes down, organizing, and later reflecting or expanding them is a habit that’s useful in many areas of life, and that will have more gains the more you develop it.<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a></p>
-<p>Here are some examples:</p>
-<ul>
-<li>How many of you have gone to a talk, and felt you didn’t get anything out of it? Here’s a suggestion: try to get three things out of a talk. <a href="http://math.stanford.edu/~vakil/threethings.html">If you can get three things out of a talk, it was a successful talk.</a> Note that three things can fit on an index card.</li>
-<li>This isn’t just for “rational” stuff. Artists do it too. A painter might have post-it notes all over their easel.</li>
-<li>Write down concise articulation of what makes something good. I recommend the following exercise for creative writing: take some books you really like. Think about and write down what makes them <em>interesting</em> and <em>different</em>. (For example, for Lord of the Rings: It’s not a story about an ambitious person setting out to find treasure, but a story about a non-ambitious person (Hobbit) setting out to destroy treasure (the ring).)</li>
-<li>Creative writing: go back and forth between exploratory writing (unstructured) and outlining (structured). See <a href="http://www.writingexcuses.com/2017/05/28/12-22-hybrid-outlining-and-discovery-writing/">here</a>. Kazuo Ishiguro talks about “bottling up” in his <a href="https://holdenlee.wordpress.com/2014/02/18/kazuo-ishiguro-on-writing/">interview</a>.</li>
-<li>It’s useful to write down summaries/notes of many things, like conversations and people (Farley file).</li>
-<li>How do you remember a story for storytelling (or other oral presentation)? Imagine it as a scene (like a visual index card).</li>
-</ul>
-<p>One thing to consider doing is to start a blog! I’m happy to help you set it up.</p>
-<p>Take some index cards! Write things on them. Your mind is a net, capturing ideas as you move through the world…</p>
-<p>There’s a table in the googledoc. I encourage you to post your “index cards” there. (You can also take a picture of your index card and upload it.)</p>
-<h2 id="other-references-and-links">Other references and links</h2>
-<ul>
-<li><a href="http://slatestarcodex.com/2016/02/20/writing-advice/">Nonfiction writing advice (Slatestarcodex)</a>: highly recommended</li>
-<li><a href="https://usamo.wordpress.com/2015/03/14/writing/">Writing for thinking (Evan Chen)</a>.</li>
-<li>My (very abbreviated notes) on a CFAR alumni reunion class, <a href="https://workflowy.com/s/BeBJ.lb28OIC55u">Notetaking 101: Growing an exobrain (Joel Solymosi)</a>.
-<ul>
-<li><a href="http://www.abc.net.au/radionational/programs/philosopherszone/the-extended-mind/2986780">The extended mind</a>.</li>
-</ul></li>
-<li><a href="What%20I%20learned%20from%20Patrick%20Winston.html">What I learned from Patrick Winston</a>.</li>
-</ul>
-<!--
-* [Notes on writing about books](https://holdenlee.wordpress.com/2015/03/22/notes-on-writing-about-books/): my suggestions on writing about books
--->
-<section class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p>Minsky does this, e.g. in <a href="https://web.media.mit.edu/~minsky/Introduction.html">The Emotion Machine</a>. Here is one article I wrote as a conversation: <a href="http://holdenlee.github.io/Conversation%20on%20curiosity.html">Conversation on curiosity</a>.<a href="#fnref1">↩</a></p></li>
-<li id="fn2"><p>See Vannevar Bush’s conception of the memex in <a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/">As we may think</a>.<a href="#fnref2">↩</a></p></li>
-<li id="fn3"><p>See my <a href="https://holdenlee.wordpress.com/2015/03/22/notes-on-writing-about-books/">suggestions on writing about books</a>.<a href="#fnref3">↩</a></p></li>
-<li id="fn4"><p>One warning: when you’ve written too much, it can be easy to get sucked into reviewing your writing. <a href="Forget%20your%20index%20cards.html">Forget your index cards</a><a href="#fnref4">↩</a></p></li>
-</ol>
-</section>
 
   </div>
   
