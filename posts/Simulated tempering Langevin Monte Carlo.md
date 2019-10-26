@@ -19,7 +19,6 @@ Shortlink: [tiny.cc/glr17](http://tiny.cc/glr17)
 
 * [arXiv](https://arxiv.org/abs/1812.00793), [pdf](https://arxiv.org/abs/1812.00793.pdf).
 	* A previous version of the paper, with a more complicated proof and weaker result, appeared in NIPS AABI workshop 2017, and is on arxiv [here](https://arxiv.org/abs/1710.02736).
-	* There are some errors in the current version which we we will fix in the revision. For now, see the corrections [here](https://www.dropbox.com/s/hdkwieajtum5dvn/corrections-public.pdf?dl=0).
 * [Slides](https://www.dropbox.com/s/44udkqyd2r95qzk/slides_IAS.pdf?dl=0), [transcript](https://dynalist.io/d/wW7edPHuU41y1qxWAI0fL__c#z=c2y7iGMb-rjqoGupMLQ1DAWe)
 * [Poster](https://www.dropbox.com/s/jt4jol7hs1lbcoq/poster_nips.pdf?dl=0)
 * [3 minute video](https://www.youtube.com/watch?v=ZOYAadGL50E&feature=youtu.be)
