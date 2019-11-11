@@ -31,6 +31,12 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 
 ### Bayesian inference
 
+*   **Estimating Normalizing Constants for Log-Concave Distributions: Algorithms and Lower Bounds**
+	
+	with Rong Ge and Jianfeng Lu.
+	
+	*In submission.* [[arXiv](https://arxiv.org/abs/1911.03043), [pdf](https://arxiv.org/pdf/1911.03043)]
+	
 *   **Online Sampling from Log-Concave Distributions**
 	
 	with Oren Mangoubi and Nisheeth Vishnoi. 
