@@ -1,8 +1,8 @@
 ---
 title: Online Sampling from Log-Concave Distributions
-subtitle: Holden Lee, Oren Mangoubi, Nisheeth Vishnoi
+subtitle: Holden Lee, Oren Mangoubi, Nisheeth K. Vishnoi
 published: 2019-10-26
-modified: 2019-10-26
+modified: 2019-12-2
 parent: Research
 tags: math
 type: uncategorized
@@ -18,10 +18,10 @@ This page is about the following paper:
 Shortlink: [tiny.cc/lmv19](http://tiny.cc/lmv19)
 
 * [arXiv](https://arxiv.org/abs/1902.08179), [pdf](https://arxiv.org/pdf/1902.08179).
-* [Slides](https://www.dropbox.com/s/eh8xhyezjgld3zm/Online_Sampling_slides.pptx?dl=0)
+* Slides: [pptx](https://www.dropbox.com/s/eh8xhyezjgld3zm/Online_Sampling_slides.pptx?dl=0), [pdf](https://www.dropbox.com/s/okiu86xelr97jvb/Online_Sampling_slides.pdf?dl=0) (Shortlink: tiny.cc/lmv19slides)
+* [Poster (pdf)](https://www.dropbox.com/s/wggphmt8zl3e0je/poster.pdf?dl=0) (Shortlink: tiny.cc/lmv19poster)
+* [Video](http://tiny.cc/lmv19video) (Shortlink: tiny.cc/lmv19video)
 * [Code](https://github.com/holdenlee/Online_Sampling)
-
-Check back later for the poster!
 
 ## Abstract
 

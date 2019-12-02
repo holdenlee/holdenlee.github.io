@@ -1,7 +1,7 @@
 ---
 title: Research
 published: 2017-08-07
-modified: 2019-05-26
+modified: 2019-11-24
 parent: Math
 tags: math
 type: uncategorized
@@ -54,7 +54,9 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 
 *   **Statistical Guarantees for Learning an Autoregressive Filter**
 
-	with Cyril Zhang. Preprint. [[arxiv](https://arxiv.org/abs/1905.09897), [pdf](https://arxiv.org/pdf/1905.09897.pdf)]
+	with Cyril Zhang. [[arxiv](https://arxiv.org/abs/1905.09897), [pdf](https://arxiv.org/pdf/1905.09897.pdf)]
+	
+	ALT 2020.
 	
 *   **Spectral Filtering for General Linear Dynamical Systems**
 	
