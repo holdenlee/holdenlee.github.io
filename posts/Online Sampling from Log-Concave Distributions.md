@@ -13,7 +13,7 @@ showTOC: True
 
 This page is about the following paper:
 
-> H. Lee, O. Mangoubi, & N. Vishnoi. (2019). **Online Sampling from Log-Concave Distributions.** NeurIPS 2019. arXiv preprint arXiv:1812.00793.
+> H. Lee, O. Mangoubi, & N. Vishnoi. (2019). **Online Sampling from Log-Concave Distributions.** NeurIPS 2019. arXiv:1812.00793.
 
 Shortlink: [tiny.cc/lmv19](http://tiny.cc/lmv19)
 
