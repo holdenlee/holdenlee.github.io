@@ -1,7 +1,7 @@
 ---
 title: Research
 published: 2017-08-07
-modified: 2019-11-24
+modified: 2020-02-08
 parent: Math
 tags: math
 type: uncategorized
@@ -18,8 +18,8 @@ Although machine learning (and deep learning in particular) has made great advan
 
 Current interests include: 
 
-+ **Bayesian inference/Probabilistic modeling**: How to design provable algorithms for learning probability distributions and sampling from them? How can we improve classical algorithms like Markov Chain Monte Carlo, or test the quality of the samples?
-+ **Control theory and reinforcement learning**: It is a well-studied problem how to find the optimal control for known linear dynamical system. However, reinforcement learning deals with learning how to act  unknown, combinatorially complex systems; algorithms are heuristic and slow. How to bridge this gap?
++ **Bayesian inference/Probabilistic modeling**, with a focus on **sampling (MCMC) algorithms**: How to design provable algorithms for learning probability distributions and sampling from them? How can we improve classical algorithms like Markov Chain Monte Carlo, or test the quality of the samples?
++ **Control theory and reinforcement learning**, with a focus on **learning dynamical systems**: It is a well-studied problem how to find the optimal control for known linear dynamical system. However, reinforcement learning deals with learning how to act  unknown, combinatorially complex systems; algorithms are heuristic and slow. How to bridge this gap?
 + **Neural networks**: Neural networks tackle highly nonconvex problems but do very well in practice. Why? What kind of algorithmic improvements can we come up with by understanding their theoretical foundations more deeply?
 + **Natural language understanding**: Language is a fundamental part of human intelligence and a big frontier for machine learning. How do we create machines that can understand "grammar" and "semantics"?
 
@@ -27,9 +27,9 @@ Current interests include:
 
 The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99sqx0/publication_list.pdf?dl=0).
 
-## Machine learning
-
 [A] denotes alphabetical order of authors.
+
+## Machine learning
 
 ### Bayesian inference (Sampling algorithms)
 
@@ -57,6 +57,8 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 *   **No-Regret Prediction in Marginally Stable Systems**
 
 	[A] Udaya Ghai, **Holden Lee**, Karan Singh, Cyril Zhang, and Yi Zhang. [[arxiv](https://arxiv.org/abs/2002.02064), [pdf](https://arxiv.org/pdf/2002.02064.pdf)]
+	
+	In submission.
 
 *   **Statistical Guarantees for Learning an Autoregressive Filter**
 
@@ -66,7 +68,7 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 	
 *   **Spectral Filtering for General Linear Dynamical Systems**
 	
-	[A] Elad Hazan, Holden Lee, Karan Singh, Cyril Zhang, and Yi Zhang. [[arxiv](https://arxiv.org/abs/1802.03981), [pdf](https://arxiv.org/pdf/1802.03981.pdf)]
+	[A] Elad Hazan, **Holden Lee**, Karan Singh, Cyril Zhang, and Yi Zhang. [[arxiv](https://arxiv.org/abs/1802.03981), [pdf](https://arxiv.org/pdf/1802.03981.pdf)]
 	
 	NeurIPS 2018 (oral).
 
