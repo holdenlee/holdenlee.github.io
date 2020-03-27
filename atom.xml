@@ -8,8 +8,83 @@
         <name>Holden Lee</name>
         <email>oldheneel@gmail.com</email>
     </author>
-    <updated>2019-10-26T00:00:00Z</updated>
+    <updated>2020-03-10T00:00:00Z</updated>
     <entry>
+    <title>Durham</title>
+    <link href="http://holdenlee.github.io/Durham.html" />
+    <id>http://holdenlee.github.io/Durham.html</id>
+    <published>2020-03-10T00:00:00Z</published>
+    <updated>2020-03-10T00:00:00Z</updated>
+    <summary type="html"><![CDATA[
+<div class="container">
+
+  <div id="content">
+    <div class="page header">
+      <h1> Durham </h1>
+    </div>
+    
+    
+    <div class="info">
+      
+       
+        <p>Posted: 2020-03-10 
+          , Modified: 2020-03-10 
+	</p>
+      
+       <p>Tags: <a href="/tags/likes.html">likes</a>, <a href="/tags/place.html">place</a>, <a href="/tags/city.html">city</a>, <a href="/tags/Durham.html">Durham</a></p> 
+       <p>Parent: <a href="/Likes.html">Likes</a></p> 
+	   <p>Children: </p> 
+    </div>
+    
+    
+  </div>
+  <!--/div-->
+
+  <div class="toc"></div>
+
+  <div class="blog-main">
+    <p>I’m keeping a list of cool things to do around Durham! Contrary to what some might say, there’s a lot to explore without a car.</p>
+<p>Suggestions welcome, drop me a line!</p>
+<ul>
+<li>Film
+<ul>
+<li><a href>Screen and Society</a> (Duke, free!)</li>
+<li><a href></a> (Duke, free!)</li>
+</ul></li>
+<li>Duke botanical gardens</li>
+<li>Dining at Duke - is really good! Much better than other colleges I’ve been to!</li>
+<li>Lemur center</li>
+<li>Vegan restaurants: Earth to Us, Souly Vegan.</li>
+<li>Durham scrap exchange</li>
+<li>Mardi Gras</li>
+<li>Motorco</li>
+<li>Eno River State Park: Bikeable from downtown Durham; go down Cole Mill Road. It’s the best kind of up-and-down country road where you can relax on the downhill parts.</li>
+</ul>
+
+  </div>
+  
+    
+
+    <!-- Extension : Sharing buttons @ www.sharethis.com -->
+    <span class='st_facebook_large' displayText='Facebook'></span>
+    <span class='st_twitter_large' displayText='Tweet'></span>
+    <span class='st_googleplus_large' displayText='Google +'></span>
+    <span class='st_reddit_large' displayText='Reddit'></span>
+    <span class='st__large' displayText=''></span>
+
+    <div id="disqus_thread"></div>
+    
+
+
+  
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+  
+  
+</div>
+]]></summary>
+</entry>
+<entry>
     <title>Online Sampling from Log-Concave Distributions</title>
     <link href="http://holdenlee.github.io/Online%20Sampling%20from%20Log-Concave%20Distributions.html" />
     <id>http://holdenlee.github.io/Online%20Sampling%20from%20Log-Concave%20Distributions.html</id>
@@ -1216,68 +1291,6 @@ Q: If the sample at time $t$ isn't from the $L$th level, can't you just take the
 <p>M: That’s easy - just give them iPods!</p>
 <p>J: No, I don’t mean that… I want them to be banging on pots and pans.</p>
 </blockquote>
-
-  </div>
-  
-    
-
-    <!-- Extension : Sharing buttons @ www.sharethis.com -->
-    <span class='st_facebook_large' displayText='Facebook'></span>
-    <span class='st_twitter_large' displayText='Tweet'></span>
-    <span class='st_googleplus_large' displayText='Google +'></span>
-    <span class='st_reddit_large' displayText='Reddit'></span>
-    <span class='st__large' displayText=''></span>
-
-    <div id="disqus_thread"></div>
-    
-
-
-  
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-  </div>
-  
-  
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Forget your index cards</title>
-    <link href="http://holdenlee.github.io/Forget%20your%20index%20cards.html" />
-    <id>http://holdenlee.github.io/Forget%20your%20index%20cards.html</id>
-    <published>2017-08-18T00:00:00Z</published>
-    <updated>2017-08-18T00:00:00Z</updated>
-    <summary type="html"><![CDATA[
-<div class="container">
-
-  <div id="content">
-    <div class="page header">
-      <h1> Forget your index cards </h1>
-    </div>
-    
-    
-    <div class="info">
-      
-       
-        <p>Posted: 2017-08-18 
-          , Modified: 2017-08-18 
-	</p>
-      
-       <p>Tags: <a href="/tags/index%20cards.html">index cards</a></p> 
-       <p>Parent: <a href="/Views.html">Views</a></p> 
-	   <p>Children: </p> 
-    </div>
-    
-    
-  </div>
-  <!--/div-->
-
-  <div class="toc"></div>
-
-  <div class="blog-main">
-    <p>Make lots of <a href="index%20cards.html">index cards</a>, and then forget them.</p>
-<p>Index cards are pensieves. They will remember for you, even when you forget.</p>
-<p>If you keep them in mind at all times, you’re holding many little stones, and don’t have the space to come up with new things.</p>
-<p>A musician learns music theory in order to compose and play well, but doesn’t think about it consciously in the actual act of playing.</p>
 
   </div>
   
