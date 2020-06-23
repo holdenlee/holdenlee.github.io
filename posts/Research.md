@@ -31,19 +31,19 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 
 ## Machine learning
 
-### Bayesian inference (Sampling algorithms)
+### Bayesian inference and sampling algorithms
 
 *   **Estimating Normalizing Constants for Log-Concave Distributions: Algorithms and Lower Bounds**
 	
 	[A] Rong Ge, **Holden Lee**, and Jianfeng Lu.
 	
-	STOC 2020. [[arXiv](https://arxiv.org/abs/1911.03043), [pdf](https://arxiv.org/pdf/1911.03043)]
+	STOC 2020. [[arXiv](https://arxiv.org/abs/1911.03043), [pdf](https://arxiv.org/pdf/1911.03043), [STOC 2020:579–586](https://dl.acm.org/citation.cfm?id=3384289), [slides](https://www.dropbox.com/s/da2mz50a76k9suz/NormalizingConstant_Presentation.pdf?dl=0), [video](https://www.youtube.com/watch?v=TqdtxcYaw3I&list=PLn0nrSd4xjjadfcMd5xvmJ_GNSLDi1ATn)]
 	
 *   **Online Sampling from Log-Concave Distributions**
 	
 	[A] **Holden Lee**, Oren Mangoubi, and Nisheeth Vishnoi. 
 	
-	NeurIPS 2019. [[arXiv](https://arxiv.org/abs/1902.08179), [pdf](https://arxiv.org/pdf/1902.08179)] [webpage](Online Sampling from Log-Concave Distributions.html)
+	NeurIPS 2019. [[arXiv](https://arxiv.org/abs/1902.08179), [pdf](https://arxiv.org/pdf/1902.08179), [webpage](Online%20Sampling%20from%20Log-Concave Distributions.html)]
 	
 *   **Beyond Log-concavity: Provable Guarantees for Sampling Multi-modal Distributions using Simulated Tempering Langevin Monte Carlo.** [webpage](Simulated tempering Langevin Monte Carlo.html)
 	
@@ -56,9 +56,9 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 
 *   **No-Regret Prediction in Marginally Stable Systems**
 
-	[A] Udaya Ghai, **Holden Lee**, Karan Singh, Cyril Zhang, and Yi Zhang. [[arxiv](https://arxiv.org/abs/2002.02064), [pdf](https://arxiv.org/pdf/2002.02064.pdf)]
+	[A] Udaya Ghai, **Holden Lee**, Karan Singh, Cyril Zhang, and Yi Zhang. [[arxiv](https://arxiv.org/abs/2002.02064), [pdf](https://arxiv.org/pdf/2002.02064.pdf), [slides](https://www.dropbox.com/s/74idgddlkbosiil/slides-colt.pdf?dl=0), [summary slide](https://www.dropbox.com/s/rbmr4rk3vixahoc/slides-colt-short.pdf?dl=0)]
 	
-	In submission.
+	COLT 2020.
 
 *   **Statistical Guarantees for Learning an Autoregressive Filter**
 
