@@ -1,7 +1,7 @@
 ---
 title: Research
 published: 2017-08-07
-modified: 2020-02-08
+modified: 2020-07-12
 parent: Math
 tags: math
 type: uncategorized
@@ -56,7 +56,7 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 
 *   **No-Regret Prediction in Marginally Stable Systems**
 
-	[A] Udaya Ghai, **Holden Lee**, Karan Singh, Cyril Zhang, and Yi Zhang. [[arxiv](https://arxiv.org/abs/2002.02064), [pdf](https://arxiv.org/pdf/2002.02064.pdf), [slides](https://www.dropbox.com/s/74idgddlkbosiil/slides-colt.pdf?dl=0), [summary slide](https://www.dropbox.com/s/rbmr4rk3vixahoc/slides-colt-short.pdf?dl=0)]
+	[A] Udaya Ghai, **Holden Lee**, Karan Singh, Cyril Zhang, and Yi Zhang. [[arxiv](https://arxiv.org/abs/2002.02064), [pdf](https://arxiv.org/pdf/2002.02064.pdf), [slides](https://www.dropbox.com/s/74idgddlkbosiil/slides-colt.pdf?dl=0), [summary slide](https://www.dropbox.com/s/rbmr4rk3vixahoc/slides-colt-short.pdf?dl=0), [videos](https://www.colt2020.org/virtual/papers/paper_34.html)]
 	
 	COLT 2020.
 

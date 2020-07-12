@@ -34,8 +34,7 @@ The number theory notes are made of the following two parts:
 #High school math
 
 + Gliya geometry curriculum:
-    + I wrote lessons on introduction to geometry, angles, congruent triangles, similar triangles, constructions, and the angle bisector theorem. Some sample sections (called "cells") follow; please contact me for more. <!-- [lessons](http://gliyanet.com/#!/nexus/math/Geometry) (Sorry, the link is currently not available.) -->
-		+ Introduction: [The Foundations of Geometry](high_school/gliya/1_1_intro_foundations.pdf)
+    + I wrote lessons on introduction to geometry, angles, congruent triangles, similar triangles, constructions, and the angle bisector theorem. Some sample sections (called "cells") follow. <!-- [lessons](http://gliyanet.com/#!/nexus/math/Geometry) (Sorry, the link is currently not available.) -->
 		+ Angles:  [roadmap](high_school/gliya/2_0_angles_roadmap.pdf)
 		+ Congruent triangles 
 			+ [roadmap](high_school/gliya/3_0_congruent_triangles_Road_Map.pdf)
@@ -43,7 +42,6 @@ The number theory notes are made of the following two parts:
 		+ Similar triangles
 			+ [roadmap](high_school/gliya/4_0.pdf)
 			+ [1 What is similarity?](high_school/gliya/4_1_similar_intro.pdf)
-			+ [3 Parallel lines cut similar triangles](high_school/gliya/4_3_similar_thales.pdf)
 			+ [10 Summary](high_school/gliya/4_10_similar_summary.pdf)
 + High school math club materials: Materials I used for ERHS math club, 2007-2009.
     + Short-answer based
