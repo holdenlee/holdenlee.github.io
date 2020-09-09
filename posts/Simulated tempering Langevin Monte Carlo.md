@@ -2,7 +2,7 @@
 title: Simulated tempering Langevin Monte Carlo
 subtitle: Rong Ge, Holden Lee, Andrej Risteski
 published: 2017-11-26
-modified: 2018-11-08
+modified: 2020-09-09
 parent: Research
 tags: math
 type: uncategorized
@@ -15,11 +15,11 @@ This page is about the following paper:
 
 > Ge, R., Lee, H., & Risteski, A. (2018). **Beyond Log-concavity: Provable Guarantees for Sampling Multi-modal Distributions using Simulated Tempering Langevin Monte Carlo.** NIPS AABI workshop 2017 and NIPS 2018. arXiv preprint arXiv:1812.00793.
 
-Shortlink: [tiny.cc/glr17](http://tiny.cc/glr17)
-
 * [arXiv](https://arxiv.org/abs/1812.00793), [pdf](https://arxiv.org/abs/1812.00793.pdf).
 	* A previous version of the paper, with a more complicated proof and weaker result, appeared in NIPS AABI workshop 2017, and is on arxiv [here](https://arxiv.org/abs/1710.02736).
-* [Slides](https://www.dropbox.com/s/44udkqyd2r95qzk/slides_IAS.pdf?dl=0), [transcript](https://dynalist.io/d/wW7edPHuU41y1qxWAI0fL__c#z=c2y7iGMb-rjqoGupMLQ1DAWe)
+* Slides
+	* [One world ML talk, 9/2020](https://www.dropbox.com/s/0vvmvbj0203ceyy/Beyond%20Log-concavity%20%28One%20world%20ML%29.pptx?dl=0)
+	* [IAS talk, 11/2017](https://www.dropbox.com/s/44udkqyd2r95qzk/slides_IAS.pdf?dl=0), [transcript](https://dynalist.io/d/wW7edPHuU41y1qxWAI0fL__c#z=c2y7iGMb-rjqoGupMLQ1DAWe)
 * [Poster](https://www.dropbox.com/s/jt4jol7hs1lbcoq/poster_nips.pdf?dl=0)
 * [3 minute video](https://www.youtube.com/watch?v=ZOYAadGL50E&feature=youtu.be)
 
