@@ -1,7 +1,7 @@
 ---
 title: Research
 published: 2017-08-07
-modified: 2020-07-12
+modified: 2020-11-19
 parent: Math
 tags: math
 type: uncategorized
@@ -18,7 +18,8 @@ Although machine learning (and deep learning in particular) has made great advan
 
 Current interests include: 
 
-+ **Bayesian inference/Probabilistic modeling**, with a focus on **sampling (MCMC) algorithms**: How to design provable algorithms for learning probability distributions and sampling from them? How can we improve classical algorithms like Markov Chain Monte Carlo, or test the quality of the samples?
++ **Bayesian inference/Probabilistic modeling**, with a focus on **sampling (MCMC) algorithms**: How to design provable algorithms for learning probability distributions and sampling from them? 
+<!--How can we improve classical algorithms like Markov Chain Monte Carlo, or test the quality of the samples?-->
 + **Control theory and reinforcement learning**, with a focus on **learning dynamical systems**: It is a well-studied problem how to find the optimal control for known linear dynamical system. However, reinforcement learning deals with learning how to act  unknown, combinatorially complex systems; algorithms are heuristic and slow. How to bridge this gap?
 + **Neural networks**: Neural networks tackle highly nonconvex problems but do very well in practice. Why? What kind of algorithmic improvements can we come up with by understanding their theoretical foundations more deeply?
 + **Natural language understanding**: Language is a fundamental part of human intelligence and a big frontier for machine learning. How do we create machines that can understand "grammar" and "semantics"?
@@ -32,6 +33,12 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 ## Machine learning
 
 ### Bayesian inference and sampling algorithms
+
+*   **Efficient sampling from the Bingham distribution**
+	
+	[A] Rong Ge, **Holden Lee**, Jianfeng Lu, and Andrej Risteski.
+	
+	In submission. [[arXiv](https://arxiv.org/abs/2010.00137), [pdf](https://arxiv.org/pdf/2010.00137)]
 
 *   **Estimating Normalizing Constants for Log-Concave Distributions: Algorithms and Lower Bounds**
 	
@@ -54,6 +61,12 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 
 ### Reinforcement learning and control theory
 
+*   **Improved rates for identification of partially observed linear dynamical systems**
+	
+	**Holden Lee**.
+	
+	In submission. [[arXiv](), [pdf]()]
+	
 *   **No-Regret Prediction in Marginally Stable Systems**
 
 	[A] Udaya Ghai, **Holden Lee**, Karan Singh, Cyril Zhang, and Yi Zhang. [[arxiv](https://arxiv.org/abs/2002.02064), [pdf](https://arxiv.org/pdf/2002.02064.pdf), [slides](https://www.dropbox.com/s/74idgddlkbosiil/slides-colt.pdf?dl=0), [summary slide](https://www.dropbox.com/s/rbmr4rk3vixahoc/slides-colt-short.pdf?dl=0), [videos](https://www.colt2020.org/virtual/papers/paper_34.html)]
