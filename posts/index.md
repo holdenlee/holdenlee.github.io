@@ -2,13 +2,13 @@
 title: index
 alttitle: Holden's Website
 published: 2017-08-07
-modified: 2020-02-08
+modified: 2021-10-11
 type: uncategorized
 showTOC: True
 isMainPage: True
 ---
 
-<center><img src="pics/me2.JPG?dl=0" alt="web" width="50%" height="50%"></center>
+<center><img src="pics/holden.jpg" alt="web" width="50%" height="50%"></center>
 <br/>
 <center>
 Holden Lee<br/>
@@ -23,7 +23,9 @@ I am a Phillip Griffiths Research Assistant Professor in Mathematics at Duke Uni
 My research is in **machine learning** and **applied probability**. 
 I received my Ph.D. from Princeton, where I was advised by Sanjeev Arora. Check out my **[research](Research.html)** and **[blog](http://holdenlee.github.io/blog)**. My CV is [here](https://www.dropbox.com/s/jndub09i2d5txst/holden_lee.pdf?dl=0). 
 
-In Spring 2020 I am teaching [Math 361S (Numerical Analysis)](https://services.math.duke.edu/~holee/math361-2020/index.html).
+I am a fellow at the [Simons Institute](https://simons.berkeley.edu/) at UC Berkeley for Fall 2021.
+
+In Spring 2021 I taught Math 230 (Probability) and in Spring 2020 I taught [Math 361S (Numerical Analysis)](https://services.math.duke.edu/~holee/math361-2020/index.html). In Spring 2022 I will teach Math 340 (Advanced Introduction to Probability).
 <!--Here are links to [ML theory at Princeton](http://mltheory.cs.princeton.edu/) and
 [Sanjeev Arora's research group](http://unsupervised.cs.princeton.edu/).-->
 

@@ -1,7 +1,7 @@
 ---
 title: Research
 published: 2017-08-07
-modified: 2020-11-19
+modified: 2021-10-11
 parent: Math
 tags: math
 type: uncategorized
@@ -30,15 +30,19 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 
 [A] denotes alphabetical order of authors.
 
-## Machine learning
+## Algorithms for sampling and counting
 
-### Bayesian inference and sampling algorithms
+*   **Approximation algorithms for the random-field Ising model**
+	
+	[A] Tyler Helmuth, **Holden Lee**, Will Perkins, Mohan Ravichandran, Qiang Wu.
+	
+	Preprint. [[arXiv](https://arxiv.org/abs/2108.11889), [pdf](https://arxiv.org/pdf/2108.11889)]
 
 *   **Efficient sampling from the Bingham distribution**
 	
 	[A] Rong Ge, **Holden Lee**, Jianfeng Lu, and Andrej Risteski.
 	
-	In submission. [[arXiv](https://arxiv.org/abs/2010.00137), [pdf](https://arxiv.org/pdf/2010.00137)]
+	ALT 2021. [[arXiv](https://arxiv.org/abs/2010.00137), [pdf](https://arxiv.org/pdf/2010.00137), [video](https://www.youtube.com/watch?v=6dkS-Hdg8cs)]
 
 *   **Estimating Normalizing Constants for Log-Concave Distributions: Algorithms and Lower Bounds**
 	
@@ -58,14 +62,15 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 	
 	* NeurIPS 2018. [[arXiv](https://arxiv.org/abs/1812.00793), [pdf](https://arxiv.org/pdf/1812.00793.pdf)]
 	* NIPS AABI Workshop 2017. [[arXiv](https://arxiv.org/abs/1710.02736), [pdf](https://arxiv.org/pdf/1710.02736.pdf)]
+	* Blog post on offconvex: [1](http://www.offconvex.org/2020/09/19/beyondlogconvavesampling/), [2](http://www.offconvex.org/2021/03/01/beyondlogconcave2/).
 
-### Reinforcement learning and control theory
+## Reinforcement learning and control theory
 
 *   **Improved rates for identification of partially observed linear dynamical systems**
 	
 	**Holden Lee**.
 	
-	In submission. [[arXiv](), [pdf]()]
+	In submission. [[arXiv](https://arxiv.org/abs/2011.10006), [pdf](https://arxiv.org/pdf/2011.10006)]
 	
 *   **No-Regret Prediction in Marginally Stable Systems**
 
@@ -91,7 +96,13 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 	
 	ICLR workshop 2018.
 	
-### Neural networks
+## Neural networks
+
+*   **Universal Approximation for Log-concave Distributions using Well-conditioned Normalizing Flows.**
+	
+	**Holden Lee**, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski. 
+	
+	NeurIPS 2021. [[arXiv](https://arxiv.org/abs/2107.02951), [pdf](https://arxiv.org/pdf/2107.02951)]
 	
 *   **Explaining Landscape Connectivity of Low-cost Solutions for Multilayer Nets.**
 	
