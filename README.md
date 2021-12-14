@@ -10,3 +10,9 @@ Start the server by
 
 	./site watch
 
+# Instructions for self
+
+Open Ubuntu.
+
+	cd Documents/web/web-source
+	stack exec site rebuild

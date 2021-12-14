@@ -2,7 +2,7 @@
 title: Simulated tempering Langevin Monte Carlo
 subtitle: Rong Ge, Holden Lee, Andrej Risteski
 published: 2017-11-26
-modified: 2020-09-09
+modified: 2021-12-13
 parent: Research
 tags: math
 type: uncategorized
@@ -18,10 +18,13 @@ This page is about the following paper:
 * [arXiv](https://arxiv.org/abs/1812.00793), [pdf](https://arxiv.org/abs/1812.00793.pdf).
 	* A previous version of the paper, with a more complicated proof and weaker result, appeared in NIPS AABI workshop 2017, and is on arxiv [here](https://arxiv.org/abs/1710.02736).
 * Slides
+	* [Changing the temperature for algorithm design, 12/2021](https://www.dropbox.com/s/gy8huf140rkt414/changing-the-temperature.pdf?dl=0), part of the workshop [Frontiers of Statistical Mechanics and Theoretical Computer Science 2021](http://willperkins.org/frontiers2021.html).
+	* [Complexity of Sampling working group at Simons, 10/2021](https://www.dropbox.com/s/wislmgy9unk49gf/decomposition-and-blc.pdf?dl=0)
 	* [One world ML talk, 9/2020](https://www.dropbox.com/s/0vvmvbj0203ceyy/Beyond%20Log-concavity%20%28One%20world%20ML%29.pptx?dl=0)
 	* [IAS talk, 11/2017](https://www.dropbox.com/s/44udkqyd2r95qzk/slides_IAS.pdf?dl=0), [transcript](https://dynalist.io/d/wW7edPHuU41y1qxWAI0fL__c#z=c2y7iGMb-rjqoGupMLQ1DAWe)
 * [Poster](https://www.dropbox.com/s/jt4jol7hs1lbcoq/poster_nips.pdf?dl=0)
 * [3 minute video](https://www.youtube.com/watch?v=ZOYAadGL50E&feature=youtu.be)
+* Blog post on Off-Convex: [part 1](http://www.offconvex.org/2020/09/19/beyondlogconvavesampling/), [part 2](http://www.offconvex.org/2021/03/01/beyondlogconcave2/).
 
 
 ## Abstract
