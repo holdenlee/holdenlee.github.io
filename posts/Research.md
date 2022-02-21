@@ -18,7 +18,7 @@ Although machine learning (and deep learning in particular) has made great advan
 
 Current interests include: 
 
-+ **Bayesian inference/Probabilistic modeling**, with a focus on **sampling (MCMC) algorithms**: How to design provable algorithms for learning probability distributions and sampling from them? 
++ **Probabilistic methods in machine learning**, with a focus on **sampling (MCMC) algorithms**: How to design provable algorithms for learning probability distributions and sampling from them? 
 <!--How can we improve classical algorithms like Markov Chain Monte Carlo, or test the quality of the samples?-->
 + **Control theory and reinforcement learning**, with a focus on **learning dynamical systems**: It is a well-studied problem how to find the optimal control for known linear dynamical system. However, reinforcement learning deals with learning how to act  unknown, combinatorially complex systems; algorithms are heuristic and slow. How to bridge this gap?
 + **Neural networks**: Neural networks tackle highly nonconvex problems but do very well in practice. Why? What kind of algorithmic improvements can we come up with by understanding their theoretical foundations more deeply?
@@ -32,11 +32,17 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 
 ## Algorithms for sampling and counting
 
+*   **Sampling Approximately Low-Rank Ising Models: MCMC meets Variational Methods**
+	
+	[A] Frederic Koehler, **Holden Lee**, and Andrej Risteski.
+	
+	In submission. [[arXiv](https://arxiv.org/abs/2202.08907), [pdf](https://arxiv.org/pdf/2202.08907)]
+
 *   **Approximation algorithms for the random-field Ising model**
 	
-	[A] Tyler Helmuth, **Holden Lee**, Will Perkins, Mohan Ravichandran, Qiang Wu.
+	[A] Tyler Helmuth, **Holden Lee**, Will Perkins, Mohan Ravichandran, and Qiang Wu.
 	
-	Preprint. [[arXiv](https://arxiv.org/abs/2108.11889), [pdf](https://arxiv.org/pdf/2108.11889)]
+	In submission. [[arXiv](https://arxiv.org/abs/2108.11889), [pdf](https://arxiv.org/pdf/2108.11889)]
 
 *   **Efficient sampling from the Bingham distribution**
 	
@@ -70,31 +76,31 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 	
 	**Holden Lee**.
 	
-	In submission. [[arXiv](https://arxiv.org/abs/2011.10006), [pdf](https://arxiv.org/pdf/2011.10006)]
+	ALT 2022. [[arXiv](https://arxiv.org/abs/2011.10006), [pdf](https://arxiv.org/pdf/2011.10006)]
 	
 *   **No-Regret Prediction in Marginally Stable Systems**
 
-	[A] Udaya Ghai, **Holden Lee**, Karan Singh, Cyril Zhang, and Yi Zhang. [[arxiv](https://arxiv.org/abs/2002.02064), [pdf](https://arxiv.org/pdf/2002.02064.pdf), [slides](https://www.dropbox.com/s/74idgddlkbosiil/slides-colt.pdf?dl=0), [summary slide](https://www.dropbox.com/s/rbmr4rk3vixahoc/slides-colt-short.pdf?dl=0), [videos](https://www.colt2020.org/virtual/papers/paper_34.html)]
+	[A] Udaya Ghai, **Holden Lee**, Karan Singh, Cyril Zhang, and Yi Zhang.
 	
-	COLT 2020.
+	COLT 2020. [[arxiv](https://arxiv.org/abs/2002.02064), [pdf](https://arxiv.org/pdf/2002.02064.pdf), [slides](https://www.dropbox.com/s/74idgddlkbosiil/slides-colt.pdf?dl=0), [summary slide](https://www.dropbox.com/s/rbmr4rk3vixahoc/slides-colt-short.pdf?dl=0), [videos](https://www.colt2020.org/virtual/papers/paper_34.html)]
 
 *   **Statistical Guarantees for Learning an Autoregressive Filter**
 
-	[A] **Holden Lee** and Cyril Zhang. [[arxiv](https://arxiv.org/abs/1905.09897), [pdf](https://arxiv.org/pdf/1905.09897.pdf)]
+	[A] **Holden Lee** and Cyril Zhang.
 	
-	ALT 2020.
+	ALT 2020. [[arxiv](https://arxiv.org/abs/1905.09897), [pdf](https://arxiv.org/pdf/1905.09897.pdf)]
 	
 *   **Spectral Filtering for General Linear Dynamical Systems**
 	
-	[A] Elad Hazan, **Holden Lee**, Karan Singh, Cyril Zhang, and Yi Zhang. [[arxiv](https://arxiv.org/abs/1802.03981), [pdf](https://arxiv.org/pdf/1802.03981.pdf)]
+	[A] Elad Hazan, **Holden Lee**, Karan Singh, Cyril Zhang, and Yi Zhang.
 	
-	NeurIPS 2018 (oral).
+	NeurIPS 2018 (oral). [[arxiv](https://arxiv.org/abs/1802.03981), [pdf](https://arxiv.org/pdf/1802.03981.pdf)]
 
 *   **Towards Provable Control for Unknown Linear Dynamical Systems.**
 	
-	[A] Sanjeev Arora, Elad Hazan, **Holden Lee**, Karan Singh, Cyril Zhang, and Yi Zhang. [[ICLR page](https://openreview.net/forum?id=HJGuXK1vM), [pdf](https://openreview.net/pdf?id=HJGuXK1vM)]
+	[A] Sanjeev Arora, Elad Hazan, **Holden Lee**, Karan Singh, Cyril Zhang, and Yi Zhang.
 	
-	ICLR workshop 2018.
+	ICLR workshop 2018. [[ICLR page](https://openreview.net/forum?id=HJGuXK1vM), [pdf](https://openreview.net/pdf?id=HJGuXK1vM)]
 	
 ## Neural networks
 
@@ -112,9 +118,9 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 	
 *   **On the Ability of Neural Nets to Express Distributions.** 
 	
-	**Holden Lee**, Rong Ge, Tengyu Ma, Andrej Risteski, and Sanjeev Arora. [[arXiv](https://arxiv.org/abs/1702.07028), [pdf](https://arxiv.org/pdf/1702.07028.pdf), [PMLR 65:1271-1296](http://proceedings.mlr.press/v65/lee17a/lee17a.pdf), [webpage](http://tiny.cc/hlcolt17)]
+	**Holden Lee**, Rong Ge, Tengyu Ma, Andrej Risteski, and Sanjeev Arora.
 	
-	COLT 2017. 
+	COLT 2017. [[arXiv](https://arxiv.org/abs/1702.07028), [pdf](https://arxiv.org/pdf/1702.07028.pdf), [PMLR 65:1271-1296](http://proceedings.mlr.press/v65/lee17a/lee17a.pdf), [webpage](http://tiny.cc/hlcolt17)]
 
 ## Complexity theory
 

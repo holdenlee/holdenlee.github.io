@@ -16,3 +16,6 @@ Open Ubuntu.
 
 	cd Documents/web/web-source
 	stack exec site rebuild
+	./bwebup2 "commit message"
+	
+Use personal access token as password.
