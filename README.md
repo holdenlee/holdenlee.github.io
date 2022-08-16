@@ -1,21 +1,11 @@
-If you changed it, compile site.hs.
-
-    ghc --make -threaded site.hs
-
-After updating pages, 
-
-    ./site rebuild
-
-Start the server by
-
-	./site watch
-
 # Instructions for self
 
 Open Ubuntu.
 
 	cd Documents/web/web-source
+	stack build
 	stack exec site rebuild
+	stack exec site watch
 	./bwebup2 "commit message"
 	
 Use personal access token as password.

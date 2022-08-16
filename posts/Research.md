@@ -32,11 +32,17 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 
 ## Algorithms for sampling and counting
 
+*   **Convergence for score-based generative modeling with polynomial complexity**
+	
+	[A] **Holden Lee**, Jianfeng Lu, and Yixin Tan.
+	
+	In submission.
+
 *   **Sampling Approximately Low-Rank Ising Models: MCMC meets Variational Methods**
 	
 	[A] Frederic Koehler, **Holden Lee**, and Andrej Risteski.
 	
-	In submission. [[arXiv](https://arxiv.org/abs/2202.08907), [pdf](https://arxiv.org/pdf/2202.08907)]
+	COLT 2022. [[arXiv](https://arxiv.org/abs/2202.08907), [pdf](https://arxiv.org/pdf/2202.08907)]
 
 *   **Approximation algorithms for the random-field Ising model**
 	
@@ -71,6 +77,12 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 	* Blog post on offconvex: [1](http://www.offconvex.org/2020/09/19/beyondlogconvavesampling/), [2](http://www.offconvex.org/2021/03/01/beyondlogconcave2/).
 
 ## Reinforcement learning and control theory
+
+*   **Extracting Latent State Representations with Linear Dynamics from Rich Observations**
+
+	Abraham Frandsen, Rong Ge, and **Holden Lee**.
+	
+	[ICML 2022](https://proceedings.mlr.press/v162/frandsen22a.html).
 
 *   **Improved rates for identification of partially observed linear dynamical systems**
 	

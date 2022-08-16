@@ -2,7 +2,7 @@
 title: index
 alttitle: Holden's Website
 published: 2017-08-07
-modified: 2021-10-11
+modified: 2022-08-15
 type: uncategorized
 showTOC: True
 isMainPage: True
@@ -12,26 +12,31 @@ isMainPage: True
 <br/>
 <center>
 Holden Lee<br/>
-[Mathematics Department](https://www.math.duke.edu/)<br/>
-[Duke University](http://www.duke.edu)<br/>
-holden.lee@duke.edu<br/>
+[Applied Mathematics and Statistics Department](https://ams.jhu.edu/)<br/>
+[Johns Hopkins University](http://www.jhu.edu)<br/>
+hlee283@jhu.edu<br/>
 
 </center>
 
-I am a Phillip Griffiths Research Assistant Professor in Mathematics at Duke University, supervised by [Jianfeng Lu](https://services.math.duke.edu/~jianfeng/) and [Rong Ge](https://users.cs.duke.edu/~rongge/). 
+I am an assistant professor in applied mathematics and statistics at Johns Hopkins University. My research is in **machine learning** and **applied probability**. Check out my **[research](Research.html)** and **[blog](http://holdenlee.github.io/blog)**. My CV is [here](https://www.dropbox.com/s/jndub09i2d5txst/holden_lee.pdf?dl=0). 
 
-My research is in **machine learning** and **applied probability**. 
-I received my Ph.D. from Princeton, where I was advised by Sanjeev Arora. Check out my **[research](Research.html)** and **[blog](http://holdenlee.github.io/blog)**. My CV is [here](https://www.dropbox.com/s/jndub09i2d5txst/holden_lee.pdf?dl=0). 
+Timeline: 
 
-I am a fellow at the [Simons Institute](https://simons.berkeley.edu/) at UC Berkeley for Fall 2021.
+* 2020-2022: Phillips Griffiths Research Assistant Professor in mathematics at Duke, supervised by [Jianfeng Lu](https://services.math.duke.edu/~jianfeng/) and [Rong Ge](https://users.cs.duke.edu/~rongge/).
+* Fall 2021: I was a fellow at the [Simons Institute](https://simons.berkeley.edu/) at UC Berkeley.
+* 2019: I received my Ph.D. from Princeton, where I was advised by Sanjeev Arora. 
 
-In Spring 2021 I taught Math 230 (Probability) and in Spring 2020 I taught [Math 361S (Numerical Analysis)](https://services.math.duke.edu/~holee/math361-2020/index.html). In Spring 2022 I will teach Math 340 (Advanced Introduction to Probability).
+<!-- Phillip Griffiths Research Assistant Professor in Mathematics-->
+Teaching: 
+
+* Fall 2022: 621 Probability Theory I.
+* Spring 2022: Math 340 (Advanced Introduction to Probability).
+* Spring 2021: Math 230 (Probability).
+* Spring 2020: [Math 361S (Numerical Analysis)](https://services.math.duke.edu/~holee/math361-2020/index.html)
 <!--Here are links to [ML theory at Princeton](http://mltheory.cs.princeton.edu/) and
 [Sanjeev Arora's research group](http://unsupervised.cs.princeton.edu/).-->
 
 <!-- I will be at the [IAS](http://math.ias.edu) in Fall 2019 to participate in the special year on Theoretical Machine Learning. In Spring 2020, I will be starting as a Phillip Griffiths Research Assistant Professor in [Mathematics at Duke University](https://math.duke.edu/).-->
-
-*Please do not contact me about jobs in finance.*
 
 # Basic Info
 

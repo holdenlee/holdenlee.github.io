@@ -1,7 +1,7 @@
 ---
 title: About
 published: 2017-08-07
-modified: 2019-01-09
+modified: 2022-08-15
 parent: index
 tags: about_me
 type: uncategorized
@@ -10,13 +10,9 @@ showTOC: True
 
 # About me
 
-I'm Holden Lee, a postdoc visiting the Instutite of Advanced Study for Fall 2019, and starting at Duke in Spring 2020.
+I am an assistant professor in Applied Mathematics and Statistics at Johns Hopkins University.
 
-My main interest is theoretical computer science, in particular machine learning. Other academic interests/hobbies include:
-
-* Number theory
-* Functional programming
-* [Computerized mathematics](https://workflowy.com/s/jabfy5TOMg)
+My main interest is in mathematics of machine learning and sampling algorithms.
 
 I also enjoy
 
@@ -30,7 +26,8 @@ I also enjoy
 
 Here is my contact info. Email is the best way to reach me.
 
-* Email: [holdenl@princeton.edu](mailto:holdenl@princeton.edu)
+* Email (academic): [hlee283@jhu.edu](mailto:hlee283@jhu.edu)
+* Email (other): [holdenlee@alum.mit.edu](mailto:holdenlee@alum.mit.edu)
 * Github: [https://github.com/holdenlee](https://github.com/holdenlee)
 * Website: [http://holdenlee.github.io](http://holdenlee.github.io)
 * Twitter: @[oldheneel](https://twitter.com/oldheneel)
@@ -46,7 +43,7 @@ This website is an ongoing project of mine to express my perspectives about a va
 * point out resources (books, websites) that have been useful to me.
 
 Note that my beliefs are all subject to change, and I'd love to have a conversation about anything here.
-Simply leave a comment or send me an email at [holdenl@princeton.edu](mailto:holdenl@princeton.edu).[^f1]
+Simply leave a comment or send me an email.[^f1]
 
 [^f1]: When deciding whether or not to talk to someone, keep [three things in mind](http://mitadmissions.org/blogs/entry/3-things-we-dont-remember-enough).
 
