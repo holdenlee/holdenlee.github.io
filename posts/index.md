@@ -2,7 +2,7 @@
 title: index
 alttitle: Holden's Website
 published: 2017-08-07
-modified: 2022-08-15
+modified: 2022-08-16
 type: uncategorized
 showTOC: True
 isMainPage: True
@@ -29,8 +29,8 @@ Timeline:
 <!-- Phillip Griffiths Research Assistant Professor in Mathematics-->
 Teaching: 
 
-* Fall 2022: 621 Probability Theory I.
-* Spring 2022: Math 340 (Advanced Introduction to Probability).
+* Fall 2022 (JHU): EN.553.720 Probability Theory I.
+* Spring 2022 (Duke): Math 340 (Advanced Introduction to Probability).
 * Spring 2021: Math 230 (Probability).
 * Spring 2020: [Math 361S (Numerical Analysis)](https://services.math.duke.edu/~holee/math361-2020/index.html)
 <!--Here are links to [ML theory at Princeton](http://mltheory.cs.princeton.edu/) and
