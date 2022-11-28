@@ -102,7 +102,7 @@
       
        
         <p>Posted: 2017-08-07 
-          , Modified: 2021-10-11 
+          , Modified: 2022-11-27 
 	</p>
       
        <p>Tags: <a href="./tags/math.html">math</a></p> 
@@ -117,37 +117,60 @@
   <div class="toc"> <ul>
  <li><a href="#research-interests">Research interests</a></li>
  <li><a href="#papers">Papers</a><ul>
+ <li><a href="#generative-modeling-learning-probability-distributions">Generative modeling, learning probability distributions</a></li>
  <li><a href="#algorithms-for-sampling-and-counting">Algorithms for sampling and counting</a></li>
  <li><a href="#reinforcement-learning-and-control-theory">Reinforcement learning and control theory</a></li>
  <li><a href="#neural-networks">Neural networks</a></li>
  <li><a href="#complexity-theory">Complexity theory</a></li>
  <li><a href="#number-theory">Number theory</a></li>
  </ul></li>
+ <li><a href="#survey-slides">Survey slides</a></li>
  </ul> </div>
 
   <div class="blog-main">
-    <p>I received my Ph.D. from Princeton, where I was advised by <a href="https://www.cs.princeton.edu/~arora/">Sanjeev Arora</a> (<a href="http://unsupervised.cs.princeton.edu/">research group page</a>, <a href="http://mltheory.cs.princeton.edu/">ML theory at Princeton</a>).</p>
+    <p>I received my Ph.D. from Princeton, where I was advised by <a href="https://www.cs.princeton.edu/~arora/">Sanjeev Arora</a>.</p>
 <p>I focus on machine learning theory and applied probability, and also have broad interests in theoretical computer science and related math.</p>
 <h2 id="research-interests">Research interests</h2>
-<p>Although machine learning (and deep learning in particular) has made great advances in recent years, our mathematical understanding of it is shallow. Learning problems can be highly nonconvex, yet tractable in practice. What hidden structure do these problems have, and how can we design algorithms to take advantage of it?</p>
+<!-- Although machine learning (and deep learning in particular) has made great advances in recent years, our mathematical understanding of it is shallow. Learning problems can be highly nonconvex, yet tractable in practice. What hidden structure do these problems have, and how can we design algorithms to take advantage of it? -->
 <p>Current interests include:</p>
 <ul>
 <li><strong>Probabilistic methods in machine learning</strong>, with a focus on <strong>sampling (MCMC) algorithms</strong>: How to design provable algorithms for learning probability distributions and sampling from them? <!--How can we improve classical algorithms like Markov Chain Monte Carlo, or test the quality of the samples?--></li>
-<li><strong>Control theory and reinforcement learning</strong>, with a focus on <strong>learning dynamical systems</strong>: It is a well-studied problem how to find the optimal control for known linear dynamical system. However, reinforcement learning deals with learning how to act unknown, combinatorially complex systems; algorithms are heuristic and slow. How to bridge this gap?</li>
+<li><strong>Control theory and reinforcement learning</strong>, with a focus on <strong>learning dynamical systems</strong>: It is a well-studied problem how to find the optimal control for a known linear dynamical system. However, reinforcement learning deals with learning how to act in unknown, combinatorially complex systems; algorithms are heuristic and slow. How to bridge this gap?</li>
 <li><strong>Neural networks</strong>: Neural networks tackle highly nonconvex problems but do very well in practice. Why? What kind of algorithmic improvements can we come up with by understanding their theoretical foundations more deeply?</li>
 <li><strong>Natural language understanding</strong>: Language is a fundamental part of human intelligence and a big frontier for machine learning. How do we create machines that can understand “grammar” and “semantics”?</li>
 </ul>
 <h2 id="papers">Papers</h2>
 <p>The publication list is available as <a href="https://www.dropbox.com/s/7fas5lckj99sqx0/publication_list.pdf?dl=0">pdf</a>.</p>
 <p>[A] denotes alphabetical order of authors.</p>
-<h3 id="algorithms-for-sampling-and-counting">Algorithms for sampling and counting</h3>
+<!-- Pitfalls of Gaussians as a noise distribution in NCE
+Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
+[arxiv](https://arxiv.org/abs/2210.00189)
+-->
+<h3 id="generative-modeling-learning-probability-distributions">Generative modeling, learning probability distributions</h3>
 <ul>
+<li><p><strong>Improved Analysis of Score-based Generative Modeling: User-Friendly Bounds under Minimal Smoothness Assumptions</strong></p>
+<p>[A] Hongrui Chen, <strong>Holden Lee</strong>, and Jianfeng Lu. [<a href="https://arxiv.org/abs/2211.01916">arxiv</a>]</p></li>
+<li><p><strong>Pitfalls of Gaussians as a noise distribution in NCE</strong></p>
+<p><strong>Holden Lee</strong>, Chirag Pabbaraju, Anish Sevekari, and Andrej Risteski.</p>
+<p>NeurIPS 2022 Workshop on Self-Supervised Learning. [<a href="https://arxiv.org/abs/2210.00189">arxiv</a>]</p></li>
+<li><p><strong>Convergence of score-based generative modeling for general data distributions</strong></p>
+<p>[A] <strong>Holden Lee</strong>, Jianfeng Lu, and Yixin Tan.</p>
+<p>NeurIPS 2022 Workshop on Score-Based Methods. [<a href="https://arxiv.org/abs/2209.12381">arxiv</a>]</p></li>
 <li><p><strong>Convergence for score-based generative modeling with polynomial complexity</strong></p>
 <p>[A] <strong>Holden Lee</strong>, Jianfeng Lu, and Yixin Tan.</p>
-<p>In submission.</p></li>
+<p><a href="https://neurips.cc/virtual/2022/poster/53863">NeurIPS 2022</a> (oral). [<a href="https://arxiv.org/abs/2206.06227">arxiv</a>, <a href="https://www.dropbox.com/s/una0wbbr4jknz0l/score-talk.pdf?dl=0">slides</a>]</p></li>
+<li><p><strong>Universal Approximation for Log-concave Distributions using Well-conditioned Normalizing Flows.</strong></p>
+<p><strong>Holden Lee</strong>, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski.</p>
+<p>NeurIPS 2021. [<a href="https://arxiv.org/abs/2107.02951">arXiv</a>, <a href="https://arxiv.org/pdf/2107.02951">pdf</a>, <a href="https://www.dropbox.com/s/r0jp53sqqaol4bj/NF%20-%20CMU.pptx?dl=0">slides</a>]</p></li>
+</ul>
+<h3 id="algorithms-for-sampling-and-counting">Algorithms for sampling and counting</h3>
+<ul>
+<li><p><strong>Fisher information lower bounds for sampling</strong></p>
+<p>[A] Sinho Chewi, Patrik Gerber, <strong>Holden Lee</strong>, Chen Lu.</p>
+<p>In submission. [<a href="https://arxiv.org/abs/2210.02482">arxiv</a>]</p></li>
 <li><p><strong>Sampling Approximately Low-Rank Ising Models: MCMC meets Variational Methods</strong></p>
 <p>[A] Frederic Koehler, <strong>Holden Lee</strong>, and Andrej Risteski.</p>
-<p>COLT 2022. [<a href="https://arxiv.org/abs/2202.08907">arXiv</a>, <a href="https://arxiv.org/pdf/2202.08907">pdf</a>]</p></li>
+<p>COLT 2022. [<a href="https://arxiv.org/abs/2202.08907">arXiv</a>, <a href="https://arxiv.org/pdf/2202.08907">pdf</a>, <a href="https://www.dropbox.com/s/grd6fo5aa640kra/lri-talk.pdf?dl=0">slides</a>, <a href="https://slideslive.com/38985703/sampling-approximately-lowrank-ising-models-mcmc-meets-variational-methods?ref=folder-104261">video</a>]</p></li>
 <li><p><strong>Approximation algorithms for the random-field Ising model</strong></p>
 <p>[A] Tyler Helmuth, <strong>Holden Lee</strong>, Will Perkins, Mohan Ravichandran, and Qiang Wu.</p>
 <p>In submission. [<a href="https://arxiv.org/abs/2108.11889">arXiv</a>, <a href="https://arxiv.org/pdf/2108.11889">pdf</a>]</p></li>
@@ -191,9 +214,6 @@
 </ul>
 <h3 id="neural-networks">Neural networks</h3>
 <ul>
-<li><p><strong>Universal Approximation for Log-concave Distributions using Well-conditioned Normalizing Flows.</strong></p>
-<p><strong>Holden Lee</strong>, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski.</p>
-<p>NeurIPS 2021. [<a href="https://arxiv.org/abs/2107.02951">arXiv</a>, <a href="https://arxiv.org/pdf/2107.02951">pdf</a>]</p></li>
 <li><p><strong>Explaining Landscape Connectivity of Low-cost Solutions for Multilayer Nets.</strong></p>
 <p>Rohith Kuditipudi, Xiang Wang, <strong>Holden Lee</strong>, Yi Zhang, Zhiyuan Li, Wei Hu, Rong Ge, and Sanjeev Arora.</p>
 <p>NeurIPS 2019. [<a href="https://arxiv.org/abs/1906.06247">arXiv</a>, <a href="https://arxiv.org/pdf/1906.06247">pdf</a>]</p></li>
@@ -212,6 +232,11 @@
 <li><p><strong>l-adic properties of partition functions.</strong></p>
 <p>[A] Eva Belmont, <strong>Holden Lee</strong>, Alexandra Musat, and Sarah Trebat-Leder.</p>
 <p><a href="http://link.springer.com/article/10.1007/s00605-013-0586-y">Monatshefte für Mathematik, 173(1), 1-34</a>, 2014. [<a href="https://arxiv.org/abs/1510.01202">arXiv</a>, <a href="https://arxiv.org/pdf/1510.01202.pdf">pdf</a>, <a href="https://www.dropbox.com/s/81413cszqabcwcx/MIT%20presentation.pdf?dl=0">presentation</a>, <a href="l-adic%20properties%20of%20partition%20functions.html">webpage</a>]</p></li>
+</ul>
+<h2 id="survey-slides">Survey slides</h2>
+<ul>
+<li><a href="https://www.dropbox.com/s/uuc977hxlu1ipe6/probabilistic-foundations-jhu.pdf?dl=0">Probabilistic foundations for machine learning</a> (Job talk, 2022)</li>
+<li><a href="https://www.dropbox.com/s/gy8huf140rkt414/changing-the-temperature.pdf?dl=0">Changing the temperature for algorithm design</a> (Frontiers of Statistical Mechanics and Theoretical Computer Science, 2021/12/14)</li>
 </ul>
 
   </div>
