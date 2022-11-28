@@ -1,26 +1,26 @@
 ---
 title: Research
 published: 2017-08-07
-modified: 2021-10-11
+modified: 2022-11-27
 parent: Math
 tags: math
 type: uncategorized
 showTOC: True
 ---
 
-I received my Ph.D. from Princeton, where I was advised by [Sanjeev Arora](https://www.cs.princeton.edu/~arora/) ([research group page](http://unsupervised.cs.princeton.edu/), [ML theory at Princeton](http://mltheory.cs.princeton.edu/)).
+I received my Ph.D. from Princeton, where I was advised by [Sanjeev Arora](https://www.cs.princeton.edu/~arora/).
 
 I focus on machine learning theory and applied probability, and also have broad interests in theoretical computer science and related math.
 
 # Research interests
 
-Although machine learning (and deep learning in particular) has made great advances in recent years, our mathematical understanding of it is shallow. Learning problems can be highly nonconvex, yet tractable in practice. What hidden structure do these problems have, and how can we design algorithms to take advantage of it?
+<!-- Although machine learning (and deep learning in particular) has made great advances in recent years, our mathematical understanding of it is shallow. Learning problems can be highly nonconvex, yet tractable in practice. What hidden structure do these problems have, and how can we design algorithms to take advantage of it? -->
 
 Current interests include: 
 
 + **Probabilistic methods in machine learning**, with a focus on **sampling (MCMC) algorithms**: How to design provable algorithms for learning probability distributions and sampling from them? 
 <!--How can we improve classical algorithms like Markov Chain Monte Carlo, or test the quality of the samples?-->
-+ **Control theory and reinforcement learning**, with a focus on **learning dynamical systems**: It is a well-studied problem how to find the optimal control for known linear dynamical system. However, reinforcement learning deals with learning how to act  unknown, combinatorially complex systems; algorithms are heuristic and slow. How to bridge this gap?
++ **Control theory and reinforcement learning**, with a focus on **learning dynamical systems**: It is a well-studied problem how to find the optimal control for a known linear dynamical system. However, reinforcement learning deals with learning how to act in unknown, combinatorially complex systems; algorithms are heuristic and slow. How to bridge this gap?
 + **Neural networks**: Neural networks tackle highly nonconvex problems but do very well in practice. Why? What kind of algorithmic improvements can we come up with by understanding their theoretical foundations more deeply?
 + **Natural language understanding**: Language is a fundamental part of human intelligence and a big frontier for machine learning. How do we create machines that can understand "grammar" and "semantics"?
 
@@ -30,19 +30,55 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 
 [A] denotes alphabetical order of authors.
 
-## Algorithms for sampling and counting
+<!-- Pitfalls of Gaussians as a noise distribution in NCE
+Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
+[arxiv](https://arxiv.org/abs/2210.00189)
+-->
+
+## Generative modeling, learning probability distributions
+
+*   **Improved Analysis of Score-based Generative Modeling: User-Friendly Bounds under Minimal Smoothness Assumptions**
+
+	[A] Hongrui Chen, **Holden Lee**, and Jianfeng Lu. [[arxiv](https://arxiv.org/abs/2211.01916)]	
+
+*   **Pitfalls of Gaussians as a noise distribution in NCE**
+
+	**Holden Lee**, Chirag Pabbaraju, Anish Sevekari, and Andrej Risteski.
+	
+    NeurIPS 2022 Workshop on Self-Supervised Learning. [[arxiv](https://arxiv.org/abs/2210.00189)]
+
+*   **Convergence of score-based generative modeling for general data distributions**
+	
+	[A] **Holden Lee**, Jianfeng Lu, and Yixin Tan.
+	
+    NeurIPS 2022 Workshop on Score-Based Methods. [[arxiv](https://arxiv.org/abs/2209.12381)]
 
 *   **Convergence for score-based generative modeling with polynomial complexity**
 	
 	[A] **Holden Lee**, Jianfeng Lu, and Yixin Tan.
 	
-	In submission.
+	[NeurIPS 2022](https://neurips.cc/virtual/2022/poster/53863) (oral). [[arxiv](https://arxiv.org/abs/2206.06227), [slides](https://www.dropbox.com/s/una0wbbr4jknz0l/score-talk.pdf?dl=0)]
+
+*   **Universal Approximation for Log-concave Distributions using Well-conditioned Normalizing Flows.**
+	
+	**Holden Lee**, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski. 
+	
+	NeurIPS 2021. [[arXiv](https://arxiv.org/abs/2107.02951), [pdf](https://arxiv.org/pdf/2107.02951), [slides](https://www.dropbox.com/s/r0jp53sqqaol4bj/NF%20-%20CMU.pptx?dl=0)]
+
+
+## Algorithms for sampling and counting
+
+*   **Fisher information lower bounds for sampling**
+
+	[A] Sinho Chewi, Patrik Gerber, **Holden Lee**, Chen Lu.
+	
+	In submission. [[arxiv](https://arxiv.org/abs/2210.02482)]
 
 *   **Sampling Approximately Low-Rank Ising Models: MCMC meets Variational Methods**
 	
 	[A] Frederic Koehler, **Holden Lee**, and Andrej Risteski.
 	
-	COLT 2022. [[arXiv](https://arxiv.org/abs/2202.08907), [pdf](https://arxiv.org/pdf/2202.08907)]
+	COLT 2022. [[arXiv](https://arxiv.org/abs/2202.08907), [pdf](https://arxiv.org/pdf/2202.08907), [slides](https://www.dropbox.com/s/grd6fo5aa640kra/lri-talk.pdf?dl=0), [video](https://slideslive.com/38985703/sampling-approximately-lowrank-ising-models-mcmc-meets-variational-methods?ref=folder-104261)]
 
 *   **Approximation algorithms for the random-field Ising model**
 	
@@ -75,6 +111,7 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 	* NeurIPS 2018. [[arXiv](https://arxiv.org/abs/1812.00793), [pdf](https://arxiv.org/pdf/1812.00793.pdf)]
 	* NIPS AABI Workshop 2017. [[arXiv](https://arxiv.org/abs/1710.02736), [pdf](https://arxiv.org/pdf/1710.02736.pdf)]
 	* Blog post on offconvex: [1](http://www.offconvex.org/2020/09/19/beyondlogconvavesampling/), [2](http://www.offconvex.org/2021/03/01/beyondlogconcave2/).
+	
 
 ## Reinforcement learning and control theory
 
@@ -115,12 +152,6 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 	ICLR workshop 2018. [[ICLR page](https://openreview.net/forum?id=HJGuXK1vM), [pdf](https://openreview.net/pdf?id=HJGuXK1vM)]
 	
 ## Neural networks
-
-*   **Universal Approximation for Log-concave Distributions using Well-conditioned Normalizing Flows.**
-	
-	**Holden Lee**, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski. 
-	
-	NeurIPS 2021. [[arXiv](https://arxiv.org/abs/2107.02951), [pdf](https://arxiv.org/pdf/2107.02951)]
 	
 *   **Explaining Landscape Connectivity of Low-cost Solutions for Multilayer Nets.**
 	
@@ -149,3 +180,8 @@ The publication list is available as [pdf](https://www.dropbox.com/s/7fas5lckj99
 	[A] Eva Belmont, **Holden Lee**, Alexandra Musat, and Sarah Trebat-Leder.
 
 	[Monatshefte für Mathematik, 173(1), 1-34](http://link.springer.com/article/10.1007/s00605-013-0586-y), 2014. [[arXiv](https://arxiv.org/abs/1510.01202), [pdf](https://arxiv.org/pdf/1510.01202.pdf), [presentation](https://www.dropbox.com/s/81413cszqabcwcx/MIT%20presentation.pdf?dl=0), [webpage](l-adic properties of partition functions.html)]
+	
+# Survey slides
+
+* [Probabilistic foundations for machine learning](https://www.dropbox.com/s/uuc977hxlu1ipe6/probabilistic-foundations-jhu.pdf?dl=0) (Job talk, 2022)
+* [Changing the temperature for algorithm design](https://www.dropbox.com/s/gy8huf140rkt414/changing-the-temperature.pdf?dl=0) (Frontiers of Statistical Mechanics and Theoretical Computer Science, 2021/12/14)
