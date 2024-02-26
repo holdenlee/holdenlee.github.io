@@ -37,15 +37,29 @@ Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
 
 ## Generative modeling, learning probability distributions
 
+*   **Provable benefits of score matching**
+	
+	Chirag Pabbaraju, Dhruv Rohatgi, Anish Prasad Sevekari, Holden Lee, Ankur Moitra, Andrej Risteski.
+	
+	[NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/c11f8d40c119867e30e3421f696f931d-Abstract-Conference.html) (Spotlight). [[arxiv](https://arxiv.org/abs/2306.01993)]
+
+*   **The probability flow ODE is provably fast**
+	
+	[A] Sitan Chen, Sinho Chewi, **Holden Lee**, Yuanzhi Li, Jianfeng Lu, Adil Salim
+	
+	NeurIPS 2023. [[arxiv](https://arxiv.org/abs/2306.01993))
+
 *   **Improved Analysis of Score-based Generative Modeling: User-Friendly Bounds under Minimal Smoothness Assumptions**
 
-	[A] Hongrui Chen, **Holden Lee**, and Jianfeng Lu. [[arxiv](https://arxiv.org/abs/2211.01916)]	
+	[A] Hongrui Chen, **Holden Lee**, and Jianfeng Lu.
+	
+	ICML 2023. [[arxiv](https://arxiv.org/abs/2211.01916)]	
 
 *   **Pitfalls of Gaussians as a noise distribution in NCE**
 
 	**Holden Lee**, Chirag Pabbaraju, Anish Sevekari, and Andrej Risteski.
 	
-    NeurIPS 2022 Workshop on Self-Supervised Learning. [[arxiv](https://arxiv.org/abs/2210.00189)]
+    ICLR 2023, NeurIPS 2022 Workshop on Self-Supervised Learning. [[arxiv](https://arxiv.org/abs/2210.00189)]
 
 *   **Convergence of score-based generative modeling for general data distributions**
 	
@@ -68,6 +82,18 @@ Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
 
 ## Algorithms for sampling and counting
 
+*   **Sampling List Packings**
+	
+	[A] Evan Camrud, Ewan Davies, Alex Karduna, Holden Lee.
+	
+	[arxiv](https://arxiv.org/abs/2402.03520)
+
+*   **Parallelising Glauber Dynamics**
+	
+	Holden Lee.
+	
+	[arxiv](https://arxiv.org/abs/2307.07131)
+
 *   **Fisher information lower bounds for sampling**
 
 	[A] Sinho Chewi, Patrik Gerber, **Holden Lee**, Chen Lu.
@@ -84,7 +110,7 @@ Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
 	
 	[A] Tyler Helmuth, **Holden Lee**, Will Perkins, Mohan Ravichandran, and Qiang Wu.
 	
-	In submission. [[arXiv](https://arxiv.org/abs/2108.11889), [pdf](https://arxiv.org/pdf/2108.11889)]
+	SIAM Journal on Discrete Mathematics 37 (3), 1610-1629. [[arXiv](https://arxiv.org/abs/2108.11889), [pdf](https://arxiv.org/pdf/2108.11889)]
 
 *   **Efficient sampling from the Bingham distribution**
 	
@@ -150,7 +176,22 @@ Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
 	[A] Sanjeev Arora, Elad Hazan, **Holden Lee**, Karan Singh, Cyril Zhang, and Yi Zhang.
 	
 	ICLR workshop 2018. [[ICLR page](https://openreview.net/forum?id=HJGuXK1vM), [pdf](https://openreview.net/pdf?id=HJGuXK1vM)]
+
+## Natural language processing
+
+*   **Principled Gradient-based Markov Chain Monte Carlo for Text Generation**
 	
+	Li Du, Afra Amini, Lucas Torroba Hennigen, Xinyan Velocity Yu, Jason Eisner, Holden Lee, Ryan Cotterell.
+	
+	[arxiv](https://arxiv.org/abs/2312.17710)
+
+
+*   **Connecting Pre-trained Language Model and Downstream Task via Properties of Representation**
+	
+	Chenwei Wu, Holden Lee, Rong Ge.
+	
+	[NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/93712c59f6a81bd92040facf04c8b308-Abstract-Conference.html).
+
 ## Neural networks
 	
 *   **Explaining Landscape Connectivity of Low-cost Solutions for Multilayer Nets.**
@@ -164,6 +205,14 @@ Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
 	**Holden Lee**, Rong Ge, Tengyu Ma, Andrej Risteski, and Sanjeev Arora.
 	
 	COLT 2017. [[arXiv](https://arxiv.org/abs/1702.07028), [pdf](https://arxiv.org/pdf/1702.07028.pdf), [PMLR 65:1271-1296](http://proceedings.mlr.press/v65/lee17a/lee17a.pdf), [webpage](http://tiny.cc/hlcolt17)]
+
+## Machine Learning (other)
+
+*   **How Flawed is ECE? An Analysis via Logit Smoothing**
+	
+	[A] Muthu Chidambaram, Holden Lee, Colin McSwiggen, Semon Rezchikov.
+	
+	[arxiv](https://arxiv.org/abs/2402.10046)
 
 ## Complexity theory
 
