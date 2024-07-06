@@ -1,7 +1,7 @@
 ---
 title: Research
 published: 2017-08-07
-modified: 2022-11-27
+modified: 2024-07-06
 parent: Math
 tags: math
 type: uncategorized
@@ -36,6 +36,12 @@ Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
 -->
 
 ## Generative modeling, learning probability distributions
+
+*   **Learning mixtures of gaussians using diffusion models**
+	
+	[A] Khashayar Gatmiry, Jonathan Kelner, **Holden Lee**.
+	
+	Preprint, 2024. [arxiv](https://arxiv.org/abs/2404.18869)
 
 *   **Provable benefits of score matching**
 	
@@ -82,6 +88,18 @@ Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
 
 ## Algorithms for sampling and counting
 
+*   **Sampling from the Continuous Random Energy Model in Total Variation Distance**
+	
+	[A] **Holden Lee**, Qiang Wu.
+	
+	Preprint, 2024. [arxiv](https://arxiv.org/abs/2407.00868)
+	
+*   **Convergence Bounds for Sequential Monte Carlo on Multimodal Distributions using Soft Decomposition**
+	
+	[A] **Holden Lee**, Matheau Santana-Gijzen.
+	
+	Preprint, 2024. [arxiv](https://arxiv.org/abs/2405.19553)
+
 *   **Sampling List Packings**
 	
 	[A] Evan Camrud, Ewan Davies, Alex Karduna, **Holden Lee**.
@@ -92,7 +110,7 @@ Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
 	
 	**Holden Lee**.
 	
-	Preprint, 2023. [arxiv](https://arxiv.org/abs/2307.07131)
+	RANDOM 2024. [arxiv](https://arxiv.org/abs/2307.07131)
 
 *   **Fisher information lower bounds for sampling**
 
@@ -179,6 +197,12 @@ Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
 
 ## Natural language processing
 
+*   **When is a Language Process a Language Model?**
+	
+	Li Du, **Holden Lee**, Jason Eisner, Ryan Cotterell.
+	
+	ACL 2024.
+
 *   **Principled Gradient-based Markov Chain Monte Carlo for Text Generation**
 	
 	Li Du, Afra Amini, Lucas Torroba Hennigen, Xinyan Velocity Yu, Jason Eisner, **Holden Lee**, Ryan Cotterell.
@@ -211,7 +235,7 @@ Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
 	
 	[A] Muthu Chidambaram, **Holden Lee**, Colin McSwiggen, Semon Rezchikov.
 	
-	Preprint, 2024. [arxiv](https://arxiv.org/abs/2402.10046)
+	ICML 2024. [arxiv](https://arxiv.org/abs/2402.10046)
 
 ## Complexity theory
 
