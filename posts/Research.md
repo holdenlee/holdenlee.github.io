@@ -1,7 +1,7 @@
 ---
 title: Research
 published: 2017-08-07
-modified: 2024-07-06
+modified: 2024-08-29
 parent: Math
 tags: math
 type: uncategorized
@@ -110,7 +110,7 @@ Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
 	
 	**Holden Lee**.
 	
-	RANDOM 2024. [arxiv](https://arxiv.org/abs/2307.07131)
+	RANDOM 2024. [arxiv](https://arxiv.org/abs/2307.07131), [presentation](presentations/parallel-jmm.pdf).
 
 *   **Fisher information lower bounds for sampling**
 
