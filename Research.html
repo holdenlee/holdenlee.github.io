@@ -102,7 +102,7 @@
       
        
         <p>Posted: 2017-08-07 
-          , Modified: 2024-08-29 
+          , Modified: 2025-03-21 
 	</p>
       
        <p>Tags: <a href="./tags/math.html">math</a></p> 
@@ -132,15 +132,25 @@
   <div class="blog-main">
     <p>I received my Ph.D. from Princeton, where I was advised by <a href="https://www.cs.princeton.edu/~arora/">Sanjeev Arora</a>.</p>
 <p>I focus on machine learning theory and applied probability, and also have broad interests in theoretical computer science and related math.</p>
+<p>I am currently advising:</p>
+<ul>
+<li>Matheau Santana-Gijzen (Ph.D.)</li>
+<li>Jiahui Li (Ph.D.)</li>
+<li>Kexin Zhang (Master’s -&gt; Ph.D.)</li>
+</ul>
+<p>I co-organized the 2024 <a href="https://creativity-ai.github.io/">Workshop on Creativity &amp; Generative AI</a>.</p>
 <h2 id="research-interests">Research interests</h2>
 <!-- Although machine learning (and deep learning in particular) has made great advances in recent years, our mathematical understanding of it is shallow. Learning problems can be highly nonconvex, yet tractable in practice. What hidden structure do these problems have, and how can we design algorithms to take advantage of it? -->
-<p>Current interests include:</p>
+<p>I am interested in building mathematical foundations for:</p>
 <ul>
-<li><strong>Probabilistic methods in machine learning</strong>, with a focus on <strong>sampling (MCMC) algorithms</strong>: How to design provable algorithms for learning probability distributions and sampling from them? <!--How can we improve classical algorithms like Markov Chain Monte Carlo, or test the quality of the samples?--></li>
-<li><strong>Control theory and reinforcement learning</strong>, with a focus on <strong>learning dynamical systems</strong>: It is a well-studied problem how to find the optimal control for a known linear dynamical system. However, reinforcement learning deals with learning how to act in unknown, combinatorially complex systems; algorithms are heuristic and slow. How to bridge this gap?</li>
-<li><strong>Neural networks</strong>: Neural networks tackle highly nonconvex problems but do very well in practice. Why? What kind of algorithmic improvements can we come up with by understanding their theoretical foundations more deeply?</li>
-<li><strong>Natural language understanding</strong>: Language is a fundamental part of human intelligence and a big frontier for machine learning. How do we create machines that can understand “grammar” and “semantics”?</li>
+<li><strong>Generative modeling</strong>, in particular diffusion models and sequence modeling architectures, with applications to language modeling.</li>
+<li><strong>Sampling algorithms</strong> (e.g., Markov chain Monte Carlo), for problems in statistics, machine learning, statistical physics, and computer science.</li>
 </ul>
+<p>I have also worked on <strong>control theory and reinforcement learning</strong>, focusing on learning linear dynamical systems, and <strong>neural networks</strong>. <!-- + **Probabilistic methods in machine learning**, with a focus on **sampling (MCMC) algorithms**: How to design provable algorithms for learning probability distributions and sampling from them? --> <!--How can we improve classical algorithms like Markov Chain Monte Carlo, or test the quality of the samples?--> <!--
++ **Control theory and reinforcement learning**, with a focus on **learning dynamical systems**: It is a well-studied problem how to find the optimal control for a known linear dynamical system. However, reinforcement learning deals with learning how to act in unknown, combinatorially complex systems; algorithms are heuristic and slow. How to bridge this gap?
++ **Neural networks**: Neural networks tackle highly nonconvex problems but do very well in practice. Why? What kind of algorithmic improvements can we come up with by understanding their theoretical foundations more deeply?
++ **Natural language understanding**: Language is a fundamental part of human intelligence and a big frontier for machine learning. How do we create machines that can understand "grammar" and "semantics"?
+--></p>
 <h2 id="papers">Papers</h2>
 <p>The publication list is available as <a href="https://www.dropbox.com/s/7fas5lckj99sqx0/publication_list.pdf?dl=0">pdf</a>.</p>
 <p>[A] denotes alphabetical order of authors.</p>
@@ -150,6 +160,9 @@ Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
 -->
 <h3 id="generative-modeling-learning-probability-distributions">Generative modeling, learning probability distributions</h3>
 <ul>
+<li><p><strong>What does guidance do? A fine-grained analysis in a simple setting</strong></p>
+<p>Muthu Chidambaram, Khashayar Gatmiry, Sitan Chen, <strong>Holden Lee</strong>, Jianfeng Lu.</p>
+<p>NeurIPS 2024. <a href="https://arxiv.org/abs/2409.13074">arxiv</a></p></li>
 <li><p><strong>Learning mixtures of gaussians using diffusion models</strong></p>
 <p>[A] Khashayar Gatmiry, Jonathan Kelner, <strong>Holden Lee</strong>.</p>
 <p>Preprint, 2024. <a href="https://arxiv.org/abs/2404.18869">arxiv</a></p></li>
@@ -177,15 +190,21 @@ Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
 </ul>
 <h3 id="algorithms-for-sampling-and-counting">Algorithms for sampling and counting</h3>
 <ul>
+<li><p>Fast Mixing of Data Augmentation Algorithms: Bayesian Probit, Logit, and Lasso Regression.</p>
+<p>[A] <strong>Holden Lee</strong>, <strong>Kexin Zhang</strong>.</p>
+<p>Preprint, 2024. <a href="https://arxiv.org/abs/2412.07999">arxiv</a></p></li>
+<li><p><strong>Efficiently learning and sampling multimodal distributions with data-based initialization</strong></p>
+<p>[A] Frederic Koehler, <strong>Holden Lee</strong>, Thuy-Duong (June) Vuong.</p>
+<p>Preprint, 2024. <a href="https://arxiv.org/abs/2411.09117">arxiv</a></p></li>
 <li><p><strong>Sampling from the Continuous Random Energy Model in Total Variation Distance</strong></p>
 <p>[A] <strong>Holden Lee</strong>, Qiang Wu.</p>
 <p>Preprint, 2024. <a href="https://arxiv.org/abs/2407.00868">arxiv</a></p></li>
 <li><p><strong>Convergence Bounds for Sequential Monte Carlo on Multimodal Distributions using Soft Decomposition</strong></p>
-<p>[A] <strong>Holden Lee</strong>, Matheau Santana-Gijzen.</p>
+<p>[A] <strong>Holden Lee</strong>, <strong>Matheau Santana-Gijzen</strong>.</p>
 <p>Preprint, 2024. <a href="https://arxiv.org/abs/2405.19553">arxiv</a></p></li>
 <li><p><strong>Sampling List Packings</strong></p>
 <p>[A] Evan Camrud, Ewan Davies, Alex Karduna, <strong>Holden Lee</strong>.</p>
-<p>Preprint, 2023. <a href="https://arxiv.org/abs/2402.03520">arxiv</a></p></li>
+<p>ITCS 2025. <a href="https://arxiv.org/abs/2402.03520">arxiv</a></p></li>
 <li><p><strong>Parallelising Glauber Dynamics</strong></p>
 <p><strong>Holden Lee</strong>.</p>
 <p>RANDOM 2024. <a href="https://arxiv.org/abs/2307.07131">arxiv</a>, <a href="presentations/parallel-jmm.pdf">presentation</a>.</p></li>
