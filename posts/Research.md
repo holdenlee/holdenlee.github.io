@@ -108,7 +108,7 @@ Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
 
 ## Algorithms for sampling and counting
 
-*   Fast Mixing of Data Augmentation Algorithms: Bayesian Probit, Logit, and Lasso Regression.
+*   **Fast Mixing of Data Augmentation Algorithms: Bayesian Probit, Logit, and Lasso Regression.**
 
 	[A] **Holden Lee**, **Kexin Zhang**. 
 	
