@@ -2,7 +2,7 @@
 
 Open Ubuntu.
 
-	cd /mnt/c/Documents and Settings/holden/Documents/web/hakyll
+	cd "/mnt/c/Documents and Settings/holden/Documents/web/hakyll"
 	stack build
 	stack exec site rebuild
 	stack exec site watch

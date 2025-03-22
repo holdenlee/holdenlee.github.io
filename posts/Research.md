@@ -1,7 +1,7 @@
 ---
 title: Research
 published: 2017-08-07
-modified: 2024-08-29
+modified: 2025-03-21
 parent: Math
 tags: math
 type: uncategorized
@@ -12,17 +12,31 @@ I received my Ph.D. from Princeton, where I was advised by [Sanjeev Arora](https
 
 I focus on machine learning theory and applied probability, and also have broad interests in theoretical computer science and related math.
 
+I am currently advising:
+
+* Matheau Santana-Gijzen (Ph.D.)
+* Jiahui Li (Ph.D.)
+* Kexin Zhang (Master's -> Ph.D.)
+
+I co-organized the 2024 [Workshop on Creativity & Generative AI](https://creativity-ai.github.io/).
+
 # Research interests
 
 <!-- Although machine learning (and deep learning in particular) has made great advances in recent years, our mathematical understanding of it is shallow. Learning problems can be highly nonconvex, yet tractable in practice. What hidden structure do these problems have, and how can we design algorithms to take advantage of it? -->
 
-Current interests include: 
+I am interested in building mathematical foundations for:
 
-+ **Probabilistic methods in machine learning**, with a focus on **sampling (MCMC) algorithms**: How to design provable algorithms for learning probability distributions and sampling from them? 
++ **Generative modeling**, in particular diffusion models and sequence modeling architectures, with applications to language modeling.
++ **Sampling algorithms** (e.g., Markov chain Monte Carlo), for problems in statistics, machine learning, statistical physics, and computer science.
+
+I have also worked on **control theory and reinforcement learning**, focusing on learning linear dynamical systems, and **neural networks**.
+<!-- + **Probabilistic methods in machine learning**, with a focus on **sampling (MCMC) algorithms**: How to design provable algorithms for learning probability distributions and sampling from them? --> 
 <!--How can we improve classical algorithms like Markov Chain Monte Carlo, or test the quality of the samples?-->
+<!--
 + **Control theory and reinforcement learning**, with a focus on **learning dynamical systems**: It is a well-studied problem how to find the optimal control for a known linear dynamical system. However, reinforcement learning deals with learning how to act in unknown, combinatorially complex systems; algorithms are heuristic and slow. How to bridge this gap?
 + **Neural networks**: Neural networks tackle highly nonconvex problems but do very well in practice. Why? What kind of algorithmic improvements can we come up with by understanding their theoretical foundations more deeply?
 + **Natural language understanding**: Language is a fundamental part of human intelligence and a big frontier for machine learning. How do we create machines that can understand "grammar" and "semantics"?
+-->
 
 # Papers
 
@@ -36,6 +50,12 @@ Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
 -->
 
 ## Generative modeling, learning probability distributions
+
+*   **What does guidance do? A fine-grained analysis in a simple setting**
+	
+	Muthu Chidambaram, Khashayar Gatmiry, Sitan Chen, **Holden Lee**, Jianfeng Lu.
+	
+	NeurIPS 2024. [arxiv](https://arxiv.org/abs/2409.13074)
 
 *   **Learning mixtures of gaussians using diffusion models**
 	
@@ -88,6 +108,18 @@ Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
 
 ## Algorithms for sampling and counting
 
+*   Fast Mixing of Data Augmentation Algorithms: Bayesian Probit, Logit, and Lasso Regression.
+
+	[A] **Holden Lee**, **Kexin Zhang**. 
+	
+	Preprint, 2024. [arxiv](https://arxiv.org/abs/2412.07999)
+	
+*   **Efficiently learning and sampling multimodal distributions with data-based initialization**
+
+	[A] Frederic Koehler, **Holden Lee**, Thuy-Duong (June) Vuong.
+	
+	Preprint, 2024. [arxiv](https://arxiv.org/abs/2411.09117)
+
 *   **Sampling from the Continuous Random Energy Model in Total Variation Distance**
 	
 	[A] **Holden Lee**, Qiang Wu.
@@ -96,7 +128,7 @@ Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
 	
 *   **Convergence Bounds for Sequential Monte Carlo on Multimodal Distributions using Soft Decomposition**
 	
-	[A] **Holden Lee**, Matheau Santana-Gijzen.
+	[A] **Holden Lee**, **Matheau Santana-Gijzen**.
 	
 	Preprint, 2024. [arxiv](https://arxiv.org/abs/2405.19553)
 
@@ -104,7 +136,7 @@ Holden Lee, Chirag Pabbaraju, Anish Sevekari, Andrej Risteski
 	
 	[A] Evan Camrud, Ewan Davies, Alex Karduna, **Holden Lee**.
 	
-	Preprint, 2023. [arxiv](https://arxiv.org/abs/2402.03520)
+	ITCS 2025. [arxiv](https://arxiv.org/abs/2402.03520)
 
 *   **Parallelising Glauber Dynamics**
 	
